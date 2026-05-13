@@ -1,0 +1,44 @@
+
+#ifndef GetTrack_h
+#define GetTrack_h
+#ifndef __CINT__
+#  include <string> 
+#  include "Riostream.h"//needed to use things like cout, which I will use primarily for debugging
+#endif
+#include "StMuDSTMaker/COMMON/StMuTrack.h"
+#include "StStrangeMuDstMaker/StV0MuDst.hh"
+#include "StStrangeMuDstMaker/StXiMuDst.hh"
+#include "StStrangeMuDstMaker/StV0I.hh"
+#include "StStrangeMuDstMaker/StXiI.hh"
+#include "../StHighPtTree/TTrack.h"
+#include "../StHighPtTree/TIdentifiedTrack.h"
+#include "../StHighPtTree/TResonanceTrack.h"
+#include "../StHighPtTree/TV0Track.h"
+#include "../StHighPtTree/TXiTrack.h"
+#include "../StHighPtEvaluator/IsGoodV0Track.h"
+#include "../StHighPtTools/GetV0Mass.h"
+#include "../StHighPtTools/GetTResonanceMass.h"
+#include "../StHighPtTools/GetTResonanceP.h"
+#include "GetV0Mass.h"
+TTrack* GetTTrack(char *dataset, StMuTrack *intrack);
+TIdentifiedTrack* GetTIdentifiedTrack(char *dataset, StMuTrack *intrack);
+TTrack* GetTTrack(string dataset, StMuTrack *intrack);
+TIdentifiedTrack* GetTIdentifiedTrack(string dataset, StMuTrack *intrack);
+
+TV0Track* GetTTrack( char *dataset, StV0MuDst *intrack);
+TV0Track* GetTTrack( string dataset, StV0MuDst *intrack);
+TV0Track* GetTTrack( char *dataset, StV0MuDst *intrack, int type);
+TV0Track* GetTTrack( string dataset, StV0MuDst *intrack, int type);
+TV0Track* GetTTrack( char *dataset, StV0MuDst *intrack, int type, StMuTrack *globalPos, StMuTrack *globalNeg);
+TV0Track* GetTTrack( string dataset, StV0MuDst *intrack, int type, StMuTrack *globalPos, StMuTrack *globalNeg);
+//These function will fill up the variables required from the global tracks in an already existent TV0Track and return the track that was passed
+TV0Track* GetTTrack(TV0Track *track, StMuTrack *globalPos, StMuTrack *globalNeg);
+
+TResonanceTrack* GetTTrack(char *dataset, StMuTrack *posTrack, StMuTrack *negTrack, int type);
+TResonanceTrack* GetTTrack(string dataset, StMuTrack *posTrack, StMuTrack *negTrack, int type);
+
+TXiTrack* GetTTrack( char *dataset, StXiMuDst *intrack, int type);
+TXiTrack* GetTTrack( string dataset, StXiMuDst *intrack, int type);
+//These function will fill up the variables required from the global tracks in an already existent TXiTrack and return the track that was passed
+TXiTrack* GetTTrack(TXiTrack *track, StMuTrack *globalPos, StMuTrack *globalNeg, StMuTrack *globalBach);
+#endif

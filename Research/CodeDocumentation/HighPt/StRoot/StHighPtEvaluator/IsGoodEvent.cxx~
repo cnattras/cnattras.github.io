@@ -1,0 +1,26 @@
+#include "IsGoodEvent.h"
+bool IsGoodEvent(const string dataset, TEvent *myevent){
+  return IsGoodEvent(dataset.c_str(), myevent);
+}
+bool IsGoodEvent(const string dataset, StMuEvent *myevent){
+  return IsGoodEvent(dataset.c_str(), myevent);
+}
+bool IsGoodEvent(const char *dataset, TEvent *myevent){
+  if( !(IsGoodTrigger(dataset, myevent)) ){return false;}
+  if( !(IsGoodRefMult( dataset, myevent ))  ){return false;}
+  if( !(IsGoodVertex( dataset, myevent ) ) ){return false;}
+  //If none of these things are bad, it's a good event
+  return true;
+}
+
+bool IsGoodEvent(const char *dataset, StMuEvent *myevent){
+  //Checking reference multiplicity
+  if( !(IsGoodRefMult( dataset, myevent ))  ){return false;}
+  //Checking vertex position
+  if( !(IsGoodVertex( dataset, myevent ) ) ){return false;}
+  //Checking triggers
+  if( !(IsGoodTrigger( dataset, myevent )) ){ return false;}
+  //If none of these things are bad, it's a good event
+  return true;
+
+}

@@ -1,0 +1,24 @@
+#ifdef __CINT__
+//IncFile="GetHistoName.h"
+//IncFile="MixedEvents.h"
+#pragma link off all globals;
+#pragma link off all classes;
+#pragma link off all functions;
+#pragma link C++ function GetPhiHistoName(int, float, int);
+#pragma link C++ function GetPhiHistoName(int, float, float, int);
+#pragma link C++ function GetPhiHistoTitle(string , int, float, int);
+#pragma link C++ function GetPhiHistoTitle(string, int, float, float, int );
+#pragma link C++ function GetSpectraHistoName(int, int);
+#pragma link C++ function GetSpectraHistoTitle(string, int, int);
+#pragma link C++ function GetCorrelationHistoName(int, float, float, int, float, float, int );
+#pragma link C++ function GetCorrelationHistoTitle(string,int, float, float, int, float, float, int );
+#pragma link C++ function GetCorrelationHistoTitle(string,int, float, float, int, float, int );
+#pragma link C++ function MixedEvents(TH1F*, TH1F*, TH1F*, char*, char*);
+#pragma link C++ function GetMixedEventHistoName(int , float , float , int, float, float, int);
+#pragma link C++ function GetMixedEventHistoTitle(string,int , float , float , int, float, float, int);
+#pragma link C++ function GetMixedEventHistoTitle(string,int , float , float , int, float, int);
+#pragma link C++ function GetNPartHistoName(int, float , int);
+#pragma link C++ function GetNPartHistoName(int, float, float, int);
+#pragma link C++ function GetNPartHistoTitle(string, int, float , int);
+#pragma link C++ function GetNPartHistoTitle(string, int, float, float, int);
+#endif

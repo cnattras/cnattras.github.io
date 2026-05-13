@@ -1,0 +1,73 @@
+
+#ifndef IsGoodV0Track_h
+#define IsGoodV0Track_h
+#ifndef __CINT__
+#  include <string> 
+#  include "Riostream.h"//needed to use things like cout, which I will use primarily for debugging
+#endif
+//#include "StMuDSTMaker/COMMON/StMuTrack.h"
+#include "StStrangeMuDstMaker/StV0MuDst.hh"
+#include "StStrangeMuDstMaker/StXiMuDst.hh"
+#include "StStrangeMuDstMaker/StV0I.hh"
+#include "StStrangeMuDstMaker/StXiI.hh"
+#include "../StHighPtTree/TV0Track.h"
+#include "../StHighPtTree/TXiTrack.h"
+#include "GetDefaultV0Cut.h"
+#include "../StHighPtTools/GetV0Mass.h"
+#include "../StHighPtTools/GetdEdXNSigma.h"
+
+//All of these need to be written.  They will refer to the functions in the group below.
+//These four functions below use both GetDefaultV0Cut and the functions in the groups below.
+//GetDefaultV0Cut determines the geometric cuts if the cuts are the defaults for that data set.  If anything other than the default parameters is passed, the defaults will not be used.
+bool IsGoodV0Track(const string dataset, StV0MuDst *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to all pts ok, cuts string says whether to use TTree cuts or correlation cuts, accepts all eta = 1.0
+bool IsGoodV0Track(const char *dataset, StV0MuDst *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, TV0Track *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const char *dataset, TV0Track *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, StV0MuDst *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to all pts ok, cuts string says whether to use TTree cuts or correlation cuts, accepts all eta = 1.0
+bool IsGoodV0Track(const char *dataset, StV0MuDst *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, TV0Track *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const char *dataset, TV0Track *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+
+
+bool IsGoodV0Track(const string dataset, StV0MuDst *track, int type, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to loosest cuts in production and accepting all tracks
+bool IsGoodV0Track(const char *dataset, StV0MuDst *track, int type, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, TV0Track *track, int type, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const char *dataset, TV0Track *track, int type, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+
+
+//These functions just say whether or not this is a good V0 of any type
+//these run recursively over the functions above for all three V0 types
+bool IsGoodV0Track(const string dataset, StV0MuDst *track, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to all pts ok, cuts string says whether to use TTree cuts or correlation cuts, accepts all eta = 1.0
+bool IsGoodV0Track(const char *dataset, StV0MuDst *track, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, TV0Track *track, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const char *dataset, TV0Track *track, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, StV0MuDst *track, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to all pts ok, cuts string says whether to use TTree cuts or correlation cuts, accepts all eta = 1.0
+bool IsGoodV0Track(const char *dataset, StV0MuDst *track, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, TV0Track *track, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const char *dataset, TV0Track *track, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+
+
+bool IsGoodV0Track(const string dataset, StV0MuDst *track, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to loosest cuts in production and accepting all tracks
+bool IsGoodV0Track(const char *dataset, StV0MuDst *track, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const string dataset, TV0Track *track, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodV0Track(const char *dataset, TV0Track *track, float decaylength = 0.0, float dcaV0 = 100., float dcaDaughter = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+
+//=====================================   Xi functions   ========================================
+
+bool IsGoodXiTrack(const string dataset, StXiMuDst *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to all pts ok, cuts string says whether to use TTree cuts or correlation cuts, accepts all eta = 1.0
+bool IsGoodXiTrack(const char *dataset, StXiMuDst *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodXiTrack(const string dataset, TXiTrack *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodXiTrack(const char *dataset, TXiTrack *track, int type, const string cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodXiTrack(const string dataset, StXiMuDst *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to all pts ok, cuts string says whether to use TTree cuts or correlation cuts, accepts all eta = 1.0
+bool IsGoodXiTrack(const char *dataset, StXiMuDst *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodXiTrack(const string dataset, TXiTrack *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodXiTrack(const char *dataset, TXiTrack *track, int type, const char *cuts, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+
+
+bool IsGoodXiTrack(const string dataset, StXiMuDst *track, int type, float decaylengthXi = 0.0, float decaylengthV0 = 0.0, float dcaXi = 100., float dcaV0 = 100., float dcaDaughterXi = 100.0, float dcaDaughterV0 = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0, float dcaBach = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, int nHitsBach = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);//defaults to loosest cuts in production and accepting all tracks
+bool IsGoodXiTrack(const char *dataset, StXiMuDst *track, int type, float decaylengthXi = 0.0, float decaylengthV0 = 0.0, float dcaXi = 100., float dcaV0 = 100., float dcaDaughterXi = 100.0, float dcaDaughterV0 = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0, float dcaBach = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, int nHitsBach = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodXiTrack(const string dataset, TXiTrack *track, int type, float decaylengthXi = 0.0, float decaylengthV0 = 0.0, float dcaXi = 100., float dcaV0 = 100., float dcaDaughterXi = 100.0, float dcaDaughterV0 = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0, float dcaBach = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, int nHitsBach = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+bool IsGoodXiTrack(const char *dataset, TXiTrack *track, int type, float decaylengthXi = 0.0, float decaylengthV0 = 0.0, float dcaXi = 100., float dcaV0 = 100., float dcaDaughterXi = 100.0, float dcaDaughterV0 = 100.0, float dcaNeg = 0.0 , float dcaPos = 0.0, float dcaBach = 0.0 , int nHitsNeg = 15, int nHitsPos = 15, int nHitsBach = 15, float ptmin = 0.0, float ptmax = 10.0, float eta = 1.0);
+
+
+#endif

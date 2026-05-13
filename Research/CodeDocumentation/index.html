@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>index.html</title></head><body><big><big><span style="font-weight: bold;">Code Documentation</span></big></big><br>
+<br>
+There are two groups of software libraries I have for the purposes of analysis:<br>
+<br>
+<a href="HighPt/index.html">HighPt</a><br>
+&nbsp;&nbsp;&nbsp; These libraries are more general for the purpose of
+making TTrees which contain the information needed for analysis.<br>
+<a href="AzimuthalCorrelations/index.html">AzimuthalCorrelations</a><br>
+&nbsp;&nbsp;&nbsp; These are the libraries with the software I use for analysis.<br>
+<br>
+&nbsp;&nbsp;&nbsp; These libraries were written such that it is easy to
+run the same analysis code on many different data sets.&nbsp; In order
+to be useful for a particular data set, the appropriate data set
+dependent functions need to be defined in the libraries.&nbsp; Most of
+the functions and analysis code works in a data set dependent way by
+passing around a string which gives the data set (ie, "CuCu200").&nbsp;
+Some functions do the same thing for each data set but the functions
+were still written to take a string for the data set in case in the
+future things need to be done in a data set dependent way.<br>
+&nbsp;&nbsp;&nbsp; Additionally, the code was written so that one piece
+of code (AnalysisMaker) could run over either TTrees or MuDsts.&nbsp;
+AnalysisMaker passes good tracks from good events to other pieces of
+code such that the event and track cuts don't have to be written into
+later pieces of code.<br>
+&nbsp;&nbsp;&nbsp; Because my analysis focuses on particle ID, there is
+a in integer code for partile type.&nbsp; The key for these integer
+particle IDs is <a href="ParticleIDs.html">here</a>.<br>
+</body></html>

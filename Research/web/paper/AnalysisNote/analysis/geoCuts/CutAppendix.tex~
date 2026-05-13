@@ -1,0 +1,403 @@
+\chapter{Geometric cuts \label{geocutsappendix}}
+\section{\vzero Geometric Cuts\label{v0geocuts}}
+%\section{\vzero geometric cuts}
+%PARTID 1
+\begin{small}
+\begin{center}
+\begin{longtable}{c|c|c|c|c|c|c}
+\caption[Geometric cuts for \lam]{Geometric cuts for \lam in \Cu collisions at \sNNtwohundred.  Cuts for \alam the same with cuts for the p daughter of the \lam applied to the \antiproton daughter of the \alam and cuts for the \piminus daughter of the \lam applied to the \piplus daughter of the \alam.  These are in addition to cuts listed in \Tref{TableV0DefaultCuts}.  Primary vertex is abbreviated to PV.} \label{GeoCutsTableLambdaV0} \\
+&0-10\%&10-20\%&20-30\%&30-40 \%&40-50\%&50-60\% \\ \hline
+\endfirsthead
+\multicolumn{7}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+ \hline&0-10\%&10-20\%&20-30\%&30-40 \%&40-50\%&50-60\% \\ \hline
+\endhead
+ \multicolumn{7}{r}{{Continued on next page}} \\ 
+\endfoot
+\hline \hline
+\endlastfoot
+\hline
+% \multicolumn{7}{c}{0.2 \GeV $< p_T < $ 0.4 \GeV} \\ \hline
+% Decay length (cm) $>$&7.5&7.5&7.5&7.5&7.5&0.0 \\
+% DCA to PV (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+% DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+% DCA of p to PV (cm) $>$&1.5&1.5&1.5&1.5&1.5&1.5 \\
+% DCA of \piminus to PV (cm) $>$&1.5&1.5&1.5&1.5&1.5&0.0 \\
+% \nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\
+% $|$ \ngammamass from mass peak center  $|$ < & 1.0  & 1.0  & 1.0  & 1.0  & 1.0  & 1.0 \\
+% \hline
+\multicolumn{7}{c}{0.4 \GeV $< p_T < $ 0.6 \GeV} \\ \hline
+Decay length (cm) $>$&7.5&7.5&7.5&7.5&7.5&7.5 \\
+DCA to PV (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&2.3&2.3&2.3&1.5&1.5&0.0 \\
+\nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.0  & 1.0  & 1.0  & 1.0  & 1.0  & 1.0 \\
+\hline
+\multicolumn{7}{c}{0.6 \GeV $< p_T < $ 0.8 \GeV} \\ \hline
+Decay length (cm) $>$&5.0&5.0&5.0&5.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&2.2&2.2&2.2&1.5&1.5&1.5 \\
+\nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\ 
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{0.8 \GeV $< p_T < $ 1.0 \GeV} \\ \hline
+Decay length (cm) $>$&6.5&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&1.4&1.5&1.5&1.1&1.1&0.0 \\
+\nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{1.0 \GeV $< p_T < $ 1.5 \GeV} \\ \hline
+Decay length (cm) $>$&6.5&5.5&5.5&3.5&3.5&7.5 \\
+DCA to PV (cm) $<$&0.7&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&1.5&1.4&1.4&1.4&1.4&0.0 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{1.5 \GeV $< p_T < $ 2.0 \GeV} \\ \hline
+Decay length (cm) $>$&9.0&7.0&7.0&0.0&0.0&6.0 \\
+DCA to PV (cm) $<$&0.7&0.7&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&1.4&1.5&1.5&1.4&1.4&0.0 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{2.0 \GeV $< p_T < $ 2.5 \GeV} \\ \hline
+Decay length (cm) $>$&7.0&5.5&5.5&7.5&0.0&0.0 \\
+DCA to PV (cm) $<$&0.7&0.4&0.4&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&1.7&1.4&1.4&1.4&1.4&1.6 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{2.5 \GeV $< p_T < $ 3.0 \GeV} \\ \hline
+Decay length (cm) $>$&15.0&11.0&12.0&11.0&12.0&0.0 \\
+DCA to PV (cm) $<$&0.5&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&1.4&1.2&1.8&1.0&1.8&1.5 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{3.0 \GeV $< p_T < $ 3.5 \GeV} \\ \hline
+Decay length (cm) $>$&17.0&8.0&8.0&8.0&8.0&8.0 \\
+DCA to PV (cm) $<$&0.5&0.5&0.5&0.5&0.5&0.5 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA of \piminus to PV (cm) $>$&1.7&1.6&1.6&1.2&1.2&0.6 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{3.5 \GeV $< p_T < $ 4.0 \GeV} \\ \hline
+Decay length (cm) $>$&13.0&13.0&13.0&13.0&13.0&13.0 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.4&0.4&0.4 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.3&0.3&0.3&0.3&0.3&0.3 \\
+DCA of \piminus to PV (cm) $>$&1.2&1.2&1.2&1.2&1.2&1.2 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 1.5  & 1.5 \\
+\hline
+\multicolumn{7}{c}{4.0 \GeV $< p_T < $ 5.0 \GeV} \\ \hline
+Decay length (cm) $>$&15.0&15.0&15.0&15.0&15.0&15.0 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.4&0.4&0.4 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&0.3&0.3&0.3&0.3&0.3&0.3 \\
+DCA of \piminus to PV (cm) $>$&1.2&1.2&1.2&1.2&1.2&1.2 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\ 
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 1.5  & 1.5 \\
+\hline
+\multicolumn{7}{c}{5.0 \GeV $< p_T < $ 10.0 \GeV} \\ \hline
+Decay length (cm) $>$&7.5&7.5&7.5&7.5&0.0&7.5 \\
+DCA to PV (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of p to PV (cm) $>$&1.5&1.5&1.5&1.5&1.5&3.0 \\
+DCA of \piminus to PV (cm) $>$&1.5&1.5&1.5&1.5&0.0&1.5 \\
+\nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 1.5  & 1.5 \\
+\end{longtable}
+\end{center}
+\end{small}
+%PARTID 2
+%PARTID 3
+\begin{small}
+\begin{center}
+\begin{longtable}{c|c|c|c|c|c|c}
+\caption[Geometric cuts for \kaon]{Geometric cuts for \kaon in \Cu collisions at \sNNtwohundred.  These are in addition to cuts listed in \Tref{TableV0DefaultCuts}.  Primary vertex is abbreviated to PV.} \label{GeoCutsTableK0V0} \\
+&0-10\%&10-20\%&20-30\%&30-40 \%&40-50\%&50-60\% \\ \hline
+\endfirsthead
+\multicolumn{7}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+ \hline&0-10\%&10-20\%&20-30\%&30-40 \%&40-50\%&50-60\% \\ \hline
+\endhead
+ \multicolumn{7}{r}{{Continued on next page}} \\ 
+\endfoot
+\hline \hline
+\endlastfoot
+\hline
+% \multicolumn{7}{c}{0.2 \GeV $< p_T < $ 0.4 \GeV} \\ \hline
+% Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+% DCA to PV (cm) $<$&0.4&0.4&0.4&0.6&0.6&0.8 \\
+% DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+% DCA of \piminus, \piplus to PV (cm) $>$&1.4&1.4&1.4&1.4&1.4&1.4 \\
+% \nsigdedx of daughters $<$&1.5&1.5&1.5&2.0&2.0&2.0 \\
+% $|$ \ngammamass from mass peak center  $|$ < & -0.5  & -0.5  & -0.5  & -0.5  & -0.5  & -0.5 \\
+% \hline
+\multicolumn{7}{c}{0.4 \GeV $< p_T < $ 0.6 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.6&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&2.1&1.1&1.1&1.1&1.1&1.1 \\
+\nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 1.5  & 1.5 \\
+\hline
+\multicolumn{7}{c}{0.6 \GeV $< p_T < $ 0.8 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&1.0&1.0&1.0&1.0&1.0&1.0 \\
+\nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{0.8 \GeV $< p_T < $ 1.0 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&0.9&0.9&0.9&0.9&0.9&0.9 \\
+\nsigdedx of daughters $<$&2.0&2.0&2.0&2.0&2.0&2.0 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{1.0 \GeV $< p_T < $ 1.5 \GeV} \\ \hline
+Decay length (cm) $>$&4.5&4.5&4.5&4.5&4.5&4.5 \\
+DCA to PV (cm) $<$&0.6&0.6&0.6&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&0.9&0.9&0.9&0.9&0.9&0.9 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 1.5  & 2.0 \\
+\hline
+\multicolumn{7}{c}{1.5 \GeV $< p_T < $ 2.0 \GeV} \\ \hline
+Decay length (cm) $>$&4.5&4.5&4.5&4.5&4.5&4.5 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&1.5&1.5&1.5&1.2&1.1&0.0 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 2.0  & 2.0  & 1.5  & 1.5  & 1.5 \\
+\hline
+\multicolumn{7}{c}{2.0 \GeV $< p_T < $ 2.5 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.8&0.8&0.8 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&1.6&1.4&1.4&1.4&1.1&1.1 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 2.0  & 2.0  & 1.5  & 1.5  & 1.5 \\
+\hline
+\multicolumn{7}{c}{2.5 \GeV $< p_T < $ 3.0 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.4&0.4&0.4 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&1.2&1.2&1.0&0.0&0.0&0.0 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 2.0  & 2.0  & 1.5  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{3.0 \GeV $< p_T < $ 3.5 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.5&0.5&0.5 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 1.5  & 2.0 \\
+\hline
+\multicolumn{7}{c}{3.5 \GeV $< p_T < $ 4.0 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.4&0.4&0.4 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&0.8&0.8&0.6&0.6&0.6&0.6 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 1.5  & 1.5  & 1.5  & 1.5  & 1.5  & 1.5 \\
+\hline
+\multicolumn{7}{c}{4.0 \GeV $< p_T < $ 5.0 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.0 \\
+DCA to PV (cm) $<$&0.4&0.4&0.4&0.4&0.4&0.4 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&0.8 \\
+DCA of \piminus, \piplus to PV (cm) $>$&0.8&0.8&0.6&0.6&0.6&0.6 \\
+\nsigdedx of daughters $<$&2.5&2.5&2.5&2.5&2.5&2.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 2.0 \\
+\hline
+\multicolumn{7}{c}{5.0 \GeV $< p_T < $ 10.0 \GeV} \\ \hline
+Decay length (cm) $>$&0.0&0.0&0.0&0.0&0.0&0.2 \\
+DCA to PV (cm) $<$&0.4&0.4&0.6&0.6&0.8&1.5 \\
+DCA of daughters (cm) $<$&0.8&0.8&0.8&0.8&0.8&2.0 \\
+DCA of \piminus, \piplus to PV (cm) $>$&1.4&1.4&1.4&1.4&1.4&1.5 \\
+\nsigdedx of daughters $<$&1.5&1.5&2.0&2.0&2.0&7.5 \\
+$|$ \ngammamass from mass peak center  $|$ < & 2.0  & 2.0  & 2.0  & 2.0  & 2.0  & 0.0 \\
+\end{longtable}
+\end{center}
+\end{small}
+
+
+\section{\xibary Geometric Cuts\label{xigeocuts}}
+\begin{small}
+\begin{center}
+\begin{longtable}{c|c|c|c|c|c|c}
+\caption[Geometric cuts for \kaon]{Geometric cuts for \xibary in \Cu collisions at \sNNtwohundred.  These are in addition to cuts listed in \Tref{TableXiDefaultCuts}.  Cuts for \axibary the same with cuts for the p daughter of the \lam applied to the \antiproton daughter of the \alam, cuts for the \piminus daughter of the \lam applied to the \piplus daughter of the \alam, and cuts for the \lam applied to the \alam.  A and B refer to the parameters in \Eref{xicut}.  Primary vertex is abbreviated to PV.} \label{GeoCutsTableXi} \\
+&0-10\%&10-20\%&20-30\%&30-40 \%&40-50\%&50-60\% \\ \hline
+\endfirsthead
+\multicolumn{7}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+ \hline&0-10\%&10-20\%&20-30\%&30-40 \%&40-50\%&50-60\% \\ \hline
+\endhead
+ \multicolumn{7}{r}{{Continued on next page}} \\ 
+\endfoot
+\hline \hline
+\endlastfoot
+\hline
+\multicolumn{7}{c}{0.6 \GeV $< p_T < $0.8 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 \\
+DCA of \lam to primary vertex (cm) & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 \\
+DCA of \xibary to daughters (cm) & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 1.5 & $>$ 1.5 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.8333 & 1.8333 & 1.8333 & 1.8333 & 1.3333 & 1.8333 \\
+B & -0.03 & -0.03 & -0.03 & -0.05 & -0.37 & -0.06 \\
+\hline
+\multicolumn{7}{c}{0.8 \GeV $< p_T < $1 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 \\
+DCA of \lam to primary vertex (cm) & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 \\
+DCA of \xibary to daughters (cm) & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 1.5 & $>$ 1.5 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.8333 & 1.8333 & 1.8333 & 1.3333 & N/A & 1.8333 \\
+B & -0.2 & -0.2 & -0.2 & -1000 & N/A & -0.06 \\
+\hline
+\multicolumn{7}{c}{1 \GeV $< p_T < $1.5 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 \\
+DCA of \lam to primary vertex (cm) & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 \\
+DCA of \xibary to daughters (cm) & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 1.5 & $>$ 1.5 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.3333 & 1.3333 & 1.3333 & N/A & N/A & 1.8333 \\
+B & -0.35 & -0.35 & -0.35 & N/A & N/A & -0.06 \\
+\hline
+\multicolumn{7}{c}{1.5 \GeV $< p_T < $2 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 \\
+DCA of \lam to primary vertex (cm) & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 \\
+DCA of \xibary to daughters (cm) & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 1.5 & $>$ 1.5 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.3333 & 1.3333 & 1.3333 & N/A & N/A & 1.8333 \\
+B & -0.4 & -0.4 & -0.4 & N/A & N/A & -0.06 \\
+\hline
+\multicolumn{7}{c}{2 \GeV $< p_T < $2.5 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 & $>$ 3.5 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 & $<$ 0.55 \\
+DCA of \lam to primary vertex (cm) & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 & $>$ 0.18 \\
+DCA of \xibary to daughters (cm) & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 & $<$ 0.6 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 1.5 & $>$ 1.5 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.8333 & 1.8333 & 1.8333 & 1.3333 & 1.8333 & 1.8333 \\
+B & 0.05 & 0.05 & 0.05 & 0 & -0.06 & 0 \\
+\hline
+\multicolumn{7}{c}{2.5 \GeV $< p_T < $3 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 \\
+DCA of \lam to primary vertex (cm) & $>$ 0.1 & $>$ 0.1 & $>$ 0.1 & $>$ 0.1 & $>$ 0.1 & $>$ 0.1 \\
+DCA of \xibary to daughters (cm) & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 & $<$ 0.45 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 1.5 & $>$ 1.5 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.8333 & 1.8333 & 1.8333 & 1.3333 & 1.8333 & 1.8333 \\
+B & 0 & 0 & 0.05 & 0 & -0.06 & 0 \\
+\hline
+\multicolumn{7}{c}{3 \GeV $< p_T < $3.5 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of \lam to primary vertex (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.8333 & 1.8333 & 1.8333 & 1.3333 & 1.8333 & 1.8333 \\
+B & -0.03 & -0.03 & -0.05 & -0.37 & -0.06 & 0 \\
+\hline
+\multicolumn{7}{c}{3.5 \GeV $< p_T < $4.5 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of \lam to primary vertex (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.8333 & 1.8333 & 1.3333 & N/A & 1.8333 & N/A \\
+B & -0.2 & -0.2 & -1000 & N/A & -0.06 & N/A \\
+\hline
+\multicolumn{7}{c}{$p_T > $4.5 \GeV} \\ \hline
+\xibary Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\lam Decay length (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to primary vertex (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of \lam to primary vertex (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \xibary to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of \lam to daughters (cm) & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 & $<$ 0.8 \\
+DCA of p to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+DCA of bachelor \piminus to PV (cm) & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 & $>$ 0 \\
+\nsigdedx of daughters & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 & $>$ 3 \\
+$|$ \ngammamass from mass peak center $|$ & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 & $>$ 2 \\
+A & 1.3333 & 1.3333 & N/A & N/A & 1.8333 & N/A \\
+B & -0.35 & -0.35 & N/A & N/A & -0.06 & N/A \\
+\hline
+
+
+
+\end{longtable}
+\end{center}
+\end{small}

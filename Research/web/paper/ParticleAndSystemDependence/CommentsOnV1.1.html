@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>CommentsOnV1.1</title>
+  </head>
+  <body>
+    <ul>
+      <li>Alex [<span style="color: red;">Comments copied from comments on
+          version 1.1 to keep the discussion coherent.&nbsp; A brief summary of
+          the GPC discussion is in red.&nbsp; New text is after this red section
+          for each comment.</span>]</li>
+      <ul>
+        <li>It would be very usefull to show in the paper the whole 2D Delta
+          phi-Delta eta distribution as an example (like Fig. 2.8 from the
+          analysis note). I guess Fig. 1 shows dN/deta after background
+          subtraction (negative counts, it also needs to be mentioned in the
+          caption that it is after background subtraction). It is important to
+          show the distribution before background subtraction with fits to the
+          background that the reader gets a feeling for the method and the
+          systematic uncertainties (we need to talk about systematic
+          uncertainties in detail later). Fig. E.12 in the anlysis note is
+          showing such a plot. The signal to background ratio is &lt; 2% and its
+          not clear how the background is detemined, see next comment.<br>
+          <span style="color: #6633ff;">We made a decision not to show 2D
+            correlations. These have been shown in other papers - see for
+            example the <a href="http://arxiv.org/abs/0909.0191">ridge paper</a>.&nbsp;
+            These results have been out for some time so I would presume that
+            much of the audience has seen them.&nbsp; This paper adds identified
+            trigger particles, but the statistics are worse for identified
+            trigger particles and the raw histograms have a lot of statistical
+            fluctuations.&nbsp; When you do the projection you decrease
+            statistical fluctuations.&nbsp; Note that the statistics in Fig. 1
+            are also not great.&nbsp; Unidentified h-h correlations are the best
+            to show the 2D histogram but showing these would not add anything
+            over the published data.&nbsp; Indeed, none of the h-h correlations
+            in this paper are new.<br>
+            We added a note that Fig. 1 is background subtraction to the figure
+            caption.<br>
+            Note that the method is identical to the method used in the ridge
+            paper and in the <a href="http://arxiv.org/abs/1110.5800">energy
+              and system size dependence paper</a>.&nbsp; Indeed, we started
+            with the text of the text of that paper and made a point of editing
+            it so that it was not identical.</span><br>
+          <span style="color: #6633ff;">We chose to show background subtracted
+            figures for Fig. 1 because the levels are wildly different in
+            different systems.&nbsp; Especially since the method is identical to
+            that used in the ridge paper and the energy and system size
+            dependence paper, we don't feel that the added space needed to show
+            the raw histograms with background would add to the paper.<br>
+            <span style="color: red;">GPC discussion:&nbsp; We agreed to make
+              sample plots to show what these look like</span><br>
+          </span>
+          <table style="width: 100%" border="1">
+            <tbody>
+              <tr>
+                <td><span style="color: #6633ff;">Au+Au h-h trig&nbsp; assoc
+                    &gt;2.0 GeV/c</span><br>
+                  from http://arxiv.org/abs/0909.0191</td>
+                <td>Cu+Cu lam-h 3-6 GeV/c assoc &gt; 1.5 GeV/c</td>
+                <td>Cu+Cu k0-h 3-6 GeV/c assoc &gt; 1.5 GeV/c</td>
+              </tr>
+              <tr>
+                <td><img alt="" src="GPC/Sample2DPlots/RidgePaper.png"><br>
+                </td>
+                <td><img src="GPC/Sample2DPlots/V0/CuCu200Npart/LambdaSample.png"><br>
+                </td>
+                <td><img alt="" src="GPC/Sample2DPlots/V0/CuCu200Npart/K0Sample.png"><br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <span style="color: #6633ff;">We selected sample correlations for the
+            Cu+Cu data where the statistics are most favorable.&nbsp; Given the
+            quality of the sample figures we are able to make, we really feel
+            that such sample figures would not add to the paper.&nbsp; The point
+            of a sample figure such as that published in the ridge paper is to
+            show what the raw signal looks like, including the feature formerly
+            known as the "ridge", the bump on the away side, and the clear peak
+            on the near side.&nbsp; For identified triggers we can see a clear
+            peak on the near side but we really think the limited statistics
+            would make this plot a distraction rather than help make the paper
+            clearer.<br>
+          </span></li>
+        <li>Fig.1 right shows the K0s-h correlation signal after background
+          subtraction. Unfortunately I don't see any baseline, the Gaussian like
+          distribution extends over the whole range in Delta eta acceptance. How
+          do we determine the baseline? I guess that uncertainty will cause huge
+          systematic errors in extracting the yield. In some plots from the
+          analysis note, e.g. E.17, E.19, the background seems to rise with
+          Delta eta. Some fits seem to be off, like E.2 and E.6, E.20.<br>
+          <span style="color: #6633ff;">As stated just after line 254, the
+            background level is determined from a fit to a constant plus a
+            Gaussian and the statistical error from that fit is propagated to
+            the statistical error on the yield.</span>&nbsp; <span style=" color: #6633ff;">This
+            is actually a statistical error, not a systematic error, since it
+            arises from the statistical fluctuations in the data.<br>
+            The region included in the fit in E2, shown in red, is described by
+            the fit.&nbsp; The black line shows the Gaussian from that fit
+            extrapolated to the region which is not fit.&nbsp; Clearly the fit
+            does not describe the signal in this region - but it does not need
+            to describe the signal, only the background region.&nbsp; We did not
+            use the Gaussian fit for extracting the yield for E2 - as explained
+            in the paper, the default is to use bin counting and we didn't need
+            to use the fit here.<br>
+            The same is true for E6 and E20.<br>
+            &nbsp; As we discussed in the GPC meeting, the fit is only used when
+            there is a residual dip due to track merging.&nbsp; When we didn't
+            have a residual dip, we did not optimize the fit range and initial
+            parameters to extract the yield using the fit but only focused on
+            whether or not it described the background well.<br>
+            &nbsp; Another issue is the acceptance correction in deta.&nbsp; For
+            large delta eta we have very low statistics in both the mixed events
+            and the data and it is very hard to get the acceptance correction
+            exactly right at large deta.&nbsp; For this reason this study, like
+            previous studies using the same method, simply didn't use the data
+            at large deta.&nbsp; However, in the analysis note we show the full
+            range - this artificially makes the data look worse.<span style="color: black;"><br>
+              Some of the fits in the analysis note are questionable. The
+              background is not really constant, e.g. E.19, E.20, E.12. The
+              background fits are in my opinion not well constraint due to the
+              large width of the peak in some figures. The fits are also going
+              sometimes to the limits (last bin before track merging shows up,
+              first bin<br>
+              before acceptance drop shows up). The fit range needs to be varied
+              to check the systematics.<br>
+              <span style="color: #6633ff;">E19 and E20 are consistent with
+                flat, within the statistical errors.&nbsp; Note that since we
+                have so many data points, we would expect some statistical
+                fluctuations outside of 2 sigma.&nbsp; See also the note above
+                about the acceptance correction.</span><br>
+              <span style="color: #6633ff;">We do not think that the fit range
+                needs to be varied to check the systematics.&nbsp; The
+                statistics are low enough that this isn't particularly feasible
+                and the statistical error bars are large enough to include any
+                variation.</span>&nbsp; <span style="color: #6633ff;">We have
+                so few bins in deta that if we changed the range we would
+                struggle to have enough data for the fit to converge.</span>&nbsp;
+              <span style="color: #6633ff;">We note that this is consistent with
+                earlier studies.</span><br>
+              <span style="color: red;">GPC discussion:&nbsp; We agreed to show
+                several variations on the background extraction method to the
+                GPC.</span><br>
+              <span style="color: #000099;">We did this for the Cu+Cu data for
+                npart dependence</span>.<br>
+            </span></span>
+          <table style="width: 100%" border="1">
+            <tbody>
+              <tr>
+                <td>Plot<br>
+                  Black:&nbsp; nominal value from const+Gaussian fit<br>
+                  Red: fit of a constant from 1.0-1.75<br>
+                  Blue:&nbsp; Fit of a constant from 1.25 to 1.75</td>
+                <td><img alt="" src="GPC/BackgroundVariations/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.png"><br>
+                </td>
+                <td><img alt="" src="GPC/BackgroundVariations/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_100_CentBin32DdEtaMethod.png"><br>
+                </td>
+                <td><img alt="" src="GPC/BackgroundVariations/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_100_CentBin52DdEtaMethod.png"><br>
+                </td>
+                <td><img alt="" src="GPC/BackgroundVariations/dEtadPhi_trig_Lambda_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.png"><br>
+                </td>
+                <td><img alt="" src="GPC/BackgroundVariations/dEtadPhi_trig_Lambda_pT30_60_assoc_h_pT15_100_CentBin32DdEtaMethod.png"><br>
+                </td>
+              </tr>
+              <tr>
+                <td>Various backgrounds</td>
+                <td>nominal background 1.20258 +/- 0.00898582 <br>
+                  const1 1.20289 +/- 0.0085476 nsigma -0.0245302 <br>
+                  const2 1.18679 +/- 0.0119784 nsigma 1.05462<br>
+                  <br>
+                </td>
+                <td>nominal background 0.574684 +/- 0.00630932 <br>
+                  const1 0.570793 +/- 0.00731184 nsigma 0.402921 <br>
+                  const2 0.584136 +/- 0.0103998 nsigma -0.777038<br>
+                  <br>
+                </td>
+                <td>nominal background 0.239896 +/- 0.00497966 <br>
+                  const1 0.233482 +/- 0.00688283 nsigma 0.754916 <br>
+                  const2 0.232852 +/- 0.00962769 nsigma 0.649802<br>
+                  <br>
+                </td>
+                <td>nominal background 1.24831 +/- 0.00834072 <br>
+                  const1 1.24963 +/- 0.00773977 nsigma -0.116047 <br>
+                  const2 1.24355 +/- 0.0108182 nsigma 0.348317<br>
+                  <br>
+                </td>
+                <td>nominal background 0.502871 +/- 0.00528361 <br>
+                  const1 0.502275 +/- 0.00595012 nsigma 0.07485 <br>
+                  const2 0.495828 +/- 0.0082462 nsigma 0.719131<br>
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td>Impact of background on yield<br>
+                  bkgderr is the error on the yield due to the background</td>
+                <td>yield bc 0.12863 +/- 0.0116285<br>
+                  yield fit 0.123655 +/- 0.0198528 <br>
+                  bkgderr 0.00786259 <br>
+                  diff1 -0.000237292 nsigma -0.0301799 <br>
+                  diff2 0.0123178 nsigma 1.56664<br>
+                  <br>
+                </td>
+                <td>yield bc 0.106806 +/- 0.00934352 <br>
+                  yield fit 0.104523 +/- 0.0128461 <br>
+                  bkgderr 0.00552066 <br>
+                  diff1 0.0030352 nsigma 0.549789 <br>
+                  diff2 -0.00737247 nsigma -1.33543<br>
+                  <br>
+                </td>
+                <td>yield bc 0.0861466 +/- 0.0086784 <br>
+                  yield fit 0.0839059 +/- 0.00901499 <br>
+                  bkgderr 0.0043572 <br>
+                  diff1 0.00500233 nsigma 1.14806 <br>
+                  diff2 0.00549382 nsigma 1.26086<br>
+                  <br>
+                </td>
+                <td>yield bc 0.0923388 +/- 0.0106976 <br>
+                  yield fit 0.0885821 +/- 0.0185554 <br>
+                  bkgderr 0.00729813 <br>
+                  diff1 -0.00102995 nsigma -0.141126 <br>
+                  diff2 0.0037113 nsigma 0.508528<br>
+                  <br>
+                </td>
+                <td>yield bc 0.0832069 +/- 0.00773909 <br>
+                  yield fit 0.0828261 +/- 0.0109827 <br>
+                  bkgderr 0.00462316 <br>
+                  diff1 0.000464578 nsigma 0.100489 <br>
+                  diff2 0.0054935 nsigma 1.18825<br>
+                  <br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <span style=" color: #6633ff;"><span style="color: black;"><span style="color: #000099;">What
+                you can see here is that the different variations on how the
+                background level is extracted are all well within the
+                statistical error on the background.&nbsp; There is also no
+                systematic trend for the yield to be higher or lower with
+                different background estimation methods.&nbsp; We have added a
+                sentence to the paper to express this.</span><br>
+            </span></span></li>
+        <li>What role does HBT play in those correlations? If I look at a very
+          recent presentation in bulkcorr:<br>
+https://drupal.star.bnl.gov/STAR/blog/songliao/update-untriggered-di-hadron-correlations-auau-sqrtsnn196-gev-and-27-gev-bes-program<br>
+          for an analysis at 19.6 GeV (no jets expected) we see a big peak at
+          Delta phi = 0 and Delta eta = 0. I guess its mostly lower pT. That HBT
+          like correlation could also show up in the h-h correlations (at least
+          at low pT). The structure is of course much more narrow than the one
+          show in Fig. 1 but it could contributes to the yield. At statement
+          about HBT would be useful.<br>
+          <span style=" color: #6633ff;">Note that Christine can't see internal
+            STAR pages anymore.&nbsp; But HBT is dominant only in a wildly
+            different momentum - only at very low momentum.&nbsp; Chanaka
+            actually did studies with an e-by-e analysis with no momentum cuts,
+            slowly applying increasing momentum cuts.&nbsp; He should have some
+            quantitative estimates of how rapidly HBT drops off with pT from the
+            peak which comes from both conversion electrons and HBT.&nbsp; But
+            HBT is completely negligible in this momentum range.<span style="color: black;"><br>
+              HBT is a not negligible effect. At least some experts (Mike Lisa,
+              Jeff Porter) think that HBT can show up at higher pT. We don't
+              really talk about 5 GeV/c tracks, the associated pT starts
+              sometimes at 1.5 GeV/c. HBT cares mostly about Delta pT, which can
+              be small event at thigh pT.<span style="color: red;"><br>
+                <span style="color: #000099;">We contacted Mike - his reply is
+                  below:</span><br>
+                <span style="color: #993399;">HBT can be important, as you say,
+                  when delta-eta AND delta-phi AND delta-pT are all small.&nbsp;
+                  True at all pT, and it is of course a N-particle effect so
+                  does not get “diluted” by high multiplicity.&nbsp; (Not that
+                  this was an issue you raised.)<br>
+                  <br>
+                  Your 2-particle correlation is between the associated and the
+                  trigger particles, yes?&nbsp; The way to be sure it is not HBT
+                  is to require<br>
+                  (pTassoc-pTtrig)&gt;300 MeV/c.<br>
+                  <br>
+                  Note that this is a pair-wise cut, so it is not enough that
+                  the *thresholds* (minimum pT) for the associated and trigger
+                  differ by more than 300 MeV, but each *pair* entering into
+                  your correlation function needs a 300+ MeV/c difference in
+                  pT.&nbsp; In practical terms, it might be a good idea to just
+                  set an upper threshold on the associated particle: i.e.
+                  pTtrig&gt;3.0 GeV/c and 1.5 &lt; pTassoc &lt; 2.5 GeV/c.&nbsp;
+                  Certainly you won’t lose much statistics that way.</span><br>
+                <span style="color: #000099;">We note that our standard pT trig
+                  cut is 3-6 GeV/c and the standard pTassoc cut is &gt;1.5 GeV/c
+                  (with a &lt;pTassoc&gt; ~ 1.7-1.8 GeV/c), which satisfies this
+                  requirement that the pTtrig and pT assoc are sufficiently far
+                  apart for HBT to be negligible.&nbsp; We also note that the
+                  vast majority of the correlation is not at small dphi and
+                  deta.&nbsp; HBT therefore does not contribute significantly to
+                  the correlation in the momenta studied in this paper.</span><br>
+                GPC Discussion summary:&nbsp; We will compare yields with
+                1.5&lt;pTassoc&lt;3.0 to those with&nbsp;</span></span></span><span
+            style=" color: #6633ff;"><span style="color: black;"><span style="color: red;"><span
+                  style=" color: #6633ff;"><span style="color: black;"><span style="color: red;">1.5&lt;pTassoc&lt;pTtrigger
+                      to demonstrate</span></span></span> that the contribution
+                from associated particles closer to the trigger than 300 MeV is
+                negligible.<span style="color: #000099;"><br>
+                </span></span></span></span><span style="color: #000099;"> </span>
+          <table style="width: 100%" border="1">
+            <tbody>
+              <tr>
+                <td><span style="color: #000099;">Cu+Cu data</span></td>
+                <td><span style="color: #000099;"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><br>
+                  </span> </td>
+              </tr>
+              <tr>
+                <td><span style="color: #000099;">1.5&lt;ptassoc&lt;pttrig for
+                    3.0&lt;pttrig&lt;6.0</span></td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_100_CentBin32DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_100_CentBin52DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_Lambda_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_Lambda_pT30_60_assoc_h_pT15_100_CentBin32DdEtaMethod.png"><br>
+                  </span> </td>
+              </tr>
+              <tr>
+                <td><span style="color: #000099;">1.5&lt;ptassoc&lt;3.0 for
+                    3.0&lt;pttrig&lt;6.0</span></td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_30_CentBin12DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_30_CentBin32DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_K0_pT30_60_assoc_h_pT15_30_CentBin52DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_Lambda_pT30_60_assoc_h_pT15_30_CentBin12DdEtaMethod.png"><br>
+                  </span> </td>
+                <td><span style="color: #000099;"><img alt="" src="GPC/ComparisonWithLowerThreshold/dEtadPhi_trig_Lambda_pT30_60_assoc_h_pT15_30_CentBin32DdEtaMethod.png"><br>
+                  </span> </td>
+              </tr>
+            </tbody>
+          </table>
+          <span style="color: #000099;"> Yields:<br>
+          </span>
+          <table style="width: 1366px; height: 79px;" border="1">
+            <tbody>
+              <tr>
+                <td><span style="color: #000099;"><br>
+                  </span> </td>
+                <td><span style="color: #000099;">K0 0-20%<br>
+                  </span> </td>
+                <td><span style="color: #000099;">K0 20-40%<br>
+                  </span> </td>
+                <td><span style="color: #000099;">K0 40-60%<br>
+                  </span> </td>
+                <td><span style="color: #000099;">Lambda 0-30%<br>
+                  </span> </td>
+                <td><span style="color: #000099;">Lambda 30-60%<br>
+                  </span> </td>
+              </tr>
+              <tr>
+                <td><span style="color: #000099;">1.5&lt;ptassoc&lt;pttrig for
+                    3.0&lt;pttrig&lt;6.0</span></td>
+                <td><span style="color: #000099;">0.128+/-0.012<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.107+/-0.009<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.086+/-0.009<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.092+/- 0.011<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.083+/-0.008<br>
+                  </span> </td>
+              </tr>
+              <tr>
+                <td><span style="color: #000099;">1.5&lt;ptassoc&lt;3.0 for
+                    3.0&lt;pttrig&lt;6.0</span></td>
+                <td><span style="color: #000099;">0.124+/-0.085<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.098+/-0.009<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.079+/-0.009<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.094+/-0.011<br>
+                  </span> </td>
+                <td><span style="color: #000099;">0.079+/-0.008<br>
+                  </span> </td>
+              </tr>
+            </tbody>
+          </table>
+          <span style="color: #000099;"> <br>
+            By looking at the raw correlations and the extracted yields we can
+            see that there is no significant difference.<br>
+            <strong><br>
+              In doing this cross check we noticed that there was a
+              transcription error for the Npart dependent plot - an earlier
+              version of the yields where we had used the correlation in dphi
+              instead of deta was used erroneously.&nbsp; That has been fixed.
+              All of the other plots have been checked as well and only the
+              Npart plot had a problem.</strong></span></li>
+        <br>
+        <br>
+        <li>The statement about v3 being constant within our acceptance is
+          wrong:<br>
+          http://arxiv.org/pdf/1301.2187.pdf<br>
+          I am wondering what kind of influence the v3(eta) dependence has on
+          the yield extraction. We need to discuss that in detail.<br>
+          <span style=" color: #6633ff;">I look at Fig. 5 in this paper and I
+            reach the exact opposite conclusion.&nbsp; The measurement with the
+            TPC event plane will be significantly biased by non-flow.&nbsp; The
+            measurement with the FTPC reaction plane does not show any
+            dependence of v3 as a function of eta in the TPC acceptance within
+            statistical errors.<span style="color: black;"><br>
+              v3 is not constant as a function of Delta eta
+              (http://arxiv.org/pdf/1301.2187.pdf, Fig. 9). That was one
+              assumption for extracting the yield. The effect of a steeply
+              falling v3 with Delta eta on the signal extraction needs to be
+              studied.<br>
+              <span style="color: #3333ff;">Fig. 9 is v3 measured with the two
+                particle cumulant method.&nbsp; This is inherently contaminated
+                by the very signal we are trying to measure.&nbsp; This can be
+                interesting for other studies, however, it is not the
+                appropriate background for high pT dihadron correlation studies
+                used<span style="color: black;"> <span style="color: #3333ff;">to
+                    measure jets</span>.&nbsp; <span style="color: #3333ff;">See
+                    for example the discussion in <a href="http://arxiv.org/abs/0809.2949">this
+                      review paper</a> by Voloshin et al:</span></span><br>
+                "Since nonflow effects are mainly due to few particle
+                correlations, estimates of flow coefficients based on
+                multi-particle correlations have the distinct advantage<br>
+                of reducing nonflow correlations."<br>
+                "Nonflow dn is defined by Eq. (2). These are correlations not
+                associated with the reaction plane. Included in nonflow effects
+                are jets, resonance decay, short-range<br>
+                correlations such as the Hanbury-Brown Twis (HBT) effect, and
+                momentum conservation [36, 37].&nbsp; There exists several
+                methods to evaluate and suppress nonflow contributions, such as
+                using rapidity gaps between correlated particles, using
+                different charge combinations for correlated particles (to
+                assess the contribution of resonances), etc."<br>
+                See in particular section 2.4, which discusses non-flow
+                contributions in various methods.&nbsp; Fig. 9 in the paper you
+                reference uses a two particle cumulant method with no eta gap
+                between the particles.&nbsp; This measurement will inherently
+                include the jet signal we are trying to extract.&nbsp; Of course
+                the two particle cumulant between two tracks in the TPC shows a
+                strong eta dependence - correlations such as jets have a strong
+                eta dependence.&nbsp; Fig. 9 is not a measurement of
+                hydrodynamical flow.&nbsp; What you see in Fig. 9 is quite
+                simply that as an eta gap is introduced between two tracks, the
+                non-flow correlations between particles decreases
+                dramatically.&nbsp; This is exactly the same principle that
+                allows the background for high pT jet-like correlations to be
+                subtracted by looking at the correlation at large d-eta.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp; See also <a href="http://arxiv.org/abs/1001.5052">this
+                  STAR paper</a> on flow:<br>
+                "The Event Plane method with the TPC event plane is sensitive to
+                non-flow effects. Particles of interest tend to correlate with
+                particles used in the flow vector calculation<br>
+                due to short-range non-flow correlations. Also, particles of two
+                random sub-events tend to have those correlations. Thus,
+                non-flow exists in both the observed v2 (Eq. (4)) and the
+                resolution (Eq. (6)). To reduce non-flow effects due to
+                short-range correlations, we take advantage of the large &#951; gap
+                between the two FTPCs sitting at the two sides of the collision
+                in the forward regions."</span><br>
+              <span style="color: red;">GPC discussion:&nbsp; We agreed to cite
+                Alex's paper and say that our method is dependent on any
+                dependence of the vn on rapidity being due to non-flow.<br>
+              </span><span style="color: #000099;">This change has now been
+                implemented in the text.</span><br>
+            </span></span></li>
+        <li>Coming back to Fig. E.12 from the analysis note (but similar to
+          other figures). The track merging effect is very significant in that
+          plot. The Gaussian fit just stops at the last bin before we see a drop
+          due to track merging. How can we be sure that this bin and the bin
+          before are not affected by track merging?<br>
+          <span style="color: #6633ff;">We can't with 100% certainty but the
+            fact that we use fewer fit points increases the uncertainty in this
+            range and that uncertainty is reflected in the uncertainty on the
+            yield.&nbsp; Many, many different methods were tried for dealing
+            with track merging effects.&nbsp; No others panned out.&nbsp; We
+            think this is the best we can do.<br>
+            <br>
+            Some numbers to give this context - I went back and calculated the
+            percentage of the track merging correction for h-h correlations:<br>
+            Central Au+Au Trig 3-6, assoc &gt; 1.5:&nbsp; Track merging
+            correction 3%, stat error on yield 1%<br>
+            Central Au+Au Trig 2-2.5: Track merge correction 5%, stat error on
+            yield 2%<br>
+            Central Au+Au Trig 3-6, assoc &gt; 2.0: Track merging correction 2%,
+            stat error on yield 1.5%<br>
+            That is, for unidentified hadrons where we have a correction method,
+            the error is on the order of the statistical error on the
+            yield.&nbsp; (This is ultimately why we do not think that is worth
+            holding up this paper to develop a better method.)<br>
+            <br>
+            For identified particles:&nbsp; In all cases where there is no
+            significant effect from track merging, the difference between the
+            yield from the fit and the yield from bin counting is less than the
+            statistical error.<br>
+            For Au+Au 0-12% lambda trig 3-3.5 assoc &gt;1.5 (E12) the yield
+            (which uses the fit due to the residual dip) is </span><span style="color: #6633ff;"><span
+              style="color: #6633ff;">0.105 +/- 0.021 (</span>20%).&nbsp; The
+            difference between the yield from bin counting and from the fit -
+            the magnitude of the track merging correction - is 18%.</span><span
+            style="color: #6633ff;"><span style="color: #6633ff;"><br>
+              For Au+Au 0-12% lambda trig 3.5-4.5 assoc &gt;1.5 (E13) the yield
+              (which uses the fit due to the residual dip) is </span><span style="color: #6633ff;"><span
+                style="color: #6633ff;">0.128 +/- 0.022 (</span>17%).&nbsp; The
+              difference between the yield from bin counting and from the fit -
+              the magnitude of the track merging correction - is 19%.</span></span><span
+            style="color: #6633ff;"><span style="color: #6633ff;"><span style="color: #6633ff;"><br>
+                For Au+Au 0-12% kaon trig 3.0-3.5 assoc &gt;1.5 (E15) the yield
+                (which uses the fit due to the residual dip) is 0.175 +/- 0.029</span><span
+                style="color: #6633ff;"><span style="color: #6633ff;"> (12</span>%).&nbsp;
+                The difference between the yield from bin counting and from the
+                fit - the magnitude of the track merging correction - is 18%.</span></span>&nbsp;
+            On further inspection I realized we decided this point was not
+            reliable and actually removed it from the plot - I therefore
+            commented this out of the analysis note.&nbsp; The paper text
+            stating that this point uses bin counting has also been deleted.<br>
+            <br>
+            Overall, when the fit is used to correct for track merging, the
+            correction is on the order of the error of the measurement.&nbsp;
+            For this reason, we do not think that further refinements of the
+            method would lead to measurable differences and therefore are not
+            warranted.<br>
+            <span style="color: red;">GPC discussion:&nbsp; Saskia suggested
+              that we mention that bin counting is comparable to the fit where
+              there is no significant effect from track merging.</span><br>
+            We have added such a sentence to the end of the method
+            section.&nbsp; I went back and looked at how far off the yield from
+            bin counting and from the fit were and they were typically within
+            0.2 standard deviations.<br>
+          </span></li>
+        <li>General: I think we focus too much on PYTHIA. The last page is full
+          of PYTHIA comparisons and speculations what is eventually wrong in the
+          model. We know that PYTHIA is off compared to p+p (e.g. Fig. 2). If
+          the reference is already off, why should we care about even more
+          complicated systems like d+Au, Cu+Cu and Au+Au?<br>
+          <span style="color: #6633ff;">See the</span> <span style="color: #6633ff;"><a
+              href="http://arxiv.org/abs/1110.5800">energy and system size
+              dependence paper</a>, which we reference in the discussion.&nbsp;
+            PYTHIA actually does describe di-hadron correlations quite well in
+            this momentum range.&nbsp; This is the reason we chose to compare to
+            PYTHIA.<br>
+          </span></li>
+        <li>"1. Particle type dependence", starting from line 368: The statement
+          is that we observe a particle species dependence on the jet like
+          yield, with K0s-h the highest and Lambda-h the lowest. On a first
+          glance I don't see any significant difference in Fig. 3 for Cu+Cu.
+          Au+Au 0-12% has two data points, the first point has an overlap within
+          1 sigma, the second one at pT = 5 GeV/c has large errors too. Here we
+          need to understand why the Lambda-h point is going down compared to
+          lower pT (I guess that shouldn't be the case). For Au+Au 40%-80% we
+          see an agreement point-by-point but the overall trend might be
+          statistically significant. I suggest we calculate it for all points
+          and quote a number. For d+Au we have only one data point with
+          significant error bars. I guess the errors touch within 2 sigma, which
+          wouldn't be statistically significant. We need to be more quantitative
+          here to make a statement.<br>
+          <span style="color: #6633ff;">We tried to word this as carefully as
+            possible because the data do have limited statistical
+            significance.&nbsp; We tried many things to see if we could extract
+            some significance out of this but we don't think that we can
+            quantify it better.&nbsp; We tried fits of each species separately
+            but interpreting these is difficult.<br>
+            As for why the lambda-h point goes down in pT, we cannot understand
+            that and if we wait until we do we're just not going to publish a
+            paper.&nbsp; The data are the data.&nbsp; This is either a large
+            statistical fluctuation or an indication that the physics is
+            different.&nbsp; The data are not powerful enough to make a strong
+            statement.<br>
+            <span style="color: #000099;">We were asked before the paper went to
+              a GPC to strengthen and expand the discussion of the data.&nbsp;
+              We did that.&nbsp; We note that below Jiangyong proposes weakening
+              or eliminating this section.&nbsp; That is, we are now getting
+              conflicting requests - we prefer to leave the text as it is.</span><br>
+          </span></li>
+        <li>line 385 and following: What is meant by "It is not possible to
+          extract a reliable width from these data,..."? Does that mean we
+          shouldn't do the comparison?<br>
+          <span style="color: #6633ff;">Well as you pointed out above, the fits
+            in particular for correlations with significant track merging
+            effects are not great in the signal region.&nbsp; Even where track
+            merging is not significant, the statistical errors are large.&nbsp;
+            One can make plots showing the extracted parameters but when the
+            relative error is &gt;50% it just isn't a useful exercise.</span></li>
+        <li>line 404 and following:Why is the precision of this data not enough
+          to study the widths of&nbsp; jet-like yields? We extract the yield by
+          fitting Gaussians to the data, therefore we should be able to extract
+          the width with a certain precision. Is the statement that this
+          precision is not good enough? For what? We need to be more specific
+          here. We also need to add a statement about newer datasets which are
+          already available since a few years with much more statistics. That is
+          in fact one important point we need to carefully formulate. It is well
+          known that STAR has high statistics data sets for Au+Au and p+p (also
+          500 GeV). This analysis is based on data from 2003-2005. Some referees
+          argue that it would be better to analyze the newer data sets (of
+          course not realistic for this paper). We have to be aware of it.<br>
+          <span style="color: #6633ff;">See above as for why the widths aren't
+            reliable.<span style="color: #000099;">&nbsp; Regarding newer data
+              sets, we think it is better publish these data since the analysis
+              is done.&nbsp; If we get a question from the referee, we can
+              answer the question then.</span></span></li>
+        <li><span style=" color: #6633ff;"><span style="color: black;">Why can
+              we simply project on the Delta eta axis? It is a 2D distribution
+              with a flow-like background which is dominant along the Delta phi
+              axis. The near side peak is sitting on that huge background. By
+              projecting on the Delta eta axis I loose significant information
+              about the background shape along the Delta phi axis.<br>
+              <span style="color: #3366ff;">We project along the delta eta axis
+                because the background is flat in delta eta and this lets us
+                extract the background without using the ZYAM method.&nbsp;
+                Please see earlier papers for more discussion of this method -
+                this is a well-established method.</span><br>
+            </span></span><span style="color: #6633ff;"><a href="http://arxiv.org/abs/1110.5800">energy
+              and system size dependence paper</a></span><br>
+          <span style="color: #6633ff;"><a href="http://arxiv.org/abs/0909.0191">ridge
+              paper</a><br>
+          </span><a href="http://arxiv.org/abs/0904.1722">System size dependence
+            at high pt paper</a></li>
+        <li><span style=" color: #6633ff;"><span style="color: black;">The track
+              merging effect is changing significantly for different pTs and
+              triggers. It is unclear how the decision was made when to use bin
+              counting and when to use the Gaussian fit. Christine mentioned
+              that a Gaussian fit was used when a clear dip is visible. I think
+              that track merging can show up without a clear dip, e.g. for Fig.
+              E.6 (analysis note). The question is why it doesn't show up
+              everywhere (or it does but its not enough for a clear dip?).<span
+                style="color: #000099;"><br>
+                See response above re: track merging with actual numbers.&nbsp;
+                Note that the correction is basically always on the order of the
+                statistical error.&nbsp; For this reason, we conclude that when
+                no dip is evident, the residual track merging effect is
+                negligible compared to the statistical error.</span><br>
+            </span></span></li>
+        <li><span style=" color: #6633ff;"><span style="color: black;">Christine
+              mentioned that a postdoc and a student worked for many years on a
+              correction for the Lambda-h and K0S-h distributions but failed to
+              get a correction. We asked for some summary slides/documents of
+              those studies which could be added to the analysis note.<span style="color: #3333ff;"><br>
+                We looked to see what was still available.&nbsp; The only
+                documentation of this work seems to be Leon Galliard's <a href="https://drupal.star.bnl.gov/STAR/theses/ph-d/leon-gaillard">thesis</a>,
+                specifically section 5.3.8 (pg 123).&nbsp; We note that the code
+                for this analysis is not available and not reproducible, Leon
+                has left the field, and Marek Bombara has not been in the
+                collaboration for many, many years.&nbsp; We therefore do not
+                feel that it is appropriate to add such unverifiable work to the
+                analysis note.&nbsp; Moreover, figure 5.17 is as quantitative as
+                estimates for the track merging effect ever got from this
+                analysis.&nbsp; This focuses on a momentum region which we
+                decided was not usable because of the large track merging effect
+                and on central collisions only, where the effect is
+                largest.&nbsp; It also uses slightly different acceptance cuts.</span><br>
+            </span></span></li>
+      </ul>
+      <li>Don's <a href="ProposedEdits.v1.1DDK.pdf">comments</a></li>
+      <ul>
+      </ul>
+    </ul>
+    <ul>
+      <ul>
+        <li>33-35. Systematic studies … revealed significant modification.”<br>
+          35-38. The associated particle distribution … is also significantly
+          modified …”<br>
+          Comment regarding both of the above: When something is “modified” it
+          is meaningful only when the one knows to what the present “modified”
+          quantity/distribution is being compared. Maybe that is “common
+          knowledge” to those working in the field, but it is not obvious to me
+          as a non-expert and I should think that it would not be difficult to
+          make this more obvious to the non-expert. <br>
+          <font color="#000099">We have modified our wording.<br>
+            We noticed when we looked at this again that our reference to PHENIX
+            was not the appropriate reference.&nbsp; (We accidentally referred
+            to a flow paper rather than a di-hadron correlation paper.)&nbsp; We
+            have fixed our references.</font></li>
+        <li> 39-41. “… there is a peak <font color="#ff0000">that is</font>
+          narrow in azimuth (delta-phi) and <font color="#ff0000">in</font>
+          pseudorapidity … refer to as the <font color="#ff0000">“</font>jet-like
+          correlation<font color="#ff0000">”</font>.<font color="#000099"><br>
+            Done</font></li>
+        <li> 48-51. “… at intermediate transverse momentum <strike>range</strike>,
+          the <font color="#ff0000">mechanism for producing hadrons</font>
+          seems to differ …”<font color="#000099"><br>
+            We think perhaps there's a slight version mismatch.&nbsp; We already
+            tweaked this wording.</font></li>
+        <li>50-52. “In central Au+Au collisions<font color="#ff0000"> </font>…
+          relative to <font color="#ff0000">what is observed </font>in p+p …”<br>
+          <font color="#000099">We prefer our formulation.&nbsp; "That" makes it
+            clear we are comparing to the baryon to meson ratio, not just any
+            observation in p+p.</font></li>
+        <li> 52-54. “…measured baryon to meson <font color="#ff0000">production</font>
+          ratios <font color="#ff0000">in Au+Au collisions</font> increase with
+          pT …” <font color="#3366ff">(pT of what?) </font>“… until reaching <strike>their</strike>
+          <font color="#ff0000">a</font> maximum value …”<br>
+          <font color="#000099">We modified the wording.&nbsp; Since we are
+            talking about the inclusive particle spectra with think that it is
+            evident from the context that the pT is the pT of the baryon or
+            meson.</font></li>
+        <li> 55-58. “A fall-off …meson <font color="#ff0000">production</font>
+          ratio is observed … non-strange baryon to meson <font color="#ff0000">production</font>
+          ratios in Au+Au … approach the <font color="#ff0000">corresponding</font>
+          values …”<br>
+          <font color="#000099">Referring to these as ratios and not "production
+            ratios" is common in the field and we think that this terminology is
+            clear.<br>
+          </font><font color="#000099">See for instance this STAR paper:<br>
+            http://arxiv.org/pdf/nucl-ex/0607033.pdf</font></li>
+        <li> 62. “… GeV <font color="#ff0000">as</font> measured by the STAR …
+          “<br>
+          <font color="#000099">We think that it is correct to say that
+            di-hadron correlations were measured by STAR.&nbsp; Di-hadron
+            correlations are a measurement (comparable to spectra) not a result
+            (like jet suppression).</font></li>
+        <li> 67. “…unidentified charged hadron <font color="#ff0000">two-particle
+            correlations in the same collision systems.</font>” <font color="#0000ff">[Or,
+            I have misunderstood what you intended to say.]<br>
+          </font><font color="#000099">We prefer the current wording because it
+            is more concise.</font></li>
+        <li> 67-70. “<strike>Both identified</strike> <font color="#ff0000">Events
+            that triggered on identified neutral strange particles, associated
+            with unidentified charged hadrons (K0s-h…), and, events that
+            triggered on unidentified charged hadrons, associated with
+            identified neutral strange particles (h-K0s, …) were both studied.</font>
+          <br>
+          <font color="#000099">This is not an accurate description.&nbsp; The
+            event is not triggered by a K0S or a Lambda.&nbsp; The trigger in
+            dihadron correlations refers to the hadron that determines the
+            origin.&nbsp; There can, in principle, be multiple triggers per
+            event.&nbsp; This is common terminology in dihadron correlation
+            papers.</font><br>
+          <br>
+        </li>
+        <li> 77. “Results are …” =&gt; “<font color="#ff0000">The</font> results
+          are …”<font color="#000099"><br>
+            Done</font></li>
+        <li>80-83. “… are based on the analysis … respectively.” <font color="#3366ff">New
+            Paragraph</font><br>
+          111-125. I suggest that these lines be moved to the New Paragraph
+          following “respectively.” The logic to have these here seems much more
+          reasonable than their present location.<font color="#3366ff"><br>
+            New Paragraph (The numbering will change after the 15 lines are
+            moved.)</font><font color="#000099"><br>
+            We have reordered this section.&nbsp; Good catch!</font></li>
+        <li>83. “For d+Au collisions …”<br>
+          <font color="#000099">We do not understand this comment.&nbsp; This is
+            the text we have in the paper.</font></li>
+        <li>88. “… Au beam direction <strike>and</strike> <font color="#ff0000">thereby</font>
+          accepting …”<font color="#000099"><br>
+            We do not think thereby is necessary. We prefer the current wording
+            because it is more straightforward.<b><br>
+            </b></font></li>
+        <li>93-97. “The MB Au+Au events <font color="#ff0000">required a
+            coincidence between the two ZDCs,</font> a signal in both BBCs and …
+          scintillator slats <font color="#ff0000">aligned parallel to the beam
+            axis</font> and arranged … interactions.”<font color="#000099"><br>
+            Done</font><br>
+        </li>
+        <li>97-102. “An additional online trigger <font color="#ff0000">was
+            used for central Au+Au collisions so as to sample the most central
+            12% of the total hadroncic cross section.</font> This trigger was
+          based on … in the CTB. <strike>The central trigger … cross section</strike>.”<br>
+          <font color="#000099">We reworded this.</font></li>
+        <li>128. I suggest replacing “daughters” with “<font color="#ff0000">decay
+            products</font>”<br>
+          <font color="#000099">"Daughters" is commonly used to refer to the
+            decay products for V0s.&nbsp; </font><font color="#000099">See for
+            example this STAR paper<br>
+            http://arxiv.org/pdf/nucl-ex/0607033.pdf</font></li>
+        <li>134-135. “… for each data set <strike>and</strike> <font color="#ff0000">so
+            as to yield a</font> signal to background ratio of <font color="#ff0000">at
+            least</font> 15:1.”<br>
+          <font color="#000099">We have tweaked this wording.</font></li>
+        <li>135-140. “<strike>For the analysis presented here … simply as
+            (lambda) baryons</strike>.” Replace with the following: <font color="#ff0000">“For
+            the analyses presented here the results obtained with the (lambda)
+            or the (lambda-bar) trigger, each with associated charged hadrons,
+            showed no significant differences. Therefore, to increase the
+            statistical significance of our results, the correlations for the
+            (lambda) and the (lambda-bar) were added together and, for the
+            remainder of this discussion are referred to as (lambda) baryon
+            results.”<br>
+          </font><font color="#000099">We have modified this wording.</font></li>
+        <li>145-146. “… that trigger <font color="#ff0000">particle</font> in
+          pseudorapitidy …”<br>
+          <font color="#000099">Done</font></li>
+        <li>160. “For unidentified associated <font color="#ff0000">charged</font>
+          particles, …”<font color="#000099">Done</font></li>
+        <li> 171. “For identified <font color="#ff0000">associated strange</font>
+          particles, ….” (<font color="#3366ff">Note the word order</font>.)<font
+            color="#000099"><br>
+            Done</font></li>
+        <li>182-185. “The systematic uncertainty <strike>on</strike> <font color="#ff0000">associated
+            with</font> the efficiency … hadrons is 5% and is strongly … data
+          sets.”<br>
+          <font color="#000099">Done</font></li>
+        <li>185. “For identified associated particle ratios, [add comma] …”<font
+            color="#000099"><br>
+            We do not think a comma is necessary<b><br>
+            </b></font></li>
+        <li>190. “… to secondary <font face="Symbol, serif">&#61516;</font> <font color="#ff0000">particles</font>
+          from …”<font color="#000099"><br>
+            we added "baryons"</font></li>
+        <li>200. “The requirement <strike>of</strike> <font color="#ff0000">that
+            each measured track falls</font> within …”<font color="#000099"><br>
+            Done</font></li>
+        <li>202. “The track pair <font color="#ff0000">geometric acceptance
+            depends on pseudorapidity and is observed to be </font><font face="Symbol, serif">&#61627;</font>
+          100% for <font face="Symbol, serif">&#61508;&#61544;</font> <font face="Symbol, serif">&#61627;</font>
+          0, <strike>however</strike> <font color="#ff0000">whereas</font>,
+          near …”<br>
+          <font color="#000099">This is not an observation.&nbsp; It is a
+            logical consequence of the acceptance cuts in pseudorapidity.&nbsp;
+            However, we have reworded this sentence.</font></li>
+        <li>204. “The track pair azimuthal acceptance is …”<br>
+          <font color="#000099">We have tweaked the wording here.</font></li>
+        <li>219-220. “… dip at small <font face="Symbol, serif">&#61508;&#61542;</font> and <font
+            color="#ff0000">small</font> <font face="Symbol, serif">&#61508;&#61544;</font>
+          due to …”<font color="#000099"><br>
+            It is clear here that "small" refers to both.</font><br>
+        </li>
+        <li> 226. “… <strike>closer</strike> <font color="#ff0000">more nearly
+            the same</font> …”<br>
+          <font color="#000099">We prefer the current wording.</font></li>
+        <li>231. “In <strike>a</strike> [remove “a”] lambda decay, the proton <strike>daughter</strike>
+          carries more of the <font face="Symbol, serif">&#61516;</font> momentum than
+          the pion <strike>daughter</strike>. Therefore …” <font color="#3366ff">[“daughter”
+            is unnecessary.]<br>
+          </font><font color="#000099">We think "daughter" helps here because it
+            emphasizes that the proton/pion come from the decay of the lambda.</font><font
+            color="#000099"><b><br>
+            </b></font></li>
+        <li> 233-234. “… particles with lower <strike>momenta</strike> <font color="#ff0000">momentum</font>.”<br>
+          <font color="#000099">since "particles" is plural momenta should be
+            plural.</font></li>
+        <li>234-235. “<strike>Since</strike> <font color="#ff0000">Because</font>
+          track merging … particles, <font color="#ff0000">and, because</font>
+          the signal sits …”<br>
+          <font color="#000099">We prefer the wording as it is. </font><font color="#000099">Since
+            and because are synonyms.</font><font color="#000099"><b><br>
+            </b></font></li>
+        <li>237. “<strike>Since the dip</strike> …” “<font color="#ff0000">Moreover,
+            because the dip</font> …” <br>
+          <font color="#000099">We replaced "Since" with "Because"</font></li>
+        <li>243-244. “… and using the fit to extract the yield.” =&gt; “and the
+          fitted function is used to extract the yield.”<br>
+          <font color="#000099">We tweaked the wording</font></li>
+        <li>255-256. “<strike>Extraction of the yield in this paper follows the
+            method and the notation in [7,12].”</strike> =&gt; “<font color="#ff0000">The
+method
+            and the notation employed to extract the yield for this analysis is
+            described in references 7 and 12</font>.”<br>
+          <font color="#000099">We modified the wording</font></li>
+        <li>264-265. “… consistent with <font color="#ff0000">references 12 and
+            30-32</font>.”<br>
+          <font color="#000099">We think the current formatting is fine.&nbsp;
+            This is a standard way of referring to references and the formatting
+            is standard.</font></li>
+        <li>266+ (numbering is absent for awhile) “This means that the jet-like
+          yield determined by … equation … were b… is a constant offset <strike>determined</strike>
+          <font color="#ff0000">obtained</font> by fitting … (<font face="Symbol, serif">&#61508;&#61544;</font>).”
+          <font color="#3366ff">[What I don’t like about this sentence is that
+            it does not say to what the Gaussian + background term is fitted. I
+            think this is essential.]<br>
+            <br>
+          </font><font color="#000099">Missing numbering - this is a
+            feature/limitation of latex.<br>
+            This sentence does say that the data are fit to a Gaussian plus a
+            constant background.&nbsp; What is not clear?</font></li>
+        <li>267+ “<strike>Sample correlations are given in Figure 1</strike>.” “<font
+            color="#ff0000">Illustrative corrected correlations are shown in
+            Figure 1.</font>”<br>
+          <font color="#000099">We prefer the current wording </font><font color="#000099">because
+            it is more concise and we think it is clearer</font><font color="#000099">.</font></li>
+        <li>267+ “… using bin counting …” [<font color="#3366ff">Just what is
+            “bin counting”?] </font>Presumably you mean “… we integrate
+          Equation 4 over <font face="Symbol, serif">&#61508;&#61544;</font> using the bin <font
+            color="#ff0000">contents</font> to determine …”<font color="#000099"><br>
+            This is commonly used terminology for counting the entries in bins
+            rather than using a fit function. See for instance our first paper:<br>
+            <a href="http://arxiv.org/abs/1110.5800">http://arxiv.org/abs/1110.5800</a><br>
+            and this STAR Paper on the phi<br>
+            http://arxiv.org/pdf/0809.4737.pdf</font><br>
+        </li>
+        <li>268-271. “When it is not possible, the yield from the Gaussian fit
+          is used …” <font color="#3366ff">[To my reading this sounds very
+            redundant with what is said just below 267. Is this really needed?
+            What does it add to what has already been said?]<br>
+          </font><font color="#000099">The difference is bin counting vs using
+            the fit.&nbsp; We use only the background level from the fit for
+            data where the track merging contribution is negligible and we use
+            the yield from the fit where track merging makes bin counting
+            unreliable.</font></li>
+        <li>274. “Previous studies <font color="#ff0000">have</font>
+          demonstrated …”<br>
+          <font color="#000099">We think the past tense is fine and we do not
+            need to use the past perfect tense.</font></li>
+        <li>277. “<strike>This indicates</strike> that …” =&gt; “<font color="#ff0000">These
+            observations imply</font> that …”<font color="#000099"><br>
+            We have changed "indicates" to "implies"</font></li>
+        <li>281. “… production of particles.” [<font color="#3366ff">New
+            paragraph here</font>.]<br>
+          283. “The statistics of the …” =&gt; “<font color="#ff0000">In the
+            measurements reported here</font>, the statistics of the …” [<font color="#3366ff">The
+            new paragraph and these words make it clear that you have
+            transitioned from “Previous studies” to the results reported in this
+            paper</font>.]<font color="#000099"><br>
+            We started the first sentence with, "For the analysis presented
+            here..."</font></li>
+        <li>286. “was <strike>only</strike> possible to determine the
+          composition of the jet-like correlation <font color="#ff0000">only</font>
+          in Cu+Cu collisions.”<br>
+          <font color="#000099">We prefer the current word order</font></li>
+        <li>288. “These <strike>data</strike> <font color="#ff0000">measurements</font>
+          are shown in Figure 2 and compared to <font color="#ff0000">results</font>
+          from inclusive …” [The term “data” is so innocuous it is unhelpful.
+          What you are showing are your me<font color="#3366ff">asurements,
+            i.e., the results of your analysis to get these measurements.]<br>
+          </font><font color="#000099">We changed "measurements" - in the second
+            case "results" adds some ambiguity.&nbsp; It implies that the
+            particle ratios in the inclusive spectra are the same exact
+            measurements as particle ratios in the jet-like correlation.&nbsp;
+            Moreover, "results" implies that these are things we did - we are
+            citing other papers.&nbsp; We note that this usage of "data" is
+            common in physics papers.</font></li>
+        <li>290. “… and from Alice [35]. <font color="#ff0000">Also shown are
+            the results</font> from PYTHIA [36] <strike>from</strike> <font color="#ff0000">using
+            </font>the Perugia … tunes.” [<font color="#3366ff">Break the long
+            and confusing sentence as shown</font>.]<font color="#000099"><br>
+            We have attempted to make this sentence more straightforward.</font></li>
+        <li>291-292. “The Cu+Cu <strike>data</strike> <font color="#ff0000">results</font>
+          are consistent … from <i>p+p</i> <font color="#ff0000">collisions</font>.”<br>
+          <font color="#000099">we have reworded this sentence</font></li>
+        <li> 293-297. <font color="#3366ff">You observe that the Cu+Cu
+            (jet-like) results are consistent with the (strange particle
+            production) results from p+p. Then you say that “This [whatever
+            “this” refers to ??] further supports what you have already said
+            (earlier) that the jet-like correlation is dominantly produced by
+            fragmentation.” The rest of the logic I find very confusing and
+            circular. Perhaps you can explain it to me in a way that I can
+            appreciate what “This” is and how “this” supports the claim that the
+            jet-like correlation is dominantly produced by fragmentation</font>.</li>
+        <li> 297. “This indicates that …” <font color="#3366ff">What, again, is
+            “this</font>”?<br>
+          <font color="#000099">"This" refers to the observation made in the
+            previous sentence.<br>
+            In p+p we do not expect medium modifications.&nbsp; (In somewhat of
+            a simplification - bear with me) there are then two main types of
+            particle production:<br>
+            1.&nbsp; "soft" processes - like the underlying event, low Q^2
+            processes that can't be described well by pQCD<br>
+            2.&nbsp; "hard" processes - high Q^2 processes and their products,
+            like jets<br>
+            An inclusive spectrum is then a sum of particles produced by soft
+            and hard processes.&nbsp; The former is roughly exponential in pT
+            (an observation, not a prediction) and the latter is described by a
+            power law (from QCD - specific to the process of course but jets and
+            heavy quarks, for instance, both have a roughly power law spectrum.)<br>
+            [Note the distinction between "hard" and "soft" is somewhat
+            arbitrary.]<br>
+            At "low" pT we expect soft processes to dominate.&nbsp; At "high" pT
+            we expect hard processes&nbsp; to dominate (mainly jets because
+            their production cross section is larger than, say, heavy quark
+            production.&nbsp; Plus heavy quark production really is kind of a
+            subset of jet production.)&nbsp; Again, "high" and "low are kind of
+            arbitrary, but in p+p we think (from models) that at pT~2 GeV/c more
+            particles are from "hard" processes than from "soft" processes.<br>
+            <br>
+            The picture in A+A is less clear because we can have other processes
+            and interactions with the medium.&nbsp; So here we're testing
+            whether or not there is any evidence for processes other than jet
+            fragmentation and hadronization leading to the jet-like
+            correlation.&nbsp; An example of this is recombination of quarks in
+            the medium to form final state hadrons hadrons.&nbsp; That is, we
+            could have an alternate particle production mechanism in the
+            jet-like correlation in heavy ion collisions.&nbsp; In heavy ion
+            collisions, we see evidence that recombination dominates in this pT
+            region in the bulk - if you look at ALL particles with pT ~ 2 GeV/c,
+            it looks like most of them are formed by recombination.&nbsp;
+            However, if we look just at particles in the jet-like correlation -
+            particles we think are formed from the fragmentation and
+            hadronization of hard quarks or gluons - these particles look just
+            like those in p+p, so we think this is evidence that the jet-like
+            correlation DOES NOT form through recombination.</font></li>
+        <li> 302-303. “<font color="#ff0000">As seen in Fig. 2,</font> this …
+          ratio, <font color="#ff0000">measured using jet-like correlations at
+            STAR, </font>is also consistent <strike>between</strike> <font color="#ff0000">with</font>
+          inclusive measurements at different energies.” <font color="#3366ff">[Well,
+            I think that this is what you are saying, but correct me if it is
+            wrong.]<br>
+          </font><font color="#000099">This is not accurate.&nbsp; In our
+            discussions in heavy ion physics "inclusive" is used to refer to all
+            particle production - such as the ratios of measured spectra -
+            unlike the conditional yields we measure in di-hadron
+            correlations.&nbsp; We have reworded the sentence to try to make it
+            clearer.</font></li>
+        <li> 305-308. “<font color="#ff0000">While</font> PYTHIA is able to
+          describe the <font face="Symbol, serif">&#61552;</font> and <font face="Symbol, serif">&#61559;</font>
+          production [38,39],<font color="#ff0000"> it</font> generally
+          underestimates <font color="#ff0000">the production of strange
+            particles and baryons, specifically the K</font><font color="#ff0000"><sup>o</sup></font><font
+            color="#ff0000"><sub>s</sub></font><font color="#ff0000"> and the </font><font
+            color="#ff0000"><font face="Symbol, serif">&#61516;</font></font> [34, …
+          39].”<br>
+          <font color="#000099">Adding "specifically" indicates that the K0S is
+            special.&nbsp; However, where comparisons between PYTHIA and strange
+            particles are possible, PYTHIA gets almost all of them wildly
+            wrong.&nbsp; The only exception is the phi - PYTHIA doesn't get the
+            phi that wrong.&nbsp; The phi is thought to be dominantly produced
+            by pair production.&nbsp; The K0S is thought to be produced by
+            string fragmentation.&nbsp; PYTHIA gets all baryons wrong, including
+            the proton.&nbsp; This is the motivation for splitting the K0S from
+            baryons.&nbsp; What we're saying here is that PYTHIA gets both the
+            numerator and the denominator wrong.&nbsp; Your wording actually
+            says something different - it says PYTHIA only gets strange baryons
+            wrong.&nbsp; It gets *all* baryons wrong.</font></li>
+        <li> 309-312. “<font color="#ff0000">As seen in Figure 2</font>, PYTHIA
+          underestimates … ratio for Tune A and the Perguia tunes.” <font color="#000099">[I
+            do not understand to what the next phrase applies: “which improved
+            the description of inclusive strangeness production at LHC
+            energies.” Please explain.]<br>
+            Done</font></li>
+        <li> 313. “… at higher energies…” <font color="#000099">[This is a
+            vague, not-specific description and, as used, unhelpful. “higher
+            energies” begs the clarification “higher than what?” Please
+            explain.]<br>
+            We have specified which energies (the ones we use in the figure)<br>
+          </font></li>
+        <li>314. “For each of the PYTHIA tunes used, <font color="#3366ff">the
+            predicted value of the [insert ratio here] ratio obtained for
+            inclusive production and for the jet-like correlation mechanism is
+            lower than the corresponding measured ratios.</font> “<br>
+          <font color="#000099">We have specified that we mean the "ratio in the
+            inclusive spectra"</font></li>
+        <li> 319-321. [<font color="#3366ff">The next sentence I find very
+            confusing. The first phrase is merely a restatement of the preceding
+            sentence and I do not see how that observation “</font><font color="#3366ff"><b>predicts</b></font><font
+            color="#3366ff">” that both the inclusive and the jet-like
+            correlation are dominated by fragmentation. Perhaps it is my lack of
+            depth here, so if you can explain this to me it would be helpful</font>.]<br>
+          <font color="#000099">We changed this sentence to: "Even though PYTHIA
+            underestimates the overall production of both the \lam baryon and
+            the \kaon meson, it predicts that the ratios in the inclusive
+            spectra and the \jlc are comparable, as observed in the data."</font></li>
+        <li> 322. “<font color="#ff0000">The</font> h-K<sup>o</sup><sub>s</sub>
+          and …” [It seems odd to begin a sentence with this notation.]<br>
+          <font color="#000099">Done</font></li>
+        <li> 323. “… light quark jets [<font color="#ff0000">???</font>],” [<font
+            color="#3366ff">I think that you should have a reference here</font>.]<font
+            color="#000099"><b><br>
+            </b>An unidentified charged hadron trigger will likely sample
+            "average" jets - that is, it is not biased towards, say, heavy
+            flavor jets or strange jets.&nbsp; That is all we are saying here -
+            that the trigger has little bias and we are sampling the most common
+            jets, which are those from gluons and light quarks.<br>
+            We are directly comparing h-V0 correlations to V0-h correlations -
+            in the latter, because the trigger has a strange quark, we are more
+            likely to have a sample of jets enhanced in strange quarks.<br>
+            <b> </b></font></li>
+        <li> 323-330. [<font color="#3366ff">I am afraid that I am completely
+            unable to judge whether this section is either valid or appropriate
+            here under “RESULTS”. Is this speculation or established physics?
+            For example, “It may be easier for a PHYTHIA to describe …” sounds
+            more like something that would come in a section (not now in the
+            paper) called “DISCUSSION”.</font>] In any case, remove the “a”
+          before PYTHIA on line 327.<br>
+          <font color="#000099">We defer this to the discussion of PYTHIA.</font></li>
+        <li> Table II. (a) the line spacing seems odd or misadjusted. (b) I
+          suggest that for consistency and ease of reading you put the “0-60%”
+          over the Cu-Cu columns and “Min bias” – or something equivalent – over
+          the d+Au columns. (c) There appear to be “-“ entries where there is no
+          measured yield but not in all places. Why? <br>
+          <font color="#000099">We added "MB" to the d+Au entries and "0-60%" to
+            the Cu+Cu.&nbsp; We added this table because the figure is
+            busy.&nbsp; We got data out in as many pT trig bins as we could but
+            there are limitations due to statistics.</font></li>
+        <li> Fig. 2: Why is there no mention of the PYTHIA curves in the
+          caption? You might include something like “Results from PYTHIA
+          calculations are shown with different tunes as described in the text.”
+          <br>
+          <font color="#000099">good catch, we added a note to the caption</font></li>
+        <li> Fig. 3: (a) The column headings for the symbols are a bit odd.
+          Could you not put the centrality below each heading for Cu-Cu and
+          Au-Au so as to be consistent and more accommodating for the reader?
+          (b) I prefer “measurements” instead of “data”: “The <font color="#ff0000">measurements</font>
+          are compared …” and “<font color="#ff0000">The</font> <font color="#ff0000">Measured
+            values</font> have been offset …”<font color="#000099"><br>
+            We spent a lot of time trying to come up with the best formatting
+            for the legend titles.&nbsp; We think this is the best.&nbsp; If we
+            added the centralities for Cu+Cu and d+Au </font><font color="#000099">it
+            would either crowd the data or would not be legible.</font></li>
+        <li>336. “The <strike>data</strike> <font color="#ff0000">measurements</font>
+          are tabulated …”<br>
+          351. “<strike>Data</strike> <font color="#ff0000">The measurements</font>
+          are comparable …”<br>
+          Fig. 4. (a) “The <strike>data</strike> <font color="#ff0000">measurements</font>
+          are compared …”<br>
+          372. “These <strike>data</strike> <font color="#ff0000">results</font>
+          are compared …”<br>
+          380. “These <strike>data</strike> <font color="#ff0000">results</font>
+          are compared …”<br>
+          Fig. 5. “The <strike>data</strike> <font color="#ff0000">measurements</font>
+          are compared to …”<br>
+          461. “These <strike>data</strike> <font color="#ff0000">results</font>
+          indicate …”<font color="#000080"><br>
+            This change is not necessary and we prefer to use “data” throughout
+            the paper.</font></li>
+        <li> 353-356. “We focus on the Perguia 2011 tune <font color="#ff0000">because
+            this is the most recent tune that incorporated results on
+            strangeness production at the LHC</font>.” [<font color="#3366ff">What
+            is the merit of the next phrase? Is it important and essential or
+            can it be dropped? It appears to be an “aside” or “parenthetic
+            comment”. Moreover, it does not seem to fit as a reason why you
+            focus on the Perguia 2011 tune so it does not fit in that sentence.
+            It may just be a parenthetic comment and could be included as such
+            explicitly</font>.]<br>
+          <font color="#000099">The reason for this phrase is because of all of
+            the recent developments in PYTHIA tunes.&nbsp; For instance, the
+            PYTHIA tunes before the LHC data were available got the omega
+            spectra off by about a factor of 10 (with some pT dependence).&nbsp;
+            After extensive tuning and several improvements of the models, the
+            Perugia tunes now only get the omega off by a factor of 2 or 3.</font></li>
+        <li> 362. “Next the jet-like yields are studied as a function …” =&gt;
+          “The jet-like yields <font color="#ff0000">were also studied</font>
+          as a function …”<br>
+          <font color="#000099">This section is in the present tense so we need
+            to keep this sentence in the present tense.</font></li>
+        <li> 368-369. “… bin counting …” How about this: “All yields were
+          determined by counting events in each N<sub>part</sub> bin.”<br>
+          <font color="#000099">This is not accurate.</font></li>
+        <li> Fig. 4. You make not mention of the curves in the caption. How
+          about adding “<font color="#ff0000">Results from PYTHIA calculations
+            are shown as described in the text</font>.” <br>
+          <font color="#000099">We do have a mention of PYTHIA in the caption -
+            perhaps this is a version mismatch?</font></li>
+        <li> 376. “All yields were determined by counting events in each p<sub>T</sub><sup>associated</sup>
+          bin.”<font color="#000099"><br>
+            This is not an accurate statement.</font></li>
+        <li> 388. “… <strike>however</strike> <font color="#ff0000">whereas</font>,
+          the contribution …”<br>
+          <font color="#000099">We prefer "however"</font></li>
+        <li> 389. “… to be small <strike>from</strike> <font color="#ff0000">based
+            on</font> the results …”<br>
+          <font color="#000099">Done</font></li>
+        <li> 390. “The jet-like yield shows a systematic <font color="#ff0000">dependence
+            on particle type</font> with the jet-like yield highest …”<br>
+          <font color="#000099">Already done - version mismatch?</font></li>
+        <li> 405. “… trigger <strike>were</strike> <font color="#ff0000">was</font>
+          wider than …”<br>
+          <font color="#000099">This is a conditional statement and therefore
+            needs to be written in the subjunctive.&nbsp; The proper conjugation
+            of "to be" in the subjunctive singular is "were."</font></li>
+        <li> 406. “… trigger <font color="#ff0000">because</font> the jet-like
+          yield …”<br>
+          <font color="#000099">This would make the sentence not make sense.</font><br>
+          408. “The difference in the <font color="#ff0000">particle</font> <font
+            color="#ff0000">type</font> ordering could …”<font color="#000099"><br>
+            We already reworded this - version mismatch?</font></li>
+        <li> 420. “… in the <font color="#ff0000">particle</font> <font color="#ff0000">type</font>
+          ordering.”<font color="#000099"><br>
+            done</font></li>
+        <li> 422. “… widths of the jet-like yield<font color="#ff0000">. This
+            would, however,</font> be an area of interest …”<br>
+          <font color="#000099">We have split this into two sentences</font></li>
+        <li> 433. “<font color="#ff0000">While</font> the jet-like yield … [7],
+          <strike>however</strike>, the jet-like yield …”<br>
+          463. “… triggers, <strike>however</strike>, <font color="#ff0000">but</font>
+          these data do not …”<font color="#000099"><br>
+            We prefer the current wording</font></li>
+      </ul>
+      <li><font color="#000099"><br>
+        </font></li>
+    </ul>
+    <ul>
+      <ul>
+      </ul>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,479 @@
+\chapter{Mass peaks\label{masspeakappendix}}
+
+\section{\vzero mass peaks\label{v0masspeaks}}
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt10_15_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt10_15_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt10_15_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt10_15_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt10_15_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt10_15_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt10_15_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt10_15_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt10_15_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt10_15_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt10_15_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt10_15_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt10_15_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt10_15_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt10_15_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt10_15_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt10_15_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt10_15_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 1.0 \GeV$<$\pT$<$1.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 1.0 \GeV$<$\pT$<$1.5 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt1}}
+\end{figure}
+\newpage
+
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt15_20_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt15_20_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt15_20_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt15_20_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt15_20_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt15_20_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt15_20_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt15_20_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt15_20_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt15_20_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt15_20_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt15_20_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt15_20_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt15_20_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt15_20_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt15_20_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt15_20_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt15_20_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 1.5 \GeV$<$\pT$<$2.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 1.5 \GeV$<$\pT$<$2.0 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt2}}
+\end{figure}
+
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt20_25_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt20_25_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt20_25_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt20_25_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt20_25_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt20_25_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt20_25_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt20_25_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt20_25_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt20_25_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt20_25_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt20_25_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt20_25_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt20_25_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt20_25_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt20_25_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt20_25_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt20_25_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 2.0 \GeV$<$\pT$<$2.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 2.0 \GeV$<$\pT$<$2.5 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt3}}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt25_30_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt25_30_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt25_30_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt25_30_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt25_30_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt25_30_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt25_30_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt25_30_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt25_30_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt25_30_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt25_30_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt25_30_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt25_30_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt25_30_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt25_30_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt25_30_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt25_30_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt25_30_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 2.5 \GeV$<$\pT$<$3.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 2.5 \GeV$<$\pT$<$3.0 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt4}}
+\end{figure}
+
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt30_35_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt30_35_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt30_35_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt30_35_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt30_35_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt30_35_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt30_35_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt30_35_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt30_35_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt30_35_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt30_35_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt30_35_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt30_35_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt30_35_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt30_35_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt30_35_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt30_35_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt30_35_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 3.0 \GeV$<$\pT$<$3.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 3.0 \GeV$<$\pT$<$3.5 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt5}}
+\end{figure}
+
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt35_40_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt35_40_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt35_40_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt35_40_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt35_40_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt35_40_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt35_40_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt35_40_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt35_40_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt35_40_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt35_40_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt35_40_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt35_40_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt35_40_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt35_40_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt35_40_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt35_40_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt35_40_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 3.5 \GeV$<$\pT$<$4.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 3.5 \GeV$<$\pT$<$4.0 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt6}}
+\end{figure}
+
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt40_50_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt40_50_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt40_50_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt40_50_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt40_50_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt40_50_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt40_50_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt40_50_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt40_50_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt40_50_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt40_50_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt40_50_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt40_50_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt40_50_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt40_50_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt40_50_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt40_50_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt40_50_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 4.0 \GeV$<$\pT$<$5.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 4.0 \GeV$<$\pT$<$5.0 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt7}}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt50_100_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt50_100_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt50_100_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt50_100_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt50_100_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaMassPt50_100_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt50_100_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt50_100_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt50_100_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt50_100_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt50_100_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaMassPt50_100_cent6.eps}}
+
+ \end{tabular}
+\begin{tabular}{cccccc}
+
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt50_100_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt50_100_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt50_100_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt50_100_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt50_100_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0MassPt50_100_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 5.0 \GeV$<$\pT$<$10.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 5.0 \GeV$<$\pT$<$10.0 \GeV, from central (left) to peripheral (right).
+  \label{V0MassPt8}}
+\end{figure}
+
+
+\newpage
+\section{\xibary mass peaks\label{ximasspeaks}}
+\begin{figure}[h]
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt10_15_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt10_15_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt10_15_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt10_15_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt10_15_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt10_15_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt10_15_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt10_15_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt10_15_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt10_15_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt10_15_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt10_15_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 1.0 \GeV$<$\pT$<$1.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 1.0 \GeV$<$\pT$<$1.5 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt1}}
+\end{figure}
+
+
+\begin{figure}
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt15_20_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt15_20_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt15_20_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt15_20_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt15_20_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt15_20_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt15_20_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt15_20_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt15_20_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt15_20_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt15_20_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt15_20_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 1.5 \GeV$<$\pT$<$2.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 1.5 \GeV$<$\pT$<$2.0 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt2}}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 2.0 \GeV$<$\pT$<$2.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 2.0 \GeV$<$\pT$<$2.5 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt3}}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt20_25_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt20_25_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 2.0 \GeV$<$\pT$<$2.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 2.0 \GeV$<$\pT$<$2.5 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt4}}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt25_30_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt25_30_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt25_30_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt25_30_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt25_30_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt25_30_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt25_30_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt25_30_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt25_30_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt25_30_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt25_30_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt25_30_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 2.5 \GeV$<$\pT$<$3.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 2.5 \GeV$<$\pT$<$3.0 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt5}}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt30_35_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt30_35_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt30_35_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt30_35_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt30_35_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt30_35_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt30_35_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt30_35_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt30_35_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt30_35_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt30_35_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt30_35_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 3.0 \GeV$<$\pT$<$3.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 3.0 \GeV$<$\pT$<$3.5 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt6}}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt35_45_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt35_45_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt35_45_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt35_45_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt35_45_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt35_45_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt35_45_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt35_45_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt35_45_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt35_45_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt35_45_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt35_45_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 3.5 \GeV$<$\pT$<$4.5 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 3.5 \GeV$<$\pT$<$4.5 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt7}}
+\end{figure}
+
+\begin{figure}
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt45_100_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt45_100_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt45_100_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt45_100_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt45_100_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/XiXiMassPt45_100_cent6.eps}} 
+ \end{tabular}
+
+\begin{tabular}{cccccc}
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt45_100_cent1.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt45_100_cent2.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt45_100_cent3.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt45_100_cent4.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt45_100_cent5.eps}} &
+   \centering\resizebox{2.1cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/Plots/AntiXiXiMassPt45_100_cent6.eps}}
+
+ \end{tabular}
+  \caption[Mass peaks for \lam between 4.5 \GeV$<$\pT$<$10.0 \GeV.]
+  {Mass peaks for \lam, \alam, and \kaon in \Cu at \sNNtwohundred 4.5 \GeV$<$\pT$<$10.0 \GeV, from central (left) to peripheral (right).
+  \label{XiMassPt8}}
+\end{figure}

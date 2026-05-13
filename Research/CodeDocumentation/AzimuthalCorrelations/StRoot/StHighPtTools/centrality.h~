@@ -1,0 +1,4 @@
+#ifndef centrality_h
+#define centrality_h
+int centrality(const char *dataset, int multiplicity);
+#endif

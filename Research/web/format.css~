@@ -1,0 +1,189 @@
+/* CSS Document */
+
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/ 
+
+body{
+	font-family: Arial,sans-serif;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20 px;
+	
+	
+}
+
+
+
+/***********************************************/
+/* Links                                 */
+/***********************************************/
+
+a:link, a:visited, a:hover {
+	margin: 0px;
+	padding: 0px;
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 13pt;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 16pt;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+	
+}
+
+			
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#title{
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 210px;
+	background-color: #000099;
+	font-size: 20pt;
+	line-height: 20pt;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-right: 20px;
+	border-right-color: #FFFFFF;
+	border-right-style: dotted;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+#subtitle{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background color: #99CC66;
+	background-color: #99CC66;	
+}
+#navBar{
+	padding: 0px, 5px, 0px, 5px;
+	margin:28%, 0px, 50px, 0px;
+	white-space: nowrap;
+	font-size:16pt;
+	text-align:left;
+	background-color: #00FFFF;
+	width: 20%;
+	float: right;
+	
+}
+
+
+/* 'nowrap' prevents links from line-wrapping if there are too many to fit in one line
+   this will force a horizontal scrollbar if there isn't enough room for all links
+   remove rule or change value to 'normal' if you want the links to line-wrap */
+
+
+#nav img {
+ 	display: block;
+}
+
+#navBar a {
+	color:#996633;
+	font-size: 26 pt;
+	
+	
+}
+
+
+#globalNav a {
+	font-size: 14px;
+	padding: 0px 4px 0px 0px; 
+}
+
+#leftcolumn{
+	margins:0, 70%,0,0;
+	padding: 0;
+	width: inherit 250%;
+	background-color:#333366;
+	float:left;
+	color: #316AC5;
+	
+	}
+#content{
+	background-color: #000099;
+	padding: 0;
+	margin-left: 280px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	line-height: 20pt;
+	margin-top: 5px;
+	font-size: 18pt;
+	width: 65%;
+}
+
+#content img{
+}
+
+#content a{
+	font-size: 12pt;
+	color:#FF9900;
+}
+.feature{
+	font-size: 11pt;
+	color: #FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	line-height: 16pt;
+	padding-right: 10px;
+	
+}
+
+.feature h3{
+	color: #00FFFF;
+	font-size: 11pt;
+	line-height: 16pt;
+	font-weight: normal;
+	
+	 
+}
+.feature a{
+color: #FF9966;
+font-size: 12pt;
+}
+.feature img{
+	font-size: 12 pt;
+	padding: 0px 10px 0px 0px;
+	margin: 0 5px 5px 0;
+}
+
+/***********************************************/
+/*Component Divs                               */
+/***********************************************/
+
+#siteName{
+	margin: 0px;
+	padding: 0px 0px 10px 30px;
+	
+}
+
+
+/*************** #pageName styles **************/
+
+#pageName{
+	padding: 0px;
+}
+#siteInfo{/***This is for the header bar***/
+	clear: both;
+	border: 2px solid #33CCFF;
+	font-size: 12pt;
+	color: #000000;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+#siteInfo a{
+	font-size: 11pt;
+	font-weight: bold;
+}

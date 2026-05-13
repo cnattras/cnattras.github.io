@@ -1,0 +1,15 @@
+#include "IsGoodTrack.h"
+bool IsGoodTrack(const string dataset, StMuTrack *track, float ptmin, float ptmax, float eta = 1.0, float dca = 1.0, int nHitsFit = 15){
+  return IsGoodTrack(dataset.c_str(), track, ptmin, ptmax, eta, dca, nHitsFit);
+}
+bool IsGoodTrack(const char* dataset, StMuTrack *track, float ptmin, float ptmax, float eta = 1.0, float dca = 1.0, int nHitsFit = 15){
+  //currently no dependence on data set, may need to be added
+  return track && track->flag() >= 0 && track->nHitsFit() >= nHitsFit && track->pt() >= ptmin && track->pt() <= ptmax && fabs(track->eta()) <= eta && track->dcaGlobal().mag()<= dca;
+}
+bool IsGoodTrack(const string dataset, TTrack *track, float ptmin, float ptmax, float eta = 1.0, float dca = 1.0, int nHitsFit = 15){
+  return IsGoodTrack((char*)dataset.c_str(), track, ptmin, ptmax, eta, dca, nHitsFit);
+}
+bool IsGoodTrack(const char* dataset, TTrack *track, float ptmin, float ptmax, float eta = 1.0, float dca = 1.0, int nHitsFit = 15){
+  //currently no dependence on data set, may need to be added
+  return track && track->GetNHits() >= nHitsFit && track->GetPt() >= ptmin && track->GetPt() <= ptmax && fabs(track->GetEta()) <= eta;
+}

@@ -1,0 +1,76 @@
+#include "PhiMaker.h"
+
+ClassImp(PhiMaker)
+PhiMaker::PhiMaker(char *mydataset){	       
+  dataset = mydataset;
+  fileName = "junk.root";
+  histoList = new TObjArray();
+}
+
+Int_t PhiMaker::Init(){
+  file =  new TFile(fileName, "RECREATE","HistoFile");
+  cout << "The output filename is " << fileName << endl;
+  BookParticleHistos();
+  return StMaker::Init();
+}
+
+Int_t PhiMaker::Make(){//This does nothing because tracks must be added to the maker by an external maker
+  return kStOk;
+}
+Int_t PhiMaker::Finish(){
+  file->Write();
+  file->Close();
+  return kStOk;
+}
+
+void PhiMaker::CreateHisto1D(char name[100], char title[100], char xtitle[100], char ytitle[100],Int_t xbins, Float_t xlow,Float_t xhigh)
+{     
+  TString *histoname   = new TString();
+  TString *histotitle   = new TString();
+  
+  histoname->Append(name);
+  histotitle->Append(title);
+  // printf("%s \n ",histoname->Data());
+  TH1F *histo = new TH1F(histoname->Data(),histotitle->Data(),xbins,xlow,xhigh);
+  histo->SetYTitle(ytitle);
+  histo->SetXTitle(xtitle);
+  histo->Sumw2();
+  histoList->Add(histo);
+  delete histoname;
+  delete histotitle;
+    
+}
+void PhiMaker::FillHisto1D(char histname[100], Float_t x)
+{
+  TH1F     *histo; 
+  TString  *name   = new TString();
+  
+  name->Append(histname);       
+  histo = (TH1F *)histoList->FindObject(name->Data()); 
+  histo->Fill((Double_t)x);
+  delete name;
+}
+
+void PhiMaker::BookParticleHistos(){
+  float mypi = TMath::Pi();
+  //There must be a naming scheme for these histograms to make this managable
+  //Phi_PartID{#}_pT{low*10}-{high*10}_CentBin{#}
+  int numCentBins = NumberOfCentralityBins((char*)dataset.c_str());
+  for(int partID = 0; partID <24; partID++){//part IDs 0-23 have been allocated
+    TDirectory *particleDir = file->mkdir( GetSimpleParticleName(partID) );
+    particleDir->cd();
+    for(int centBin = 1; centBin <= numCentBins; centBin++){
+      TDirectory *centDir = particleDir->mkdir( GetCentralityLabel(dataset.c_str(), centBin) );
+      centDir->cd();
+      for(float lowpt = 0.25; lowpt<=7; lowpt+=.5){//this way the bin center is right in the middle so the bins are definitely found correctly
+	char *name = GetPhiHistoName(partID, lowpt, centBin);
+	char *title = GetPhiHistoTitle(dataset,partID, lowpt, centBin);
+	CreateHisto1D(name,title,"#phi","number of entries",1200,-mypi,mypi);
+      }
+    }
+  }
+}
+void PhiMaker::FillPhiHisto(int partID, float pt, float phi, int centBin){
+  char *name = GetPhiHistoName(partID, pt, centBin);
+  FillHisto1D(name, phi);
+}

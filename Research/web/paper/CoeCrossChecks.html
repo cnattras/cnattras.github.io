@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Code Cross Checks</title>
+  </head>
+  <body>
+    <p><span style="font-weight: bold;">Information for code cross checks</span></p>
+    <p>Code for this analysis is stored in
+      \$CVSROOT/offline/paper/psn0614/.&nbsp; Documentation is in that directory
+      in README.txt and README.pdf - you are encouraged to look at the pdf
+      version since this has diagrams showing the structure of the code.&nbsp;
+      Note that this code is nearly identical to the code for
+      \$CVSROOT/offline/paper/psn0530/ used for <a href="http://arxiv.org/abs/1110.5800">the
+        system and energy dependence paper</a>.</p>
+    <p><br>
+    </p>
+    <p>The input root files for different stages are available on RCF. <br>
+      <br>
+      An XML to create TTrees: <br>
+      /star/u/nattrass/AziCorrVer2/AuAu62TTrees/strangeAuAu62MinBias.xml <br>
+      (Not that you couldn't write such an xml, but if you wanted to submit some
+      sample jobs, this does it.) <br>
+      <br>
+      Most of my sample code is set up to do CuCu200, so some TTrees from
+      CuCu200 are here: <br>
+      <i class="moz-txt-slash"><span class="moz-txt-tag">/</span>star/institutions/npiascr/nattrass/CuCu200/TTreesMinBiasP06ibEmc<span
+          class="moz-txt-tag">/</span></i> <br>
+      (The output of TTreeMaker) <br>
+      <br>
+      ============================== <br>
+      <br>
+      The correlation files are here <br>
+      (The output of CorrelationMaker in different modes) <br>
+      ~nattrass/AziCorrVer2/rootFiles <br>
+      with the CuCu200 files having CuCu200 in the name. <br>
+      <br>
+      Files which are not track merge corrected are here: <br>
+      in rootFiles/correlations/nottrackmergecorrected/ <br>
+      (Output of macros/correlations/RunCorrelationMaker.C) <br>
+      <br>
+      the files at small dphi and deta without the track merging correction
+      applied are here <br>
+      rootFiles/correlations/trackmerge/ <br>
+      (Output of macros/correlations/RunCorrelationMakerForTrackMerging.C) <br>
+      <br>
+      and the event mixing files are here <br>
+      rootFiles/correlations/eventmix/ <br>
+      (output of macros/correlations/RunCorrelationMakerForEventMixingCuCu200.C)
+      <br>
+      <br>
+      If my naming convention for files is not clear, let me know - of course
+      anyone reproducing the analysis would have to reproduce these files and
+      come up with their own naming convention. <br>
+      ============================== <br>
+      <br>
+      I don't want to say more because the goal is for the documentation to be
+      clear.&nbsp; If it is not please don't hesitate to ask questions and then
+      we'll try to improve the documentation so that it is sufficient alone. <br>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+%\newcommand{\test}{$\sqrt{s_{NN}}$\xspace}
+Full jet reconstruction in a heavy ion environment and while it has recently been demonstrated that it is possible\cite{jetrecoSevilWWND,jetrecoJoernHP,jetrecoSevilHP,jetrecoSevilHQ}, initial studies of jets were done by looking at correlations between high-\pT hadrons.  These studies remain valuable even now that full jet reconstruction has been done in heavy ion collisions because the biases are different in the two different methods.  Full jet reconstruction may be more biased towards unmodified jets because jet finding algorithms are dependent on jet topologies similar to those in \ee and \pp collisions.
+
+In di-hadron correlations, a high momentum trigger particle is selected and the distribution of particles relative to that particle is determined.  No requirement other than the momentum is used to determine trigger particles and the method neglects contributions from any sources of high-\pT particles other than jets.  The momenta of the trigger and associated particles is restricted to increase the probability of the trigger particle coming from a jet and decrease the combinatorial background.  It has been argued that contributions from other sources are non-negligible and that such considerations are necessary for proper interpretation of the results of di-hadron correlations[add citations, phenix paper].  STAR has presented correlations normalized per trigger particle and with this normalization, results from different systems (\pp,\dAu, \Cu, and \Au) would be identical if there were no modification of the jet[cite previous STAR studies].  PHENIX has typically used a different normalization where the amplitude of the correlation is interpreted as the probability of a low momentum particle being correlated with the jet [PHENIX zyam paper and PHENIX correlation papers].  For the studies presented here, the correlation is normalized per trigger.
+
+
+
+To determine the di-hadron correlation, the good events must be selected and, in most cases, correlations are performed in separate centrality bins in order to study effects which may be dependent on the size of the medium.  If identified particles are used for correlation studies, these particles must be identified with sufficient purity that contributions from other particles are negligible.  The distribution of particles relative to the trigger particle, averaged over all events, is calculated and this must be corrected for the efficiency for reconstructing the associated particles in the STAR detector.  A combinatorial background, which includes known correlations between particles which are assumed to be unrelated to jets, must be subtracted.  Different features in the correlations are then subtracted out 
+
+\section{Event selection}
+Data from \Au collisions at \sNNsixtytwo from are from RHIC's fourth year run (2004) and data from \Cu collisions at \sNNsixtytwo and \sNNtwohundred are from RHIC's sixth year run (2005.)  These data are compared to previous studies done in the \Au data at \sNNsixtytwo.  In order to be usable for analyses, events must have a clearly defined vertex.  Events from \Au data have a more clearly defined vertex because there are more tracks produced in a \Au collision which can be used to reconstruct the vertex position, so the 80\% most central events were usable in \Au collisions.  Fewer tracks are produced in \Cu collisions and the luminosity was significantly higher in 2005 than in 2006, so only the 60\% most central data from these events was usable.
+\subsection{Centrality definition}
+\section{Selection of charged tracks}
+This section still needs to be written but it became clear as I was writing the next section that I need plots of:
+
+The DCA of primary tracks to the primary vertex
+
+The distribution of the number of hits in a primary/global track
+
+I do not have these plots readily at hand and will therefore need to make these plots.
+\section{Particle identification}
+While the STAR TPC is only sensitive to charged hadrons, particles which decay into charged hadrons before they leave the TPC can identified by reconstructing their decay vertices.  The \lam, \alam, and \kaon identified by reconstructing their decay vertices are called \vzero's because they are neutral decay vertices.  Particles which decay into a \lam or \alam can also be reconstructed by first reconstructing the tertiary decay vertex of the \lam or \alam and then reconstructing the secondary decay vertex.  This method has been successfully applied by STAR to reconstruct the \xibary and \omegabary and their respective anti-particles through their decay channels \xidecay and \omegadecay.  Data on these particles and their decay channels is given in \Tref{TableV0Decays}.  This method has been used extensively by STAR to study the \lam, \alam, \xibary, \axibary, \omegabary, and \aomegabary baryons and the \kaon meson through their hadronic decay channels  \cite{STARForwardLambdas,STARStrangenessEnhancement,STARAuAuV0Flow,STARKaonHBT,STARStrangePP200,STARHyperonScaling,STARProtonLambdaCorrelations,STARMultistrangeFlowAuAu200,STARMultistrangeBaryonAuAu130,STARParticleDependentV2AuAu200,STARKaonProductionAuAu130,STARV0AuAu130,STARLambdaAuAu130}.
+
+Correlations of \vzeros, \xibary, and \omegabary are only presented for \Cu at \sNNtwohundred.  The data from \Cu and \Au collisions at \sNNsixtytwo were investigated but the statistics did not allow for meaningful studies, and previous studies were done in \Au  at \sNNtwohundred \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05}.
+
+\begin{table}
+\begin{center}
+\caption[Properties of the \lam, \kaon, \xibary, and \omegabary]{Data on particles which can be reconstructed from their decay vertices}\label{TableV0Decays}
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+  particle & mass & quark & decay  & decay length & branching\\ 
+   & (GeV/$c^2$) & content & channel & c$\tau$ (cm) & ratio\\ \hline
+\lam & 1.115683 $\pm$ 0.000006 & uds & \lamdecay & 7.893 $\pm$ 0.060 & \\
+\alam & 1.115683 $\pm$ 0.000006 & $\bar{uds}$ & \alamdecay & 7.893 $\pm$ 0.060 & \\
+\kaon & 0.4977 & $\frac{d\bar{s} - s \bar{d}}{\sqrt{2}}$ & \kaondecay & 2.68605 & \\
+\xibary & 1.32171 $\pm$ 0.00007 & dss & \xidecayshort & 4.917 $\pm$ 0.045 & \\
+\axibary & 1.32171 $\pm$ 0.00007 & $\bar{dss}$ & \axidecayshort & 4.917 $\pm$ 0.045 & \\
+\omegabary & 1.67245 $\pm$ 0.00029 & sss & \omegadecayshort & 2.463 $\pm$ 0.033 & \\
+\aomegabary & 1.67245 $\pm$ 0.00029 & $\bar{sss}$ & \aomegadecayshort & 2.463 $\pm$ 0.033 & \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{\vzero reconstruction}
+
+\begin{figure}
+  \centering\resizebox{9cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v0geometriccuts.eps}}\\
+
+  \caption[Schematic diagram of \vzero decay.]
+  {Schematic diagram of a \lam decay showing the different parameters that can be varied when geometrically reconstructing a \vzero from its decay vertex.
+  \label{V0Schematic}}
+\end{figure}
+
+A schematic diagram of the geometry of a \lam decay is shown in \Fref{V0Schematic}.  The \kaon decay is similar except for the identity of the daughters.  This shows the different parameters which can be varied to alter the purity and the efficiency of \vzero's.
+
+The decay daughters of a \vzero should not originate from the primary vertex, however, because the distribution of decay lengths in a sample of \vzeros is falls off exponentially, a larger proportion of \vzeros will have decay daughters which are closer to the primary vertex than the detector resolution.  To get a sample of \vzero candidates, all pairs of global tracks, those which were detected but not forced to go through the primary vertex, are combined.  The mass is reconstructed assuming that they are the decay daughters of a \vzero.  The mass of a \vzero candidate is given by 
+
+$m_{\Lambda} = (m_{\pi}+m_{p})^2 - (p_{x,\pi^-}+p_{x,p})^2- (p_{y,\pi^-}+p_{y,p})^2- (p_{z,\pi^-}+p_{z,p})^2$
+
+$m_{\bar{\Lambda}} = (m_{\pi}+m_{p})^2 - (p_{x,\pi^+}+p_{x,\bar{p}})^2- (p_{y,\pi^+}+p_{y,\bar{p}})^2- (p_{z,
+\pi^+}+p_{z,\bar{p}})^2$
+
+$m_{K^0_S} = (m_{\pi}+m_{\pi})^2 - (p_{x,\pi^+}+p_{x,\pi^-})^2- (p_{y,\pi^+}+p_{y,\pi^-})^2- (p_{z,\pi^+}+p_{z,\pi^-})^2$,
+
+with the momentum given by 
+
+$\overrightarrow{p_{\Lambda}} = \overrightarrow{p_{\pi^-}} + \overrightarrow{p_{p}}$;
+$\overrightarrow{p_{\bar{\Lambda}}} = \overrightarrow{p_{\pi^+}} + \overrightarrow{p_{\bar{p}}}$;
+$\overrightarrow{p_{K^0_S}} = \overrightarrow{p_{\pi^-}} + \overrightarrow{p_{\pi^+}}$.
+The identity of the daughter tracks is assigned randomly so the restrictions on the geometry of the decay must be sufficient to allow clean identification of tracks.  The combinatorial background in a heavy ion collision is considerably higher than in \ee or \pp collisions, and is larger at higher particle multiplicities.  This means that the background is greater in central collisions than in peripheral collisions.  The background is dominated by primary tracks, or those which originate from the primary vertex (PV.)  \vzero candidates are found when STAR reconstructs the events from the hits in the TPC, and to keep file sizes reasonable some geometric cuts are applied at production.  In addition, some cuts on track quality and particle identification were applied.  The list of default cuts is given in \Tref{TableV0DefaultCuts}.
+
+\begin{table}
+\begin{center}
+\caption[Default geometric cuts for \vzeros]{Default geometric cuts for \vzero candidates.}\label{TableV0DefaultCuts}
+\begin{tabular}{c|c|c}
+\hline
+  	 & $p_{T}^{V^0}<3.5 $ & $p_{T}^{V^0}<3.5 $ \\ \hline
+  DCA of \vzero to PV &  $<$ 0.8 cm & $<$ 0.8 cm \\
+  DCA of daughters &   $<$ 0.8  cm & $<$ 0.8  cm \\ 
+  DCA of daughters to PV & $>$ 0.7 cm & $>$ 0 cm \\
+  Decay length &  $>$ 2 cm &  $>$ 2 cm \\
+  \nhits on daughter track & $>$ 15 &  $>$ 15 \\ 
+  \nsigdedx & -3 $<$ \nsigdedx $<$ 3 & -3 $<$ \nsigdedx $<$ 3 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaDcaDaughtersPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaDcaDaughtersPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaDaughtersPt10_15_cent1.eps}
+  }\\
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaDcaV0ToPVPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaDcaV0ToPVPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt10_15_cent1.eps}
+  }\\
+
+  \caption[DCA of \vzero to primary vertex and of \vzero daughters to each other]
+  {DCA of \vzero to primary vertex and of \vzero daughters to each other for \vzero candidates between 1.0 \GeV $<$ \pT $<$ 1.5 \GeV versus the reconstructed mass of the candidate.  These were produced with the default cuts in \Tref{TableV0DefaultCuts}.
+  \label{DCADaughtersV0s}}
+\end{figure}
+
+\Fref{DCADaughtersV0s} shows the DCA of the daughter tracks to each other and two the primary vertex versus the mass of the \vzero candidate.  Plots such as these, with the parameter on the y-axis and the mass of the candidate on the x-axis, easily show what values of the parameter the background has.  These plots show similar patterns for both the DCA of the daughters and the DCA of the \vzero to the primary vertex because these paramters are dominated by the detector resolution.  Restrictions on the DCA of the \vzero daughters to each other and to the primary vertex eliminate background efficiently, and future detector upgrades at STAR will allow tighter restrictions on these paramters.  A single hit in the STAR TPC has a resolution of about 1 cm.  A track reconstructed from more hits will have a slightly better resolution, but this resolution is dependent on the momentum of the daughter tracks and the number of hits from the TPC used to form the track.  Lower momentum daughter tracks are not only more likely to have fewer hits in the TPC, but are have lost a greater fraction of their energy before they enter the TPC.  This means the resolution on the DCA of the daughter tracks will be worse because the location of the track near the secondary vertex must be further extrapolated than for high momentum daughter tracks.  \Fref{DCAK0ToPVvsPt} shows the reconstructed DCA in different bins in \pT.  The fact that the resolution gets better with higher momentum demonstrates that this method does better, not worse, at higher \pT and that currently studies using secondary vertex reconstruction in STAR are limited by statistics rather than the method.
+
+\begin{figure}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt2_4_cent1.eps}\hspace{-0.5cm}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt4_6_cent1.eps}\hspace{-0.5cm}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt6_8_cent1.eps}\hspace{-0.5cm}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt8_10_cent1.eps}
+}\\
+\vspace{-.5cm}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt10_15_cent1.eps}\hspace{-0.5cm}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt15_20_cent1.eps}\hspace{-0.5cm}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt20_25_cent1.eps}\hspace{-0.5cm}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaV0ToPVPt25_30_cent1.eps}
+  }\\
+
+  \caption[DCA of \vzero to primary vertex and of \vzero daughters to each other]
+  {DCA of \vzero to primary vertex and of \vzero daughters to each other for \vzero candidates between 1.0 \GeV $<$ \pT $<$ 1.5 \GeV versus the reconstructed mass of the candidate.  These were produced with the default cuts in \Tref{TableV0DefaultCuts}.
+  \label{DCAK0ToPVvsPt}}
+\end{figure}
+
+\begin{figure}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaDcaPosToPVPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaDcaPosToPVPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaPosToPVPt10_15_cent1.eps}
+  }\\
+\vspace{-0.6cm}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaDcaNegToPVPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaDcaNegToPVPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DcaNegToPVPt10_15_cent1.eps}
+  }\\
+\vspace{-0.6cm}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaDecayLengthPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/AntiLambdaDecayLengthPt10_15_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/K0DecayLengthPt10_15_cent1.eps}
+  }\\
+
+  \caption[DCA of \vzero to primary vertex and of \vzero daughters to each other]
+  {DCA of \vzero to primary vertex and of \vzero daughters to each other for \vzero candidates between 1.0 \GeV $<$ \pT $<$ 1.5 \GeV versus the reconstructed mass of the candidate.  These were produced with the default cuts in \Tref{TableV0DefaultCuts}.
+  \label{DCADaughtToPVDecay}}
+\end{figure}
+
+\Fref{DCADaughtToPVDecay} shows the the distribution of the decay daughters' DCA to the primary vertex and of the decay length versus the \pT of the \vzero candidate.  If there were no background, \vzeros could be reconstructed without applying any restrictions to the DCA of the decay daughters to the primary vertex and on the decay length.  However, since most of the background comes from primary tracks, most of the background has a small decay length and the daughter tracks are close to the primary vertex.  Since the resolution of a hit in the TPC is around 1 cm, most of the background tracks have daughter tracks about 1 cm or less from the primary vertex and a decay length of a few centimeters.  Since the background is also where most of the signal is, these cuts are inefficient, however, they also are very effective at reducing the background.  An increase in the detector resolution would only be effective to the extent that it would reduce the average distance from the primary vertex of a primary track and thus allow less signal to be eliminated by restricting the DCA of the daughter tracks.
+
+Limits on the number of hits in the daughter tracks are also applied as quality cuts on the track reconstructed in the TPC.  Tracks with too few hits have poor momentum resolution and may originate from split tracks or from random background.  A minimum of 15 hits was required for all daughter tracks.  Below this most tracks have poor momentum resolution and may originate from split tracks.
+
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TPCdEdx.eps}}\\
+
+  \caption[Energy loss per unit length in the STAR TPC.]
+  {The energy loss per unit length in the STAR TPC.  The magnetic field was 0.25T.\cite{NIMSTARTPC}
+  \label{TPCdEdx}}
+\end{figure}
+
+Need to add more discussion of energy loss.
+
+Restrictions on the energy loss per unit length (dE/dx) in the STAR TPC were also applied.  The distribution of the measured dE/dx versus the reconstructed track \pT is plotted in \Fref{TPCdEdx}.  Clear bands are seen for \pion, K, p, deutrons and helium.  The dE/dx of daughter tracks can be used to reduce the background.  The number of standard deviations away from the center of the band is calculated and a 3$\sigma$ cut was applied by default.  \Fref{V0NSigmaExamples} shows the distributions of the number of $\sigma$ away from the center of the dE/dx band for the daughters for \lam candidates.  This cut is more effective at lower momenta, since the bands from different particles begin to merge above 1 \GeV in the STAR TPC.  At higher momenta, the bands begin to separate so then some resolution is possible.  It is also more effective for the p and \antiproton daughters of the \lam and \alam since there are more pions than protons produced \cite{IordanovaWWND08}.
+
+\begin{figure}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt4_6_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt6_8_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt8_10_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt10_15_cent1.eps}
+  }\\
+\vspace{-0.5cm}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt15_20_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt20_25_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt25_30_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaNegPt30_35_cent1.eps}
+  }\\
+\vspace{-0.5cm}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt4_6_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt6_8_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt8_10_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt10_15_cent1.eps}
+  }\\
+\vspace{-0.5cm}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt15_20_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt20_25_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt25_30_cent1.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/V0s/Plots/LambdaNSigmaPosPt30_35_cent1.eps}
+  }\\
+
+  \caption[DCA of \vzero to primary vertex and of \vzero daughters to each other]
+  {The \nsigdedx for \lam candidate daughters at different momenta.  These were produced with the default cuts in \Tref{TableV0DefaultCuts}.
+  \label{V0NSigmaExamples}}
+\end{figure}
+
+Starting with the geometric cuts given in \Tref{TableV0DefaultCuts}, the restrictions on the DCA of the \vzero to the primary vertex, the DCA of the daughters to each other, the DCA of the daughters to the primary vertex, the decay length, the number of TPC hits on each daughter, and the \nsigdedx for each daughter were tuned until a purity of about 95\% was reached in each centrality bin and at each momentum.  Final mass peaks are given in [cite mass peak appendix] and final geometric cuts are listed in \Aref{geocutsappendix}.  The purity is shown in \Fref{V0Purity}.
+
+\begin{figure}
+  \centering\resizebox{16cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/LambdaPurity.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/AntiLambdaPurity.eps}
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/K0Purity.eps}}\\
+
+  \caption[Energy loss per unit length in the STAR TPC.]
+  {The energy loss per unit length in the STAR TPC.  The magnetic field was 0.25T.
+  \label{V0Purity}}
+\end{figure}
+
+\subsection{\xibary and \omegabary reconstruction}
+\section{Correlation technique}
+\subsection{Efficiency Correction}
+\subsubsection{Unidentified hadron efficiency}
+\subsubsection{\vzero efficiency}
+\subsection{Single track acceptance correction}
+\subsection{Pair acceptance correction}%ie, track merging
+\subsection{Background subtraction}
+\subsubsection{\vtwo}
+\paragraph{\Cu at \sNNsixtytwo}
+\paragraph{\Cu at \sNNtwohundred}
+\paragraph{\Au at \sNNsixtytwo}
+\subsection{Separation of the \jet and the \ridge}
+
+\section{Pythia}

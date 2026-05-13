@@ -1,0 +1,11 @@
+
+#ifndef MixedEvents_h
+#define MixedEvents_h
+#ifndef __CINT__
+#  include "Riostream.h"//needed to use things like cout, which I will use primarily for debugging
+#endif
+#include "TObjString.h"//needed for Form
+#include "TH1F.h"
+#include "StHighPtTools/dPhi.h"
+TH1F *MixedEvents(TH1F* trigger, TH1F* associated, TH1F *numAssoc, char *name, char *title);
+#endif

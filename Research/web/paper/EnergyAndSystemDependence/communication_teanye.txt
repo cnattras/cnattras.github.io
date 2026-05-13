@@ -1,0 +1,264 @@
+February 8, 2011:
+
+> Subject: 	v2 v3 correlation
+> Date: 	Tue, 8 Feb 2011 13:55:32 -0500
+> From: 	Li Yan <lyan@ic.sunysb.edu>
+> To: 	<christine.nattrass@utk.edu>
+> CC: 	Derek Teaney <derek.teaney@gmail.com>
+>
+>
+> Hi Christine,
+>
+> We have finished our preliminary calculations. This is <v_3^2/v_2^2> with
+> 1.5<pt_asso<3GeV and 3<pt_trig<6GeV, as a function of number of
+> participants. The EOS is from lattice, and viscosity is taken to be
+> \eta/s=1/4\pi, for different freeze-out temperatures.
+>
+> best,
+> Li Yan <v3v2sq_lattice_1es.pdf>
+
+---------------------------------------------------------------------------
+
+From: Christine Nattrass <christine.nattrass@utk.edu>
+Date: Tuesday, February 8, 2011 4:47 pm
+Subject: Re: v2 v3 correlation
+To: Li Yan <lyan@ic.sunysb.edu>
+Cc: Derek Teaney <derek.teaney@gmail.com>, Jana Bielcikova <jana.bielcikova=
+@ujf.cas.cz>, sorensen@utk.edu
+
+> Hi (again) Li (cc Jana and Paul)
+>
+> Sorry for writing multiple emails but I am in a different time
+> zone, we are on a tight schedule, and I will not be available
+> online most of tomorrow.
+>
+> I have a few questions which may be silly.
+>
+> I want to make sure I understand what this calculation is
+> for.  The x axis is the number of participants, so more
+> peripheral collisions are to the left and more central
+> collisions to the right.  Then <v3^2/v2^2> is on the y
+> axis.  So your calculations would predict that v3^2 is 2-
+> 3.5 times larger than v2^2 in peripheral collisions?  and
+> that <v3^2/v2^2> decreases as you go to more central
+> collisions?   Right?
+>
+> So if the equation of state is from lattice, how is this
+> propagated to get the final <v3^2/v2^2>?
+>
+> So if I compare to Fig. 8 of
+> http://arxiv.org/pdf/1003.0194
+> this would be the opposite of the trend that they observe using
+> AMPT (although with different pT cuts), right?
+>
+> Greetings
+> Christine
+---------------------------------------------------------------------------
+From: Li Yan <lyan@ic.sunysb.edu>
+To: "Nattrass, Christine Elizabeth" <cnattras@utk.edu>
+CC: Derek Teaney <derek.teaney@gmail.com>
+Subject: Re: v2 v3 correlation
+Date: Tue, 8 Feb 2011 20:55:34 -0500
+
+Hi Christine,
+
+I am sorry for this change. It turns out that in my previous code, which do=
+ integral for different pt ranges, there was an error. Now everything
+looks normal. Sorry again for the confusions.
+
+best,
+Li Yan
+
+---------------------------------------------------------------------------
+
+From: Derek Teaney <derek.teaney@gmail.com>
+To: Li Yan <lyan@ic.sunysb.edu>
+CC: "Nattrass, Christine Elizabeth" <cnattras@utk.edu>
+Date: Tue, 8 Feb 2011 21:50:22 -0500
+
+Hi Christine,
+
+All is good... I think the 130..150 range is a good estimate of =20
+freezeout uncertainties.....
+
+Derek
+
+---------------------------------------------------------------------------
+From: Christine Nattrass <christine.nattrass@utk.edu>
+Date: Tuesday, February 8, 2011 2:42 pm
+Subject: Re: v2 v3 correlation
+To: Li Yan <lyan@ic.sunysb.edu>
+Cc: Derek Teaney <derek.teaney@gmail.com>
+
+> Hi Li
+>
+> can I get raw numbers so I can put them in a plot without
+> reading the numbers off the plot?
+>
+> So your calculations show that the (v3/v2)^2 is lower in central
+> collisions than in peripheral collisions?  So this is the
+> opposite of the conclusion from the attached plot (with no pt cuts)?
+>
+> Greetings
+> Christine
+---------------------------------------------------------------------------
+
+From: Li Yan <lyan@ic.sunysb.edu>
+To: "Nattrass, Christine Elizabeth" <cnattras@utk.edu>
+Subject: raw data of v2 v3 correlation
+Date: Tue, 8 Feb 2011 22:04:49 -0500
+
+Hi Christine,
+
+Here are the raw data file. The first column is impact parameter b,
+the second one is the N_part. The 3rd to 5th columns correspond to
+<v_3^2/v_2^2> with respect to T_fo =3D 130MeV, 150MeV and 170MeV.
+
+Li Yan
+---------------------------------------------------------------------------
+
+From: "Nattrass, Christine Elizabeth" <cnattras@utk.edu>
+To: Derek Teaney <derek.teaney@gmail.com>
+CC: Li Yan <lyan@ic.sunysb.edu>, Jana Bielcikova <jana.bielcikova@ujf.cas.cz>
+Subject: Re: v2 v3 correlation
+Date: Wed, 9 Feb 2011 04:07:05 -0500
+
+Hi Li & Derek
+
+Thank you very much!  A few more questions.
+
+Could you clarify how you did this calculation?  Jana and I need to be=20
+able to write about it at some level for our paper.
+
+Second, this is for Au+Au, correct?  (I assume Cu+Cu is not possible on=20
+a short time scale.)  Would you expect the same for sqrt(s_NN)=3D62 and=20
+200?  Even if the Cu+Cu can't be done, what would you expect for Cu+Cu?
+
+Third, how should we cite this?  Our paper has one more week in the GPC,=20
+at least two weeks before the collaboration, and at least one week grace=20
+period for PHENIX to see the paper before we submit it.  This neglects=20
+the time needed to implement any suggested changes - so there will be at=20
+least a month before the paper is submitted.  If you had a paper=20
+submitted we could cite before then, we would cite it - otherwise I=20
+guess we would cite private communication?
+
+thanks!
+
+Greetings
+Christine
+---------------------------------------------------------------------------
+
+From - Tue Oct 04 13:20:45 2011
+From: "Nattrass, Christine Elizabeth" <cnattras@utk.edu>
+To: Derek Teaney <derek.teaney@gmail.com>
+CC: Li Yan <lyan@ic.sunysb.edu>, Jana Bielcikova <jana.bielcikova@ujf.cas.cz>
+Subject: Re: v2 v3 correlation
+Date: Wed, 9 Feb 2011 05:23:31 -0500
+
+Hi again
+
+yet another question.  Right now I have "Yan & Teaney" in the figure=20
+legend.  I know that Chinese names usually have the family name first=20
+and the given name second - but a lot of Chinese people living and=20
+working in Europe & the US switch the order so as to not confuse=20
+people.  But not everyone.  So should it be "Yan & Teaney", "Li &=20
+Teaney", "Teaney & Li", or "Teaney & Yan"?
+
+Thanks!
+Greetings
+Christine
+---------------------------------------------------------------------------
+
+From: Li Yan <lyan@ic.sunysb.edu>
+To: "Nattrass, Christine Elizabeth" <cnattras@utk.edu>
+CC: Derek Teaney <derek.teaney@gmail.com>
+Subject: Re: v2 v3 correlation
+Date: Wed, 9 Feb 2011 10:56:08 -0500
+
+Hi Christine,
+
+You can use Teaney & Yan in your figure legend. And for the other questions=
+,
+1/ The correlation we obtain this time is quite similar to the figure 13a i=
+n our previous paper arxiv:1010.1876, with the exception that we take \eta/=
+s=3D1/4\pi in the hydro calculation with lattice EOS, and in specified pt_a=
+sso and pt_trig range. You can also find the explanation in the context of =
+1010.1876.
+2/ Yes, this is Au+Au.
+3/ We are working on a new paper on triangular flows with viscosity effects=
+, we will let you know if we can finish it before that time.
+
+
+best,
+Li Yan
+---------------------------------------------------------------------------
+Date: Mon, 28 Feb 2011 23:46:14 +0100
+From: Jana Bielcikova <jana.bielcikova@ujf.cas.cz>
+To: derek.teaney@stonybrook.edu, lyan@ic.sunysb.edu
+CC: Christine Nattrass <nattrass@rhig.physics.yale.edu>,
+        Paul Sorensen <psoren@bnl.gov>
+Subject: comparison of STAR data to your hydro calculation
+Dear Derek and Li,
+
+    please find attached an eps figure with the STAR (v3/v2)^2 data 
+compared to your model calculation. We have not done any "non-flow" 
+subtraction, so the data correspond to extracted Fourier components 
+(v3/v2)2 from the fit to the 2-dimensional delta(eta)xdelta(phi) 
+correlation function. We would like to kindly ask you to not use the 
+data at any conference/workshop or in publications because they are not 
+yet made public by the STAR collaboration. Thank you very much for 
+sending us your calculation.
+
+          With best regards, Christine and Jana.
+---------------------------------------------------------------------------
+
+March 1, 2011 
+
+Hi Thanks,
+
+1/ Perhaps getting eta/s = 1/4pi  on the caption is important. And perhaps
+Yan could generate the 2/4pi curves.
+
+2/  It should be stressed that the data are at pretty hight $p_T$, just
+about where ``all hell" is breaking loose with viscous hydro.
+In fact I wonder if the 2/4 pi curves will look somewhat bizarre.
+
+Derek
+
+
+--------------------------------------------------------------------
+
+March 4, 2011:
+
+Hi Derek and Li
+
+We have the following text in our current draft:
+
+We compare the data to calculations for \Au collisions from~\cite{Teaney:2010vd} using a hydrodynamical model with a lattice equation of state and a viscosity to entropy ratio $\eta/s$~=~1/4$\pi$ for three different freeze-out temperatures.  The theory calculations agree with the data for all but the three most peripheral centrality bins for a freeze-out temperature of 170~MeV.  If there are substantial non-flow contributions, the data would be consistent with a lower freeze-out temperature.
+
+The text may change, but do you see anything incorrect in the description above?  (Specifically, if anything, this discussion will get shorter.)
+
+Greetings
+Christine 
+
+
+-------------------------------------------------------------------------
+
+March 4, 2011 (continued):
+
+-------- Original Message --------
+Subject: 	Re: comparison of STAR data to your hydro calculation
+Date: 	Fri, 4 Mar 2011 08:47:01 -0500
+From: 	Derek Teaney <derek.teaney@gmail.com>
+To: 	Christine Nattrass <nattrass@rhig.physics.yale.edu>
+CC: 	LY Yan <lyan@ic.sunysb.edu>
+
+
+Hi Christine,
+
+It should be acknowledged that this is pushing the limits of hydro at  
+high $p_T$.... And viscous corrections
+are becoming quite large.
+
+Derek
+

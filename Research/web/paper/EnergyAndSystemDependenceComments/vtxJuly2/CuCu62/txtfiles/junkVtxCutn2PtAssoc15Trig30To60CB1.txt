@@ -1,0 +1,192 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.26/00  14 December 2009   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.26/00 (trunk@31882, Dec 14 2009, 20:18:36 on linux)
+
+CINT/ROOT C/C++ Interpreter version 5.17.00, Dec 21, 2008
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+Processing macros/test/TestCorrelationSummaryTrackMergeCorrected.C("CuCu62","Pics/tmp/CuCu62/VtxCutBinn2",1.5,6.0,3,6,true,0,1,6,0.65,false,-2)...
+strangeArrayNames-arrayNames-__NARRAYS__ = 0
+ loading of shared libraries done
+ loading of StHighPt libraries done
+20
+146
+157
+167
+Correlation for trigger h associated h
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+using 0M mixed events
+0M 
+ DONE!
+Warning in <TH1F::Divide>: Attempt to divide histograms with different axis limits
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+Bad bin at (0,0)!! 
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+Bad bin at (0,0)!! 
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+ FCN=96.3554 FROM MIGRAD    STATUS=CONVERGED      14 CALLS          15 TOTAL
+                     EDM=6.58232e-13    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.55067e+02   2.22206e+00   1.07052e-02   5.16354e-07
+ FCN=97.1133 FROM MIGRAD    STATUS=CONVERGED      14 CALLS          15 TOTAL
+                     EDM=4.82286e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.28673e+02   2.16497e+00   1.04707e-02  -4.53644e-08
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+using 0M mixed events
+0M 
+ DONE!
+ FCN=28.2613 FROM MIGRAD    STATUS=CONVERGED      14 CALLS          15 TOTAL
+                     EDM=1.70402e-14    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.52358e+03   5.63393e+00   1.48802e-02  -3.27673e-08
+Number of trigger particles 2106
+Warning in <TH2F::Divide>: Attempt to divide histograms with different axis limits
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+1.5 < pT assoc < 10 , 3 < pT trig < 6
+matching histos from -0.25 to -0.0833333 in deta, bins 11 to 14 of 32 bins
+ b 0.737315 +/- 0.147936 a 253.771 +/- 4.22221 b/a 0.00290543 b/a err 3.42166e-07
+ b 0.636493 +/- 0.136113 a 258.981 +/- 4.24496 b/a 0.00245768 b/a err 2.77848e-07
+ b 1.01985 +/- 0.170731 a 263.528 +/- 4.25101 b/a 0.00386998 b/a err 4.23628e-07
+ b 1.33597 +/- 0.195981 a 265.336 +/- 4.25774 b/a 0.00503503 b/a err 5.52081e-07
+Overall scale: 0.00356703 +/- 0.000315805 uncorr avg 0.932408 corravg 260.404
+Overall scale: 0.00356703 +/- 0.000315805
+patching histos together from -0.523598 to 0.523598 in phi (bins 5-12) and -0.25 to 0.25 in eta (bins 11-22)
+Number of triggers in correlation summary 2106
+using meanpt
+using meanpt
+<pTassoc> 1.83889 <pTtrig> 3.41402
+For centbin 1 adding v2assoc 0.0657972;0.072662;0.091517 and v2trig 0.0595535;0.0846449;0.0988419 with weight 3197
+For centbin 2 adding v2assoc 0.0835454;0.101258;0.104628 and v2trig 0.0810693;0.111254;0.114752 with weight 1693
+For centbin 3 adding v2assoc 0.0903898;0.109889;0.11228 and v2trig 0.090494;0.127492;0.136119 with weight 906
+For centbin 4 adding v2assoc 0.0999029;0.121221;0.126258 and v2trig 0.105373;0.145558;0.157146 with weight 363
+For centbin 5 adding v2assoc 0.0712375;0.110885;0.111155 and v2trig 0.0606598;0.145506;0.151429 with weight 169
+For centbin 6 adding v2assoc 0.0788954;0.110885;0.111155 and v2trig 0.0973376;0.145506;0.151429 with weight 59
+v2 assoc 0.0896468 v2pttrig 0.103411
+v2low 0.00570056 v2avg 0.0096308 v2high 0.0116068
+v2triglow 0.072628 v2trigavg 0.103411 v2trighigh 0.113538
+v2assoclow 0.0761935 v2assocavg 0.0896468 v2assochigh 0.100613
+Using Jet 0.791667<deta and Ridge 1.79167<deta
+Making dEta histogram from dphi +/- 0.654498
+Setting bin count yield to 0.0385038 +/- 0.0384098
+ FCN=9.39574 FROM MIGRAD    STATUS=CONVERGED     104 CALLS         105 TOTAL
+                     EDM=2.62388e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0          -9.07467e-05   1.88373e-02   2.74522e-05   3.13983e-04
+   2  p1           1.13020e-01   1.02527e-01   1.39505e-04   4.51677e-05
+   3  p2           2.91059e-02   2.66555e-02   3.41486e-05  -9.58223e-05
+   4  p3           0.00000e+00     fixed    
+Info in <TCanvas::SaveSource>: C++ Macro file: Pics/tmp/CuCu62/VtxCutBinn2dEtadPhi_trig_h_pT30_60_assoc_h_pT15_100_CentBin12DJetOnly.C has been generated
+ MINUIT WARNING IN PARAM DEF
+ ============== STARTING VALUE OUTSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ FCN=8.80507 FROM MIGRAD    STATUS=CONVERGED     250 CALLS         251 TOTAL
+                     EDM=7.65289e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           5.67310e-01   6.55236e-02   2.88642e-04   1.52340e-04
+   2  p1           9.63080e-03     fixed    
+   3  p2           2.12564e-02   5.25719e-01   8.98932e-04   3.34887e-05
+   4  p3           0.00000e+00     fixed    
+   5  p4           1.00000e-00   5.84850e-01   2.09398e-02** at limit **
+Info in <TCanvas::SaveSource>: C++ Macro file: Pics/tmp/CuCu62/VtxCutBinn2dEtadPhi_trig_h_pT30_60_assoc_h_pT15_100_CentBin12DRidge.C has been generated
+eta fit cut 0.1
+ FCN=44.0666 FROM MIGRAD    STATUS=CONVERGED     153 CALLS         154 TOTAL
+                     EDM=2.46068e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.48574e-01   2.76060e-02   2.63656e-05   1.13735e-04
+   2  p1           8.00000e-01   5.54911e-01   5.70613e-03** at limit **
+   3  p2           8.86225e-02   6.47217e-02   6.18128e-05   2.89701e-04
+   4  p3           0.00000e+00     fixed    
+Info in <TCanvas::SaveSource>: C++ Macro file: Pics/tmp/CuCu62/VtxCutBinn2dEtadPhi_trig_h_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.C has been generated
+eta fit cut 0.1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: CorrJetdEtaMethodCanvas
+ FCN=44.0666 FROM MIGRAD    STATUS=CONVERGED     170 CALLS         171 TOTAL
+                     EDM=4.79748e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.48574e-01   2.76060e-02   2.63656e-05  -6.83880e-03
+   2  p1           8.00000e-01   5.54948e-01   5.71207e-03** at limit **
+   3  p2           8.86220e-02   6.47216e-02   6.18128e-05  -2.78217e-03
+   4  p3           0.00000e+00     fixed    
+Info in <TCanvas::Print>: png file Pics/tmp/CuCu62/VtxCutBinn2dEtadPhi_trig_h_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.png has been created
+ MINUIT WARNING IN PARAM DEF
+ ============== STARTING VALUE OUTSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE1 BROUGHT BACK INSIDE LIMITS.
+ FCN=7.50156 FROM MIGRAD    STATUS=CONVERGED     311 CALLS         312 TOTAL
+                     EDM=1.43855e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.03866e+00   2.75560e-02   2.47278e-04   2.12842e-05
+   2  p1           9.63080e-03     fixed    
+   3  p2           2.91506e-02   4.55523e-02   3.67267e-04  -1.56657e-06
+   4  p3           0.00000e+00     fixed    
+   5  p4           2.20425e-01   1.99995e-01   9.18582e-04  -2.18778e-06
+Info in <TCanvas::SaveSource>: C++ Macro file: Pics/tmp/CuCu62/VtxCutBinn2dEtadPhi_trig_h_pT30_60_assoc_h_pT15_100_CentBin12DIntegrated.C has been generated
+Info in <TCanvas::SaveSource>: C++ Macro file: Pics/tmp/CuCu62/VtxCutBinn2Histo2DCB1To6.C has been generated

@@ -1,0 +1,37 @@
+ls\ProvidesPackage{nattrass}
+\newcommand{\sNNtwohundred}{$\sqrt{s_{NN}}$ = $200$ $GeV$\xspace}
+\newcommand{\sNNsixtytwo}{$\sqrt{s_{NN}}$ = $62$ $GeV$\xspace}
+\newcommand{\sNN}{$\sqrt{s_{NN}}$\xspace}
+\newcommand{\stdassoc}{$1.5$ $GeV/c$ $<$ $p_T^{associated}$ $<$ $p_T^{trigger}$\xspace}
+\newcommand{\stdtrig}{$3.0$ $<$ $p_T^{trigger}$ $<$ $6.0$ $GeV/c$\xspace}
+\newcommand{\pttrig}{$p_T^{trigger}$\xspace}
+\newcommand{\ptassoc}{$p_T^{associated}$\xspace}
+\newcommand{\npart}{$N_{part}$\xspace}
+\newcommand{\pT}{$p_T$\xspace}
+\newcommand{\highpT}{high-$p_T$\xspace}
+\newcommand{\jet}{\textit{Jet}\xspace}
+\newcommand{\ridge}{\textit{Ridge}\xspace}
+\newcommand{\kaon}{$K^0_S$\xspace}
+\newcommand{\lam}{$\Lambda$\xspace}
+\newcommand{\alam}{$\bar{\Lambda}$\xspace}
+%\newcommand{\lamalam}{$\frac{\Lambda+\bar{\Lambda}}{2}$\xspace}
+\newcommand{\lamalam}{$\Lambda+\bar{\Lambda}$\xspace}
+\newcommand{\xibary}{$\Xi$\xspace}
+\newcommand{\axibary}{$\bar{\Xi}$\xspace}
+\newcommand{\omegabary}{$\Omega$\xspace}
+\newcommand{\aomegabary}{$\bar{\Omega}$\xspace}
+\newcommand{\xiaxi}{$\frac{\Xi+\bar{\Xi}}{2}$\xspace}
+\newcommand{\omegaaomega}{$\frac{\Omega+\bar{\Omega}}{2}$\xspace}
+\newcommand{\pp}{$p+p$\xspace}
+\newcommand{\Cu}{$Cu+Cu$\xspace}
+\newcommand{\Au}{$Au+Au$\xspace}
+\newcommand{\dAu}{$d+Au$\xspace}
+\newcommand{\AplusA}{$A+A$\xspace}
+\newcommand{\MeV}{MeV/c\xspace}
+\newcommand{\GeV}{GeV/c\xspace}
+\newcommand{\dphi}{$\Delta\phi$\xspace}
+\newcommand{\deta}{$\Delta\eta$\xspace}
+\newcommand{\vtwo}{$v_2$\xspace}
+\newcommand{\nearside}{near-side\xspace}
+\newcommand{\awayside}{away-side\xspace}
+\newcommand{\baryontomeson}{$\frac{\Lambda+\bar{\Lambda}}{2K^0_S}$\xspace}

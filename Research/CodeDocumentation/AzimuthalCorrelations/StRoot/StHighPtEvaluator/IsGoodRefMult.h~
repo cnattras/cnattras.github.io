@@ -1,0 +1,11 @@
+
+#ifndef IsGoodRefMult_h
+#define IsGoodRefMult_h
+#ifndef __CINT__
+#  include "IsGoodRefMult.h"
+#  include <string> 
+#  include "Riostream.h"//needed to use things like cout, which I will use primarily for debugging
+#endif
+bool IsGoodRefMult(const string dataset,int refmult);
+bool IsGoodRefMult(const char *dataset, int refmult);
+#endif

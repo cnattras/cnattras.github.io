@@ -1,0 +1,208 @@
+\chapter{Experiment\label{experiment}}
+\section{The Relativistic Heavy Ion Collider\label{RHIC}}
+%Thomas's lecture explains things clearly, this should be stolen from
+%http://rhig.physics.yale.edu/~ullrich/talks/LesHouches2008-LECTURE_1.pdf
+\begin{figure}[hb!]
+  \centering\resizebox{15cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/RHIC.eps}}\\
+
+  \caption[Aerial view of RHIC.]
+  {Aerial view of the Relativistic Heavy Ion Collider \cite{UllrichLesHouches}.
+  \label{RHICPic}}
+\end{figure}
+
+The Relativistic Heavy Ion Collider (RHIC) is located in Upton, NY on Long Island and is approximately 1.2 km in diameter.  An aerial view of RHIC is shown in \Fref{RHICPic}.  RHIC spans nearly two orders of magnitude in collision energy per nucleon.  RHIC was designed to collide nuclei with an atomic mass, A, ranging from A = 1 to A \roughly 200.  It is also capable of asymmetric collisions, those between ions with different masses, such as \dAu.  Asymmetric collisions are useful for distinguishing the effects of cold nuclear matter (modification of the initial state in a nucleus) versus hot nuclear matter (such as a QGP).  To date RHIC has taken data from the collision energies and systems shown in \Tref{SpeciesEnergyTable}.  RHIC is also the only collider in the world capable of colliding both longitudinally and transversely polarized protons.  Polarized proton collisions are used to study the origin of the spin of the proton.  RHIC has now collided polarized protons at 500 GeV.  Design specifications for RHIC are listed in \Tref{RHICTable}.  These specifications have now been exceeded.  \Au collisions can reach energies as low as 2.5 GeV/u.  \pp collisions with up to 109 bunches in each ring and at luminosities of up to 9 x $10^{31}$ cm$^{-2}$ s$^{-1}$ were obtained in the 2009 run.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c c}
+\hline
+Collision system & \sNN (GeV)  \\ \hline
+\pp & 200, 500 \\
+\dAu & 200 \\
+\Cu & 62, 200\\
+\Au & 9, 20, 62, 130, 200\\
+\hline
+\end{tabular}
+ \caption[Collision systems and energies at RHIC]{Collision systems and energies produced at RHIC so far.}
+\label{SpeciesEnergyTable}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c c c}
+\hline
+ &  \Au & \pp \\ \hline
+%Au \ridge&  & 438 $\pm$ 4   \\ 
+Beam energy & 9-100 GeV/u & 30-250 GeV/u \\ 
+Number of bunches/ring & 60 & 60 \\
+%From RHIC NIM
+%Luminosity & 2 x $10^{26} cm^{-2} s^{-1}$ & 1.4 x $10^{31} cm^{-2} s^{-1}$ \\
+%from Thomas
+Luminosity & 12 x $10^{26} $cm$^{-2} $ s$^{-1}$ & 2 x $10^{31}$ cm$^{-2}$ s$^{-1}$ \\
+Luminosity lifetime & ~10 hr & $>$ 10 hr \\ \hline
+\end{tabular}
+ \caption[RHIC design specifications]{RHIC design specifications \cite{RHICNIMOverview,UllrichLesHouches}.}
+\label{RHICTable}
+\end{center}
+\end{table}
+
+
+The ion beams are created by stripping the electrons off of the nuclei and accelerating the nuclei to their full energy in several stages.  For gold ions, negatively charged ions from a pulsed sputter ion source are stripped of some of their electrons by shooting them through a foil on the positive terminal of the Tandem Van de Graaff.  In the second stage the ions, now positively charged, are accelerated towards the negative terminal of the Van de Graaff.  After exiting the Van de Graaff the nuclei have an energy per nucleon of 1 MeV/u.  More electrons are stripped as the ions exit the Van de Graaff.  The ions are passed through bending magnets to select only +32 charge states.  The Booster Synchrotron accelerates these ions to 95 MeV/u, and more electrons are stripped as the ions leave the Booster synchrotron leaving the ions in a +77 charge state.  The Alternating Gradient Synchrotron (AGS) accelerates these ions to 10.8 GeV/u.  As the ions leave the AGS, the remaining electrons are stripped and ions are brought to their injection energy and charge of +79.  They are injected into RHIC through the transfer AGS-to-RHIC Beam Transfer Line four bunches at a time.  Protons are injected from a linear proton accelerator, the LINAC, into the AGS and then into RHIC.  Full details are given in \cite{RHICNIMOverview}.
+
+RHIC is two concentric storage rings for beams moving in opposite directions and has six interaction points where the beams can be collided.  There were experiments in four of these interaction points.  Phobos and BRAHMS (Broad RAnge Hadron Magnetic Spectrometers) both took their last data in the spring of 2006.  PHENIX (Pioneering High Energy Nuclear Interactions eXperiment) and STAR (Solenoidal Tracker At RHIC) are both still taking data.  The data in this thesis are from the STAR detector taken in 2004 and 2005.
+
+
+\section{The STAR detector\label{STAR}}
+
+
+\begin{figure}[ht]
+  \centering\resizebox{15cm}{!}{
+  \rotatebox{0}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STAR.eps}}}\\
+
+  \caption[The STAR Detector]
+  {The STAR detector with a section cut away to show the inner detectors \cite{NIMSTAROverview}.
+  \label{STARDetector}}
+\end{figure}
+
+The Solenoidal Tracker At RHIC (STAR) detector comprises multiple subsystems.  \Fref{STARDetector} shows a cut-away view of STAR and \Fref{STARDetectorProfile} shows a profile view in the detector configuration for the 2001 run.  STAR was designed to be most sensitive to charged hadrons.  Most subsystems sit inside of the STAR magnet, a large solenoidal magnet with a roughly uniform magnetic field up to 0.5 T parallel to the beam pipe.  The primary tracking detector is the Time Projection Chamber (TPC), discussed in greater detail in \Sref{TPCText}.  The TPC has full azimuthal acceptance and a maximum acceptance in pseudorapidity of $|\eta| \leq 1.8$.  The TPC extends from a radius of 50 cm to 200 cm from the beam axis and is 4.2 m in length along the beam axis.  The TPC is only sensitive to charged particles, although the decay vertices from neutral hadrons can be reconstructed from tracks of charged decay products left in the TPC.
+
+\begin{figure}[ht]
+  \centering\resizebox{15cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STARProfile.eps}}\\
+
+  \caption[Profile of the STAR Detector]
+  {A profile view of the STAR detector \cite{NIMSTAROverview}.  This was the detector configuration for the \Cu run in 2005.
+  \label{STARDetectorProfile}}
+\end{figure}
+
+In addition to the TPC, there are Forward Time Projection Chambers (FTPC) with coverage in pseudorapidity of 2.5 $< | \eta | <$ 4 and complete azimuthal coverage.  The maximum number of hits possible in the FTPC is 10.  Due to this small number of hits, the momentum resolution of these tracks is worse than in the TPC.  The FTPC can also be used to determine the reaction plane.
+
+There are two silicon detectors, the Silicon Vertex Tracker (SVT) and the Silicon Strip Detector (SSD) inside the inner field cage of the TPC.  These detectors have hit resolutions of approximately 100 \mum and 200 \mum, respectively.  The three layers of the SVT range from radii of 7, 11, and 15 cm from the beam pipe.  The single silicon layer SSD is located at 23 cm radially from the beam pipe.  These silicon detectors have the capacity to provide more accurate tracking closer to the beam pipe, but these detectors were only used in the 2005 run and later.
+
+There are two electromagnetic calorimeters that can be used for measurements of electrons, photons, and triggering.  The Barrel Electromagnetic Calorimeter (BEMC) has full acceptance in azimuth and an acceptance of $| \eta |<$ 1.  The Endcap Electromagnetic Calorimeters (EEMC) have full azimuthal acceptance and an acceptance of 1 $< \eta <$ 2.  All electromagnetic calorimeters have shower maximum detectors to distinguish signals left by hadrons from those left by photons and electrons.
+
+
+The Central Trigger Barrel (CTB) and the Zero Degree Calorimeters (ZDC) are primarily used for triggering  on central events.  The CTB is an array of scintillator slats that surround the TPC and trigger on the flux of charged particles at midrapidity.  The ZDCs sit 18 m away from the interaction region at an angle of $<$2 mrad from the interaction region along the beam pipe.  The ZDCs measure the energy deposited by neutral particles in the forward direction, primarily the spectator neutrons.  In \dAu collisions, a signal is required in the ZDC from the neutron in the deuteron to ensure that a collision occurred.  The ZDCs can also be used to determine the reaction plane.  Each experiment at RHIC has identical ZDCs to allow experiments to cross-calibrate centrality definitions.
+
+\begin{figure}[ht]
+  \centering\resizebox{9cm}{!}{
+  \rotatebox{-90}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/zdc_vs_ctb.eps}}}\\
+
+  \caption[The signal in the ZDC vs the signal in the CTB]
+  {The signals recorded in the Zero Degree Calorimeter versus the signals recorded in the Central Trigger Barrel in \Au collisions at \sNN = 130 GeV \cite{NIMSTAROverview}.
+  \label{STARZDCCTB}}
+\end{figure}
+
+\Fref{STARZDCCTB} shows the signal in the ZDCs versus the signal in the central trigger barrel.  Peripheral events deposit energy in the ZDCs because fragments from the nucleus are only slightly deflected from the beam pipe.  The energy deposit in the ZDC does not constrain the centrality because a small signal in the ZDCs may be recorded in both peripheral and central collisions.  Peripheral collisions may only leave a few neutrons traveling along the beam axis to be measured by the ZDCs; in the most central collisions, all of the neutrons participate in the collision, leaving no neutrons for detection by the ZDCs.   However, the larger the signal in the central trigger barrel the more central the collision.  The CTB and ZDC combined allow STAR to trigger on a variety of collision centralities.
+
+
+\subsection{The Time Projection Chamber\label{TPCText}}
+
+\begin{figure}[ht]
+  \centering\resizebox{15cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCFieldCage.eps}}\\
+
+  \caption[The field cage of the TPC]
+  {Diagram of the field cage of the TPC \cite{NIMSTARTPC}.
+  \label{TPCFieldCage}}
+\end{figure}
+
+In a Time Projection Chamber (TPC), charged particles travel through a volume of gas, leaving a trail of ionization behind them which reveals the path followed by the particle.  The STAR TPC is cylindrical around the beam pipe and sits inside the STAR magnet with a magnetic field of up to 0.5 T parallel to the beam pipe.  The TPC central membrane and field cage create an electric field of 135 V/cm that is parallel to the beam pipe.  The TPC is 4.2 m long with an outer diameter of 4 m and an inner diameter of 1 m.  The magnetic field bends charged particles as they move through the TPC, allowing determination of momentum.
+
+When a charged particle travels through the TPC, it knocks off electrons from the molecules in the gas.  These ionization electrons are accelerated through the TPC by the electric field until they reach a constant speed which is a characteristic of the gas and the electric field.  They move roughly two orders of magnitude faster than the ionized gas and therefore will be collected first.  For sufficiently low event rates, the ions can be neglected; for higher rates of events, ions can create significant local distortions in the electric field that alter the trajectory of nearby ionization electrons and can impair momentum resolution unless these field distortions are corrected for.  The position in the plane perpendicular to the beam (the x-y plane) is determined by the location where the ionization electrons are collected on the readout pads.  The position in the direction along the beam axis (the z-axis) is determined by the time that it takes the ionization electrons to reach the endcap, hence the name Time Projection Chamber.
+
+A significant advantage of the TPC is its low material budget (2.43\% $X_0$) which reduces the probability of photon conversion as they pass through the TPC and reduces the probability for hadrons to scatter in the TPC.  The drift volume of the TPC is filled with P10 gas (10\% methane and 90\% argon) held at 2 mbar above atmospheric pressure.  The slight overpressure reduces impurities in the gas since any leaks will cause P10 to leak out instead of causing air to leak in.  Water and oxygen dramatically change the drift velocity of electrons and can capture electrons, reducing the efficiency of the response of the TPC to charged particles.  Operating the TPC near the maximum electron drift speed reduces the effect of symmetry magazine slight fluctuations in the electric field.  P10 gas has its maximum electron drift speed (5.45 cm/s) at a relatively low electric field, reducing the overall electric field needed.
+
+The drift volume sits in a uniform field of \roughly 135 V/cm created by the field cage of the TPC shown in \Fref{TPCFieldCage}.  The central membrane of the field cage is at roughly the center of the interaction region and is held at a voltage of 28 kV.  The end caps are grounded, and the field is made more uniform by 182 equipotential rings on each of the inner and outer field cages, connected by 2 $\Omega$ resistors.  This results in variations in the electric field of no more than about 2\% in the entire TPC volume \cite{NIMSTARTPC,Gene}.  The field accelerates the ionization electrons towards the endcaps.  
+
+\begin{figure}[ht]
+  \centering\resizebox{12cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/MWPC.eps}}\\
+%This figure was actually stolen from Sevil's thesis but I think that it actually originated elsewhere
+  \caption[A readout chamber of the TPC]
+  {Arrangement of a readout chamber of the TPC \cite{NIMSTARTPCRO}.
+  \label{TPCMWPC}}
+\end{figure}
+
+The endcaps comprise Multiwire Proportional Chambers (MWPC) with readout pads, as shown in \Fref{TPCMWPC}.  The readout chambers have three wire planes, a gating grid, a ground plane, and anode wires.
+When the gating grid is closed, voltages on neighboring wires alternate between $\pm$75V, creating an electric field that allows neither positive nor negative charges to pass.  To open the grid all wires are held at 110V.  Field lines for a gating grid in open and closed configurations are shown in \Fref{GatingGridEField}.
+
+\begin{figure}[ht]
+  \centering\resizebox{8cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/gatinggrid.eps}}\\
+%This figure was actually stolen from Sevil's thesis but I think that it actually originated elsewhere
+  \caption[Field lines around a gating grid]
+  {Field lines for a gating grid in the (a) closed and (b) open configurations \cite{PDBook}.
+  \label{GatingGridEField}}
+\end{figure}
+
+The gating grid is normally closed to minimize the buildup of ions in the readout chamber.  The gating grid opens when a trigger is received.  Since electrons knocked out of gas molecules in the drift region of the TPC move much faster than the ions and travel in the opposite direction, only electrons will enter the readout chamber while the gating grid is open.  Electrons passing through the gating grid will accelerate towards the anodes, initiating an avalanche.  In the STAR TPC, the number of electrons in the avalanche is roughly proportional to the initial charge.  Electrons from this avalanche are collected on the wires, but a cloud of positively charged ions remains.  An image charge will form on the readout plane and it is the image charge that is recorded.
+
+The width of the cloud of charge in the STAR TPC is diffused by 185 \mum/$\sqrt{cm}$ and 320 \mum/$\sqrt{cm}$ traveled through TPC in the transverse and longitudinal directions, respectively.  The width of the image charge collected on the readout pad is also dependent on the dip angle and crossing angle of the track.  The dip angle is the angle between the particle's momentum and the drift direction.  The crossing angle is that between the particle's momentum and the direction normal to the pad row.  The size of the image charge is smallest for short drift distances, small crossing angles, and small dip angles.  The average width of the image charge is 350 \mum in the transverse direction and 700 \mum in the longitudinal direction, smaller than the typical TPC pad.
+
+\begin{figure}[ht]
+  \centering\resizebox{13cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPC_side.eps}}\\
+%This figure was actually stolen from Sevil's thesis but I think that it actually originated elsewhere
+  \caption[Arrangement of the readout modules of the TPC]
+  {Arrangement of the readout modules of the TPC \cite{salur}.
+  \label{TPCSide}}
+\end{figure}
+
+
+The readout modules are split into 12 sectors on each end, as shown in \Fref{TPCSide}.  The beampipe goes through the center.  The small gaps between the readout pads lead to a slightly lower geometric acceptance roughly every 30\textdegree.  Each sector of the readout plane is divided into outer and inner sectors.  In the inner sector the density of tracks is greater, so the pads are smaller (2.85 mm x 11.5 mm).  In the outer sector the pads are larger (6.2 mm x 19.5 mm) to increase the charge collected by each pad.  The greater the charge collected the greater the resolution in the energy loss per unit length, dE/dx, measured in the TPC.  
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TPCdEdxMod.eps}}\\
+
+  \caption[Energy loss per unit length in the STAR TPC.]
+  {The energy loss per unit length in the STAR TPC in \Au collisions at \sNN = 130 GeV \cite{NIMSTARTPC}.
+  \label{TPCdEdx}}
+\end{figure}
+
+dE/dx can be used to identify particles.  The energy loss per unit length of particles traveling through matter at rest is described by the Bethe-Bloch equation:
+\begin{equation}\label{bethebloch}
+ -\frac{dE}{dx} = \frac{4\pi}{m_{e}c^{2}} \cdot \frac{nz^{2}}{\beta^{2}} \cdot (\frac{e^2}{4\pi\epsilon_{0}})^2 \cdot [ln(\frac{2m_{e}c^{2}\beta^{2}}{I \cdot (1-\beta^{2}})-\beta^{2}].
+\end{equation}
+$m_e$ is the mass of the election, z is the charge of the particle in units of the charge of the electron, e, c is the speed of light, $\epsilon$ is the permittivity of free space, $\beta$ is the particle's speed in units of the speed of light, n is the electron density of the target, and I is the mean excitation potential of the target.  Energy loss due to interactions with electrons in atoms is \roughly 4000 times greater than energy loss with nuclei.  
+As \Eref{bethebloch} shows, this energy loss is dependent on the velocity, allowing separation of particles when their momentum is known.  The distribution of the measured dE/dx versus the reconstructed track momentum is plotted in \Fref{TPCdEdx}.  Clear bands are seen for \pion, K, p, $\mu$, e, and deuterons.
+
+%http://www.cs.unc.edu/~welch/media/pdf/kalman_intro.pdf
+The readout from the TPC gives a series of points along the trajectory of charged particles, called hits.  This collection of hits comes from all charged particles from an event and individual tracks must be reconstructed from these hits.  This is done using a Kalman filter, an optimal recursive data processing algorithm used for solving for the location of a particle from the measurements of its position at discrete times \cite{Kalman}.  The Kalman filter takes the TPC hits and their errors as input and returns the tracks left by particles in an event.
+
+\begin{figure}[ht]
+  \centering\resizebox{9cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STARAuAuEvent.eps}}\\
+
+  \caption[An \Au event in the STAR TPC]
+  {An \Au event at \sNN = 130 GeV in the STAR TPC \cite{NIMSTAROverview}.
+  \label{STARAuAuEvent}}
+\end{figure}
+
+
+\begin{figure}[ht]
+  \centering\resizebox{12cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCVertRes.eps}}\\
+
+  \caption[Vertex resolution in the TPC]
+  {Vertex resolution in the TPC in \Au collisions at \sNN = 130 GeV \cite{NIMSTARTPC}.
+  \label{VertexResolution}}
+\end{figure}
+
+\Fref{STARAuAuEvent} shows a typical central \Au collision at \sNN = 130 GeV in the TPC.  Such an event in \Au leaves over 1000 charged particles in the TPC.  The more tracks in an event the better the location of the primary vertex can be determined.  The resolution increases with the number of tracks, as shown in \Fref{VertexResolution}.  Central events in \Cu leave \roughly 200 tracks in the TPC, so the error on the location of the vertex is around 0.4 mm in a central \Au collisions but more than 0.7 mm in central \Cu collisions.
+
+
+\begin{figure}[ht]
+  \centering\resizebox{12cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCNimMomRes.eps}}\\
+
+  \caption[Momentum resolution of the TPC]
+  {Transverse momentum resolution of the TPC in \Au collisions at \sNN = 130 GeV \cite{NIMSTARTPC}.
+  \label{MomentumResolution}}
+\end{figure}
+
+The momentum resolution of tracks fit through the primary vertex as a function of \pT in the TPC is shown in \Fref{MomentumResolution}.  Above 1 \GeV, it becomes more difficult to distinguish the curvature of the track.  This means that at high \pT the relative error in the momentum increases with \pT.  At low momenta, the resolution is affected by the energy loss in the TPC because the dE/dx is a greater percentage of the particle's energy.  Particles which lose a significant proportion of their energy in the TPC will not travel all the way through the TPC and these tracks will be shorter, also decreasing the momentum resolution.  Energy loss in the TPC is dependent on the mass of the particle so there are differences in the resolution at low momenta, as seen in \Fref{MomentumResolution}.  %The extreme limit is for particles with \pT $<$  75 \MeV, which have a radius of curvature smaller than the distance from the beam pipe to the TPC  and will not enter the TPC.

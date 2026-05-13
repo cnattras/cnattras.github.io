@@ -1,0 +1,294 @@
+
+
+
+
+\documentclass[aps,prc,twocolumn,groupedaddress,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}
+\usepackage [dvips]{graphics, color}
+%\usepackage{wrapfig}
+\usepackage{xspace}
+%\usepackage{subfig}
+\usepackage{textcomp}
+
+%cite puts references in order and combines those in numerical order
+%\usepackage{cite}
+
+\newcommand{\sNNtwohundred}{$\sqrt{s_{NN}}$ = 200 GeV\xspace}
+\newcommand{\sNNsixtytwo}{$\sqrt{s_{NN}}$ = 62 GeV\xspace}
+\newcommand{\sNN}{$\sqrt{s_{NN}}$\xspace}
+\newcommand{\stdassoc}{$1.5$ GeV/c $<$ $p_T^{associated}$ $<$ $p_T^{trigger}$\xspace}
+\newcommand{\stdtrig}{$3.0$ $<$ $p_T^{trigger}$ $<$ $6.0$ GeV/c\xspace}
+\newcommand{\trigrange}[2]{#1 $< p_T^{trigger} < $ #2 \GeV \xspace}
+\newcommand{\assocrange}[2]{#1 $< p_T^{associated} < $ #2 \GeV \xspace}
+\newcommand{\pttrig}{$p_T^{trigger}$\xspace}
+\newcommand{\ptassoc}{$p_T^{associated}$\xspace}
+\newcommand{\npart}{$N_{part}$\xspace}
+\newcommand{\pT}{$p_T$\xspace}
+\newcommand{\highpT}{high-\pT}
+\newcommand{\jet}{jet-like correlation\xspace}
+\newcommand{\ridge}{ridge\xspace}
+\newcommand{\pp}{$p+p$\xspace}
+\newcommand{\Cu}{$Cu+Cu$\xspace}
+\newcommand{\Au}{$Au+Au$\xspace}
+\newcommand{\dAu}{$d+Au$\xspace}
+\newcommand{\AplusA}{$A+A$\xspace}
+\newcommand{\MeV}{MeV/c\xspace}
+\newcommand{\GeV}{GeV/c\xspace}
+\newcommand{\dphi}{$\Delta\phi$\xspace}
+\newcommand{\deta}{$\Delta\eta$\xspace}
+\newcommand{\vtwo}{$v_2$\xspace}
+\newcommand{\as}{away-side\xspace}
+\newcommand{\ns}{near-side\xspace}
+\newcommand{\nearside}{near-side\xspace}
+\newcommand{\awayside}{away-side\xspace}
+\newcommand{\jl}{jet-like\xspace}
+\newcommand{\PT}{PYTHIA\xspace}
+\newcommand{\baryontomeson}{$\frac{\Lambda+\bar{\Lambda}}{2K^0_S}$\xspace}
+\newcommand{\ridgeonlyeta}{$0.75 < |\Delta\eta| < 1.75$\xspace}
+\newcommand{\ridgeeta}{$|\Delta\eta| < 1.75$\xspace}
+\newcommand{\jetridgeeta}{$|\Delta\eta| < 0.75$\xspace}
+\newcommand{\ntrig}{$N_{trigger}$\xspace}
+\newcommand{\dNdphideta}{$\frac{1}{N_{trigger}} \frac{d^2N}{d\Delta\phi d\Delta\eta}$\xspace}
+\newcommand{\dNjetdphi}{$\frac{1}{N_{trigger}} \frac{dN_{Jet}}{d\Delta\phi}$\xspace}
+\newcommand{\dNjetdeta}{$\frac{1}{N_{trigger}} \frac{dN_{Jet}}{d\Delta\eta}$\xspace}
+\newcommand{\dNridgedphi}{$\frac{1}{N_{trigger}} \frac{dN_{Ridge}}{d\Delta\phi}$\xspace}
+\newcommand{\zTdef}{$z_T = \frac{p_T^{trigger}}{E_{jet}}$\xspace}
+\newcommand{\zT}{$z_T$\xspace}
+\newcommand{\fref}[1]{figure~\ref{#1}}
+\newcommand{\tref}[1]{table~\ref{#1}}
+\newcommand{\Fref}[1]{Figure~\ref{#1}}
+\newcommand{\Tref}[1]{Table~\ref{#1}}
+\newcommand{\Eref}[1]{(~\ref{#1})}
+\newcommand{\JPG}{{\it J. Phys. G: Nucl. Phys.} } 
+\newcommand{\PL}{{\it Phys. Lett.} }
+\newcommand{\etal}{{\it et al\/}\ }
+\newcommand{\roughly}{$\approx$\xspace}
+\newcommand{\njet}{$Y_{Jet}$\xspace}
+\newcommand{\nridge}{$Y_{Ridge}$\xspace}
+
+\begin{document}
+
+\title{System size and energy dependence of \nearside jet-like correlations}
+\author{PAs: Christine Nattrass, Jana Bielcikova, J\"orn Putschke \hspace{1.5cm} Target Journal:PRC}
+\date{\today}% It is always \today, today,
+
+\begin{abstract}
+Two-particle \highpT triggered correlations in azimuth (\dphi) and pseudorapidity (\deta) in \Cu and \Au collisions at \sNNsixtytwo and \sNNtwohundred in STAR at RHIC are presented.  The centrality (\npart) and transverse momentum (\ptassoc, \pttrig) dependence of the \nearside of the particles associated with a trigger particle at \deta $\approx$ 0 and \dphi $\approx$ 0 is studied and compared to the yield in \dAu collisions and simulations from \PT.  The \ns yield is separated into a jet-like component, narrow in both \dphi and \deta, and the \ridge, narrow in \dphi but broad in \deta.  Within errors the behavior of the \jl component is remarkably consistent for different collision systems and with \PT at a given \sNN.  This suggests that this \jl structure at \deta $\approx$ 0 and \dphi $\approx$ 0 is produced dominantly fragmentation.  \PT calculations suggest that for the same \pttrig different jet energies are selected, providing a tool to study the production of the correlations at large \deta, the \ridge, at different jet energies.  The \ridge is found to be substantially smaller in collisions at \sNNsixtytwo than in collisions at \sNNtwohundred at the same \npart.  This is potentially a powerful measurement to test models used to describe production mechanisms for the \ridge.
+\end{abstract}
+\pacs{25.75.-q,21.65.Qr,24.85.+p,25.75.Bh}
+
+\maketitle
+\section{Introduction}
+
+Jets are a useful probe of the hot, dense medium created in heavy-ion collisions at the Relativistic Heavy Ion Collider (RHIC) at Brookhaven National Laboratory.  Jet quenching has been observed in the nuclear modification factors at high-\pT [Which paper(s)?].  Jets have been studied at RHIC using high-\pT triggered di-hadron correlations.  A high-\pT hadron, the trigger particle, is selected and the distribution of high-\pT hadrons, the associated particles, relative to the trigger particle is studied.  The peak near the trigger particle is called the \ns peak and the peak 180\textdegree from the trigger particle in azimuth is called the \as peak.
+
+The \as in di-hadron correlations shows significant modification in \Au relative to \pp and \dAu at \sNNtwohundred.  For low \ptassoc, the amplitude of the \as peak is greater and the shape is modified in \Au \cite{starZYAM,STARConical:2008nd}.  At intermediate \pT (\pttrig{4}{6}, \ptassoc{2}{4}), the \as disappears entirely \cite{DisappearanceAwaySide}.  At higher \pT, the \as reappears without shape modification, but the \as is smaller in \Au collisions than in \pp and \dAu \cite{PunchThrough}.
+
+The \ns is also significantly modified in \AplusA, a phenomenon not predicted before RHIC data were available.  In \pp and \dAu, there is a peak narrow in azimuth (\dphi) and pseudorapidity (\deta) around the trigger particle.  This peak is also present in \Au collisons, but an additional structure which is narrow in azimuth but broad in pseudorapidity has been observed in \Au collisions at \sNNtwohundred.  This feature, called the \ridge, is roughly independent of \deta within the STAR acceptance, $|\Delta\eta|<2.0$, within errors, and persists to high \pT (\pttrig \roughly 7 \GeV).  While the spectrum of particles in the jet-like correlation gets harder with increasing \pttrig, the spectrum of particles in the \ridge shows no dependence on \pttrig and the inverse slope parameter is comparable to that of the inclusive hadron spectrum \cite{RidgePaper}.  A similar broad correlation in pseudorapidity is evident in untriggered di-hadron correlations \cite{MiniJets}.
+
+Several mechanisms for the production of the \ridge have been proposed.  It has been proposed that the \ridge is not actually caused by the jet but is an artifact of radial flow and surface biased emission of the trigger particle which causes an apparent correlation between particles from the bulk and high-\pT trigger particles \cite{Sergei,Pruneau:2007ua}.  Several models propose that the \ridge arises through a plasma instability formed as the jet moves through the medium \cite{Majumder:2006wi}.  Long-range pseudorapidity correlations formed in an initial state Glasma have also been proposed as a mechanism for the \ridge \cite{Dumitru:2008wn,Glasma2}.  The momentum-kick model proposes that the \ridge forms as a fast parton traveling through the medium loses energy through collisions with partons in the medium, causing those partons to be correlated in space with the fast parton \cite{Wong:2008yh,Wong:2007mf,Wong:2007pz}.  Recombination has also been proposed as a mechanism for the production of the \ridge \cite{Hwa:2008jt,Hwa:2008um,Chiu:2008ht}.
+
+While there are many models available, there are few calculations which are readily compared to the experimental data.  In this paper experimental studies are extended to include data from \Au collisions at \sNNsixtytwo and data from \Cu collisions at both \sNNsixtytwo and \sNNtwohundred.  These data give the collision energy and system size dependence of the \ridge, which may provide a more robust test of models.
+
+\section{Method}
+\paragraph*{Event and track selection}
+%\textit{Numbers and details written in italics are to be filled in with proper information later.  This is to speed up the drafting process.}
+
+%Event numbers added 13 Feb from new TTrees.
+%CuCu200 11,788,614+26,593,233
+%CuCu62 23,499,447
+%AuAu62 8027863
+Data from \Au collisions from RHIC's fourth year (2004) and \Cu collisions from RHIC's fifth year at \sNNsixtytwo and \sNNtwohundred are used for this study.  24M events from \Cu collisions at \sNNsixtytwo, 38M events from \Cu collisions at \sNNtwohundred, 8M events from \Au collisions at \sNNsixtytwo, and 24M minimum bias and 25M central events from \Au collisions at \sNNtwohundred were used.  The STAR Time Projection Chamber (TPC)\cite{STARNIM} was used for tracking.  The centrality was determined from the number of tracks at mid-rapidity ($|\eta|<0.5$) with a distance of closest approach (DCA) to the primary vertex of less than 3 cm and at least 15 fit points from the TPC.  Tracks used in the analysis were required to have at least 15 hit points in the TPC, a DCA to the primary vertex of less than 1 cm, and a pseudorapidity $|\eta|<1.0$.
+\paragraph*{Correlation technique}
+As in previous studies of the \ridge\cite{RidgePaper}, a \highpT trigger particle is selected and the distribution of associated tracks relative to that trigger in pseudorapidity (\deta) and azimuth (\dphi) \dNdphideta, where \ntrig is the number of trigger particles, is studied.  All results shown use \stdtrig and \stdassoc unless otherwise noted.  The correlations are corrected for a finite single track efficiency, track merging, and finite TPC acceptance in \dphi and \deta, described below.
+\paragraph*{Single track efficiency correction}
+Correlations must be corrected for the single track reconstruction efficiency in the STAR TPC.  The charged track efficiency is determined by simulating the detector response to a charged particle and embedding these hits into a real event.  This hybrid event is analyzed using the same software used for real events, and the efficiency for detecting a single track as a function of \pT, $\eta$, and centrality is determined from the number of simulated particles which were successfully reconstructed.  The single track effciency is roughly constant for \pT $>$ 2 \GeV and ranges from around 70\% for central \Au events to around 90\% for peripheral \Cu events.  When correlating particles, a track pair is corrected for the efficiency of the associated particles.  Since the correlations are normalized by the number of trigger particles, no correction for the efficiency of the trigger particle is necessary.
+
+\paragraph*{Acceptance correction}
+Within the TPC with the restriction that $|\eta|<1.0$, the detector has a limited acceptance for track pairs.  For \deta \roughly $0$, the geometric acceptance of the TPC for track pairs is \roughly 100\%, however, near \deta \roughly $2$ the acceptance is approximately 0\%.  In azimuth the TPC acceptance is limited by the 12 sector boundaries, leading to dips in the acceptance of track pairs in azimuth.  To correct for the geometric acceptance, the distribution of tracks as a function of $\eta$ and $\phi$ was recorded for both trigger and associated particles.  A random $\eta$ and $\phi$ was chosen from the from the distribution of trigger particles and from the distribution of associated particles to reconstruct a random \deta and \dphi.  This was done for $10^6$ random pairs for each correlation measurement.  This distribution was then normalized to give a geometrical efficiency for finding a track pair.
+
+\paragraph*{Track merging correction}
+
+There is also a significant loss of track pairs at small \dphi and small \deta due to track merging and track crossing.  This effect is further described in \cite{STARHBT} and the correction for it for \highpT triggered correlations is described in greater detail in \cite{PIDPaper}.
+%There are five dips in \dphi-\deta, one at \dphi \roughly 0, \deta \roughly 0 and four corresponding to the possible combinations of trigger and associated particle helicities. The number of overlapping hits in a track pair is calculated and if the number of overlapping hits exceeds 10\% of the number of possible hits in the TPC, the track pair is thrown out even if it was successfully reconstructed.  This is done for both mixed events and real events, which mostly corrects for the dip at the center.  The other four dips are corrected for by taking advantage of symmetries and reflecting data points to fill in the dips.  Otherwise the method is as described above.  This is computationally intensive and is therefore only done in the small \dphi-\deta range.
+The correction is done as described in \cite{PIDPaper} for each di-hadron correlation function with the appropriate cuts on \pttrig and \ptassoc.
+\paragraph*{Yield extraction}
+
+To determine the yield of the jet-like correlation, the assumption is made that the \ridge is independent of \deta, consistent with the results in \cite{RidgePaper}.  The \jl is narrow in both azimuth and pseudorapidity and is found to be contained within \jetridgeeta for the kinematic cuts on \pttrig and \ptassoc applied in this paper.  To determine the \jl yield \njet, the projection of the distribution of particles $\frac{d^2N}{d\Delta\phi d\Delta\eta}$ is taken in two different ranges in pseudorapidity:
+
+\begin{eqnarray}
+  \frac{dY_{ridge}}{d\Delta\phi} & = & 1/N_{trigger} \int\limits_{-1.75}^{-0.75} \frac{d^2N}{d\Delta\phi d\Delta\eta} d\Delta\eta  \nonumber \\
+   & + & 1/N_{trigger} \int\limits_{0.75}^{1.75} \frac{d^2N}{d\Delta\phi d\Delta\eta} d\Delta\eta\\ \label{ridgeeqtn1}
+\frac{dY_{jet+ridge}}{d\Delta\phi} &= &1/N_{trigger} \int\limits_{-0.75}^{0.75} \frac{d^2N}{d\Delta\phi d\Delta\eta} d\Delta\eta\label{jeteqtn1}
+\end{eqnarray}
+
+where \Eref{ridgeeqtn1} contains only the \ridge and \Eref{jeteqtn1} contains both the \jet and the \ridge.  The \jl yield on the \nearside is the integral over $-1<$ \dphi $<1$:
+\begin{equation}
+Y_{jet}^{\Delta\phi} = \int\limits_{-1}^{1} ( \frac{dY_{jet+ridge}}{d\Delta\phi} - \frac{0.75}{1}  \frac{dY_{ridge}}{d\Delta\phi} ) d\Delta\phi. \label{jetphieqtn}
+\end{equation}
+The factor in front of the second term is the ratio of the \deta width in the region containing the \jet and the \ridge to the width of the region containing only the \ridge.  The jet-like yield can also be determined by taking the projection of $\frac{d^2N}{d\Delta\phi d\Delta\eta}$ in \deta on the \ns only:
+\begin{equation} 
+\frac{dN}{d\Delta d\eta} = \int\limits_{-1}^{1} \frac{d^2N}{d\Delta\phi d\Delta\eta} d\Delta\phi \label{jeteqtn2}
+\end{equation}
+and then determining the jet yield by fitting a constant C to the region which contains the \ridge only, $|$ \deta $| >$ 0.75, and integrating over \deta:
+\begin{equation} 
+Y_{jet}^{\Delta\eta} = \int\limits_{-1.75}^{1.75} (\frac{dN}{d\Delta d\eta} - C) d\Delta\eta \label{jeteqtn3}
+\end{equation}
+With these methods for subtracting the \ridge contribution to \njet, the systematic errors due to \vtwo cancel out assuming that \vtwo is roughly independent of \deta, a reasonable assumption in the mid-rapidity range $|\eta| < 1$ based on the available data \cite{phobosFlow1,phobosFlow2}.
+
+To determine \nridge the integration is done over the entire \deta region to minimize the effects of statistical fluctuations in the determination of the background:
+\begin{equation}
+Y_{Ridge} = 1/N_{trigger} \int\limits_{-1.75}^{1.75} \int\limits_{-1}^{1} \frac{d^2N}{d\Delta\phi d\Delta\eta} d\Delta\phi d\Delta\eta - Y_{Jet}.
+\end{equation}
+
+The raw signal has a background due to particles correlated indirectly with each other in azimuth due to their correlation with the reaction plane.  This random background is given by
+\begin{equation}
+\frac{dY_{bkgd}}{d\phi} = B (1 + 2 \langle v_2^{trigger}\rangle \langle v_2^{associated}\rangle \cos(2\Delta\phi) )
+\end{equation}
+The level of the background is determined using the ZYAM method \cite{starZYAM}.
+
+For the all systems and energies, the bounds on \vtwo were determined by comparing different methods for the \vtwo measurement.  \vtwo and systematic errors on \vtwo for \Au \sNNsixtytwo is from \cite{AuAu62Flow}.  \vtwo and systematic errors on \vtwo are as described in \cite{MarkHornerPaper}.  For both energies of \Cu collisions, the nominal value is from $v_2\{CuCu-pp\}$ and The lower bound on the \vtwo is either 0 for the 0-10\% centrality bin or $\sqrt{v_{2,centrality}^2-v_{2,0-10\%}^2\frac{M_{centrality}}{M_{0-10\%}}}$ where M is the mean reference multiplicity, for the other bins.
+%$v_2\{FTPC\}$ is from the event plane method using tracks found in the Forward Time Projection Chamber (FTPC).  $v_2\{CuCu-pp\}$ is the flow measured via azimuthal correlations with non-flow contributions,  as measured in p+p collisions, subtracted.  The higher of the two is used to determine the upper bound on $v_2$.  The lower bound on the \vtwo is either 0 for the 0-10\% centrality bin or $\sqrt{v_{2,centrality}^2-v_{2,0-10\%}^2\frac{M_{centrality}}{M_{0-10\%}}}$ where M is the mean reference multiplicity, for the other bins.  The nominal value for the yield is determined using the background level from the fit and the average of $v_2\{FTPC\}$ and $v_2\{CuCu-pp\}$.
+
+
+\section{Results} 
+\paragraph*{Sample Correlations}
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{JetSamples.eps}
+}}
+\caption{Sample correlations for \stdtrig and \stdassoc for 0-10\% centrality for (a) \Cu at \sNNsixtytwo (b)  \Au at \sNNsixtytwo (c) \Cu at \sNNtwohundred and (d) \Au at \sNNtwohundred.  The dependence of the \jet is shown as a function of \dphi in open symbols and \deta in closed symbols.  Color online.}\label{Figure1a}
+\end{figure}
+
+
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{IntegratedSamples.eps}
+}}
+\caption{Sample correlations for \stdtrig and \stdassoc for 0-10\% centrality for (a) \Cu at \sNNsixtytwo (b)  \Au at \sNNsixtytwo (c) \Cu at \sNNtwohundred and (d) \Au at \sNNtwohundred.  Lines show the background using the ZYAM method with the range of \vtwo used for the determination of the systematic errors.}\label{Figure1b}
+\end{figure}
+
+Examples of the projections on \dphi and \deta of the \jet component are shown in \fref{Figure1a}.  Examples of the projections on \dphi and \deta of the \ridge component are shown in \fref{Figure1b}.  \textit{This section clearly needs some filling in with text.}
+
+\paragraph*{The \jet component}
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{TrigPt.eps}
+}}
+\vspace{-.8cm}
+\caption{Dependence of \jet yield on \pttrig.  The yield is nearly independent of collision system and is consistent with the \dAu.  The shape of the dependence on \pttrig is well described by \PT.  Color online.}\label{Figure1}
+\end{figure}
+
+
+The dependence of the \jet yield on \pttrig for \stdassoc is plotted in \Fref{Figure1}.  The yield increases constantly with \pttrig for both \Cu and \Au and for \sNNsixtytwo and \sNNtwohundred.  There is no difference between \Cu and \Au collisions.  This is consistent with the \jet component arising from fragmentation.  The yield at \sNNsixtytwo is considerable lower than that at \sNNtwohundred.  This is expected if the \jet component comes from fragmentation since, for a fixed \pttrig, the momentum fraction carried by the trigger \zTdef should be higher in \sNNsixtytwo due to the more steeply falling jet spectrum.
+
+
+
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{AssocPt.eps}
+}}
+\vspace{-.8cm}
+\caption{Dependence of \jet yield on \ptassoc.  The key is the same as in \fref{Figure1}.  The yield is nearly independent of collision system and is consistent with the \dAu.  The spectrum from \PT is slightly harder, which may explain why the \pttrig dependence must be scaled.  Color online.}\label{Figure2}
+\end{figure}
+
+\begin{table}
+\caption{Inverse slope parameter k (\MeV) of \ptassoc for fits of data in \Fref{Figure2}.  The inverse slope parameter from a fit to $\pi^-$ in \Au from \cite{Pion} above 1.0 \GeV is $k$ = 280.9 $\pm$ 0.4 \MeV for \sNNsixtytwo and is $k$ = 330.9 $\pm$ 0.3 \MeV for \sNNtwohundred.  Statistical errors only.}\label{Table}
+
+\begin{tabular}[b]{c|c|c}
+\hline
+ & \sNNsixtytwo & \sNNtwohundred\\
+   & h-h & h-h\\ \hline
+%Au \ridge&  & 438 $\pm$ 4   \\ 
+\Au \jet & 317 $\pm$ 26 & 478 $\pm$ 8 \\
+\Cu \jet & 355 $\pm$ 21 & 445 $\pm$ 20 \\ 
+\dAu \jet &  & 469 $\pm$ 8 \\ \hline
+\PT & 417 $\pm$ 9 & 491 $\pm$ 3 \\ \hline
+\end{tabular}
+\end{table}
+
+
+The spectra of particles associated with the \jet for \stdtrig are shown in \fref{Figure2}.  As expected, the spectra are softer for \sNNsixtytwo.  The inverse slope parameters from an exponential fit to these data are shown in \tref{Table}.    There is no difference seen between \Cu and \Au in either the data points or the extracted inverse slope parameter.
+
+
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{JetNpart.eps}
+}}
+\vspace{-.8cm}
+\caption{Dependence of \jet yield on \npart.  The \jet yield in \Cu and \Au are within error at both \sNNsixtytwo and \sNNtwohundred.  There is a slight increase with \npart.  This may be attributed to the method.  If the \ridge is not completely independent of \deta it would contribute more to the yield at high \npart.  The yield at \sNNsixtytwo is about 40\% lower than at \sNNtwohundred.  This would be expected if the \jet were primarily from fragmentation.  Color online.}\label{Figure3}
+\end{figure}
+
+
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{Widths.eps}
+}}
+\vspace{-.8cm}
+\caption{Dependence of \jet yield on \npart.  The \jet yield in \Cu and \Au are within error at both \sNNsixtytwo and \sNNtwohundred.  There is a slight increase with \npart.  This may be attributed to the method.  If the \ridge is not completely independent of \deta it would contribute more to the yield at high \npart.  The yield at \sNNsixtytwo is about 40\% lower than at \sNNtwohundred.  This would be expected if the \jet were primarily from fragmentation.  Color online.}\label{Width}
+\end{figure}
+
+The \npart dependence of the \jet yield is shown in \fref{Figure3}.  For a given \npart and \sNN there is no difference between \Cu and \Au.  The \jet yield shows a slight increase at higher \npart, which would occur if the \ridge were not completely independent of \deta and therefore were not completely subtracted.  
+
+%\textit{This section needs to be fleshed out.  Needs nice pretty \PT comparisons, which means discussing how to make the \PT comparisons.}
+The ratio of the yield at \sNNsixtytwo to that at \sNNtwohundred can be explained by \PT.  This combined with the independence of the \jet on the system implies that the dominant production mechanism for the \jet is vacuum fragmentation.  The slight increase of the \jet yield with \npart implies that perhaps there is either a slight modification of the fragmentation function or that the \ridge is not completely independent of \deta and was not completely subtracted.
+
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{PythiaJet.eps}
+	\includegraphics{PythiazT.eps}
+}}
+\vspace{-.8cm}
+\caption{\zT distribution at \sNNsixtytwo and \sNNtwohundred as predicted by \PT for \stdtrig and \stdassoc.}\label{Figure4}
+\end{figure}
+
+
+
+Since \PT explains the \jet component reasonably well and the spectra associated with the \jet at \sNNsixtytwo falls more steeply than at \sNNtwohundred, the differences in \zT at the two energies are probably qualitatively similar to those from \PT.  The \zT distribution from \PT for both collision energies is shown in \fref{Figure4}.  Since we expect the medium producted at RHIC to have similar properties for different collision energies, comparing jet-like correlations at two different collision energies is a way of comparing different jet energies.
+
+\paragraph*{The \ridge component}
+
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{RidgeNpart.eps}
+}}
+\vspace{-.8cm}
+\caption{Dependence of \ridge yield on \npart.  The \ridge yield at \sNNsixtytwo is about 40\% lower than at \sNNtwohundred.  Color online.}\label{Figure5}
+\end{figure}
+
+This is one way to test the dependence of the \ridge on jet energy.  The dependence of the \ridge yield in \npart is shown in \fref{Figure5} for both systems and energies.  There is no difference within errors between \Cu and \Au collisions; the \ridge yield is consistent with system-size dependence.  The yield increases sharply with \npart, but is considerably smaller for \sNNsixtytwo than for \sNNtwohundred, just like the \jet yield.
+
+
+\begin{figure}
+\rotatebox{0}{\resizebox{8.6cm}{!}{
+	\includegraphics{RidgeRatio.eps}
+}}
+\vspace{-.8cm}
+\caption{Dependence of \ridge/\jet on \npart.  This ratio is independent of energy within errors, at least in the kinematic range investigated.  Color online.}\label{Figure6}
+\end{figure}
+This motivates investigating the \ridge/\jet ratio, shown in \fref{Figure6}.  This ratio is independent of collision energy.
+
+
+\section{Discussion}
+%\textit{This section will be filled in with the comparison of theories, inasmuch as possible.  Need to write theorists to get figures to compare to, get some feel for whether or not this is consistent with the theory or not.  Right now these data can be explained by the momentum-kick model.}
+\section{Conclusions}
+The \jet yield shows no dependence on collision system, and the dependence on collision energy can be explained well by \PT.  This implies that the dominant mechanism for the formation of the \jet component of the \nearside of \highpT correlations is fragmentation, although there is room within the errors for small contributions from other mechanisms.
+
+The study of correlations at different collision energies gives a way to study different jet energies.  The \ridge is considerably smaller at \sNNsixtytwo than at \sNNtwohundred, but the ratio of the \ridge/\jet is found to be independent of \sNN within the kinematic range studied.
+
+%\textit{fill in with allusions to whatever we can conclude theoretically}
+
+ \bibliography{Bibliography}
+
+\section{Issue list}
+\begin{enumerate}
+\item Track merging correction - some details may need to be added, depending on whether either Jana's PID paper and/or Mark Horner's paper come out before this paper
+\item v2 - again depends on whether CuCu200 v2 paper has been published before this paper and whether a paper with the new procedure for v2 subtraction has been described in a paper before (like Jana's PID paper/Mark Horner's paper)
+\item Track merging corrections:  Need to actually implement.  Currently running over all data sets to implement this change and using the maximum number of CPUs available.
+\item Touch up \PT simulations.  In progress.
+\item After track merging corrections are done play with getting yield from \deta instead, bin counting
+\item Analysis note and plots of correlations which yield each data point
+\item Need \Au \sNNtwohundred data for \fref{Figure1a} and \fref{Figure1b} - currently have \Au \sNNsixtytwo data as placeholder
+\end{enumerate}
+
+
+\end{document}

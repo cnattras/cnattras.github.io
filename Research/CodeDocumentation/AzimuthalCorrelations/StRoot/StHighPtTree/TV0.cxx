@@ -1,0 +1,78 @@
+#include <math.h>
+#include <string>
+#include "TDirectory.h"
+#include "TProcessID.h"
+#include "TV0.h"
+#include "TV0Track.h"
+
+ClassImp(TV0)
+
+
+TClonesArray *TV0::fgV0Tracks = 0;
+
+//______________________________________________________________________________
+TV0::TV0()
+{
+   // Create an TV0 object.
+   // When the constructor is invoked for the first time, the class static
+   // variable fgTracks is 0 and the TClonesArray fgTracks is created.
+  // was 1000
+  if (!fgV0Tracks) fgV0Tracks = new TClonesArray("TV0Track", 1000);
+  fV0Tracks = fgV0Tracks;
+  fLambdas  = new TRefArray;
+  fAntiLambdas = new TRefArray;
+  fK0short = new TRefArray;
+  fNtrack = 0;
+}
+
+//______________________________________________________________________________
+TV0::~TV0()
+{
+  Clear();
+  delete fLambdas;  fLambdas = 0;
+  delete fAntiLambdas;  fAntiLambdas = 0;
+  delete fK0short; fK0short = 0;
+}
+
+//______________________________________________________________________________
+TV0Track *TV0::AddV0Track(TV0Track *tr, Float_t ptmin, Int_t particleType)
+{
+   // Add a new V0 track to the list of tracks for this event.
+   // To avoid calling the very time consuming operator new for each track,
+   // the standard but not well know C++ operator "new with placement"
+   // is called. If tracks[i] is 0, a new Track object will be created
+   // otherwise the previous Track[i] will be overwritten.
+
+   TClonesArray &tracks = *fV0Tracks;
+   TV0Track *track = new(tracks[fNtrack++]) TV0Track(tr);
+   //Save reference to last Track in the collection of Tracks
+   fLastTrack = track;
+
+   //Save reference in fChargedTracks if track is a lambda candidate
+   if (track->GetPt() > ptmin && particleType==1) fLambdas->Add(track);
+   //Save reference in fLambdas if track is an anti-lambda candidate
+   if (track->GetPt() > ptmin && particleType==2) fAntiLambdas->Add(track);
+   //Save reference in faLambdas if track is a K0 candidate
+   if (track->GetPt() > ptmin && particleType==3) fK0short->Add(track);
+
+   return track;
+}
+
+
+
+
+//______________________________________________________________________________
+ void TV0::Clear(Option_t *option)
+{
+   fV0Tracks->Clear("C"); //will also call Track::Clear
+   fLambdas->Delete();
+   fAntiLambdas->Delete();
+   fK0short->Delete();
+}
+
+//______________________________________________________________________________
+ void TV0::Reset(Option_t *option)
+{
+   delete fgV0Tracks; fgV0Tracks = 0;
+}
+

@@ -1,0 +1,165 @@
+\begin{thebibliography}{25}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Adams et~al.}(2005{\natexlab{a}})}]{starZYAM}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Adams}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{STAR}), \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{95}}, \bibinfo{pages}{152301}
+  (\bibinfo{year}{2005}{\natexlab{a}}), \eprint{nucl-ex/0501016}.
+
+\bibitem[{\citenamefont{Abelev et~al.}(2008)}]{STARConical:2008nd}
+\bibinfo{author}{\bibfnamefont{B.~I.} \bibnamefont{Abelev}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{STAR}) (\bibinfo{year}{2008}),
+  \eprint{0805.0622}.
+
+\bibitem[{\citenamefont{Adler et~al.}(2003)}]{DisappearanceAwaySide}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Adler}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{STAR}), \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{90}}, \bibinfo{pages}{082302}
+  (\bibinfo{year}{2003}), \eprint{nucl-ex/0210033}.
+
+\bibitem[{\citenamefont{Adams et~al.}(2006{\natexlab{a}})}]{PunchThrough}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Adams}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{STAR}), \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{97}}, \bibinfo{pages}{162301}
+  (\bibinfo{year}{2006}{\natexlab{a}}), \eprint{nucl-ex/0604018}.
+
+\bibitem[{\citenamefont{Abelev et~al.}(2009{\natexlab{a}})}]{RidgePaper}
+\bibinfo{author}{\bibfnamefont{B.~I.} \bibnamefont{Abelev}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{the STAR}),
+  \bibinfo{journal}{XXXX} \textbf{\bibinfo{volume}{XXXX}},
+  \bibinfo{pages}{XXXX} (\bibinfo{year}{2009}{\natexlab{a}}), \eprint{XXXXX}.
+
+\bibitem[{\citenamefont{Adams et~al.}(2006{\natexlab{b}})}]{MiniJets}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Adams}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{STAR}), \bibinfo{journal}{Phys. Rev.}
+  \textbf{\bibinfo{volume}{C73}}, \bibinfo{pages}{064907}
+  (\bibinfo{year}{2006}{\natexlab{b}}), \eprint{nucl-ex/0411003}.
+
+\bibitem[{\citenamefont{Voloshin}(2006)}]{Sergei}
+\bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{Voloshin}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B632}},
+  \bibinfo{pages}{490} (\bibinfo{year}{2006}), \eprint{nucl-th/0312065}.
+
+\bibitem[{\citenamefont{Pruneau et~al.}(2008)\citenamefont{Pruneau, Gavin, and
+  Voloshin}}]{Pruneau:2007ua}
+\bibinfo{author}{\bibfnamefont{C.~A.} \bibnamefont{Pruneau}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Gavin}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{Voloshin}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{A802}},
+  \bibinfo{pages}{107} (\bibinfo{year}{2008}), \eprint{0711.1991}.
+
+\bibitem[{\citenamefont{Majumder et~al.}(2007)\citenamefont{Majumder, Muller,
+  and Bass}}]{Majumder:2006wi}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Majumder}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Muller}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{Bass}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{99}},
+  \bibinfo{pages}{042301} (\bibinfo{year}{2007}), \eprint{hep-ph/0611135}.
+
+\bibitem[{\citenamefont{Dumitru et~al.}(2008)\citenamefont{Dumitru, Gelis,
+  McLerran, and Venugopalan}}]{Dumitru:2008wn}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Dumitru}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Gelis}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{McLerran}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Venugopalan}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{A810}},
+  \bibinfo{pages}{91} (\bibinfo{year}{2008}), \eprint{0804.3858}.
+
+\bibitem[{\citenamefont{Gelis et~al.}(2008)\citenamefont{Gelis, Lappi, and
+  Venugopalan}}]{Glasma2}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Gelis}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Lappi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Venugopalan}}
+  (\bibinfo{year}{2008}), \eprint{0810.4829}.
+
+\bibitem[{\citenamefont{Wong}(2008)}]{Wong:2008yh}
+\bibinfo{author}{\bibfnamefont{C.-Y.} \bibnamefont{Wong}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{C78}},
+  \bibinfo{pages}{064905} (\bibinfo{year}{2008}), \eprint{0806.2154}.
+
+\bibitem[{\citenamefont{Wong}(2007{\natexlab{a}})}]{Wong:2007mf}
+\bibinfo{author}{\bibfnamefont{C.-Y.} \bibnamefont{Wong}}
+  (\bibinfo{year}{2007}{\natexlab{a}}), \eprint{0712.3282}.
+
+\bibitem[{\citenamefont{Wong}(2007{\natexlab{b}})}]{Wong:2007pz}
+\bibinfo{author}{\bibfnamefont{C.-Y.} \bibnamefont{Wong}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{C76}},
+  \bibinfo{pages}{054908} (\bibinfo{year}{2007}{\natexlab{b}}),
+  \eprint{0707.2385}.
+
+\bibitem[{\citenamefont{Hwa and Yang}(2008{\natexlab{a}})}]{Hwa:2008jt}
+\bibinfo{author}{\bibfnamefont{R.~C.} \bibnamefont{Hwa}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{C.~B.} \bibnamefont{Yang}}
+  (\bibinfo{year}{2008}{\natexlab{a}}), \eprint{0812.2205}.
+
+\bibitem[{\citenamefont{Hwa and Yang}(2008{\natexlab{b}})}]{Hwa:2008um}
+\bibinfo{author}{\bibfnamefont{R.~C.} \bibnamefont{Hwa}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{C.~B.} \bibnamefont{Yang}}
+  (\bibinfo{year}{2008}{\natexlab{b}}), \eprint{0801.2183}.
+
+\bibitem[{\citenamefont{Chiu and Hwa}(2008)}]{Chiu:2008ht}
+\bibinfo{author}{\bibfnamefont{C.~B.} \bibnamefont{Chiu}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~C.} \bibnamefont{Hwa}}
+  (\bibinfo{year}{2008}), \eprint{0809.3018}.
+
+\bibitem[{\citenamefont{Ackermann et~al.}(2003)}]{STARNIM}
+\bibinfo{author}{\bibfnamefont{K.~H.} \bibnamefont{Ackermann}}
+  \bibnamefont{et~al.}, \bibinfo{journal}{Nucl. Instrum. Meth. A}
+  \textbf{\bibinfo{volume}{499}}, \bibinfo{pages}{624} (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{Adams et~al.}(2005{\natexlab{b}})}]{STARHBT}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Adams}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{STAR}), \bibinfo{journal}{Phys. Rev.}
+  \textbf{\bibinfo{volume}{C71}}, \bibinfo{pages}{044906}
+  (\bibinfo{year}{2005}{\natexlab{b}}), \eprint{nucl-ex/0411036}.
+
+\bibitem[{\citenamefont{Abelev et~al.}(2009{\natexlab{b}})}]{PIDPaper}
+\bibinfo{author}{\bibfnamefont{B.~I.} \bibnamefont{Abelev}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{the STAR}),
+  \bibinfo{journal}{XXXX} \textbf{\bibinfo{volume}{XXXX}},
+  \bibinfo{pages}{XXXX} (\bibinfo{year}{2009}{\natexlab{b}}), \eprint{XXXXX}.
+
+\bibitem[{\citenamefont{Back et~al.}(2005{\natexlab{a}})}]{phobosFlow1}
+\bibinfo{author}{\bibfnamefont{B.~B.} \bibnamefont{Back}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{PHOBOS}), \bibinfo{journal}{Phys. Rev.}
+  \textbf{\bibinfo{volume}{C72}}, \bibinfo{pages}{051901}
+  (\bibinfo{year}{2005}{\natexlab{a}}), \eprint{nucl-ex/0407012}.
+
+\bibitem[{\citenamefont{Back et~al.}(2005{\natexlab{b}})}]{phobosFlow2}
+\bibinfo{author}{\bibfnamefont{B.~B.} \bibnamefont{Back}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{PHOBOS}), \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{94}}, \bibinfo{pages}{122303}
+  (\bibinfo{year}{2005}{\natexlab{b}}), \eprint{nucl-ex/0406021}.
+
+\bibitem[{\citenamefont{Abelev et~al.}(2007{\natexlab{a}})}]{AuAu62Flow}
+\bibinfo{author}{\bibfnamefont{B.~I.} \bibnamefont{Abelev}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{the STAR}),
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{C75}},
+  \bibinfo{pages}{054906} (\bibinfo{year}{2007}{\natexlab{a}}),
+  \eprint{nucl-ex/0701010}.
+
+\bibitem[{\citenamefont{Abelev et~al.}(2009{\natexlab{c}})}]{MarkHornerPaper}
+\bibinfo{author}{\bibfnamefont{B.~I.} \bibnamefont{Abelev}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{the STAR}),
+  \bibinfo{journal}{XXXX} \textbf{\bibinfo{volume}{XXXX}},
+  \bibinfo{pages}{XXXX} (\bibinfo{year}{2009}{\natexlab{c}}), \eprint{XXXXX}.
+
+\bibitem[{\citenamefont{Abelev et~al.}(2007{\natexlab{b}})}]{Pion}
+\bibinfo{author}{\bibfnamefont{B.~I.} \bibnamefont{Abelev}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{STAR}), \bibinfo{journal}{Phys.
+  Lett.} \textbf{\bibinfo{volume}{B655}}, \bibinfo{pages}{104}
+  (\bibinfo{year}{2007}{\natexlab{b}}), \eprint{nucl-ex/0703040}.
+
+\end{thebibliography}

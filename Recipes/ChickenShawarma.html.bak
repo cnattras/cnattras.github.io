@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Chicken Shawarma</title>
+  </head>
+  <body>
+    <h1><span style="font-weight: bold;">Chicken Shawarma</span></h1>
+    <p>From the <a href="http://cooking.nytimes.com/recipes/1017161-oven-roasted-chicken-shawarma">NYT</a>
+      with a few changes</p>
+  </body>
+</html>

@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>GPCCommentsOnv1.4</title>
+  </head>
+  <body>
+    <p><span style="color: #000099;">Replies written in blue</span><strong><br>
+      </strong></p>
+    <p><strong><br>
+      </strong></p>
+    <p><strong>Alex</strong></p>
+    <div>- Title: I am just wondering if "baryons and mesons" should be replaced
+      simply by "hadrons".</div>
+    <div><span style="color: #3333ff;">It is interesting to look at both baryons
+        and mesons to see if there is a difference.&nbsp; We therefore think it
+        is important to keep baryons and mesons in the title.</span><br>
+      <br>
+    </div>
+    <div>- Line 28: "...and direct jet reconstruction is no longer possible.":
+      Please change it to "... and direct jet reconstruction is challenging." We
+      actually do charged jet measurements down to pT = 0 (see HP talk from
+      Peter).<br>
+      <span style="color: #3333ff;">Good catch.&nbsp; Done</span></div>
+    <div><br>
+    </div>
+    <div>- Line 38: "2 GeV/c": We should have a range and not a single pT value
+      here.<br>
+      <span style="color: #3333ff;">Changed to 2-4 GeV</span></div>
+    <div><br>
+    </div>
+    <div>- Line 55, references [25,26]: I am not sure about the enhancement
+      statement. In [25] I only found this statement: "The junctions themselves
+      are not found to be affected by the jet quenching, and hence the baryons
+      scale with binary collisions from p+p data as expected." <span style="color: #000099;">See
+        fig. 16 of ref. 25.</span>&nbsp; And btw, it is apparently not published
+      in a journal. What is it? <span style="color: #000099;">It was submitted
+        by STAR to PRC.&nbsp; It is not clear what happened to this paper.&nbsp;
+        In the end the STAR data were published <a href="http://arxiv.org/abs/1107.2955">here</a><span
+          style="color: black;"><span style="color: #000099;"> and ALICE used
+            the STAR data to make the ratio - see Fig. 3 <a href="http://arxiv.org/abs/1307.5530">here</a>.&nbsp;
+            We changed the wording to say A+A instead of Au+Au (to make it more
+            general) and now cite the old Ref. 26, the new STAR paper, and the
+            ALICE paper.</span></span></span> In STAR we cannot have a citation
+      of not published STAR results, so we might have to take out this
+      reference. In [26] I found that statement in the abstract: "Protons and
+      anti-protons are less suppressed than &#960; ±, in the range 1.5 &lt;&#8764; pT &lt;&#8764;
+      6 GeV/c.". With "baryon production in the bulk is enhanced" you mean per
+      binary collision, so we are talking about R_AA? Please double check those
+      statements.</div>
+    <div><span style="color: #000099;">Baryon enhancement in both the strange
+        and non-strange sectors is well documented.</span><br>
+      <br>
+    </div>
+    <div>- Fig.1: y-axis label: "d^2N" -&gt; "d^{2N}"<br>
+      <span style="color: #3333ff;">Label changed to d^{2}N...</span></div>
+    <div><br>
+    </div>
+    <div>- Fig.2: I think we can remove the right hand side y-axis label. Its
+      identical to the left side and it sticks out of the column boundary.<br>
+      <span style="color: #3333ff;">I have narrowed the width of the figure.</span></div>
+    <div><br>
+    </div>
+    <div>- Line 321: What is meant by "are consistent with each other"? We
+      should also add a reference for this statement.<br>
+      <span style="color: #3333ff;">This is shown in Fig. 3 which is discussed
+        in this paragraph.&nbsp; We have references to the ALICE and STAR data
+        already.</span></div>
+    <div><br>
+    </div>
+    - Line 383: I don't see the centrality dependence of Lambda-h correlations
+    in Figure 5. h-h has not correlation, K0s-h is mainly rising with N_part,
+    except the first point but this one has a large error bar. We should
+    describe in the text how the correlation looks like (rising with N_part...).<br>
+    <span style="color: #3333ff;">I have eliminated "and lambda-h
+      correlations".&nbsp; Exactly what the kaons are doing is not
+      straightforward - the d-Au point is above the rest.&nbsp; We therefore
+      prefer to let people look at the figure and decide for themselves what it
+      is doing.</span><br>
+    <br>
+    <strong>Chanaka</strong><br>
+    <br>
+    <br>
+    I have checked out the latest code for the paper and was able to
+    successfully compile it. However there are some warnings (the same ones we
+    saw before). An output text file with the warnings can be found at:<br>
+    /star/u/desilva/WorkCodeQA/gpc_psn0614/offline/paper/psn0614/runningCons.txt<br>
+    <span style="color: #3333ff;">We discussed the compiler warnings already
+      last spring - I changed the code to remove many of them but none of them
+      are related to anything that could be a bug.&nbsp; Some are related to
+      changes in gcc since the code was written.&nbsp; We should proceed despite
+      minor compiler warnings.</span><br>
+    <br>
+    PAs do describe about these warnings in the README file. Therefore I do not
+    think this is an issue as I was able to successfully run the code.<br>
+    <br>
+    The sample outputs (err, logs and data) from running the code can be found
+    at:<br>
+    /star/u/desilva/data01/GPC/psn0614/dAu2003/<br>
+    <br>
+    Of course the histograms are empty as there is no data in disks. I basically
+    checked the root file (picots) structure and it looks good. Also the README
+    file does a good job explaining what is happening in the code.<br>
+    <br>
+    What is still missing are the paper figure macros. I suggested that we
+    should copy those to the “offline/paper/psn0614/macros/“ folder and have
+    some description in the README file. Also I still need to copy the trees to
+    HPSS. I can do that once I know the location. Alex, I am thinking of just
+    copying over the picoDst files. Did you have other recommendations?<br>
+    <span style="color: #3333ff;"><br>
+      The macros are in<br>
+      macros/JetYields/<br>
+    </span><br>
+    <span style="color: #3333ff;"><span style="color: #3333ff;">The macros I
+        used for the final data analysis used to work on an old version of
+        root4star on the old server at Yale, which died.&nbsp; We discussed this
+        over email some time around May.<br>
+        <br>
+        We discussed last spring that these are not exactly the macros used for
+        making the plots but they are the ones used for calculating the yields.<br>
+      </span><br>
+      For now you can find the data here:<br>
+      /star/institutions/npiascr/nattrass/AuAu200/TTrees*<br>
+      /star/institutions/npiascr/nattrass/CuCu200/TTreesMinBiasP06ib<br>
+      <br>
+      Jana has asked Jerome several times where she should put the data and has
+      gotten no answer.</span><br>
+    <br>
+    Some comments on the paper.<br>
+    <br>
+    1. Line 134: There is no mentioning about pion and proton identification.<br>
+    <span style="color: #3333ff;">Pion and proton identification is not
+      necessary for the reconstruction of V0s.</span><br>
+    2. Line 182: Here it is mentioned that no correction for identified trigger
+    is due to the fact that reconstruction efficiency is a constant as a
+    function of pT_{trig}. However in line 158 it is stated that due to
+    normalization by trigger once could ignore it. It sounded like two different
+    reasons for ignoring reconstruction efficiency for identified trigger. Maybe
+    I am missing something?<br>
+    <span style="color: #3333ff;">In dihadron correlations there are two
+      potential reasons one would need to correct for the trigger particle's
+      reconstruction efficiency: 1.&nbsp; if the signal measured is dependent on
+      the exact number of trigger particles 2. if the reconstruction efficiency
+      changes significantly across the bin.&nbsp; For example if we were to use
+      a per-event normalization instead of per-trigger, the pair yield would
+      depend on how likely we are to reconstruct the trigger particle.&nbsp;
+      Since we divide by the number of trigger particles, the single track
+      efficiency for the trigger cancels out.&nbsp; To put it in equations<br>
+      dNpair/dphi = [dNpair,raw/dphi] / [eff(assoc) eff(trig)]<br>
+      1/Ntrig dNpair/dphi = 1/[Ntrig,raw/eff(trig)] [dNpair,raw/dphi] /
+      [eff(assoc) eff(trig)] = 1/Ntrig,raw [dNpair,raw/dphi] / [eff(assoc)] <br>
+      However, if eff(trig) changes significantly across the bin, then 1/Ntrig
+      dNpair/dphi above is no longer an accurate average of the trigger
+      particles in the bin.&nbsp; For instance, let's say (for the sake of
+      argument) the trigger bin is 0.5-1.0 GeV/c.&nbsp; In this case the
+      efficiency more than doubles from 0.5 GeV/c to 1.0 GeV/c.&nbsp; Without
+      any correction, the measurement would over count trigger particles near
+      1.0 GeV/c and under count trigger particles near 0.5 GeV/c.&nbsp; To be
+      more explicit in the equation above, what we want is<br>
+      &lt;1/Ntrig dNpair/dphi&gt; =
+      1/[Ntrig,raw/&lt;eff(trig,pT)&gt;]&nbsp;&nbsp;&nbsp; &lt;[dNpair,raw/dphi]
+      / [eff(assoc) eff(trig,pT)] &gt;<br>
+      If eff(trig,pT) changes significantly across the bin, we would need to
+      take a weighted average of the correlations from different triggers.&nbsp;
+      We can only cancel out the trigger efficiency in this case because the
+      trigger efficiency is constant.</span><br>
+    <br>
+    <strong>Saskia</strong><br>
+    <br>
+    Line 57:<br>
+    <br>
+    I would say<br>
+    <br>
+    " maximum of approximately 3 times that observed in p+p collisions"&nbsp; <span
+      style="color: #3333ff;">Done</span><br>
+    &nbsp;<br>
+    Figure 2 caption: reflected about \delta\phi = 0&nbsp; --&gt; reflected
+    about \delta\eta = 0.&nbsp; <span style="color: #3333ff;">Good catch,
+      thanks</span><br>
+    &nbsp;<br>
+    Lines 283-284:<br>
+    Don't you mean that you added the 13% systematic for points where the yield
+    is extracted from the Gaussian fit?&nbsp; <span style="color: #3333ff;">Another
+      good catch, thanks</span><br>
+    &nbsp;<br>
+    In the Figure 4 caption, I would mention which data sets are in the upper
+    panel and which are in the lower panel. <span style="color: #3333ff;">Done</span><br>
+    &nbsp;<br>
+    In the concluding paragraph, I would start with a sentence summarizing what
+    was studied.&nbsp; Then go into specific observations.&nbsp; <span style="color: #000099;">Good
+      point.&nbsp; I think we did not spend too much time on the conclusions
+      when we were discussing where to go with the paper.&nbsp; We have
+      rewritten the conclusions.</span>&nbsp; <br>
+    <br>
+    <strong>Don</strong><br>
+    <br>
+    <div>Abstract: &nbsp;</div>
+    <div><br>
+    </div>
+    <div>“… contains two structures, a peak … jet fragmentation and correlation”
+      &nbsp;=&gt; &nbsp;“… contains two structures: a peak … jet fragmentation,
+      and, a correlation …”&nbsp; <br>
+      <span style="color: #3333ff;">We have added ", and a correlation"</span></div>
+    <div><br>
+    </div>
+    <div>“… on the trigger particle momentum, associated particle momentum, and,
+      centrality are presented.” &nbsp;=&gt; &nbsp;“… on the trigger particle
+      momentum, the associated particle momentum, and, the centrality are
+      presented.”<br>
+      <span style="color: #3333ff;">Not done</span></div>
+    <div><br>
+    </div>
+    <div><br>
+    </div>
+    I. INTRODUCTION
+    <div><br>
+    </div>
+    <div>19. [1, 2, 3, 4] &nbsp;=&gt; &nbsp;[1-4] &nbsp;For contiguous reference
+      numbers there is no need to list each one separately. &nbsp;(See Physical
+      Review Style and Notation Guide, Page 5.) &nbsp;</div>
+    <div><br>
+    </div>
+    <div>20. [7, 8, … 17] &nbsp;=&gt; &nbsp;[7-17]</div>
+    <div><br>
+    </div>
+    <div>21. [3, 18, 19, … 21] &nbsp;=&gt; &nbsp;[3,18-21]<br>
+      <br>
+      <span style="color: #3333ff;">Funny I don't know what that compilation did
+        not have that.&nbsp; I did not change anything and it is done that way
+        already.</span></div>
+    <div><br>
+    </div>
+    <div>28 “… is important and direct jet …” &nbsp;=&gt; &nbsp;“… is important
+      and where direct jet …”<br>
+      <span style="color: #3333ff;">Not done</span></div>
+    <div><br>
+    </div>
+    <div>33. &nbsp;[7-14]</div>
+    <div><br>
+    </div>
+    <div>34. &nbsp;[15-17]<br>
+      <span style="color: #3333ff;">Done</span></div>
+    <div><br>
+    </div>
+    <div>34. &nbsp;“Systematic studies of associated particle distributions on
+      the opposite side … revealed significant modification … disappearance of
+      the peak .. “ &nbsp; and again —</div>
+    <div><br>
+    </div>
+    <div>39. &nbsp;“The associated particle distribution … “ &nbsp;</div>
+    <div><br>
+    </div>
+    <div>These “associated particle <u>distribution(s)</u>” are very vague to
+      me. &nbsp;What is plotted that produces peaks a function of pT? &nbsp;Is
+      the reader supposed to know what “the associated particle distribution”
+      is?<br>
+      <br>
+      <span style="color: #3333ff;">We modified the text to specify the
+        azimuthal distribution</span>.&nbsp; <span style="color: #3333ff;">Yes,
+        every reader familiar with relativistic heavy ion physics in the last
+        decade would know what the associated particle distribution is and this
+        method has been in the literature since 2002 with over 50 papers from
+        STAR and PHENIX on dihadron correlations.&nbsp; Considering the
+        extensive literature discussing this method we do not think it would be
+        a good use of space to describe it in detail.</span></div>
+    <div><br>
+    </div>
+    <div>54. &nbsp;“… baryon production in the bulk is enhanced …” &nbsp;Somehow
+      “in the bulk” seems like jargon to me. &nbsp;Might this mean “in the
+      nuclear medium”? &nbsp;Or some other designation? &nbsp;“in the bulk”
+      doesn’t do it.</div>
+    <div><span style="color: #3333ff;">We cut "in the bulk" - it is not
+        essential to the sentence.</span></div>
+    <div>72. &nbsp;“charged particles “ &nbsp;=&gt; &nbsp;“charged hadrons “</div>
+    <div><br>
+    </div>
+    <div>73. &nbsp;“trigger particles “ &nbsp;=&gt; &nbsp;“trigger hadrons “
+      &nbsp; Comment: &nbsp;You have previously noted specifically that these
+      particles are ‘hadrons” and you use the notation “h” . &nbsp;I think that
+      you should be consistent throughout the paper in designating these generic
+      “particles” as “hadrons”. &nbsp;You lose nothing and gain in specificity
+      and consistency that will help the reader.</div>
+    <div><span style="color: #3333ff;"><br>
+        Charged particles is somewhat more precise.&nbsp; We do not cut leptons
+        explicitly and therefore there could be some leptons in the sample. The
+        contribution from leptons is likely &lt;0.1%, based on the relative
+        yields in heavy ion collisions.&nbsp; We use particles almost everywhere
+        and this is more precise so I changed "hadron" to "particle" except
+        where it would be odd to break with convention in the field (dihadron
+        correlation) or where it is definitely a hadron (V0 daughters in a valid
+        reconstructed V0 candidate).&nbsp; I have added a sentence in the
+        detector section specifying that the charged particle tracks come mostly
+        from hadrons and are therefore referred to has hadron tracks.</span><br>
+      <br>
+    </div>
+    <div>75. &nbsp;“… of the collision yield and transverse momentum ..”
+      &nbsp;=&gt; &nbsp;“… of the collision yield and the transverse momentum
+      ..”&nbsp; <span style="color: #3333ff;">Not done</span></div>
+    <div><br>
+    </div>
+    <div>79. &nbsp;“associated particles “ &nbsp;=&gt; &nbsp;“associated
+      hadrons” <span style="color: #3333ff;">Not done, see above</span></div>
+    <div><br>
+    </div>
+    <div><br>
+    </div>
+    <div>II. &nbsp; EXPERIMENTAL SETUP AND PARTICLE RECONSTRUCTION</div>
+    <div><br>
+    </div>
+    <div>87. &nbsp;“along the beam line” &nbsp;=&gt; &nbsp;“parallel to the beam
+      line” <span style="color: #3333ff;">Done</span></div>
+    <div><br>
+    </div>
+    <div>88. &nbsp;“charged particle tracks” &nbsp;=&gt; &nbsp;“charged hadron
+      tracks”&nbsp; <span style="color: #3333ff;">Not done, see above</span></div>
+    <div><br>
+    </div>
+    <div>96. &nbsp;“particle” &nbsp;=&gt; “hadron”<span style="color: #3333ff;">Not
+        done, see above</span></div>
+    <div><br>
+    </div>
+    <div>97. &nbsp;“DCA” &nbsp;is not defined. &nbsp;I think you should say
+      “distance of closest approach” . &nbsp;You never use that again so there
+      is no need to define “DCA” here.&nbsp; <span style="color: #3333ff;">Good
+        catch, done</span></div>
+    <div><br>
+    </div>
+    <div>111. &nbsp;“… rapidity … 5.0) and a coincidence …” &nbsp;=&gt; &nbsp;
+      “… rapidity … 5.0) and also a coincidence …”&nbsp; <span style="color: #3333ff;">Not
+        done</span></div>
+    <div><br>
+    </div>
+    <div>114. &nbsp;“… a minimum charged particle multiplicity …” &nbsp;What is
+      “a minimum charged particle multiplicity” ?&nbsp; <span style="color: #3333ff;">The
+        number of charged tracks.&nbsp; Charged tracks leave signals in the
+        scintillator so this is really the raw number of hits in the
+        scintillator.&nbsp;</span></div>
+    <div><br>
+    </div>
+    <div>118. &nbsp;“trigger for central Au + Au collisions “ &nbsp;Here and
+      elsewhere you use the concept of “centrality” and “central vs peripheral”
+      but you really do not define this, especially centrality where you
+      routinely quote centrality in percentages but you do not define this at
+      all until line 375 ff. &nbsp;Is it fair to assume that all readers will
+      know what 40% - 80% Au + Au collisions means without defining centrality?
+      &nbsp;&nbsp; <span style="color: #3333ff;">Yes, this is well documented
+        in the literature.&nbsp; We added a couple of references to STAR papers
+        discussing the centrality determination in a bit more detail and also added&nbsp;
+        a couple references for the Npart determination.<br>
+      </span></div>
+    <div><br>
+    </div>
+    <div>123. “… only those events … and within 30 cm” &nbsp;=&gt; &nbsp;“… only
+      those events whose primary collision vertex was on the beam axis (z) and
+      within 30 cm” <span style="color: #3333ff;">the sentence was modified</span></div>
+    <div><br>
+    </div>
+    <div>135. &nbsp;“finding reconstruction” &nbsp;=&gt; &nbsp;“reconstruction”
+      <span style="color: #3333ff;">done</span></div>
+    <div><br>
+    </div>
+    <div>139. &nbsp;“reach a signal to background ratio “ &nbsp;=&gt;
+      &nbsp;“have a signal-to-background ratio” <span style="color: #3333ff;">Done</span></div>
+    <div><br>
+    </div>
+    <div>141. &nbsp;“Therefore the correlations were added …” &nbsp;=&gt;
+      &nbsp;“Therefore, the correlations for L and L-bar were added …”
+      &nbsp;(where “L” is the lambda symbol) <span style="color: #3366ff;">Done
+        with modification</span></div>
+    <div><br>
+    </div>
+    <div>149. &nbsp;“high-pT trigger particle … associated tracks …trigger
+      particle “ &nbsp;=&gt; &nbsp;“high-pT trigger hadron … associated hadronic
+      tracks …trigger hadron “<span style="color: #3333ff;">Not done, see above</span></div>
+    <div><br>
+    </div>
+    <div>154. &nbsp;“associated tracks” &nbsp; =&gt; &nbsp;“associated hadronic
+      tracks”<span style="color: #3333ff;">Not done, see above</span></div>
+    <div><br>
+    </div>
+    <div>160. &nbsp;“associated particle” &nbsp; =&gt; &nbsp;“associated hadron”<span
+        style="color: #3333ff;">Not done, see above</span></div>
+    <div><br>
+    </div>
+    <div>165. &nbsp;“unidentified charged associated particles “ &nbsp;=&gt;
+      &nbsp;“unidentified charged associated hadrons“<span style="color: #3333ff;">Not
+        done, see above</span></div>
+    <div><br>
+    </div>
+    <div>173. &nbsp;“central” and “peripheral” on line 174 are not defined.
+      &nbsp;I mentioned this before and it seems that it would be useful for the
+      notion of “central collisions” and “peripheral collisions” be defined
+      qualitatively and quantitatively early on in the paper.&nbsp; <span style="color: #3366ff;">See
+        reply to comment on line 118</span></div>
+    <div><br>
+    </div>
+    <div>179. &nbsp;“Equation 2” &nbsp;is the correct equation reference here? <span
+        style="color: #000099;">No, there was a problem with the label in
+        latex.&nbsp; Good catch, thanks!</span></div>
+    <div><br>
+    </div>
+    <div>185. &nbsp;“not vary significantly with the pT bins used in this
+      analysis.” &nbsp;=&gt; &nbsp;“not vary significantly as a function of pT
+      for the range of pT used in this analysis.”&nbsp; <span style="color: #000099;">Your
+        statement is not correct.&nbsp; The efficiency does vary for the pT
+        range used in the analysis (from 1 GeV/c to 6 GeV/c) but that does not
+        matter - what matters is that it does not vary significantly in the
+        trigger pT bins used in the analysis.&nbsp; See the reply to Chanaka -
+        this has to do with the validity of the cancellation of the trigger
+        efficiency.</span></div>
+    <div><br>
+    </div>
+    <div>190. &nbsp;“For identified associated particle ratios the systematic …”
+      &nbsp;=&gt; &nbsp; “For identified associated hadron ratios the systematic
+      &nbsp;…” &nbsp; &nbsp;What are the “ratios”? &nbsp;I don’t see this
+      defined anywhere? &nbsp;Have I missed it?&nbsp; <span style="color: #000099;">The
+        data in Fig. 3<span style="color: black;">.&nbsp; <span style="color: #000099;">This
+            is the ratio of the conditional yield of two particles</span></span>.&nbsp;
+        We think this is clear.</span></div>
+    <div><br>
+    </div>
+    <div>192. &nbsp;“partially cancel out …” &nbsp;=&gt; &nbsp;“partially
+      cancels out …” <span style="color: #000099;">No, errors is plural so this
+        would introduce subject/verb disagreement.</span></div>
+    <div><br>
+    </div>
+    <div>199. &nbsp;“This is consistent with available data within errors.”
+      &nbsp; ???? &nbsp;Does this refer to your data? &nbsp;If so, what does
+      this sentence add to what has already been said? &nbsp;If it refers to
+      data in the literature, it needs a reference.&nbsp; <span style="color: #000099;">Yes,
+        this refers to our data.&nbsp; Yes it adds to the discussion - it is a
+        subtle but important point.&nbsp; If the correlation were different for
+        lambdas from the decay of Xis, we would need to subtract the background
+        from these lambdas and one could not just scale down the yield but would
+        have to correct the correlation function.</span><span style="color: #000099;">&nbsp;&nbsp;</span></div>
+    <div><br>
+    </div>
+    <div>200. &nbsp;“For identified associated particles, …’’ &nbsp;=&gt; &nbsp;
+      “For identified associated hadrons, …''<span style="color: #3333ff;">Not
+        done, see above</span></div>
+    <div><br>
+    </div>
+    <div>202. &nbsp;“associated particles” &nbsp;=&gt; &nbsp;“associated
+      hadrons”<span style="color: #3333ff;">Not done, see above</span></div>
+    <div><br>
+    </div>
+    <div>220. &nbsp;This section is a good description of the “pair acceptance
+      correction” but is lacks a summary or conclusion. &nbsp;For example,&nbsp;</div>
+    <div><br>
+    </div>
+    <div><span class="Apple-tab-span" style="white-space:pre"> </span>o What
+      were the results from this pair acceptance correction?</div>
+    <div><br>
+    </div>
+    <div><span class="Apple-tab-span" style="white-space:pre"> </span>o How did
+      this mixed event analysis correct for the limited geometric acceptance?
+      &nbsp;</div>
+    <div><br>
+    </div>
+    <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; These questions are not addressed
+      and at the reader is left with the question: &nbsp;“So what?”<br>
+      <span style="color: #000099;">This is a standard technique already
+        documented in the literature.&nbsp; There is no big conclusion from this
+        - one simply has to correct for the acceptance, but there is nothing
+        profound or deep in the correction.&nbsp; Given that this is well
+        documented in the literature and not a novel or interesting correction,
+        we think this section is sufficient.&nbsp; We note, for instance, that
+        we did not have a summary in the discussion of the efficiency
+        correction.<br>
+      </span></div>
+    <div><br>
+    </div>
+    <div>224. &nbsp;“This effect leads to a dip at …” &nbsp;This begs the
+      question: a “dip” in what? &nbsp;A dip in the correlations?&nbsp; A dip in
+      the number of hadrons found? &nbsp;A dip in the resulting yield? &nbsp;…?
+      &nbsp;After reading this whole section several times I would guess(!) that
+      you are referring to the yield for V0-h and h-V0 events. &nbsp;I seem to
+      think that this is the significant focus of this section, i.e., the “Track
+      merging correction” is all about correcting the resulting yield when track
+      merging effects are present. &nbsp;But, this is not said clearly at the
+      outset and I think it should be. &nbsp;Then, the issue of the “dip” will
+      also be able to be made clear. &nbsp;This needs clarification.<br>
+      <span style="color: #000099;">We have reworded this sentence.</span><span
+        style="color: #000099;"><span style="color: red;"></span></span></div>
+    <div><br>
+    </div>
+    <div>230. &nbsp;“This effect is larger when the overlapping particles’
+      momenta are closer.” &nbsp;What does “closer” mean? &nbsp;Does it mean the
+      vector direction of the particle? &nbsp;Does it mean only the magnitude of
+      the momentum? &nbsp;For example: &nbsp;“when the particles’ vector momenta
+      are more nearly parallel.” &nbsp;OR &nbsp;“when the magnitude of the
+      particles’ momenta are note nearly equal.” &nbsp;Can you please be more
+      precise.<br>
+      <span style="color: #000099;">Momentum is a vector quantity so the momenta
+        being closer means both the magnitude and the direction.&nbsp; We think
+        that this is sufficiently clear.</span><span style="color: #000099;"><span
+          style="color: red;"></span></span></div>
+    <div><br>
+    </div>
+    <div>246. &nbsp;“When the track merging dip is present, it is corrected by
+      fitting a Gaussian to the peak, excluding …” &nbsp; To what does “it”
+      refer? <span style="color: #000099;">The dip - the pronoun refers to the
+        subject in the sentence</span>&nbsp; Is this “the yield”? &nbsp;If so,
+      you should replace “it” =&gt; “the yield” &nbsp;Otherwise, I am very
+      confused. &nbsp; &nbsp;And, secondly, “fitting a Gaussian to the peak”
+      &nbsp;What “peak”? &nbsp;You have not defined the “peak” to which you
+      refer.&nbsp; <span style="color: #000099;">We are only talking about the
+        correlations.&nbsp; We think this is clear.&nbsp; </span>I think you
+      have a picture in your mind that is not seen by the reader. &nbsp;If this
+      peak is shown in one of your figures you can/should reference that for
+      clarity here. &nbsp;This whole section needs to have some cohesive
+      overview; all the details with then make more sense..<span style="color: #000099;">&nbsp;
+        <span style="color: red;"><span style="color: #000099;">We think it is
+            clear as written.</span><br>
+        </span></span></div>
+    <div><br>
+    </div>
+    <div>257. &nbsp;“same order as …” &nbsp;This is jargon that I think could be
+      better said. &nbsp;How about “magnitude”&nbsp; <span style="color: #000099;">Changed
+        to size.&nbsp; Magnitude implies it is only within about a factor of 10.</span></div>
+    <div><br>
+    </div>
+    <div>262. &nbsp;“A sample 2D …” &nbsp;What does “sample” mean? &nbsp;Is this
+      a “typical 2D correlation function” ? &nbsp;If so, I think this would be a
+      better term to use. &nbsp;Otherwise I need to know what “sample”
+      means.&nbsp; <span style="color: #000099;">We have changed this to "An
+        example..."</span><span style="color: #000099;"><span style="color: red;"></span></span></div>
+    <div><br>
+    </div>
+    <div>272. &nbsp;[12,33-35] &nbsp;— There are no spaces after the comma, etc.
+      &nbsp;It is as shown here and elsewhere.&nbsp; <span style="color: #000099;">This
+        is the result of the revtex style files and therefore it follows the
+        journal's style guidelines.</span></div>
+    <div><br>
+    </div>
+    <div>[For some reason the line numbering is not complete. &nbsp;There is
+      text between 277 and 278 for which there are no line numbers…?]&nbsp; <span
+        style="color: #000099;">This is just a defect in the line number package
+        and happens in basically every latex document with line numbers.&nbsp;
+        Since line numbers are for editing only and will not be in the final
+        version submitted to the journal.</span></div>
+    <div><br>
+    </div>
+    <div>Top of second column, line 5: &nbsp;“Sample correlations … Figure 2.”
+      &nbsp;Again, what does this “sample” &nbsp;mean? &nbsp;How about
+      “Corrected correlations functions are shown in Figure 2.”&nbsp;&nbsp;<span
+        style="color: #000099;"><span style="color: #000099;">We have changed
+          this to "An example..."</span>&nbsp; "Corrected" is more confusing -
+        which corrections are applied?</span><span style="color: #000099;"><span
+          style="color: red;"></span></span></div>
+    <div><br>
+    </div>
+    <div>The sentences between the two sections of red text confuse me.
+      &nbsp;You say that when the track merging effects are small you choose to
+      use bin counting to avoid any assumptions about the shape of the peak.
+      &nbsp;Then, you mention that, for these cases with small track merging
+      effects, the results from the Gaussian fit and bin counting are entirely
+      consistent. &nbsp;That would seem to justify the shape assumption of a
+      Gaussian peak. &nbsp;And, I think that is your point, i.e., to justify
+      that using the Gaussian peak fit for the cases with significant track
+      merging effects is legitimate. &nbsp;Let me offer some wording that might
+      make this more smooth.</div>
+    <div><br>
+    </div>
+    <div>“The yield over a specific Delta(eta) range is obtained by integrating
+      Equation 4 to determine the jet-like yield Y_J as shown in Equation 5.
+      &nbsp; When the dip due to track merging is negligible it is found that
+      the yield obtained from Equation 5 using the either the Gaussian fit or
+      just simple bin counting are consistent. &nbsp;For cases &nbsp;where the
+      dip due to track merging was negligible the yield was determined by simple
+      bin counting. &nbsp;However, for data where the dip due to track merging
+      is significant, the yield was obtained using the Gaussian fit, excluding
+      the region affected by track merging from the fit. &nbsp;Excluding the
+      peak from the fit region leads to a skew …”<br>
+      <span style="color: #000099;">We prefer our wording.</span><span style="color: #000099;"><span
+          style="color: red;"><span style="color: #000099;">&nbsp; Note that
+            Saskia caught a typo in the red section just before results - this
+            may have led to the confusion.<br>
+          </span></span></span></div>
+    <div><br>
+    </div>
+    <div>282 - 287. &nbsp;This section is confusing to me. &nbsp;I think that
+      you are saying that because of the skew in the extracted yield determined
+      from the Gaussian fit with the peak excluded from the fit, you need to
+      introduce an additional 13% systematic error in quadrature with the
+      statistical error on these yields so that they can then fairly be compared
+      with those yields determined from bin counting where no such systematic
+      error was needed. &nbsp;If so, this needs to be reworded to make it clear.
+      &nbsp;Let me suggest the following:</div>
+    <div><br>
+    </div>
+    <div>282 - 287. &nbsp;“Excluding the peak form the fit region leads to a
+      skew in the extracted yield. &nbsp;Therefore, a 13% systematic error was
+      added in quadrature with the statistical error for these yields so as to
+      allow a fair comparison to those yields obtained by simple bin counting
+      where no such systematic error was needed."</div>
+    <div>(I intentionally did not use “points” that really has no meaning
+      further qualifying definition.)<br>
+      <span style="color: #000099;">We have tweaked the wording to avoid the
+        word "points".</span><span style="color: #000099;">&nbsp; <span style="color: red;"></span></span></div>
+    <div><br>
+    </div>
+    <div>289. &nbsp;The title “Charged-V0 correlations” seems strange.
+      &nbsp;What does this mean? &nbsp;Nowhere in the following text do you make
+      clear what is meant by “charged-V0”.&nbsp; <br>
+      <span style="color: #000099;">We changed this to "charged particle-V0
+        correlations"</span></div>
+    <div><br>
+    </div>
+    <div>296. &nbsp;“… substantially to the bulk production …” &nbsp;Here,
+      again, is this jargon, “the bulk”. &nbsp;I would recommend something more
+      specific such as “… substantially to the production of particles
+      (hadrons?) in the nuclear medium.” &nbsp;Or, if this is not correct, I am
+      confused.<br>
+      <span style="color: #000099;">We removed "bulk" from the sentence - it is
+        not essential to the meaning of the sentence.</span></div>
+    <div><br>
+    </div>
+    <div>299. &nbsp;“identified associated particles” &nbsp;=&gt;
+      &nbsp;“identified associated hadrons” <span style="color: #000099;">Not
+        done, see reply above</span></div>
+    <div><br>
+    </div>
+    <div>300. &nbsp;“… the statistics of the d + Au were limited …” &nbsp;for
+      the Au + Au data set you also end up with limited statistics but you say
+      why, i.e., track merging . &nbsp;I suggest that you say also why for d +
+      Au - perhaps as follows: &nbsp;“… the statistics of the d + Au were
+      limited by size of the data set and the Au + Au data set …"&nbsp; <span style="color: #000099;">"limited
+        by the size of the data set" is redundant.</span><span style="color: #000099;">
+        <br>
+      </span></div>
+    <div>318. &nbsp;“… show an enhancement of Lambda of up to a factor …”
+      &nbsp;=&gt; &nbsp; “… show an enhancement of Lambda production of up to a
+      factor …” <span style="color: #000099;">done</span></div>
+    <div><br>
+    </div>
+    <div>345. &nbsp;“… PYTHIA Tune A to the data …” &nbsp;=&gt; &nbsp;“… PYTHIA
+      Tune A compared to the data …” <br>
+      <span style="color: #000099;">We reworded this</span></div>
+    <div><br>
+    </div>
+    <div>367. &nbsp;“This includes no significant … “ &nbsp;=&gt; &nbsp;“In
+      addition, there is no significant …”&nbsp; <span style="color: #000099;">We
+        prefer our current wording.</span></div>
+    <div><br>
+    </div>
+    <div>371. &nbsp;“For this reason we only compare … collisions.” &nbsp;=&gt;
+      &nbsp;For this reason, we do not include the h-h correlations from the
+      0-12% Au + Au in our comparisons.”&nbsp; <span style="color: #000099;">We
+        prefer our current wording.</span></div>
+    <div><br>
+    </div>
+    <div>374. &nbsp;“Next, the jet-like yields are studied …” &nbsp;=&gt;
+      &nbsp;“The jet-like yields were also studied …”&nbsp; <span style="color: #000099;">We
+        prefer our current wording.</span></div>
+    <div><br>
+    </div>
+    <div>397. &nbsp;“… since residual track …” &nbsp;=&gt; &nbsp;“… because
+      residual track …”&nbsp; <span style="color: #000099;">We prefer our
+        current wording.</span></div>
+    <div><br>
+    </div>
+    <div>399. &nbsp;“The trend is similar …, however, there are hints …”
+      &nbsp;=&gt; &nbsp;“While the trend is similar …, there are hints …”&nbsp;
+      <span style="color: #000099;">We prefer our current wording.</span></div>
+    <div><br>
+    </div>
+    <div><br>
+    </div>
+    <div>FIGURE CAPTIONS:</div>
+    <div><br>
+    </div>
+    <div>Fig. 1 and Fig. 2: &nbsp;You use designations 0-20%, 40-80% etc.,
+      without ever defining what these percentages mean. &nbsp;This goes back to
+      comments made earlier that in my view you need to define centrality more
+      carefully early on in the text.<span style="color: #000099;">&nbsp; <span
+          style="color: red;"><span style="color: #000099;">See reply to comment
+            on line 118</span><br>
+        </span></span></div>
+    <div><br>
+    </div>
+    <div>Fig. 2. &nbsp;“The data have been reflected about Delta(phi) = 0.”
+      &nbsp;Why? &nbsp;What does this add? &nbsp;Maybe I am missing something
+      subtle. (?)&nbsp; <span style="color: #000099;">There are two
+        reasons:&nbsp; 1.&nbsp; the data are statistics limited and this helps
+        us do the analysis despite the limited statistics 2.&nbsp; The
+        histograms we have to save take up 1/4 the disk space and the code runs
+        slightly faster.</span></div>
+    <div><br>
+    </div>
+    <div>Fig 3., 4., 5., 6. &nbsp;There is this phrase “… the uncertainty on the
+      associate particle’s efficiency (5%) and ..” &nbsp;What is the
+      “efficiency”? &nbsp;That term is undefined here or in the text. &nbsp;You
+      need to say “detection efficiency” or “reconstruction efficiency” or “???
+      efficiency”.&nbsp; <span style="color: #000099;">Added "reconstruction"
+        before efficiency</span></div>
+    <div><br>
+    </div>
+    <div>Fig. 6. &nbsp;“… are shown as a band where the width represents the
+      error.” &nbsp;I don’t see a “band”. &nbsp;Is the “line” shown there?
+      &nbsp;I would hardly call that a “band”.&nbsp; <span style="color: #000099;">This
+        is actually a band, as with the other figures.&nbsp; It is just that the
+        plot is on a log scale.&nbsp; We prefer the current wording for
+        consistency throughout the paper.</span></div>
+    <div><br>
+    </div>
+    <div><br>
+    </div>
+    <br>
+    <br>
+  </body>
+</html>

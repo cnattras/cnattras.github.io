@@ -1,0 +1,38 @@
+\chapter{Centrality \label{centrality}}
+[discussion of Glauber models]
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c | c | c}
+ & \Cu \sNNsixtytwo &  \Cu \sNNtwohundred \\ \hline
+0-10\% & 101 $\leq$ \refmult & 139 $\leq$ \refmult \\
+10-20\% & 71 $\leq$ \refmult $<$ 101 & 98 $\leq$ \refmult $<$ 139 \\
+20-30\% & 49 $\leq$ \refmult $<$ 71 & 67 $\leq$ \refmult $<$ 98 \\
+30-40\% & 33 $\leq$ \refmult $<$ 49 & 46 $\leq$ \refmult $<$ 67 \\
+40-50\% & 22 $\leq$ \refmult $<$ 33 & 30 $\leq$ \refmult $<$ 46 \\
+50-60\% & 14 $\leq$ \refmult $<$ 22 & 19 $\leq$ \refmult $<$ 30 \\
+\end{tabular}
+ \caption[\Cu centrality definitions]{\Cu centrality definitions}
+\label{CuCentralities}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c | c }
+ & \Au \sNNsixtytwo \\ \hline
+0-5\% & 373 $\leq$ \refmult \\
+5-10\% & 313 $\leq$ \refmult  $<$ 373\\
+10-20\% & 222 $\leq$ \refmult $<$ 313 \\
+20-30\% & 154 $\leq$ \refmult $<$ 222 \\
+30-40\% & 102 $\leq$ \refmult $<$ 154 \\
+40-50\% & 65 $\leq$ \refmult $<$ 102 \\
+50-60\% & 38 $\leq$ \refmult $<$ 65 \\
+60-70\% & 20 $\leq$ \refmult $<$ 38 \\
+70-80\% & 9 $\leq$ \refmult $<$ 20 \\
+\end{tabular}
+ \caption[\Cu centrality definitions]{\Cu centrality definitions}
+\label{AuCentrality}
+\end{center}
+\end{table}

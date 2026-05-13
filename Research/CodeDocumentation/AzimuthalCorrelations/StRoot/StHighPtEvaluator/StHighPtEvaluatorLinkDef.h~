@@ -1,0 +1,125 @@
+#ifdef __CINT__
+//IncFile="goodTriggers.h"
+//IncFile="IsGoodTrigger.h"
+//IncFile="IsGoodRefMult.h"
+//IncFile="IsGoodVertex.h"
+//IncFile="IsGoodEvent.h"
+//IncFile="IsGoodTrack.h"
+//IncFile="IsGoodV0Track.h"
+//IncFile="../StHighPtTree/TEvent.h"
+//IncFile="../StHighPtTree/TTrack.h"
+//IncFile="../StHighPtTree/TIdentifiedTrack.h"
+//IncFile="StMuDSTMaker/COMMON/StMuEvent.h"
+//IncFile="StMuDSTMaker/COMMON/StMuTrack.h"
+//IncFile="StStrangeMuDstMaker/StV0MuDst.hh"
+//IncFile="../StHighPtTree/TV0Track.h"
+#pragma link off all globals;
+#pragma link off all classes;
+#pragma link off all functions;
+#pragma link C++ function goodTriggers(const char *);
+#pragma link C++ function goodTriggers(const string );
+#pragma link C++ function IsGoodTrigger(const char *, int);
+#pragma link C++ function IsGoodTrigger(const string, int);
+#pragma link C++ function IsGoodTrigger(const char *, int*, TEvent*);
+#pragma link C++ function IsGoodTrigger(const string , int*, TEvent*);
+#pragma link C++ function IsGoodTrigger(const char *, int*, StMuEvent*);
+#pragma link C++ function IsGoodTrigger(const string, int*, StMuEvent*);
+#pragma link C++ function IsGoodTrigger(const string, TEvent*);
+#pragma link C++ function IsGoodTrigger(const char *, TEvent*);
+#pragma link C++ function IsGoodTrigger(const char *, StMuEvent*);
+#pragma link C++ function IsGoodTrigger(const string, StMuEvent*);
+#pragma link C++ function IsTrigger(const char *, TEvent *, int );
+#pragma link C++ function IsTrigger(const string , TEvent *, int );
+#pragma link C++ function IsTrigger(const char *, StMuEvent *, int );
+#pragma link C++ function IsTrigger(const string , StMuEvent *, int );
+#pragma link C++ function IsGoodRefMult(const char *, int);
+#pragma link C++ function IsGoodRefMult(const string, int);
+#pragma link C++ function IsGoodRefMult(const char *, TEvent *);
+#pragma link C++ function IsGoodRefMult(const string, TEvent *);
+#pragma link C++ function IsGoodRefMult(const char *, StMuEvent *);
+#pragma link C++ function IsGoodRefMult(const string, StMuEvent *);
+#pragma link C++ function IsGoodVertex(const string, StMuEvent *);
+#pragma link C++ function IsGoodVertex(const char *, StMuEvent *);
+#pragma link C++ function IsGoodVertex(const string, TEvent *);
+#pragma link C++ function IsGoodVertex(const char *, TEvent *);
+#pragma link C++ function IsGoodVertex(const string, float);
+#pragma link C++ function IsGoodVertex(const char *, float);
+#pragma link C++ function IsGoodVertex(const string, float, float, float);
+#pragma link C++ function IsGoodVertex(const char *, float, float, float);
+#pragma link C++ function IsGoodVertex(const string, float, StMuEvent *);
+#pragma link C++ function IsGoodVertex(const char *, float, StMuEvent *);
+#pragma link C++ function IsGoodVertex(const string, float, float, float, StMuEvent *);
+#pragma link C++ function IsGoodVertex(const char *, float, float, float, StMuEvent *);
+#pragma link C++ function IsGoodVertex(const string, float, TEvent *);
+#pragma link C++ function IsGoodVertex(const char *, float, TEvent *);
+#pragma link C++ function IsGoodVertex(const string, float, float, float, TEvent *);
+#pragma link C++ function IsGoodVertex(const char *, float, float, float, TEvent *);
+#pragma link C++ function IsGoodEvent(const char *, TEvent *);
+#pragma link C++ function IsGoodEvent(const char *, StMuEvent *);
+#pragma link C++ function IsGoodEvent(const string, TEvent *);
+#pragma link C++ function IsGoodEvent(const string, StMuEvent *);
+#pragma link C++ function IsGoodTrack(const char *, StMuTrack*, float, float, float, float, int);
+#pragma link C++ function IsGoodTrack(const string, StMuTrack *, float , float , float , float , int );
+#pragma link C++ function IsGoodTrack(const char *, TTrack *, float , float , float , float , int );
+#pragma link C++ function IsGoodTrack(const string , TTrack *, float , float , float , float , int );
+#pragma link C++ function IsGoodV0Track(const string , StV0MuDst *,int, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, StV0MuDst *,int, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string , TV0Track *,int, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, TV0Track *,int, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string , StV0MuDst *,int, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, StV0MuDst *,int, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string , TV0Track *,int, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, TV0Track *,int, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string,StV0MuDst *,int,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function IsGoodV0Track(const char *,StV0MuDst *,int,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function IsGoodV0Track(const string,TV0Track *,int,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function IsGoodV0Track(const char *,TV0Track *,int,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function IsGoodV0Track(const string , StV0MuDst *, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, StV0MuDst *, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string , TV0Track *, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, TV0Track *, const string, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string , StV0MuDst *, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, StV0MuDst *, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string , TV0Track *, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const char *, TV0Track *, const char *, float, float, float);
+#pragma link C++ function IsGoodV0Track(const string,StV0MuDst *,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function IsGoodV0Track(const char *,StV0MuDst *,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function IsGoodV0Track(const string,TV0Track *,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function IsGoodV0Track(const char *,TV0Track *,float,float,float,float,float,int,int,float,float,float);
+#pragma link C++ function  GetDefaultV0Cut(char *, char *, char *, int );
+#pragma link C++ function  GetDefaultV0Cut(char *, char *, string , int );
+#pragma link C++ function  GetDefaultV0Cut(char *, string , char *, int );
+#pragma link C++ function  GetDefaultV0Cut(char *, string , string , int );
+#pragma link C++ function  GetDefaultV0Cut(string , char *, char *, int );
+#pragma link C++ function  GetDefaultV0Cut(string , char *, string , int );
+#pragma link C++ function  GetDefaultV0Cut(string , string , char *, int );
+#pragma link C++ function  GetDefaultV0Cut(string , string , string , int );
+#pragma link C++ function  GetDefaultXiCut(char *, char *, char *, int );
+#pragma link C++ function  GetDefaultXiCut(char *, char *, string , int );
+#pragma link C++ function  GetDefaultXiCut(char *, string , char *, int );
+#pragma link C++ function  GetDefaultXiCut(char *, string , string , int );
+#pragma link C++ function  GetDefaultXiCut(string , char *, char *, int );
+#pragma link C++ function  GetDefaultXiCut(string , char *, string , int );
+#pragma link C++ function  GetDefaultXiCut(string , string , char *, int );
+#pragma link C++ function  GetDefaultXiCut(string , string , string , int );
+#pragma link C++ function  IsGoodXiTrack(string , StXiMuDst *, int , string , float , float, float);
+#pragma link C++ function  IsGoodXiTrack(char *, StXiMuDst *, int , string , float , float, float);
+#pragma link C++ function  IsGoodXiTrack(string , TXiTrack *, int , string , float , float, float);
+#pragma link C++ function  IsGoodXiTrack(char *, TXiTrack *, int , string , float , float, float);
+#pragma link C++ function  IsGoodXiTrack(string , StXiMuDst *, int , char *, float , float, float);
+#pragma link C++ function  IsGoodXiTrack(char *, StXiMuDst *, int , char *, float , float, float);
+#pragma link C++ function  IsGoodXiTrack(string , TXiTrack *, int , char *, float , float, float);
+#pragma link C++ function  IsGoodXiTrack(char *, TXiTrack *, int , char *, float , float, float);
+#pragma link C++ function  IsGoodXiTrack(string ,StXiMuDst *,int ,float,float,float,float,float,float,float,float,float,int,int,int,float ,float,float);
+#pragma link C++ function  IsGoodXiTrack(char *,StXiMuDst *,int ,float,float,float,float,float,float,float,float,float,int,int,int,float ,float,float);
+#pragma link C++ function  IsGoodXiTrack(string ,TXiTrack *,int ,float,float,float,float,float,float,float,float,float,int,int,int,float ,float,float);
+#pragma link C++ function  IsGoodXiTrack(char *,TXiTrack *,int ,float,float,float,float,float,float,float,float,float,int,int,int,float ,float,float);
+#pragma link C++ function  IsGoodProton(string, TIdentifiedTrack *, float, float, float , float , int);
+#pragma link C++ function  IsGoodProton(char*, TIdentifiedTrack *, float, float, float , float , int);
+#pragma link C++ function  IsGoodPion(string, TIdentifiedTrack *, float, float, float , float , int);
+#pragma link C++ function  IsGoodPion(char*, TIdentifiedTrack *, float, float, float , float , int);
+#pragma link C++ function  IsGoodKaon(string, TIdentifiedTrack *, float, float, float , float , int);
+#pragma link C++ function  IsGoodKaon(char*, TIdentifiedTrack *, float, float, float , float , int);
+#pragma link C++ function  IsGoodElectron(string, TIdentifiedTrack *, float, float, float , float , int);
+#pragma link C++ function  IsGoodElectron(char*, TIdentifiedTrack *, float, float, float , float , int);
+#endif

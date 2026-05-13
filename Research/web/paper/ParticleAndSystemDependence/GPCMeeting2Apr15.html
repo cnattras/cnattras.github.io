@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>GPCMeeting2Apr15</title>
+  </head>
+  <body>
+    <p style="text-align: center;">Responses to PYTHIA discussions at GPC
+      meeting 4/2/15</p>
+    <p>Black:&nbsp; Minutes from GPC meeting<br>
+      Blue:&nbsp; Notes added by PAs</p>
+    <p>Fig. 2<br>
+      Remove Perugia 2010 and 900 GeV data<br>
+      <span style="color: #3333ff;">Done</span><br>
+      Will look into Monarsh (sp?) tune, which is approximately an "updated Tune
+      A" - if it's easy it might be better to make comparisons to that, but it
+      may or may not be documented well<br>
+      <span style="color: #3333ff;">Monash (http://arxiv.org/abs/1404.5630)
+        appears to be a PYTHIA 8 tune.&nbsp; That would make it more difficult
+        to do this with Monash since the code I'm using uses PYTHIA 6.&nbsp; We
+        can do it if the referee brings it up</span><br>
+      Conclusions to draw from this figure:<br>
+      1.&nbsp; correlation ratio comparable to inclusive ratio<br>
+      2.&nbsp; PYTHIA doesn't describe inclusive ratios well<br>
+      Lines 332-340:&nbsp; include if can be supported.&nbsp; Rene will send
+      reference to OPAL study trying to do this and Christine may poke around at
+      PYTHIA to see what PYTHIA does and discuss with Jana if we have a
+      reference we can cite for this.<br>
+      <span style="color: #3333ff;">Summary of <a href="http://arxiv.org/pdf/hep-ex/9805025.pdf">OPAL
+          paper</a>:<br>
+        OPAL identified quark and gluon jets in two ways:<br>
+        1.&nbsp; Using MC generators to determine the fraction of all jets
+        coming from q and g as a function of energy and assuming that there was
+        little jet energy dependence on the rate of lambda and kaon production,
+        then fitting the observed rate of lambda and kaon production to
+        determine the production rates in quark vs gluon jets<br>
+        2.&nbsp; Tagging symmetric three jet events and measuring the production
+        rate in quark and gluon jets using those tagged events<br>
+        The results were that <br>
+        1.&nbsp; There were 1.1 +/- 0.02 +/- 0.02 times as many K0S in gluon
+        jets as quark jets from (1) and 0.94 +/- 0.07 +/- 0.07 from (2)<br>
+        2.&nbsp; There were 1.41 +/- 0.04 +/- 0.04 times as many K0S in gluon
+        jets as quark jets from (1) and 1.18 +/- 0.10 +/- 0.17 from (2)<br>
+      </span></p>
+    <p><span style="color: #3333ff;">So there are more lambdas produced in a
+        gluon jet than in a quark jet, while there are approximately the same
+        number of K0S produced in quark and gluon jets.&nbsp; (There are
+        slightly more particles overall in gluon jets.)<br>
+        This was qualitatively reproduced in the MC generators studied at the
+        time.<br>
+      </span> </p>
+    <p><span style="color: #3333ff;">PYTHIA studies<br>
+        Rather than redo everything from scratch, we just used some PYTHIA
+        studies Christine had completed earlier for a different purpose because
+        this seems to answer the same question.&nbsp; These are from 1.75
+        billion events at sqrt(s_NN) = 2.76 TeV.&nbsp; The trigger is a gluon or
+        quark and the associated particle is a charged kaon or a lambda between
+        3-6 GeV/c.&nbsp; (The results were robust when the pT was changed
+        slightly but above about 2 GeV/c.)&nbsp; The correlations are below:<br>
+      </span></p>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td><img alt="" src="GPC/PYTHIAStudies/KCorrAssoc3.0To6.0.png"><br>
+          </td>
+          <td><img alt="" src="GPC/PYTHIAStudies/LambdaCorrAssoc3.0To6.0.png"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><span style="color: #3333ff;">The yield for kaons and lambdas is higher
+        when the trigger is a strange quark than when it is a gluon or a light
+        quark (u or d).&nbsp; This means that a larger fraction of high pT
+        lambdas and kaons come from strange jets than the fraction of high pT
+        unidentified hadrons which come from strange jets.<br>
+      </span> </p>
+    <p><br>
+    </p>
+    <p><br>
+      Make sure discussion of Tune A vs Perugia tunes is in the text.<br>
+      <br>
+      Fig. 3-5:&nbsp; Remove PYTHIA from Fig. 3 &amp; 4 and leave it in Fig.
+      5.&nbsp; Remove subsections 1 &amp; 2 with discussion and restructure so
+      that the discussion is right after the figure.&nbsp; (Had been structured
+      as it is because the PYTHIA comparisons had made the discussion
+      repetitive.)<br>
+      <br>
+      Fig. 3<br>
+      Will make and distribute a few different versions:<br>
+      1.&nbsp; w/o PYTHIA, otherwise the same<br>
+      2.&nbsp; w/o PYTHIA, w/Cu+Cu h-h only (no other h-h) (a) as points (b) as
+      lines<br>
+      3.&nbsp; w/o PYTHIA, w/peripheral Au+Au h-h only (no other h-h) (a) as
+      points (b) as lines<br>
+      4.&nbsp; With just strange particles<br>
+      will not update legend for now until we agree on a version to go into the
+      plot<br>
+      <span style="color: #3333ff;">See below</span></p>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td>1.&nbsp; w/o PYTHIA, otherwise the same</td>
+          <td>2.&nbsp; w/o PYTHIA, w/Cu+Cu h-h only (no other h-h) (a) as points
+            (b) as lines</td>
+          <td>3.&nbsp; w/o PYTHIA, w/peripheral Au+Au h-h only (no other h-h)
+            (a) as points (b) as lines</td>
+          <td><br>
+            4.&nbsp; With just strange particles</td>
+        </tr>
+        <tr>
+          <td><img alt="" src="GPC/PYTHIAVariations/TrigPtVar1.png"><br>
+          </td>
+          <td><img alt="" src="GPC/PYTHIAVariations/TrigPtVar2a.png"><br>
+            <img alt="" src="GPC/PYTHIAVariations/TrigPtVar2b.png"><br>
+          </td>
+          <td><img alt="" src="GPC/PYTHIAVariations/TrigPtVar3a.png"><br>
+            <img alt="" src="GPC/PYTHIAVariations/TrigPtVar3b.png"><br>
+          </td>
+          <td><img alt="" src="GPC/PYTHIAVariations/TrigPtVar4.png"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+      <br>
+      Conclusions to draw from figure:<br>
+      1.&nbsp; No difference between systems<br>
+      2.&nbsp; Kaons systematically higher than lambdas (Much discussion in GPC
+      over this point - will try to come up with wording that hopefully everyone
+      will agree on.&nbsp; Discussion may come up at a future meeting, but
+      hopefully we will find a decent wording that ends the discussion.)<br>
+      <span style="color: #3333ff;">We went with 3b and moved point (2) to the
+        npart discussion because we think it is perhaps easier to make the point
+        with that plot.</span><br>
+      <br>
+      Fig. 4<br>
+      Remove PYTHIA.&nbsp; Will make versions of the figure with fits and
+      distribute them.&nbsp; Also will look at comparing to some line for the
+      data instead.</p>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td>Without PYTHIA</td>
+          <td>With fits to data - fit to const, fit to linear dependence</td>
+        </tr>
+        <tr>
+          <td><img alt="" src="GPC/PYTHIAVariations/Fig4Var1.png"><br>
+          </td>
+          <td><img alt="" src="GPC/PYTHIAVariations/Fig4Var3.png"><br>
+            <img alt="" src="GPC/PYTHIAVariations/Fig4Var2.png"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><span style="color: #3333ff;">We prefer not to have a fit to the data
+        since it is not clear what such a fit means.&nbsp; A fit implies that
+        there is some reason for the fit and we think this would be making too
+        strong of a statement about the shape of the data.&nbsp; After
+        discussing this am</span></p>
+    <p>Three variations with less white space and no PYTHIA</p>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td><img alt="" src="GPC/PYTHIAVariations/Fig5Var1.png"><br>
+          </td>
+          <td><img alt="" src="GPC/PYTHIAVariations/Fig5Var2.png"><br>
+          </td>
+          <td><img alt="" src="GPC/PYTHIAVariations/Fig5Var3.png"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <p><span style="color: #3333ff;">ong the PAs we thought it would be
+        meaningful to add the PYTHIA back in to this figure.&nbsp; There is a
+        small observation to be made that PYTHIA gets the mass ordering exactly
+        opposite to what we observe in the data.&nbsp; We don't think it is
+        worth making a big deal of this but that it is worth making.&nbsp; We
+        also moved the observation about the apparent mass ordering to this plot
+        and tried a different wording to appease objections to the use of the
+        word "systematically."</span><br>
+      Conclusion - some centrality dependence (but no strong statement on what
+      centrality dependence)<br>
+      <br>
+      Fig. 5<br>
+      Remove white space</p>
+    <p><span style="color: #3333ff;">We did this and also tweaked the legend and
+        then compared to the h-h data as a line.</span></p>
+    <p>Conclusion - PYTHIA more or less gets stuff right (worded squishily) </p>
+  </body>
+</html>

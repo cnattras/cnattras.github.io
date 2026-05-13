@@ -1,0 +1,92 @@
+#!/bin/perl
+open (FILE, "<textFiles/AuAu200Y7PtFileList.txt") || die "Can't oupen file with list of files.\n";
+while (<FILE>)  # While still input lines in the file...
+  {
+    $data = $_;
+    chomp($data);
+    print "$data\n";
+    ($garb1,$i,$j,$k,$l,$m,$n,$o,$p,$q, $r) = split("-",$data);
+    #print "$garb1 i:$i j:$j k:$k l:$l m:$m n:$n o:$o p:$p q:$q r:$r\n";
+    system "root4star -b -q macros/QA/PlotPt.C\'(\"$data\",$j)\'\n";
+    ($garb,$junk) = split("pt-AuAu200Y7",$data);
+    ($pars,$garb) = split(".root",$junk);
+    $mylength = length($pars);
+    #print "$pars length pars: $mylength\n\n";
+    if($mylength ==12){#there are no  so there will be 6 parameters
+      ($garb,$parttype,$eta,$whichsilicon,$silicon1,$silicon2,$silicon3) = split("-",$pars);
+      #print "$parttype $eta $whichsilicon $silicon1 $silicon2 $silicon3\n"
+    }
+    if($mylength==13){#there is one negative and there will be 7 parameters
+      ($pars1,$pars2) = split("--",$pars);
+      $lpars1 = length($pars1);
+      $lpars2 = length($pars2);
+      #There are two choices here, either pars1 has length 6 and pars2 has length 5 or pars1 has length 2 and pars2 has length 9
+      #print "$data\n";
+      #print "$pars1 length $lpars1 $pars2 length $lpars2\n\n";
+      if($lpars1==2){#eta is negative
+	($garb,$parttype) = split("-",$pars1);
+	($negeta,$whichsilicon,$silicon1,$silicon2,$silicon3) = split("-",$pars2);
+	$eta = -1*$negeta;
+      }
+      else{#charge/silicon1 is negative
+	($garb,$parttype,$negeta,$whichsilicon) = split("-",$pars1);
+	($negsilicon1,$silicon2,$silicon3) = split("-",$pars2);
+	$silicon1 = -1*$negsilicon1;
+      }
+      #print "$parttype $eta $whichsilicon $silicon1 $silicon2 $silicon3\n"
+    }
+    if($mylength==14){#there is one zero and there will be 7 parameters
+      ($pars1,$pars2,$pars3) = split("--",$pars);
+      #print "$data\n";
+      #print "$pars1 $pars2 $pars3\n";
+      ($garb,$parttype) = split("-",$pars1);
+      ($negeta,$whichsilicon) = split("-",$pars2);
+      ($negsilicon1,$silicon2,$silicon3) = split("-",$pars3);
+      $eta = -1*$negeta;
+      $silicon1 = -1*$negsilicon1;
+      #print "$parttype $eta $whichsilicon $silicon1 $silicon2 $silicon3\n"
+    }    
+    if($eta==0){
+      $side = "";
+    }
+    if($eta==1){
+      $side = "West";
+    }
+    if($eta==-1){
+      $side = "East";
+    }
+    if($whichsilicon==0){
+      $silicon = "Silicon";
+    }
+    if($whichsilicon==1){
+      $silicon = "Svt";
+    }
+    if($whichsilicon==2){
+      $silicon = "Ssd";
+    }
+    $folder = "";
+    #print "|$parttype| |$eta| |$whichsilicon| |$silicon1| |$silicon2| |$silicon3|\n";
+    if($parttype==0){#h
+      if($silicon1==-1){
+	$charge = "Neg";
+      }
+      if($silicon1==0){
+	$charge = "";
+      }
+      if($silicon1==1){
+	$charge = "Pos";
+      }
+      $folder = "AuAu200Y7h"."$side"."$silicon"."$charge"."Nhits"."$silicon2";
+    }
+    if($parttype==1){
+      $folder = "AuAu200Y7V0"."$side"."$silicon"."NhitsPos"."$silicon1"."NhitsNeg"."$silicon2";
+    }
+    if($parttype==2){
+      $folder = "AuAu200Y7Xi"."$side"."$silicon"."NhitsPos"."$silicon1"."NhitsNeg"."$silicon2"."NhitsBach"."$silicon3";
+    }
+    system "mkdir Pics/QA/Pt/$folder\n";
+    system "mv tmp/pt/*.eps Pics/QA/Pt/$folder\n";
+    #print "mkdir Pics/QA/Pt/$folder\n";
+    #print "mv tmp/pt/*.eps Pics/QA/Pt/$folder\n";
+      
+  }

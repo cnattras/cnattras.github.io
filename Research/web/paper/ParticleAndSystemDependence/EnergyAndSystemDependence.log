@@ -1,0 +1,230 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2008.5.16)  26 MAY 2008 17:00
+entering extended mode
+ %&-line parsing enabled.
+**EnergyAndSystemDependence.tex
+(./EnergyAndSystemDependence.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, croatian, ukrainian, russian, bulgarian, czech, slovak, danish, dut
+ch, finnish, basque, french, german, ngerman, ibycus, greek, monogreek, ancient
+greek, hungarian, italian, latin, mongolian, norsk, icelandic, interlingua, tur
+kish, coptic, romanian, welsh, serbian, slovenian, estonian, esperanto, upperso
+rbian, indonesian, polish, portuguese, spanish, catalan, galician, swedish, loa
+ded.
+(./iopart.cls
+Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
+(./iopart12.clo
+File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
+)
+\c@jnl=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\indentedwidth=\skip43
+\mathindent=\dimen102
+\c@eqnval=\count87
+) (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (./iopams.sty
+Package: iopams 1997/02/13 v1.0
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+))
+(/usr/share/texmf-texlive/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen105
+\WF@size=\dimen106
+\c@WF@wrappedlines=\count88
+\WF@box=\box26
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-texlive/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2007/01/07 v3.0k Customising captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
+\captionmargin=\dimen107
+\captionmarginx=\dimen108
+\captionwidth=\dimen109
+\captionindent=\dimen110
+\captionparindent=\dimen111
+\captionhangindent=\dimen112
+))
+\c@KVtest=\count89
+\sf@farskip=\skip44
+\sf@captopadj=\dimen113
+\sf@capskip=\skip45
+\sf@nearskip=\skip46
+\c@subfigure=\count90
+\c@subfigure@save=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@subtable@save=\count94
+\c@lotdepth=\count95
+\sf@top=\skip47
+\sf@bottom=\skip48
+)
+(./EnergyAndSystemDependence.aux)
+\openout1 = `EnergyAndSystemDependence.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+
+(/usr/share/texmf-texlive/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
+
+(/usr/share/texmf-texlive/tex/latex/everysel/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+)
+Package caption Info: subref 1.2 or 1.3 detected on input line 56.
+LaTeX Info: Redefining \subref on input line 56.
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [1
+
+]
+File: Figure1a.eps Graphic file (type eps)
+ <Figure1a.eps>
+File: Figure1b.eps Graphic file (type eps)
+
+<Figure1b.eps>
+Underfull \hbox (badness 10000) in alignment at lines 97--99
+[] []
+ []
+
+File: Figure1c.eps Graphic file (type eps)
+<Figure1c.eps>
+File: Figure1d.eps Graphic file (type eps)
+ <Figure1d.eps>
+File: Figure1e.eps Graphic file (type eps)
+ <Figure1e.eps>
+Underfull \hbox (badness 10000) in alignment at lines 109--111
+[] [] []
+ []
+
+[2]
+File: Figure2a.eps Graphic file (type eps)
+ <Figure2a.eps>
+File: Figure2b.eps Graphic file (type eps)
+ <Figure2b.eps>
+Underfull \hbox (badness 10000) in alignment at lines 136--138
+[] []
+ []
+
+File: Figure2c.eps Graphic file (type eps)
+<Figure2c.eps>
+File: Figure2d.eps Graphic file (type eps)
+ <Figure2d.eps>
+Underfull \hbox (badness 10000) in alignment at lines 145--147
+[] []
+ []
+
+File: Figure3a.eps Graphic file (type eps)
+<Figure3a.eps>
+File: Figure3b.eps Graphic file (type eps)
+ <Figure3b.eps>
+File: Figure3c.eps Graphic file (type eps)
+ <Figure3c.eps>
+Underfull \hbox (badness 10000) in alignment at lines 167--169
+[] [] []
+ []
+
+[3] [4] (./EnergyAndSystemDependence.aux) ) 
+Here is how much of TeX's memory you used:
+ 2094 strings out of 94102
+ 27480 string characters out of 1165833
+ 82449 words of memory out of 1500000
+ 5346 multiletter control sequences out of 10000+50000
+ 12075 words of font info for 47 fonts, out of 1200000 for 2000
+ 637 hyphenation exceptions out of 8191
+ 43i,10n,42p,1278b,351s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on EnergyAndSystemDependence.dvi (4 pages, 19620 bytes).

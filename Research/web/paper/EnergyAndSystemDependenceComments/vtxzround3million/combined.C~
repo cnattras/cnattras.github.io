@@ -1,0 +1,232 @@
+void combined(){
+  gROOT->LoadMacro("VtxCutBin10dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin10dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin14dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin14dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin18dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin18dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin22dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin22dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin26dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin26dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin2dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin2dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin6dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBin6dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn10dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn10dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn14dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn14dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn18dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn18dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn22dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn22dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn26dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn26dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn2dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn2dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn30dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn30dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn6dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin12DdEtaMethod.C");
+  gROOT->LoadMacro("VtxCutBinn6dEtadPhi_trig_h_pT30_60_assoc_h_pT10_100_CentBin22DdEtaMethod.C");
+
+  float max = 0.5;
+  float min = -0.2;
+
+   TH1D *hn2CB2 = Cutn2CB2(max,min);
+   TH1D *h2CB2 = Cut2CB2(max,min);
+   TH1D *hn2CB1 = Cutn2CB1(max,min);
+   TH1D *h2CB1 = Cut2CB1(max,min);
+
+   TH1D *hn6CB2 = Cutn6CB2(max,min);
+   TH1D *h6CB2 = Cut6CB2(max,min);
+   TH1D *hn6CB1 = Cutn6CB1(max,min);
+   TH1D *h6CB1 = Cut6CB1(max,min);
+
+   TH1D *hn10CB2 = Cutn10CB2(max,min);
+   TH1D *h10CB2 = Cut10CB2(max,min);
+   TH1D *hn10CB1 = Cutn10CB1(max,min);
+   TH1D *h10CB1 = Cut10CB1(max,min);
+
+   TH1D *hn14CB2 = Cutn14CB2(max,min);
+   TH1D *h14CB2 = Cut14CB2(max,min);
+   TH1D *hn14CB1 = Cutn14CB1(max,min);
+   TH1D *h14CB1 = Cut14CB1(max,min);
+
+   TH1D *hn18CB2 = Cutn18CB2(max,min);
+   TH1D *h18CB2 = Cut18CB2(max,min);
+   TH1D *hn18CB1 = Cutn18CB1(max,min);
+   TH1D *h18CB1 = Cut18CB1(max,min);
+
+   TH1D *hn22CB2 = Cutn22CB2(max,min);
+   TH1D *h22CB2 = Cut22CB2(max,min);
+   TH1D *hn22CB1 = Cutn22CB1(max,min);
+   TH1D *h22CB1 = Cut22CB1(max,min);
+
+   TH1D *hn26CB2 = Cutn26CB2(max,min);
+   TH1D *h26CB2 = Cut26CB2(max,min);
+   TH1D *hn26CB1 = Cutn26CB1(max,min);
+   TH1D *h26CB1 = Cut26CB1(max,min);
+
+   TH1D *hn30CB2 = Cutn30CB2(max,min);
+   TH1D *hn30CB1 = Cutn30CB1(max,min);
+
+//    Pics/tmp/junkVtxCut10.2.txt 
+float ntrig10cb2 = 590896;
+//    Pics/tmp/junkVtxCut10.txt 
+float ntrig10cb1 = 662497;
+//    Pics/tmp/junkVtxCut14.2.txt 
+float ntrig14cb2 = 531135;
+//    Pics/tmp/junkVtxCut14.txt 
+float ntrig14cb1 = 594288;
+//    Pics/tmp/junkVtxCut18.2.txt 
+float ntrig18cb2 = 458017;
+//    Pics/tmp/junkVtxCut18.txt 
+float ntrig18cb1 = 493440;
+//    Pics/tmp/junkVtxCut22.2.txt 
+float ntrig22cb2 = 355609;
+//    Pics/tmp/junkVtxCut2.2.txt 
+float ntrig2cb2 = 656963;
+//    Pics/tmp/junkVtxCut22.txt 
+float ntrig22cb1 = 726976;
+//    Pics/tmp/junkVtxCut26.2.txt 
+float ntrig26cb2 = 238166;
+//    Pics/tmp/junkVtxCut26.txt 
+float ntrig26cb1 = 237605;
+//    Pics/tmp/junkVtxCut2.txt 
+float ntrig2cb1 = 730692;
+//    Pics/tmp/junkVtxCut6.2.txt 
+float ntrig6cb2 = 634253;
+//    Pics/tmp/junkVtxCut6.txt 
+float ntrig6cb1 = 710068;
+
+//    Pics/tmp/junkVtxCutn10.2.txt 
+float ntrign10cb2 = 599199;
+//    Pics/tmp/junkVtxCutn10.txt 
+float ntrign10cb1 = 663531;
+//    Pics/tmp/junkVtxCutn14.2.txt 
+float ntrign14cb2 = 536463;
+//    Pics/tmp/junkVtxCutn14.txt 
+float ntrign14cb1 = 588336;;
+//    Pics/tmp/junkVtxCutn18.2.txt 
+float ntrign18cb2 = 440609;
+//    Pics/tmp/junkVtxCutn18.txt 
+float ntrign18cb1 = 477292;
+//    Pics/tmp/junkVtxCutn22.2.txt 
+float ntrign22cb2 = 324207;
+//    Pics/tmp/junkVtxCutn2.2.txt 
+float ntrign2cb2 = 659086;
+//    Pics/tmp/junkVtxCutn22.txt 
+float ntrign22cb1 = 329406;
+//    Pics/tmp/junkVtxCutn26.2.txt 
+float ntrign26cb2 = 198258;
+//    Pics/tmp/junkVtxCutn26.txt 
+float ntrign26cb1 = 184908;
+//    Pics/tmp/junkVtxCutn2.txt 
+float ntrign2cb1 = 733164;
+//    Pics/tmp/junkVtxCutn30.2.txt 
+float ntrign30cb2 = 99911;
+//    Pics/tmp/junkVtxCutn30.txt 
+float ntrign30cb1 = 82041;
+//    Pics/tmp/junkVtxCutn6.2.txt 
+float ntrign6cb2 = 641297;
+//    Pics/tmp/junkVtxCutn6.txt 
+float ntrign6cb1 = 709593;
+
+ float totalLowz =0;
+ float totalHighz = 0;
+
+ totalLowz += ntrig2cb2;
+ totalLowz += ntrig2cb1;
+ totalLowz += ntrign2cb2;
+ totalLowz += ntrign2cb1;
+ totalLowz += ntrig6cb2;
+ totalLowz += ntrig6cb1;
+ totalLowz += ntrign6cb2;
+ totalLowz += ntrign6cb1;
+ totalLowz += ntrig10cb2;
+ totalLowz += ntrig10cb1;
+ totalLowz += ntrign10cb2;
+ totalLowz += ntrign10cb1;
+ totalLowz += ntrign14cb2;
+ totalLowz += ntrign14cb1;
+ cout<<"totalLowz "<<totalLowz<<endl;
+
+ totalHighz += ntrig14cb2;
+ totalHighz += ntrig14cb1;
+ totalHighz += ntrig18cb2;
+ totalHighz += ntrig18cb1;
+ totalHighz += ntrign18cb2;
+ totalHighz += ntrign18cb1;
+ totalHighz += ntrig22cb2;
+ totalHighz += ntrig22cb1;
+ totalHighz += ntrign22cb2;
+ totalHighz += ntrign22cb1;
+ totalHighz += ntrig26cb2;
+ totalHighz += ntrig26cb1;
+ totalHighz += ntrign26cb2;
+ totalHighz += ntrign26cb1;
+ totalHighz += ntrign30cb2;
+ totalHighz += ntrign30cb1;
+ cout<<"totalHighz "<<totalHighz<<endl;
+
+
+   TH1D *lowz = hn2CB2->Clone("lowz");
+   lowz->Scale(ntrign2cb2/totalLowz);
+   lowz->Add(h2CB2,ntrig2cb2/totalLowz);
+   lowz->Add(hn2CB1,ntrign2cb1/totalLowz);
+   lowz->Add(h2CB1,ntrig2cb1/totalLowz);
+
+   lowz->Add(hn6CB2,ntrign6cb2/totalLowz);
+   lowz->Add(h6CB2,ntrig6cb2/totalLowz);
+   lowz->Add(hn6CB1,ntrign6cb1/totalLowz);
+   lowz->Add(h6CB1,ntrig6cb1/totalLowz);
+
+   lowz->Add(hn10CB2,ntrign10cb2/totalLowz);
+   lowz->Add(h10CB2,ntrig10cb2/totalLowz);
+   lowz->Add(hn10CB1,ntrign10cb1/totalLowz);
+   lowz->Add(h10CB1,ntrig10cb1/totalLowz);
+
+   lowz->Add(hn14CB2,ntrign14cb2/totalLowz);
+   lowz->Add(hn14CB1,ntrign14cb1/totalLowz);
+
+   TH1D *highz = h14CB2->Clone("highz");//14-18 cm
+   highz->Scale(ntrig14cb2/totalHighz);
+   highz->Add(h14CB1,ntrig14cb1/totalHighz);
+
+   highz->Add(h18CB1,ntrig14cb1/totalHighz);
+   highz->Add(h18CB2,ntrig14cb2/totalHighz);
+   highz->Add(hn18CB1,ntrign14cb1/totalHighz);
+   highz->Add(hn18CB2,ntrign14cb2/totalHighz);
+
+   highz->Add(h22CB1,ntrig22cb1/totalHighz);
+   highz->Add(h22CB2,ntrig22cb2/totalHighz);
+   highz->Add(hn22CB1,ntrign22cb1/totalHighz);
+   highz->Add(hn22CB2,ntrign22cb2/totalHighz);
+
+   highz->Add(h26CB1,ntrig26cb1/totalHighz);
+   highz->Add(h26CB2,ntrig26cb2/totalHighz);
+   highz->Add(hn26CB1,ntrign26cb1/totalHighz);
+   highz->Add(hn26CB2,ntrign26cb2/totalHighz);
+
+   highz->Add(hn30CB1,ntrign30cb1/totalHighz);
+   highz->Add(hn30CB2,ntrign30cb2/totalHighz);
+
+   TCanvas *canvas = new TCanvas("canvas", "canvas",0,0,500,400);
+   gStyle->SetOptStat(0);
+   canvas->Range(0,0,1,1);
+   canvas->SetBorderSize(2);
+   canvas->SetFrameFillColor(0);
+   TF1 *constBkgd = new TF1("constBkgd","[0]",-1.99,1.99);
+   constBkgd->SetParameter(0,0.1);
+   //highz->Add(constBkgd);
+   highz->SetMaximum(0.5);
+   highz->Draw();
+   //float scale = (highz->GetMaximum() - highz->GetMinimum()) / (lowz->GetMaximum() - lowz->GetMinimum()) ;
+   float scale = 1.05;
+   cout<<"Scale "<<scale<<endl;
+   lowz->Scale(scale);
+   lowz->SetLineColor(2);
+   lowz->Draw("same");
+
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Fuqiang's d+Au non-flow subtraction</title></head><body>Following
+Fuqiang's proposal over email and as agreed upon in the 23 Feb. 2011
+GPC meeting, we attempted the following calculation:<br>
+<div style="margin-left: 40px;">Christine,
+<br>
+<br>
+Thanks for the work. How about the following which will achieve the
+same:
+<br>
+AA fit: near-side-gaus_AA + B_AA*(1+2vn<sup class="moz-txt-sup">2</sup>_AA*cos2dphi)
+<br>
+dAu fit: near-side-gaus_dA + B_dA*(1+2vn<sup class="moz-txt-sup">2</sup>_dA*cos2dphi)
+<br>
+Take the nonflow in AA to be that from dA, then the flow contribution
+in AA would be
+<br>
+v3<sup class="moz-txt-sup">2</sup>/v2<sup class="moz-txt-sup">2</sup> =
+(B_AA*v3<sup class="moz-txt-sup">2</sup>_AA - B_dA*v3<sup class="moz-txt-sup">2</sup>_dA) / (B_AA*v2<sup class="moz-txt-sup">2</sup>_AA
+- B_dA*v2<sup class="moz-txt-sup">2</sup>_dA)
+<br>
+<br>
+Thanks,
+<br>
+Fuqiang
+<br>
+</div>
+
+
+<br>
+The output for (v3/v2)^2 from this method is below:<br>
+AuAu200CB1: Fuqiang's method 1.07 fit 0.615 <br>
+AuAu200CB3: Fuqiang's method 2.53 fit 0.298 <br>
+AuAu200CB4: Fuqiang's method 3.48 fit 0.207 <br>
+AuAu200CB5: Fuqiang's method 4 fit 0.157 <br>
+AuAu200CB6: Fuqiang's method 3.78 fit 0.123 <br>
+AuAu200CB7: Fuqiang's method 3.65 fit 0.0387 <br>
+AuAu200CB8: Fuqiang's method 2.47 fit -0.0451 <br>
+AuAu200CB9: Fuqiang's method 2.97 fit -0.259 <br>
+CuCu200CB1: Fuqiang's method 0.593 fit 0.511 <br>
+CuCu200CB2: Fuqiang's method 1.03 fit 0.292 <br>
+CuCu200CB3: Fuqiang's method 1.31 fit 0.158 <br>
+CuCu200CB4: Fuqiang's method 1.5 fit 0.0234 <br>
+CuCu200CB5: Fuqiang's method 1.56 fit -0.0738 <br>
+CuCu200CB6: Fuqiang's method 2 fit -0.246 <br>
+<br>
+This has not been formatted and made into a pretty plot because it is
+obvious that this method gives wildly different results from the fit
+method.<br>
+<br>
+Rather than assume that this means that the fit is not robust, we did a
+cross check to see if this is a sensible method for subtracting
+non-flow.&nbsp; If this accurately subtracts non-flow from the fit
+v2^2, then the v2^2 given by this method<br>
+v2<sup class="moz-txt-sup">2</sup>_AA
+- B_dA*v2<sup class="moz-txt-sup">2</sup>_dA/B_AA<br>
+&nbsp;should be consistent with the v2^2 used for the ZYAM method.<br>
+<br>
+The plots below are the ratio of the v2^2 using Fuqiang's method to the
+standard (ZYAM) method (left) and the ratio of the v2^2 from the fit to
+the standard (ZYAM) method (right):<br>
+<table style="text-align: left; width: 100px;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><big><big><big>Fuqiang's proposed method</big></big></big><br>
+      </td>
+      <td style="vertical-align: top; text-align: center;"><big><big><big>Fit</big></big></big><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><img style="width: 524px; height: 324px;" alt="" src="Fuqiang.png"><br>
+      </td>
+      <td style="vertical-align: top;"><img style="width: 524px; height: 324px;" alt="" src="v2Ratios.png"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+62 GeV data are not shown for the proposed method because 200 GeV d+Au
+is not an appropriate reference for 62 GeV.&nbsp; The proposed method
+for subtracting non-flow leads to a v2^2 an order of magnitude below
+the v2^2 measured through other methods in central Au+Au collisions and
+it is approximately an order of magnitude larger than v2^2 in
+peripheral collisions.&nbsp; The fit method agrees with v2^2 from other
+methods for large npart and the disagreement grows at smaller
+npart.&nbsp; The proposed method for subtracting non-flow does not do
+substantially better for peripheral collisions than the fit and does
+substantially worse for central collisions.&nbsp; This discrepancy for
+central collisions is due to the fact that jets are quenched in central
+Au+Au collisions so this oversubtracts the contribution from
+jets.&nbsp; If this method were to work in any region, we would expect
+it to work best in peripheral collisions, where jets are not quenched;
+however, this is not what we see.<br>
+<br>
+Since this method does not accurately subtract non-flow from v2^2 where
+we have some way of checking that the method leads to reasonable
+results, it is not reasonable to expect that this is a reliable way of
+subtracting non-flow contributions to v3^2, where we have no way of
+cross checking the results of this exercise.&nbsp; Since v3^2&lt;0 in
+d+Au, this method will always increase v3^2.&nbsp; Additionally, v2^2
+will always be lower from this method than from the fit, so this method
+will always increase (v3/v2)^2.<br>
+</body></html>

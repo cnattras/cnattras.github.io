@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile /home/cnattras/public_html/Research/.htpasswd
+AuthName "Use the same password as at BNL for protected"
+require user protected

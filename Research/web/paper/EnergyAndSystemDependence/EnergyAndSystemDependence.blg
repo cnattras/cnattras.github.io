@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: EnergyAndSystemDependence.aux
+The style file: apsrev.bst
+Database file #1: Bibliography.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 25 entries,
+            3411 wiz_defined-function locations,
+            1306 strings with 13630 characters,
+and the built_in function-call counts, 15423 in all, are:
+= -- 964
+> -- 411
+< -- 58
++ -- 316
+- -- 102
+* -- 2037
+:= -- 1790
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 100
+chr.to.int$ -- 17
+cite$ -- 25
+duplicate$ -- 1382
+empty$ -- 1356
+format.name$ -- 291
+if$ -- 2956
+int.to.chr$ -- 9
+int.to.str$ -- 26
+missing$ -- 208
+newline$ -- 90
+num.names$ -- 75
+pop$ -- 330
+preamble$ -- 1
+purify$ -- 100
+quote$ -- 0
+skip$ -- 597
+stack$ -- 0
+substring$ -- 570
+swap$ -- 1030
+text.length$ -- 37
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 150
+warning$ -- 0
+while$ -- 69
+width$ -- 0
+write$ -- 276

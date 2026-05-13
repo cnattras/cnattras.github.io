@@ -1,0 +1,30 @@
+#ifndef IsGoodTrigger_h
+#define IsGoodTrigger_h
+//c++ stuff
+#ifndef __CINT__
+#  include "IsGoodTrigger.h"
+#  include "goodTriggers.h"
+#  include <string> 
+#  include "Riostream.h"//needed to use things like cout, which I will use primarily for debugging
+#include "../StHighPtTree/TEvent.h"
+#include "StMuDSTMaker/COMMON/StMuEvent.h"
+#endif
+
+bool IsGoodTrigger(const char *dataset, int trig);
+bool IsGoodTrigger(const string dataset, int trig);
+
+bool IsGoodTrigger(const char *dataset, TEvent *event);
+bool IsGoodTrigger(const string dataset, TEvent *event);
+bool IsGoodTrigger(const char *dataset, StMuEvent *event);
+bool IsGoodTrigger(const string dataset, StMuEvent *event);
+
+bool IsGoodTrigger(const char *dataset, int* trigs, TEvent *event);
+bool IsGoodTrigger(const string dataset, int* trigs, TEvent *event);
+bool IsGoodTrigger(const char *dataset, int* trigs, StMuEvent *event);
+bool IsGoodTrigger(const string dataset, int* trigs, StMuEvent *event);
+
+bool IsTrigger(const char *dataset, TEvent *event, int testTrig);
+bool IsTrigger(const string dataset, TEvent *event, int testTrig);
+bool IsTrigger(const char *dataset, StMuEvent *event, int testTrig);
+bool IsTrigger(const string dataset, StMuEvent *event, int testTrig);
+#endif

@@ -1,0 +1,11 @@
+#ifndef __CINT__
+#  include "efficiencyCorrection.h"
+#  include "efficiency.h"
+#  include <string> 
+#  include "Riostream.h"//needed to use things like cout, which I will use primarily for debugging
+#endif
+
+float efficiencyCorrection(const char *dataset, float pt, int multiplicity){
+  return 1.0/(efficiency(dataset,pt,multiplicity));
+}
+

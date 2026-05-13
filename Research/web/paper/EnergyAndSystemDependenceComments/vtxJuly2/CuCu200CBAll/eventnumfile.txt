@@ -1,0 +1,15 @@
+//txtfiles/junkVtxCut10PtAssoc15Trig30To60CB1.txt:Number of trigger particles 189986
+//txtfiles/junkVtxCut14PtAssoc15Trig30To60CB1.txt:Number of trigger particles 145506
+//txtfiles/junkVtxCut18PtAssoc15Trig30To60CB1.txt:Number of trigger particles 151010
+//txtfiles/junkVtxCut22PtAssoc15Trig30To60CB1.txt:Number of trigger particles 129994
+//txtfiles/junkVtxCut26PtAssoc15Trig30To60CB1.txt:Number of trigger particles 112374
+//txtfiles/junkVtxCut2PtAssoc15Trig30To60CB1.txt:Number of trigger particles 213307
+//txtfiles/junkVtxCut6PtAssoc15Trig30To60CB1.txt:Number of trigger particles 165893
+//txtfiles/junkVtxCutn10PtAssoc15Trig30To60CB1.txt:Number of trigger particles 201575
+//txtfiles/junkVtxCutn14PtAssoc15Trig30To60CB1.txt:Number of trigger particles 186418
+//txtfiles/junkVtxCutn18PtAssoc15Trig30To60CB1.txt:Number of trigger particles 167414
+//txtfiles/junkVtxCutn22PtAssoc15Trig30To60CB1.txt:Number of trigger particles 146942
+//txtfiles/junkVtxCutn26PtAssoc15Trig30To60CB1.txt:Number of trigger particles 125600
+//txtfiles/junkVtxCutn2PtAssoc15Trig30To60CB1.txt:Number of trigger particles 216429
+//txtfiles/junkVtxCutn30PtAssoc15Trig30To60CB1.txt:Number of trigger particles 107148
+//txtfiles/junkVtxCutn6PtAssoc15Trig30To60CB1.txt:Number of trigger particles 211764

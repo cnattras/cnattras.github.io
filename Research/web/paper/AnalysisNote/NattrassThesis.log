@@ -1,0 +1,1160 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2009.6.23)  29 JUN 2009 11:25
+entering extended mode
+ %&-line parsing enabled.
+**NattrassThesis.tex
+(./NattrassThesis.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, croatian, ukrainian, russian, bulgarian, czech, slovak, danish, dut
+ch, finnish, basque, french, german, ngerman, ibycus, greek, monogreek, ancient
+greek, hungarian, italian, latin, mongolian, norsk, icelandic, interlingua, tur
+kish, coptic, romanian, welsh, serbian, slovenian, estonian, esperanto, upperso
+rbian, indonesian, polish, portuguese, spanish, catalan, galician, swedish, loa
+ded.
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./yalethesis.sty
+Document Style `Yalethesis'. Released May 7, 1987.
+) (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/share/texmf-texlive/tex/latex/acronym/acronym.sty
+Package: acronym 2006/06/26 v1.26 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texmf-texlive/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+\clearlist=\toks20
+)
+(/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+) (./fancyheadings.sty
+\headrulewidth=\dimen114
+\footrulewidth=\dimen115
+\plainheadrulewidth=\dimen116
+\plainfootrulewidth=\dimen117
+\headwidth=\dimen118
+\footruleskip=\dimen119
+)
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count100
+\LTcapwidth=\dimen120
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count101
+\LT@rows=\count102
+\c@LT@tables=\count103
+\c@LT@chunks=\count104
+\LT@p@ftn=\toks21
+)
+(/usr/share/texmf-texlive/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf-texlive/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen121
+\epsfysize=\dimen122
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(/usr/share/texmf-texlive/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2007/01/07 v3.0k Customising captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
+\captionmargin=\dimen123
+\captionmarginx=\dimen124
+\captionwidth=\dimen125
+\captionindent=\dimen126
+\captionparindent=\dimen127
+\captionhangindent=\dimen128
+)
+Package caption Info: longtable package v3.15 (or newer) detected on input line
+ 359.
+)
+\c@KVtest=\count105
+\sf@farskip=\skip50
+\sf@captopadj=\dimen129
+\sf@capskip=\skip51
+\sf@nearskip=\skip52
+\c@subfigure=\count106
+\c@subfigure@save=\count107
+\c@lofdepth=\count108
+\c@subtable=\count109
+\c@subtable@save=\count110
+\c@lotdepth=\count111
+\sf@top=\skip53
+\sf@bottom=\skip54
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen130
+)
+\@indexfile=\write3
+\openout3 = `NattrassThesis.idx'.
+
+
+Writing index file NattrassThesis.idx
+(./Commands.tex) (./NattrassThesis.aux)
+\openout1 = `NattrassThesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+
+(/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 28.
+
+(/usr/share/texmf-texlive/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
+
+(/usr/share/texmf-texlive/tex/latex/everysel/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip55
+\RaggedLeftLeftskip=\skip56
+\RaggedRightLeftskip=\skip57
+\CenteringRightskip=\skip58
+\RaggedLeftRightskip=\skip59
+\RaggedRightRightskip=\skip60
+\CenteringParfillskip=\skip61
+\RaggedLeftParfillskip=\skip62
+\RaggedRightParfillskip=\skip63
+\JustifyingParfillskip=\skip64
+\CenteringParindent=\skip65
+\RaggedLeftParindent=\skip66
+\RaggedRightParindent=\skip67
+\JustifyingParindent=\skip68
+)
+Package caption Info: subref 1.2 or 1.3 detected on input line 28.
+LaTeX Info: Redefining \subref on input line 28.
+
+(./abstract/abstract.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [1
+
+] [2]) [1] [2]
+(./acknowledgements/acknowledgements.tex
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/acknowledgements/heidy.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/acknowledgements/heidy.eps>
+[3
+
+] [4]) [5] (./NattrassThesis.toc [6
+
+] [7])
+\tf@toc=\write4
+\openout4 = `NattrassThesis.toc'.
+
+ [8] (./NattrassThesis.lof [9
+
+]
+[10] [11] [12])
+\tf@lof=\write5
+\openout5 = `NattrassThesis.lof'.
+
+ [13] (./NattrassThesis.lot [14
+
+])
+\tf@lot=\write6
+\openout6 = `NattrassThesis.lot'.
+
+ [15]
+(./introduction/introduction.tex
+Chapter 1.
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/alphaS.eps Gra
+phic file (type eps)
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/alphaS.eps>
+[1
+
+
+] [2]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/phasediagram.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/phasediagram.eps>
+[3] [4]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/phasediagramCr
+ossOverPoints.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/phasediagramCrossOv
+erPoints.eps> [5]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/StagesOfRxn.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/StagesOfRxn.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RxnEvolutionCo
+py.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RxnEvolutionCopy.ep
+s> [6] [7]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RAA.eps Graphi
+c file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RAA.eps> [8]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/Renk.eps Graph
+ic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/Renk.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RAAData2.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RAAData2.eps>
+[9] [10]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/GlasmaXDepende
+nce_hera.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/GlasmaXDependence_h
+era.eps> [11]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/GlasmaSchemati
+c.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/GlasmaSchematic.eps
+> [12] [13]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/ThermalModel.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/ThermalModel.eps>
+[14]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RxnPlaneSchema
+tic.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RxnPlaneSchematic.e
+ps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/HydroPressureG
+radients.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/HydroPressureGradie
+nts.eps> [15] [16]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2energy.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2energy.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2dNdy.eps Gra
+phic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2dNdy.eps>
+[17]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2pT.eps Graph
+ic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2pT.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/PHENIXv2Scalin
+g.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/PHENIXv2Scaling.eps
+> [18] [19]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2EvtPlaneOthe
+rs.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2EvtPlaneOthers.ep
+s> [20] [21]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/IDRcp.eps Grap
+hic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/IDRcp.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/IDRcpScaled.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/IDRcpScaled.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RecoFigure.eps
+ Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RecoFigure.eps>
+[22] [23] [24] [25]) (./previousresults/previousresults.tex [26]
+Chapter 2.
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/ppjet.eps G
+raphic file (type eps)
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/ppjet.eps>
+[27
+
+]
+Overfull \hbox (10.41243pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/12 After the hard scat-ter-ing, the scat-tered par-tons hadroniz
+e. The pro-cess of hadroniza-
+ []
+
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/idjetschema
+tic.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/idjetschematic.e
+ps> [28] [29]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/IconicJetQu
+ench.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/IconicJetQuench.
+eps> [30]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/LowPtCorrel
+ations.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/LowPtCorrelation
+s.eps> [31]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/PunchThroug
+h.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/PunchThrough.eps
+> [32]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/2DdAu.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/2DdAu.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/2DAuAu.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/2DAuAu.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RidgeVSJetVSNpar
+t.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RidgeVSJetVSNpart.eps
+> [33] [34]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RidgeVSPTTrigVSC
+ent2.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RidgeVSPTTrigVSCent2.
+eps> [35]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/RidgeVSJetV
+SPtAssoc.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/RidgeVSJetVSPtAs
+soc.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/discussion/zTRidgeSubtracte
+d.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/discussion/zTRidgeSubtracted.eps
+> [36]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/baryon-meso
+n-ratio-inclusive-ridge-jet.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/baryon-meson-rat
+io-inclusive-ridge-jet.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/pToPiRatio.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/pToPiRatio.eps>
+[37] [38]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RxnPlaneDependen
+ce0-5Central.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RxnPlaneDependence0-5
+Central.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RxnPlaneDependen
+ce20-60Central.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/discussion/RxnPlaneDependence20-
+60Central.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/3particleDE
+taCorrelations.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/3particleDEtaCor
+relations.eps> [39] [40]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/mikedaugher
+itypart1.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/mikedaugheritypa
+rt1.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/mikedaugher
+itypart2.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/mikedaugheritypa
+rt2.eps> [41]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/ktjetsevil.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/previousresults/ktjetsevil.eps>
+[42] [43]) (./experiment/experiment.tex [44] [45]
+Chapter 3.
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/RHIC.eps Graphic
+ file (type eps)
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/RHIC.eps> [46
+
+]
+[47]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STAR.eps Graphic
+ file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STAR.eps>
+[48]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STARProfile.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STARProfile.eps>
+[49] [50]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/zdc_vs_ctb.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/zdc_vs_ctb.eps>
+[51]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCFieldCage.eps
+ Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCFieldCage.eps>
+[52] [53]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/MWPC.eps Graphic
+ file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/experiment/MWPC.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/gatinggrid.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/gatinggrid.eps>
+[54]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPC_side.eps Gra
+phic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPC_side.eps>
+[55]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TPCdEdxMod.eps Gra
+phic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TPCdEdxMod.eps>
+[56]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STARAuAuEvent.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/STARAuAuEvent.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCVertRes.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCVertRes.eps>
+[57]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCNimMomRes.eps
+ Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/experiment/TPCNimMomRes.eps>)
+[58] (./analysis/particleidentification.tex [59]
+Chapter 4.
+
+Overfull \hbox (8.60237pt too wide) in paragraph at lines 11--24
+ [] 
+ []
+
+[60
+
+] [61]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/UnidentifiedDCA.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/UnidentifiedDCA.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/UnidentifiedNhits.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/UnidentifiedNhits.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/CuCu200CentralEff.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/CuCu200CentralEff.eps>
+[62] [63]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v0geometriccuts.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v0geometriccuts.eps>
+[64]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/DCA.eps Graphic fi
+le (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/DCA.eps> [65]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/DCAPt.eps Graphic 
+file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/DCAPt.eps> [66]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/DCADecay.eps Graph
+ic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/DCADecay.eps> [67]
+[68]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/NSig.eps Graphic f
+ile (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/NSig.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Widths.eps Graph
+ic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Widths.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Centers.eps Grap
+hic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Centers.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Purity.eps Graph
+ic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Purity.eps> [69]
+[70]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Efficiency.eps G
+raphic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0Efficiency.eps>
+[71] [72]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/XiCutPlot2.eps Gra
+phic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/XiCutPlot2.eps>
+[73]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/mass.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/geoCuts/Xis/mass.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/XiCenterAndWidth.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/XiCenterAndWidth.eps>
+[74]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/XiPurity.eps Graph
+ic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/XiPurity.eps>
+[75] [76]
+Overfull \hbox (14.10922pt too wide) in paragraph at lines 332--365
+ [] 
+ []
+
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/OmegaMassPlot.eps 
+Graphic file (type eps)
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/OmegaMassPlot.eps>)
+(./analysis/correlationmethod.tex [77] [78]
+Chapter 5.
+[79
+
+] [80]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/PhiEtaDistribution
+.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/PhiEtaDistribution.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/EtaDistribution.ep
+s Graphic file (type eps)
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/EtaDistribution.eps>
+[81]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/MixedEvents.eps Gr
+aphic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/MixedEvents.eps>
+[82]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps Graphic
+ file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TrackMerginghhCorr
+.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TrackMerginghhCorr.eps>
+[83] [84] [85]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps Graphic
+ file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/EventMixinghhCorr.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/EventMixinghhCorr.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps Graphic
+ file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0TriggerDips.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0TriggerDips.eps>
+[86]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps Graphic
+ file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TrackMergingXihCor
+r.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/TrackMergingXihCorr.eps
+>
+
+LaTeX Warning: Float too large for page by 17.22816pt on input line 129.
+
+[87]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps Graphic
+ file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/analysis/zscale.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0AssocDips.eps Gr
+aphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/V0AssocDips.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/SampleCorrected.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/SampleCorrected.eps>
+[88] [89] [90] [91] [92]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/JetSamples.eps Gra
+phic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/JetSamples.eps>
+[93] [94]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v2ptcu62WithFits.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v2ptcu62WithFits.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v2ptcu200WithFits.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v2ptcu200WithFits.eps>
+[95] [96]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v2ptau62WithFits.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/v2ptau62WithFits.eps>
+[97]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/analysis/IntegratedSamples.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/analysis/IntegratedSamples.eps>
+[98]) (./results/results.tex [99]
+Chapter 6.
+[100
+
+]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPt.eps Graphic 
+file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPt.eps>
+[101]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPt.eps Graphic
+ file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPt.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpart.eps Graphi
+c file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpart.eps> [102]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/Widths.eps Graphic 
+file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/Widths.eps> [103]
+[104]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtIdTrig.eps Gr
+aphic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtIdTrig.eps>
+[105]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtIdTrig.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtIdTrig.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpartIdTrig.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpartIdTrig.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtIdAssoc.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtIdAssoc.eps>
+[106]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtIdAssoc.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtIdAssoc.eps>
+[107]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeNpart.eps Grap
+hic file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeNpart.eps>
+[108]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeRatioNpart.eps
+ Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeRatioNpart.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeNpartIDTrig.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeNpartIDTrig.eps>
+[109] [110]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/OmegaPtAssoc.eps Gr
+aphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/OmegaPtAssoc.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/OmegaPtTrig.eps Gra
+phic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/OmegaPtTrig.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/Omega3Cuts.eps Grap
+hic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/Omega3Cuts.eps> [111]
+[112]) (./theory/theory.tex [113]
+Chapter 7.
+[114
+
+]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/InclusiveRatioPlot.
+eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/InclusiveRatioPlot.eps>
+[115] [116]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtPythia6.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtPythia6.eps>
+[117]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtPythia6.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtPythia6.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpartPythia6.eps
+ Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpartPythia6.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/results/WidthsPythia6.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/results/WidthsPythia6.eps>
+[118] [119] [120]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/radialflowtriggerbia
+s.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/radialflowtriggerbias.eps
+> [121]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/SergeiBeta0.4trig3as
+soc1_2.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/SergeiBeta0.4trig3assoc1_
+2.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/JunRidge.eps Graphic
+ file (type eps)
+ </home/madscientistgirl/HarrisLab/Thesis/latex/theory/JunRidge.eps>
+[122] [123]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/QCDFieldsRidge2.eps 
+Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/QCDFieldsRidge2.eps>
+[124]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/momentumkickschemati
+c.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/momentumkickschematic.eps
+> [125]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/MomentumKickEnergyDe
+pendence.eps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/MomentumKickEnergyDepende
+nce.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/momkicketadist.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/momkicketadist.eps>
+[126]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/JetsInMediumWind.eps
+ Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/JetsInMediumWind.eps>
+[127]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/theory/plasmainstability.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/theory/plasmainstability.eps>
+[128] [129] [130] [131] [132]) (./conclusions/conclusions.tex [133]
+Chapter 8.
+[134
+
+] [135]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/conclusions/STARTOFRun10.ep
+s Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/conclusions/STARTOFRun10.eps>
+[136] [137] [138]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/conclusions/PythiaJetSTAR.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/conclusions/PythiaJetSTAR.eps>
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/conclusions/PythiaJetNA49.e
+ps Graphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/conclusions/PythiaJetNA49.eps>
+[139]) [140] (./introduction/Terminology.tex [141]
+Appendix A.
+[142
+
+]
+File: /home/madscientistgirl/HarrisLab/Thesis/latex/introduction/rapidity.eps G
+raphic file (type eps)
+
+</home/madscientistgirl/HarrisLab/Thesis/latex/introduction/rapidity.eps>)
+(./analysis/geoCuts/CutAppendix.tex [143]
+Appendix B.
+
+Overfull \hbox (0.56877pt too wide) in alignment at lines 7--10
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.56877pt too wide) in alignment at lines 10--14
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.56877pt too wide) in alignment at lines 14--16
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.56877pt too wide) in alignment at lines 16--18
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.56877pt too wide) in alignment at lines 18--51
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 51
+ []
+
+
+Overfull \hbox (0.56877pt too wide) in alignment at lines 51--73
+ [] [] [] [] [] [] [] 
+ []
+
+[144
+
+]
+Overfull \hbox (0.56877pt too wide) in alignment at lines 73--96
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.56877pt too wide) in alignment at lines 96--118
+ [] [] [] [] [] [] [] 
+ []
+
+[145]
+Overfull \hbox (0.56877pt too wide) in alignment at lines 118--127
+ [] [] [] [] [] [] [] 
+ []
+
+[146]
+Overfull \hbox (2.41786pt too wide) in alignment at lines 134--137
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.41786pt too wide) in alignment at lines 137--141
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.41786pt too wide) in alignment at lines 141--143
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.41786pt too wide) in alignment at lines 143--145
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.41786pt too wide) in alignment at lines 145--177
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 177
+ []
+
+
+Overfull \hbox (2.41786pt too wide) in alignment at lines 177--200
+ [] [] [] [] [] [] [] 
+ []
+
+[147]
+Overfull \hbox (2.41786pt too wide) in alignment at lines 200--223
+ [] [] [] [] [] [] [] 
+ []
+
+[148]
+Overfull \hbox (2.41786pt too wide) in alignment at lines 223--242
+ [] [] [] [] [] [] [] 
+ []
+
+[149]
+Overfull \hbox (28.51413pt too wide) in alignment at lines 250--253
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.51413pt too wide) in alignment at lines 253--257
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.51413pt too wide) in alignment at lines 257--259
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.51413pt too wide) in alignment at lines 259--261
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.51413pt too wide) in alignment at lines 261--284
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 284
+ []
+
+
+Overfull \hbox (28.51413pt too wide) in alignment at lines 284--305
+ [] [] [] [] [] [] [] 
+ []
+
+[150]
+Overfull \hbox (28.51413pt too wide) in alignment at lines 305--327
+ [] [] [] [] [] [] [] 
+ []
+
+[151]
+Overfull \hbox (28.51413pt too wide) in alignment at lines 327--348
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.51413pt too wide) in alignment at lines 348--370
+ [] [] [] [] [] [] [] 
+ []
+
+[152]
+Overfull \hbox (28.51413pt too wide) in alignment at lines 370--391
+ [] [] [] [] [] [] [] 
+ []
+
+[153]
+Overfull \hbox (28.51413pt too wide) in alignment at lines 391--401
+ [] [] [] [] [] [] [] 
+ []
+
+) (./analysis/geoCuts/EfficiencyAppendix.tex [154]
+Appendix C.
+[155
+
+]
+Underfull \vbox (badness 10000) detected at line 118
+ []
+
+[156]
+Underfull \vbox (badness 10000) detected at line 171
+ []
+
+[157]
+Underfull \vbox (badness 10000) detected at line 217
+ []
+
+[158]) (./analysis/Centrality.tex [159]
+Appendix D.
+) (./NattrassThesis.bbl [160
+
+] [161] [162
+
+] [163] [164] [165] [166] [167]
+[168] [169] [170] [171] [172]
+Missing character: There is no é in font cmti12!
+Missing character: There is no é in font cmti12!
+Missing character: There is no é in font cmti12!
+Missing character: There is no é in font cmti12!
+Missing character: There is no é in font cmti12!
+ [173] [174] [175] [176]) (./NattrassThesis.ind)
+[177] (./NattrassThesis.aux) ) 
+Here is how much of TeX's memory you used:
+ 3845 strings out of 94102
+ 60423 string characters out of 1165833
+ 115230 words of memory out of 1500000
+ 6875 multiletter control sequences out of 10000+50000
+ 18568 words of font info for 70 fonts, out of 1200000 for 2000
+ 637 hyphenation exceptions out of 8191
+ 43i,19n,42p,2833b,352s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on NattrassThesis.dvi (194 pages, 550056 bytes).

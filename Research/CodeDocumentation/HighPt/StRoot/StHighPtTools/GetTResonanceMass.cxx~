@@ -1,0 +1,31 @@
+#include "GetTResonanceMass.h"
+
+float GetTResonanceMass(TIdentifiedTrack *posTrack, TIdentifiedTrack *negTrack, int type){
+  Double_t epos,eneg,invmass;
+  Double_t fPosMass,fNegMass;
+  if(particleType==14){
+    fPosMass   = 0.93827231;
+    fNegMass   = 0.13957018;
+  }
+  if(particleType==15) {
+    fPosMass   = 0.13957018;
+    fNegMass   = 0.93827231;
+  }
+  if(particleType==16) {
+    fPosMass   = 0.13957018;
+    fNegMass   = 0.13957018;
+  }
+  if(particleType==17) {
+    fPosMass   = 0.13957018;
+    fNegMass   = 0.13957018;
+  }
+  /*
+  epos = sqrt(posTrack->momPosX()*posTrack->momPosX()+posTrack->momPosY()*posTrack->momPosY()+
+		 posTrack->momPosZ()*posTrack->momPosZ()+fPosMass*fPosMass);
+  eneg = sqrt(negTrack->momNegX()*negTrack->momNegX()+negTrack->momNegY()*negTrack->momNegY()+
+	       negTrack->momNegZ()*negTrack->momNegZ()+ fNegMass*fNegMass);
+  invmass = sqrt((epos+eneg)*(epos+eneg) - (negTrack->momV0X()*negTrack->momV0X()+
+	       negTrack->momV0Y()*negTrack->momV0Y()+negTrack->momV0Z()*negTrack->momV0Z()));
+  return invmass;
+  */
+}

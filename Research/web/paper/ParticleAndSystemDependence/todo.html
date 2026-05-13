@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+
+
+
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>todo</title></head><body>To-do list<br>
+<span style="color: red; font-weight: bold;">Christine</span> <span style="color: rgb(51, 0, 153); font-weight: bold;">Jana</span> <span style="color: rgb(0, 153, 0); font-weight: bold;">both</span><br>
+<br>
+
+1.&nbsp; v2 - now we have papers on the v2 for both systems for v0's.&nbsp; I 
+don't think we'll realistically get better.&nbsp; The question is what to do 
+with the error bars.&nbsp; I don't have an answer to this, but we do have 
+some guidance I think from the STAR papers.&nbsp; <span style="color: rgb(0, 153, 0);">This would be a point to 
+discuss.</span>&nbsp; <span style="color: rgb(51, 204, 0);">Read the papers again.</span>&nbsp; Christine will look at what is the status of Cu+Cu.<br>
+
+<br>
+CHRISTINE:&nbsp; REDO PLOTS WITH ZYA1<br>
+reran plotting scripts, have not yet implemented<br>
+<br>
+2.&nbsp; Trig pT - there are a few details <span style="font-weight: bold;">--&gt; I think this is done now other than aesthetics.</span><br><span style="color: red;">Christine:</span><br><span style="font-weight: bold;">
+a.&nbsp; Xi:&nbsp; integrated, look at binning, check the mixing</span><br>
+b.&nbsp; Add notes on where the fit is used<br>
+c.&nbsp; Lambda: 3-3.5 increase error on dip point, 4.5-5.5 -&gt; 4.5-6.0 Done.&nbsp; Marginal improvement.<br>
+d. Double check where the deta cut is -&gt; 0.78<br>
+e.&nbsp; Comment out dphi method in analysis note for pid, comment out h-h<br><span style="font-weight: bold;">
+f.&nbsp; Add 40-80% Au+Au (trying now)</span><br>
+g.&nbsp; Comment out bins we are not using -&gt; done<br>
+<br>
+
+4.&nbsp; Npart - <span style="color: rgb(0, 153, 0);">Style<br>
+a.&nbsp; change the order of the legend<br>
+b.&nbsp; Labels for (a) and (b)<br>
+c.&nbsp; Other style issues<br>
+</span>
+
+<br>
+
+5.&nbsp; For the ridge plots (pttrig, ptassoc, npart) <span style="color: rgb(0, 0, 153);">we need to add tables with the v2 and the background levels.</span><br>
+
+<br>7.&nbsp; I think we need to remove <span style="color: rgb(0, 102, 0);">fig. 5 from the paper and change the text accordingly.</span><br>
+<br>
+
+8.&nbsp; ptassociated dependence:&nbsp; the raw plots are completely new.<br>
+Christine<br style="color: red;">
+<span style="color: red;">a.&nbsp; For PID use ZYA1 for ridge</span><br style="color: red;">
+<span style="color: red;">b. Comment out xis, stuff we don't use</span><br>
+Jana<br style="color: rgb(51, 102, 255);">
+<span style="color: rgb(51, 102, 255);">b.&nbsp; For jet - go through the raw points and pick at them<br>
+<span style="color: rgb(51, 204, 0);">Open questions</span><br style="color: rgb(51, 204, 0);">
+<span style="color: rgb(51, 204, 0);">-Do we show the ridge?&nbsp; What do we do with the jet</span>?<br style="color: rgb(51, 204, 0);">
+<span style="color: rgb(51, 204, 0);">-Do we show the 40-80%?</span><br style="color: rgb(51, 204, 0);">
+<span style="color: rgb(51, 204, 0);">-What is the message of this?</span><br style="color: rgb(51, 204, 0);">
+<span style="color: rgb(51, 204, 0);">-Style</span><br>
+</span><br>
+9.&nbsp; pttrig identified assoc: <span style="color: red;">details with histogram binning</span><br>
+a.&nbsp; <span style="color: rgb(204, 0, 0);">CuCu200</span>:&nbsp; Not using lowest pt lambda point because I think it's not convincing it's perfectly flat.<br>
+b.&nbsp; <span style="color: rgb(204, 0, 0);">AuAu200</span>:
+40-80%:&nbsp; All looks good, using fits for lambdas and lowest pT
+k0s.&nbsp; (Central points are in the legend, 40-80% are not in the
+legend)<br>
+Central:&nbsp; Throwing out all but the highest pT K0s and lambdas.<br>
+<span style="font-weight: bold;">This leaves me with 0-12% AuAu200 trig 3-6 assoc &gt; 1.5 GeV/c so I can get the lambda and k0s ratio from this!</span><br style="font-weight: bold;">
+<span style="font-weight: bold;">jet-like correlation: lambda/(2K0s) = 0.672607+/-0.00550368</span><br style="font-weight: bold;">
+<span style="font-weight: bold;">lambda 0.02524163 +/- 0.00540002</span><br style="font-weight: bold;">
+<span style="font-weight: bold;">k0s 0.01876402 +/-0.001063165</span><br>
+Ridge : lambda/2K0s 4.645 +/- 0.018-0.2<br>
+lambda 0.176222+/-0.0176686+0.112195-0.142456<br>
+K0s 0.0189669+/-0.00404852+0.0126615-0.0159769<br>
+Since I could only get one bin out of the central data, it doesn't make
+sense to have a ridge vs pttrig for identified associated
+particles.&nbsp; Not sure what to think of the 40-80% data.<br style="font-weight: bold;">
+<br>
+10.&nbsp; npart identified assoc - just details with <span style="color: black;">making sure the fits are all right.</span><span style="font-weight: bold; color: black;">&nbsp; This is approaching done.</span>&nbsp; <span style="font-weight: bold;">I would like to discuss the fits with you.</span>&nbsp; Maybe needs a bit more work.&nbsp; Does not look promising for ridge dependence.<br>
+<span style="color: red;">Rebinning histograms</span> - check dphi, rebin histograms in deta, need to discuss central lambda<br>
+<span style="font-weight: bold;">Found I was not doing the track merge correction</span><br>
+<br>
+11.&nbsp; ptassoc identified assoc - <span style="color: red; font-weight: bold;">This
+is almost ready for discussion.&nbsp; We can get two points with
+CuCu200 for lam and three for K0s.&nbsp; 40-80% AuAu200 still has to be
+investigated.&nbsp; Trying binning lowest two pT bins for AuAu.</span>&nbsp; Reached the point where I can't look at this anymore for a while.<br>
+central Au - 2-3 GeV keep the ratio<br>
+<br>
+12.&nbsp; <span style="color: rgb(0, 102, 0);">Additional plots - should we make:</span><br>
+I think we should make:<br>
+a.&nbsp; 3-6 GeV trig, ptassoc &gt; 1.5 d-eta integrated trigger omega, xi, lambda as a function of dphi<br>
+b.&nbsp; Same as a but as a function of deta<br>
+Should we make:<br>
+a.&nbsp; 3-6 GeV trig, ptassoc &gt; 1.5 deta projections with background level scaled so they lie on top of each other for:<br>
+i. h-h for  Au+Au central, Au+Au 40-80%, d+Au, and Cu+Cu<br>
+
+ii. lam-h for  Au+Au central, Au+Au 40-80%, d+Au, and Cu+Cu<br>
+
+
+iii. k0-h for  Au+Au central, Au+Au 40-80%, d+Au, and Cu+Cu<br>
+
+
+
+iv. Xi-h for  Au+Au central, Au+Au 40-80%, d+Au, and Cu+Cu<br>
+
+
+v. h-K0 for  Au+Au central, Au+Au 40-80%, and Cu+Cu<br>
+
+
+
+vi. h-Lam for  Au+Au central, Au+Au 40-80%, and Cu+Cu<br>
+The goal of these figures would be to look for changes in the
+widths.&nbsp; Even if we are not confident the track merging correction
+is entirely corrected, we could block out the low dphi/eta points we
+don't have confidence in.<br>
+<br>
+13.&nbsp; Get the absolute latest lambda/k0s inclusive ratio plots<br>
+<br>
+14.&nbsp; what is the systematic error on the v0 efficiencies?<br>
+<br>
+<br>
+<br>
+</body></html>

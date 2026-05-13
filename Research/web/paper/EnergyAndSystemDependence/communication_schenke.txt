@@ -1,0 +1,163 @@
+February 18, 2011:
+
+Dear Jana and Christine,
+thank you very much for your email.
+Readily available we have results for (v_3/v_2)2 for three centralities in Au+Au at sqrt(s)=200 GeV with and without viscosity, however, the momentum cuts that we used were 0.8<p_T<4 GeV (for both trigger and associated charged particle. Pseudorapidity is |\eta|<1.5.
+We have no output for p_T higher than 4 GeV, which is already quite high to apply hydro.
+Unfortunately, I do not have a lot of points in the momentum range you are interested in since in hydro we were not so concerned with p_T>2 GeV.
+So for quick results, the best I could do is to change the lower cutoff to 1.5 (will need some interpolating) and keep the upper cutoff at 4GeV.
+Varying  the associated particle's maximum p_T with the trigger p_T will not be precise enough because in the range p_T=3-4 GeV, which we can look at, I currently have just 2 points.
+
+We can also offer v_2 and v_3 as functions of p_T for three centralities.
+
+Please let me know if what we already have would be interesting to you or if the slight modifications of the cuts would help.
+
+All the best,
+Bjoern
+
+On 11-02-17 04:32 PM, Jana Bielcikova wrote:
+> Dear Bjoern, Charles and Sangyong,
+>
+> Christine Nattrass and I are preparing a STAR paper on system size and
+> energy dependence of near-side di-hadron correlations which focuses on
+> properties of jet-like correlations and ridge/triangular flow. We would
+> be very much interested in comparing our data on (v_3/v_2)2 to your
+> viscous hydro model calculation if you have such calculations readily
+> available. Do you perhaps have available the (v_3/v_2)2 as a function
+> of number of participants for Cu+Cu/Au+Au collisions at
+> sqrt{s_NN}=62/200 GeV for transverse momentum (pt) of charged trigger
+> particle pt(trigger)=3-6 GeV/c and pt of associated charged particles in
+> the range 1.5 GeV/c<pt(assoc)<pt(trigger)? As the paper is approaching
+> its final stage within the collaboration shortly, we would unfortunately
+> need them within about a week and we understand if this is not possible.
+>
+> With best regards, Jana Bielcikova and Christine Nattrass.
+
+-- 
+Bjoern P. Schenke, Physics Department
+Brookhaven National Laboratory
+Upton, NY, 11973, USA
+Phone: (001) 631 344 3757 
+
+---------------------------------------------------------------------------
+March 18, 2011 (continued):
+
+Hello Christine and Jana,
+I attached 3 files including v_2 and v_3 for AuAu at root s =200 GeV
+the files are for ideal, eta/s=0.08 and eta/s=0.16 according to the file name. p_T range is 1.5-4 GeV always.
+columns are:
+
+number of participants      v_2    sigma-v_2     v_3    sigma-v_3
+(from phobos)
+
+centrality classes are 0-5%, 10-20% and 30-40%  - so using different analysis than phobos that might correspond to slightly different numbe rof participants than what I put.
+
+the sigma's are my statistical errors after averaging over 100 events each.
+
+From these you can compute (v_3/v_2)2, including error bars.
+I left them explicit so you can do other stuff with them if you like,
+I attached an example gnuplot file that shows how to use the data files.
+
+Please let me know if you need more info.
+
+All the best,
+Bjoern
+
+
+On 11-02-18 07:30 AM, Jana Bielcikova wrote:
+> Dear Bjoern,
+>
+> thank you very much for your fast response. I think that having
+> pt(trigger) range of 3-4 GeV is not much different to our 3-6 GeV as the
+> pt spectrum is a steeply falling function. So if it is not a big problem
+> for you to change the lower pt(assoc) cut-off to 1.5 GeV/c and calculate
+> Au+Au 200 GeV (v3_/v_2)2 vs centrality it would be great. Unfortunately
+> we are not showing (v3_/v_2)2 vs p_T in our paper because we do not
+> have enough statistics to do that in all collision and centrality
+> systems studied in the paper for the intermediate p_T range.
+>
+> Looking forward to hear back from you.
+>
+> With best regards, Christine and Jana.
+
+---------------------------------------------------------------------------
+
+Hello Jana,
+no problem. Yes, that paper would be the best to cite.
+Thanks,
+Bjoern
+
+On Fri, 18 Feb 2011 23:33:57 +0100, Jana Bielcikova wrote
+> > Hello Bjoern,
+> > 
+> >   thank you very much for the model calculations. Please could you 
+> > let us know how do you wish to cite your calculation? Shall we use 
+> > PRL 106, 042301 (2011)?
+> > 
+> >        Thanks, Jana.
+
+
+---------------------------------------------------------------------------
+
+Feb. 23, 2011:
+
+Hello Jana,
+I was wondering how our calculations compare to your data.
+There might be discrepancies because you use a different p_T range for one of the particles (the trigger, from 3-6 GeV). Please make sure to mention these differences when showing our results in the paper. Or did you reanalyze with different cuts?
+Thanks a lot and a ll the best,
+Bjoern
+
+---------------------------------------------------------------------------
+
+Feb. 28, 2011:
+
+Dear Jana,
+thanks a lot. I was wondering what you had meant by 170 MeV...
+Certainly I will not use/show the data anywhere.
+Is it possible for you to indicate the statistical error in my calculation in the plot? It will only matter for the most central bin, though.
+Are your error bars really smaller than the points for the most part?
+Thanks again and all the best,
+Bjoern
+
+On 11-02-28 07:57 AM, Jana Bielcikova wrote:
+> Dear Bjoern,
+>
+> please find attached the eps figure with comparison of STAR data to your
+> model calculation. I am very sorry, I realized that last time when I
+> wrote to you I mentioned that your model calculation agrees nicely with
+> our data for T=170 MeV. We compare in the paper the data to several
+> model calculations and I made a mistake while reading the figure legend.
+> So, what I actually meant was that the comparison to data is good for
+> epsilon/s=0.16 :-) I would like to kindly ask you to not use the data at
+> any conference/workshop or in publications because they are not yet made
+> public by the STAR collaboration.
+>
+> With best regards, Jana. 
+
+---------------------------------------------------------------------------
+
+March 4, 2011:
+
+Hi Bjoern
+
+We currently have the following discussion in our paper draft:
+
+The 3+1D viscous hydrodynamical model in ~\cite{Schenke:2010rr} is also consistent with the data.  The calculations in  ~\cite{Schenke:2010rr} were limited by statistics so it was only possible to compare to calculations with momenta of 1.5~$<$ \pT $<$~4.0 GeV/$c$ for both \pttrig and \ptassoc.  The comparisons of the data in \Fref{Figurev3Npart} with this model favor $\eta/s$=0.16 while the \vtwo values would favor $\eta/s$=0.08, as demonstrated in ~\cite{Schenke:2010rr}.  However, this difference may be due to non-flow effects in \vthreeratio.
+
+This may change, but do you see anything incorrect in the discussion above?
+
+Thanks
+Greetings
+Christine
+
+---------------------------------------------------------------------------
+March 4, 2011 (continued)
+Dear Christine,
+thank you for your email. It isn't really statistics that limits us, but rather the fact that we do not compute anything above p_T=4 GeV within hydro and do not yet compute actual correlations - so we cannot compute the associated v_2/3 with upper momentum cut = trigger momentum, so I always chose 4 GeV as upper momentum for both.
+
+Best,
+Bjoern 
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------

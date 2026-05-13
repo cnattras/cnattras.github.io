@@ -1,0 +1,36 @@
+#!/bin/perl
+system "mkdir Pics/YieldFits/AuAuNPartAssoc10Trig4_6";
+system "mkdir Pics/YieldFits/AuAuNPartAssoc10Trig3_6";
+system "mkdir Pics/YieldFits/CuCuNPartAssoc10Trig4_6";
+system "mkdir Pics/YieldFits/CuCuNPartAssoc10Trig3_6";
+
+#Cu+Cu 62 GeV jobs
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.0,6.,3.0,6.0,true,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/CuCuNPartAssoc10Trig3_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.0,6.,4.0,6.0,true,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/CuCuNPartAssoc10Trig4_6/.\n";
+
+
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.5,6.,3.0,6.0,true,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/CuCuNPartAssoc15Trig3_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.5,6.,4.0,6.0,true,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/CuCuNPartAssoc15Trig4_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(2.0,6.,3.0,6.0,true,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/CuCuNPartAssoc20Trig3_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(2.0,6.,4.0,6.0,true,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/CuCuNPartAssoc20Trig4_6/.\n";
+
+
+#Au+Au 62 GeV jobs
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.0,6.,3.0,6.0,false,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/AuAuNPartAssoc10Trig3_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.0,6.,4.0,6.0,false,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/AuAuNPartAssoc10Trig4_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.5,6.,3.0,6.0,false,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/AuAuNPartAssoc15Trig3_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(1.5,6.,4.0,6.0,false,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/AuAuNPartAssoc15Trig4_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(2.0,6.,3.0,6.0,false,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/AuAuNPartAssoc20Trig3_6/.\n";
+system "root4star -b -q macros/JetYields/RootFileNPart62.C'(2.0,6.,4.0,6.0,false,3)'\n";
+system "mv Pics/YieldFits/*.eps Pics/YieldFits/AuAuNPartAssoc20Trig4_6/.\n";

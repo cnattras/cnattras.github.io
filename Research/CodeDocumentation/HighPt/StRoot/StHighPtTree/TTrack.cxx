@@ -1,0 +1,46 @@
+//
+//   The TEvent data member fTracks is a pointer to a TClonesArray.
+//   It is an array of a variable number of tracks per event.
+//   Each element of the array is an object of class Track with the members:
+//     private:
+//        Float_t      fPx;           //X component of the momentum
+//        Float_t      fPy;           //Y component of the momentum
+//        Float_t      fPz;           //Z component of the momentum
+//        Float_t      fMass;        //The mass of this particle
+//        Float_t      fCharge;       //Charge of this track
+//        Int_t        fNpoint;       //Number of points for this track
+//
+//
+//
+////////////////////////////////////////////////////////////////////////
+
+#include "TTrack.h"
+
+ClassImp(TTrack)
+
+
+//______________________________________________________________________________
+TTrack::TTrack(const TTrack *orig) : TObject()
+{
+   // Copy a track object
+
+  //  SetPx(orig->GetPx()); 
+  //SetPy(orig->GetPy());
+  //SetPz(orig->GetPz());
+  SetPt(orig->GetPt());
+  SetPhi(orig->GetPhi());
+  SetEta(orig->GetEta());
+  //SetMass(orig->GetMass());
+  SetCharge(orig->GetCharge());
+  SetType(orig->GetType());
+  //  SetNpoint(orig->GetNpoint());
+  SetNHits(orig->GetNHits());
+  SetNPossHits(orig->GetNPossHits());
+  SetdEdx(orig->GetdEdx());
+  //SetDca(orig->GetDca());
+  SetTrackId(orig->GetTrackId());
+   //   fValid  = orig.fValid;
+
+   //   fTriggerBits = orig.fTriggerBits;
+
+}

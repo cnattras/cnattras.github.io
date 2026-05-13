@@ -1,0 +1,286 @@
+%-------------------------------------------------------------------------------
+%  References
+%-------------------------------------------------------------------------------
+%This bibliographi was actually stolen from Sevil's thesis and will need to be updated
+%\vspace*{-1.5cm}
+
+%STAR NIM articles
+@Article{NIMSTAROverview,
+     author    = "K. H. Ackermann and others",
+     title     = "STAR detector overview",
+     year      = "2003",
+     journal   = "Nucl. Instrum. Meth. A",
+     volume    = "499",
+     pages     = "624"
+}
+@Article{NIMSTARTPC,
+     author    = "M. Anderson and others",
+     title     = "The STAR time projection chamber: a unique tool for studying high multiplicity events at RHIC",
+     year      = "2003",
+     journal   = "Nucl. Instrum. Meth. A",
+     volume    = "499",
+     pages     = "659"
+}
+%Ridge Theory articles
+@Article{WongMomKickMain,
+     author    = "Cheuk-yin Wong",
+     title     = "The Momentum Kick Model Description of the Near-Side Ridge and Jet Quenching",
+     eprint    = "hep-ph/0806.2154"
+}
+@Article{WongMomKick2,
+     author    = "Cheuk-yin Wong",
+     title     = "Exploring Early Parton Momentum Distribution with the Ridge from the Near-Side Jet",
+     year      = "2008",
+     journal   = "J. Phys. G",
+     volume    = "36",
+     pages     = "104085"
+}
+@Article{WongMomKick3,
+     author    = "Cheuk-yin Wong",
+     title     = "Parton Momentum Distribution at the Moment of Jet-Parton Collision",
+     year      = "2008",
+     journal   = "Chinese Phys. Lett.",
+     volume    = "25",
+     pages     = "3936"
+}
+@Article{WongMomKick4,
+     author    = "Cheuk-yin Wong",
+     title     = "Ridge Structure associated with the Near-Side Jet in the (Delta phi)-(Delta eta) Correlation",
+     year      = "2007",
+     journal   = "Phys. Rev. C",
+     volume    = "76",
+     pages     = "054908"
+}
+%Jets in wind
+
+@Article{JetsInWind,
+     author    = "Néstor Armesto, Carlos A. Salgado, Urs Achim Wiedemann",
+     title     = "Low-pT Collective Flow Induces High-pT Jet Quenching",
+     year      = "2005",
+     journal   = "Phys. Rev. C",
+     volume    = "72",
+     pages     = "064910"
+}
+
+%QCD Magnetic field
+@Article{MizukawaQCDMagFields,
+     author    = "R. Mizukawa and others",
+     title     = "Search for a Ridge Structure Origin with Shower Broadening and Jet Quenching",
+     year      = "2008",
+     journal   = "J. Phys. G",
+     volume    = "35",
+     pages     = "104083"
+}
+
+%STAR V0 papers
+@Article{ForwardLambdas,
+     author    = "Abelev, B. I. and others",
+ collaboration = "STAR",
+     title     = "{Forward $\ensuremath{\Lambda}$ Production and Nuclear
+                  Stopping Power in $d$ + Au Collisions at $\sqrt{s_{NN}}$ =
+                  200 GeV}",
+     journal   = "Phys. Rev.",
+     volume    = "C76",
+     year      = "2007",
+     pages     = "064904",
+     eprint    = "0706.0472",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     doi       = "10.1103/PhysRevC.76.064904",
+     SLACcitation  = "%%CITATION = 0706.0472;%%"
+}
+@Article{StrangenessEnhancement,
+     author    = "Abelev, B. I. and others",
+ collaboration = "STAR",
+     title     = "{Enhanced strange baryon production in Au+Au collisions
+                  compared to p+p at sqrts = 200 GeV}",
+     journal   = "Phys. Rev.",
+     volume    = "C77",
+     year      = "2008",
+     pages     = "044908",
+     eprint    = "0705.2511",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     doi       = "10.1103/PhysRevC.77.044908",
+     SLACcitation  = "%%CITATION = 0705.2511;%%"
+}
+@Article{AuAuV0Flow,
+     author    = "Abelev, B. I. and others",
+ collaboration = "the STAR",
+     title     = "{Mass, quark-number, and s(NN)**(1/2) dependence of the
+                  second and fourth flow harmonics in ultra-relativistic
+                  nucleus nucleus collisions}",
+     journal   = "Phys. Rev.",
+     volume    = "C75",
+     year      = "2007",
+     pages     = "054906",
+     eprint    = "nucl-ex/0701010",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.75.054906",
+     SLACcitation  = "%%CITATION = NUCL-EX/0701010;%%"
+}
+@Article{KaonHBT,
+     author    = "Abelev, B. I. and others",
+ collaboration = "STAR",
+     title     = "{Neutral kaon interferometry in Au + Au collisions at
+                  s(NN)**(1/2) =  200-GeV}",
+     journal   = "Phys. Rev.",
+     volume    = "C74",
+     year      = "2006",
+     pages     = "054902",
+     eprint    = "nucl-ex/0608012",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.74.054902",
+     SLACcitation  = "%%CITATION = NUCL-EX/0608012;%%"
+}
+@Article{StrangePP200,
+     author    = "Abelev, B. I. and others",
+ collaboration = "STAR",
+     title     = "{Strange particle production in p + p collisions at
+                  s**(1/2) = 200-GeV}",
+     journal   = "Phys. Rev.",
+     volume    = "C75",
+     year      = "2007",
+     pages     = "064901",
+     eprint    = "nucl-ex/0607033",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.75.064901",
+     SLACcitation  = "%%CITATION = NUCL-EX/0607033;%%"
+}
+@Article{HyperonScaling,
+     author    = "Adams, J. and others",
+ collaboration = "STAR",
+     title     = "{Scaling Properties of Hyperon Production in Au+Au
+                  Collisions at   sqrt(s_NN) = 200 GeV}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "98",
+     year      = "2007",
+     pages     = "062301",
+     eprint    = "nucl-ex/0606014",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.98.062301",
+     SLACcitation  = "%%CITATION = NUCL-EX/0606014;%%"
+}
+@Article{ProtonLambdaCorrelations,
+     author    = "Adams, John and others",
+ collaboration = "STAR",
+     title     = "{Proton Lambda correlations in central Au + Au collisions
+                  at  s(NN)**(1/2) = 200-GeV}",
+     journal   = "Phys. Rev.",
+     volume    = "C74",
+     year      = "2006",
+     pages     = "064906",
+     eprint    = "nucl-ex/0511003",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.74.064906",
+     SLACcitation  = "%%CITATION = NUCL-EX/0511003;%%"
+}
+@Article{MultistrangeFlowAuAu200,
+     author    = "Adams, John and others",
+ collaboration = "STAR",
+     title     = "{Multi-strange baryon elliptic flow in Au + Au collisions
+                  at  s(NN)**(1/2) = 200-GeV}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "95",
+     year      = "2005",
+     pages     = "122301",
+     eprint    = "nucl-ex/0504022",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.95.122301",
+     SLACcitation  = "%%CITATION = NUCL-EX/0504022;%%"
+}
+@Article{MultistrangeBaryonAuAu130,
+     author    = "Adams, John and others",
+ collaboration = "STAR",
+     title     = "{Multi-strange baryon production in Au Au collisions at
+                  s(NN)**(1/2) =  130-GeV}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "92",
+     year      = "2004",
+     pages     = "182301",
+     eprint    = "nucl-ex/0307024",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.92.182301",
+     SLACcitation  = "%%CITATION = NUCL-EX/0307024;%%"
+}
+@Article{ParticleDependentV2AuAu200,
+     author    = "Adams, John and others",
+ collaboration = "STAR",
+     title     = "{Particle dependence of azimuthal anisotropy and nuclear
+                  modification of  particle production at moderate p(T) in Au
+                  + Au collisions at  s(NN)**(1/2) = 200-GeV}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "92",
+     year      = "2004",
+     pages     = "052302",
+     eprint    = "nucl-ex/0306007",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.92.052302",
+     SLACcitation  = "%%CITATION = NUCL-EX/0306007;%%"
+}
+@Article{KaonProductionAuAu130,
+     author    = "Adler, C. and others",
+ collaboration = "STAR",
+     title     = "{Kaon production and kaon to pion ratio in Au + Au
+                  collisions at s(NN)**(1/2) = 130-GeV}",
+     journal   = "Phys. Lett.",
+     volume    = "B595",
+     year      = "2004",
+     pages     = "143-150",
+     eprint    = "nucl-ex/0206008",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/j.physletb.2004.06.044",
+     SLACcitation  = "%%CITATION = NUCL-EX/0206008;%%"
+}
+%STAR Xi and Omega papers
+
+%Ridge study articles
+%J.Phys.G34:S679-684,2007
+@Article{JoernQM06,
+     author    = "Joern Putschke",
+     collaboration = "STAR",
+     title     = "Intra-jet correlations of high-p(t) hadrons from STAR",
+     year      = "2007",
+     journal   = "J. Phys. G",
+     volume    = "34",
+     pages     = "679"
+}
+%J.Phys.G35:104082,2008
+@Article{FengQM08,
+     author    = "Aoqi Feng",
+     collaboration = "STAR",
+     title     = "Reaction Plane Dependent Away-side Modification and Near-side Ridge in Au+Au Collisions",
+     year      = "2008",
+     journal   = "J. Phys. G",
+     volume    = "35",
+     pages     = "104082"
+}
+
+%Jet reconstruction articles
+%When this is published I will need to update this citation
+@Article{jetrecoSevilHP,
+     author    = "Sevil Salur",
+ collaboration = "STAR",
+     title     = "First Direct Measurement of Jets in $\sqrt{s_{NN}}=200$ GeV Heavy Ion Collisions by STAR",
+     eprint    = "nucl-ex/0809.1609"
+}
+
+@Article{jetrecoSevilHQ,
+     author    = "Sevil Salur",
+ collaboration = "STAR",
+     title     = "A Short Review on Jet Identification",
+     eprint    = "nucl-ex/0810.0500"
+}
+
+@Article{jetrecoSevilWWND,
+     author    = "Sevil Salur",
+ collaboration = "STAR",
+     title     = "Searching for Jets in Heavy Ion Collisions",
+     eprint    = "nucl-ex/0809.1606"
+}
+@Article{jetrecoJoernHP,
+     author    = "Joern Putschke",
+ collaboration = "STAR",
+     title     = "Searching for Jets in Heavy Ion Collisions",
+     eprint    = "nucl-ex/0809.1419"
+}

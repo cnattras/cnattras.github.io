@@ -1,0 +1,237 @@
+#!/usr/bin/perl
+#This script was originally written by Jana Bielcikova.  It has since been mutated by Christine Nattrass.
+#This script was written to submit jobs to rhig.
+#To get this running you will need to change the path to the configuration file (approximately line 33), check the nodes the jobs are submitted to (approximately line 177), and change the "nice" number (approximately 142 and 154).  If you would like to try things out without submitting jobs, comment out the lines which start with "system" around lines 211 and 228.
+#"nice" level - lowers the priority of your job.  By default this is zero.  It can range from -20 to 19, with lower numbers giving your job higher priority.  If you are the only person running on the nodes and no one is using them interactively, you don't have to submit your jobs with a nice level.  If you are running jobs which would take a very long time to run and others would like to run at the same time, set the nice level higher so other people's jobs are higher priority and so it is more pleasant for people to use the nodes interactively.
+#The internal nodes are irhig02, irhig03, irhig04, irhig05, irhig06, and irhig07.  irhig01 is rhig and this should not be used for CPU and memory intensive jobs because this is also our mail and web server.  You should not submit jobs to irhig01 using this script.  You should check the availability of the nodes before using this script since it will blindly submit one job for each node listed on roughly line 177, whether or not this node is being used.  Your jobs and other people's jobs will run faster if you do not overtax the nodes.
+#The configuration file is currently set up to run on root4star jobs using a macro whose first argument is the input file name and second argument is the output file name.  All other arguments come after that and you need a file with a list of these arguments, separated by a space.  All directories and configuration files must exist.
+
+# ----------------------------------------------------------------------------------
+# Reading of the config file which should look like this
+# command to run: root4star
+# macro location: /home/jbielcik/correlation04/macros/anaMyQA.C
+# list with input files: /home/jbielcik/correlation04/list1.txt
+# number of additional parameters: 3
+# file with additional parameters: /home/jbielcik/correlation04/cutauau200-new.txt
+# working directory: /home/jbielcik/correlation04
+# output directory: /data4/jbielcik/AuAu200/qa/test
+# output filename: output.root
+# directory for log files:: /data4/jbielcik/AuAu200/qa/test/log
+# ----------------------------------------------------------------------------------
+
+#now by default it will do only root4star
+$patternCommand = "root4star";
+$patternMacro = "macro location";
+$patternList = "list";
+$patternParameters = "number of additional";
+$patternParametersFile = "file with additional parameters";
+$patternWorkingDir = "working directory";
+$patternOutDir = "output directory";
+$patternOutFile = "output filename";
+$patternOutDirLog = "directory for log";
+
+
+
+open (CONF, "</home/nattrass/AzimuthalCorrelations/textFiles/config-RunAuAu62CorrelationsMixedEvents.txt") || die "Can't open configuration file /home/nattrass/AzimuthalCorrelations/textFiles/config-RunAuAu62CorrelationsMixedEvents.txt.\n";
+while (<CONF>)  # While still input lines in the file...
+  {
+    ($data,$garb) = split ("#",$_);
+    ($data, $garb)  = split ("\n",$data);
+    if ($data =~$patternMacro) {
+       ($garb,$macro) = split(": ", $data);
+    }
+    if ($data =~$patternList) {
+      ($garb,$listInputFiles) = split(": ", $data);
+    }
+    if ($data =~$patternParameters) {
+      ($garb,$parameters) = split(": ", $data);
+    }
+    if ($data =~$patternParametersFile) {
+      ($garb,$parametersFile) = split(": ", $data);
+    }
+    if ($data =~$patternWorkingDir) {
+      ($garb,$workingDir) = split(": ", $data);
+    }
+    if ($data =~$patternOutDir) {
+      ($garb,$outputDir) = split(": ", $data);
+    }
+    if ($data =~$patternOutFile) {
+      ($garb,$outputFile) = split(": ", $data);
+    }
+    if ($data =~$patternOutDirLog) {
+      ($garb,$logFileDir) = split(": ", $data);
+    }
+  }
+close (CONF);
+
+
+#here will come check of the config file, whether all files, list, directories etc. exist
+print "Checking the configuration file ... \n";
+print "I have read in following information from your configuration file: \n";
+print "Macro: $macro \n";
+if (!(-e $macro)) { 
+  die "Macro does not exist ! \n";
+}
+print "List with input files: $listInputFiles \n"; 
+if (!(-e $listInputFiles)) { 
+  die "List with input files does not exist ! \n";
+}
+if ($parameters>0) {
+  print "Additional $parameters parameter(s) are located in $parametersFile \n";
+  if (!(-e $parametersFile)) { 
+    die "File with parameters does not exist ! \n";
+  }
+}
+print "Working directory: $workingDir \n";
+if (!(-e $workingDir)) { 
+  die "Working directory does not exist ! \n";
+}
+print "Ouput directory: $outputDir \n"; 
+if (!(-e $outputDir)) { 
+  die "Output directory does not exist ! \n";
+}
+print "Output file name (.root): $outputFile \n";
+print "Directory for log files: $logFileDir \n";
+if (!(-e $logFileDir)) { 
+  die "Directory for log files does not exist ! \n";
+}
+print "Config file looks good :-) \n";
+print "-------------------------------------------------------------------\n";
+# end of check of config file
+
+
+# ----------------------------------------------------------------------------------
+#creating perl script "submit.pl" which will submit jobs
+# ----------------------------------------------------------------------------------
+open (OUTFILE, ">submit.pl");
+print OUTFILE  "#!/usr/bin/perl\n";
+print OUTFILE "\$min = \$ARGV[0];\n";
+print OUTFILE "\$max = \$ARGV[1];\n";
+print OUTFILE "chdir \"$workingDir\";\n";
+print OUTFILE "\$outDir = \"$outputDir\";\n";
+print OUTFILE "\$fileList = \"$listInputFiles\";\n";
+print OUTFILE "open (FPTR, \"<\$fileList\") || die \"Can't oupen file with list of files.\";\n";
+print OUTFILE "\$id=0;\n";
+print OUTFILE "while (<FPTR>)  # While still input lines in the file...\n";
+print OUTFILE "{\n";
+print OUTFILE "(\$data,\$garb) = split (\"#\",\$_);\n";
+print OUTFILE "(\$data, \$garb)  = split (\"\\n\",\$data);\n";
+print OUTFILE "\$inputFile[\$id]=\$data;\n";
+print OUTFILE "\$id++;\n";
+print OUTFILE "}\n";
+if ($parameters>0) {
+  print OUTFILE "open (FPAR, \"<$parametersFile\") || die \"Can't oupen output file with parameters.\";\n";
+  print OUTFILE "while (<FPAR>)  # While still input lines in the file... \n";
+  print OUTFILE "\{ \n";
+  print OUTFILE "(\$data,\$garb) = split (\"#\",\$_);\n";
+  print OUTFILE "(\$data,\$garb) = split (\"\\n\",\$data);\n";
+  $textLine="";
+  $nameLine="";
+  for ($j=0;$j<$parameters;$j++) {
+    if ($j<$parameters-1) {
+      $textLine ="$textLine\$par[$j],";
+      $nameLine ="$nameLine\$par[$j]-";
+    } else {
+      $textLine ="$textLine\$par[$j]";
+      $nameLine ="$nameLine\$par[$j]";
+    }
+  }
+  print OUTFILE "($textLine) = split (\" \",\$data);\n";
+  print OUTFILE "for (\$i=\$min;\$i<=\$max;\$i++) {\n";
+  #here we need to rewrite the way this is done so that the output file is saved to /tmp and then moved
+  #print OUTFILE "system \"root4star -q -b $macro'(''\\\"'\$inputFile[\$i]'\\\"','\\\"'$outputDir/$outputFile-$nameLine-\$i.root'\\\"'$textLine')' >& $logFileDir/log-$nameLine-\$i.log\";\n";
+#this line if you want to keep the output
+  print OUTFILE "system \"nice -n 19 root4star -q -b $macro\'(''\\\"'\$inputFile[\$i]'\\\"','\\\"'/tmp/$outputFile-$nameLine-\$i.root'\\\",'$textLine')\' >& /tmp/log-$nameLine-\$i.log\";\n";
+#this line if you don't want the output because it's too much
+  #print OUTFILE "system \"root4star -q -b $macro\'(''\\\"'\$inputFile[\$i]'\\\"','\\\"'/tmp/$outputFile-$nameLine-\$i.root'\\\"'$textLine')\' >& /dev/null\";\n";
+  print OUTFILE "system \"mv /tmp/$outputFile-$nameLine-\$i.root $outputDir/.\";\n";
+  print OUTFILE "system \"mv /tmp/log-$nameLine-\$i.log $logFileDir/.\";\n";
+  print OUTFILE "system \"exit\";\n";
+  print OUTFILE "}\n";
+  print OUTFILE "}\n";
+} else {
+  print OUTFILE "for (\$i=\$min;\$i<=\$max;\$i++) {\n";
+  #print OUTFILE "system \"root4star -q -b $macro'(''\\\"'\$inputFile[\$i]'\\\"','\\\"'$outputDir/$outputFile-\$i.root'\\\"'')' >& $logFileDir/log-\$i.log\";\n";
+#this line if you want to keep the output
+  print OUTFILE "system \"nice -n 19 root4star -q -b $macro\'(''\\\"'\$inputFile[\$i]'\\\"','\\\"'/tmp/$outputFile-$nameLine-\$i.root'\\\"'')\' >& /tmp/log-$nameLine-\$i.log\";\n";
+#this line if you want to trash it
+  #print OUTFILE "system \"root4star -q -b $macro\'(''\\\"'\$inputFile[\$i]'\\\"','\\\"'/tmp/$outputFile-$nameLine-\$i.root'\\\"'')\' >& /dev/null\";\n";
+  print OUTFILE "system \"mv /tmp/$outputFile-$nameLine-\$i.root $outputDir/.\";\n";
+  print OUTFILE "system \"mv /tmp/log-$nameLine-\$i.log $logFileDir/.\";\n";
+  print OUTFILE "system \"exit\";\n";
+  print OUTFILE "}\n";
+}
+close (OUTFILE);
+system "chmod +x submit.pl";
+print "Created script submit.pl. \n";
+
+
+# ----------------------------------------------------------------------------------
+# Dividing jobs into groups and submitting them
+# ----------------------------------------------------------------------------------
+
+$username= `whoami`; # contains end of line character !!! We have to get rid of it ...
+($username,$garb) = split("\n",$username);
+
+# list of hosts: (don't use irhig01=rhig)!!!
+#@host = ("irhig02","irhig03","irhig04","irhig05","irhig06","irhig02","irhig03","irhig04","irhig05","irhig06");
+#$imaxhost=10;
+@host = ("irhig02","irhig03","irhig04","irhig05","irhig06","irhig07","irhig02","irhig03","irhig04","irhig05","irhig06","irhig07");
+$imaxhost=12;
+#Active nodes 22 Mar 06
+#@host = ("irhig02","irhig04","irhig06","irhig07","irhig02","irhig04","irhig06","irhig07");
+#$imaxhost=8;
+
+print "Starting jobs for user: $username \n";
+
+# Evaluate the total number of jobs and split them into 6 groups (1 job/machine)
+$nJobs=0;
+open (FPTR, "<$listInputFiles") || die "Can't oupen file with list of files.\n";
+while (<FPTR>)  # While still input lines in the file...
+  {
+    ($data,$garb) = split ("#",$_);
+    ($data, $garb)  = split ("\n",$data);
+    $inputFile[$nJobs]=$data;
+    $nJobs++;
+  }
+
+
+$nBunch=int($nJobs/$imaxhost);
+$nAboveBunch=$nJobs-$imaxhost*$nBunch;
+
+print "Found $nJobs jobs to run.\n";
+print "Jobs will be split into following groups: \n";
+
+$last=-1;;
+if ($nBunch==0) {
+  for ($i=0; $i<$nJobs; $i++) {
+    $min=$i;
+    $max=$i;
+    print "Hi loop 1\n";
+    print "Host: $host[$i] will execute jobs from $min to $max. \n";
+    system "/usr/bin/ssh -l $username $host[$i] -q perl $workingDir/submit.pl $min $max &";
+    system "exit";
+#    print "/usr/bin/ssh -l $username $host[$i] -q perl $workingDir/submit.pl $min $max &";
+#    print "exit";
+  }
+} else { 
+  for ($i=0; $i<$imaxhost; $i++) {
+    $min=$last+1;
+    if ($nAboveBunch>0) {
+      $max=$min+$nBunch;
+      $nAboveBunch=$nAboveBunch-1;
+    } else {
+      $max=$min+$nBunch-1;
+    }
+    $last=$max;
+    print "Host: $host[$i] will execute jobs from $min to $max. \n";
+    print "Done with batch2.pl \n";
+    system  "/usr/bin/ssh -l $username $host[$i] -q perl $workingDir/submit.pl $min $max &";
+    system "exit";
+#    print  "/usr/bin/ssh -l $username $host[$i] -q perl $workingDir/submit.pl $min $max &";
+#    print "exit";
+  }
+}
+
+
+

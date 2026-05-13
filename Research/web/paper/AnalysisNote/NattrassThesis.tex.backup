@@ -1,0 +1,89 @@
+\documentclass[12pt]{report}
+\usepackage{yalethesis}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[footnote]{acronym}
+\usepackage{makeidx}
+\usepackage{fancyheadings}
+\usepackage{xspace}
+\usepackage{longtable}
+\usepackage{textcomp}
+\usepackage{epsfig}
+%cite puts references in order and combines those in numerical order
+\usepackage{cite}
+%\usepackage [dvips]{graphics, color}
+\usepackage{subfig}
+%needed for multirow tables
+\usepackage{multirow}
+
+\renewcommand\floatpagefraction{.95}
+\renewcommand\topfraction{.95}
+\renewcommand\bottomfraction{.95}
+\renewcommand\textfraction{.05}
+\setcounter{totalnumber}{50} \setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50} \makeindex
+\input{Commands.tex}
+
+\begin{document}
+
+\title{System, energy, and flavor dependence of jets through di-hadron correlations in heavy ion collisions}
+
+\author{Christine Nattrass}
+\awardate{May 2009} \advisor{Professor John Harris}
+\copyrightyear{2009} \copyrighttrue
+
+\input{abstract/abstract.tex}
+%\input{shortact.tex}
+\beforepreface
+%\input{acknowledgements/acknowledgements.tex}
+%\input{Acknowledgments.tex}
+\afterpreface
+%\pagenumbering{roman} \listoffigures \listoftables
+\clearpage \pagenumbering{arabic}
+\newpage
+
+
+\input{introduction/introduction.tex}
+\input{previousresults/previousresults.tex}
+% 
+% 
+\input{experiment/experiment.tex}
+
+\input{analysis/particleidentification.tex}
+\input{analysis/correlationmethod.tex}
+\input{results/results.tex}
+\input{theory/theory.tex}
+\input{conclusions/conclusions.tex}
+
+% 
+ \appendix
+\input{introduction/Terminology.tex}
+\input{analysis/geoCuts/CutAppendix.tex}
+%\input{analysis/geoCuts/MassPeakAppendix.tex}
+\input{analysis/geoCuts/EfficiencyAppendix.tex}
+\input{analysis/Centrality.tex}
+
+%These appendices aren't actually intended to be included in the thesis but rather the analysis note.  However, it is easier to just write them now and test that the tex is fine,as long as I'm remaking plots and touching up the final plots.
+% \input{results/CuCu62PtTrig/PtTrigCuCu62.tex}
+% \input{results/AuAu62PtTrig/PtTrigAuAu62.tex}
+% \input{results/CuCu200PtTrig/PtTrigCuCu200.tex}
+% \input{results/CuCu62Npart/NpartCuCu62.tex}
+% \input{results/AuAu62Npart/NpartAuAu62.tex}
+% \input{results/CuCu200Npart/NpartCuCu200.tex}
+% \input{results/CuCu62PtAssoc/PtAssocCuCu62.tex}
+% \input{results/AuAu62PtAssoc/PtAssocAuAu62.tex}
+% \input{results/CuCu200PtAssoc/PtAssocCuCu200.tex}
+% \input{results/CuCu200PtTrigIdTrig/PtTrig.tex}
+% \input{results/CuCu200PtAssocIdTrig/AssocPt.tex}
+%  \input{results/CuCu200NpartIdTrig/Npart.tex}
+\input{results/CuCu200NpartIdTrig3CB/Npart.tex}
+ \bibliographystyle{h-physrev}
+% %\bibliographystyle{unsrt}
+% %\bibliographystyle{plain}
+% %\bibliographystyle{unsrt}\downdownarrows
+% %\GATHER{Bibliography.bib} % For Gather Purpose Only
+% %\GATHER{tez.bbl}       % For Gather Purpose Only
+ \bibliography{Bibliography,Strangeness,Correlations,Theory,Experiment}
+ \addcontentsline{toc}{chapter}{Bibliography} \printindex
+\end{document}

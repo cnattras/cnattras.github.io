@@ -1,0 +1,46 @@
+#include "IsGoodV0Mass.h"
+bool IsGoodV0Mass(string dataset, float pt, float mass, int type){
+  return IsGoodV0Mass((char*) dataset.c_str(), pt, mass, type);
+}
+bool IsGoodV0Mass(char *dataset, float pt, float mass, int type){
+  float deltaMass,trueMass;
+  if(type==1){
+    deltaMass=3.0*(1.05890e-003+6.27508e-004*pt-1.82369e-005*pt*pt);
+    trueMass=1.11510e+000+2.41825e-004*pt;
+  }
+  if(type==2){
+    deltaMass=3.0*(1.05890e-003+6.27508e-004*pt-1.82369e-005*pt*pt);
+    trueMass=1.11510e+000+2.41825e-004*pt;
+  }
+  if(type==3){
+    deltaMass=3.0*(5.41854e-003+2.98727e-004*pt+1.20267e-004*pt*pt);
+    trueMass=4.95527e-001+6.42066e-004*pt;
+  }
+  if(fabs(mass-trueMass)<deltaMass) return true;
+  else{
+    //cout<<"mass "<<mass <<" truemass "<<trueMass<<" deltamass "<<deltaMass<<endl;
+    return false;
+  }
+  //return (fabs(mass-trueMass)<deltaMass);
+}
+bool IsGoodXiMass(string dataset, float pt, float mass, int type){
+  return IsGoodXiMass((char*) dataset.c_str(), pt, mass, type);
+}
+bool IsGoodXiMass(char *dataset, float pt, float mass, int type){
+  //This function actually has to be written but I don't yet know how to write it because I don't yet know the mass dependence of the Xi peak
+//   float deltaMass,trueMass;
+//   if(type==1){
+//     deltaMass=3.0*(1.05890e-003+6.27508e-004*pt-1.82369e-005*pt*pt);
+//     trueMass=1.11510e+000+2.41825e-004*pt;
+//   }
+//   if(type==2){
+//     deltaMass=3.0*(1.05890e-003+6.27508e-004*pt-1.82369e-005*pt*pt);
+//     trueMass=1.11510e+000+2.41825e-004*pt;
+//   }
+//   if(type==3){
+//     deltaMass=3.0*(5.41854e-003+2.98727e-004*pt+1.20267e-004*pt*pt);
+//     trueMass=4.95527e-001+6.42066e-004*pt;
+//   }
+//   return (fabs(mass-trueMass)<deltaMass);
+  return true;
+}

@@ -1,0 +1,102 @@
+#ifndef StHighPtEventLoop_h
+#define StHighPtEventLoop_h
+
+//c++ stuff
+#include <string> 
+
+
+//ROOT stuff
+#include "TObject.h"
+#include "TFile.h"
+#include "TClonesArray.h"
+#include "TObjArray.h"
+#include "TList.h"
+#include "TTree.h"
+
+
+//All of the container classes from the StHighPt library
+#include "../StHighPtTree/TTrack.h"
+#include "../StHighPtTree/TV0Track.h"
+#include "../StHighPtTree/TIdentifiedTrack.h"
+#include "../StHighPtTree/TResonanceTrack.h"
+#include "../StHighPtTree/TEvent.h"
+#include "../StHighPtTree/TV0.h"
+#include "../StHighPtEvaluator/IsGoodTrigger.h"
+#include "../StHighPtEvaluator/goodTriggers.h"
+
+
+//STAR classes needed
+#include "StMuDSTMaker/COMMON/StMuEvent.h"
+#include "StMuDSTMaker/COMMON/StMuTrack.h"
+#include "StMuDSTMaker/COMMON/StMuDstMaker.h"
+
+#include "StStrangeMuDstMaker/StStrangeMuDstMaker.h"
+#include "StStrangeMuDstMaker/StV0MuDst.hh"
+
+
+
+// StEvent
+//#include "StEvent.h"
+//#include "StPrimaryVertex.h"
+//#include "StPrimaryTrack.h"
+//#include "StTrackGeometry.h"
+
+class StHighPtEventLoop : public TObject {
+ public:
+  //first argument is the name of the file to open, second is the data set to use
+  //only one constructor.  This determines whether the root file contains a TTree or a MuDst
+  StHighPtEventLoop(char *, char *);
+  //for adding triggers to the list of allowed triggers (up to 10 triggers allowed) 
+  void AddTrigger(int);
+  //This actually gets the events
+  void GetEvents();
+
+  void Clear(Option_t *option =""){; };//function which will actually delete things
+  virtual ~StHighPtEventLoop(){Clear();}
+  
+ private:
+  void DeleteJunk();//Must talk to Jana about why this doesn't work
+  bool IsTEvent, IsStEvent;
+  bool useParticle[100];
+  bool useDefaultEventCuts;
+  //Booleans on whether or not to accept this event
+  bool AcceptEvent(StMuEvent *);
+  bool AcceptEvent(TEvent *);
+  
+  string dataset;//string which holds the active data set
+  //static strings with the names of all possible data sets
+  static string AuAu200;
+  static string CuCu200;
+  static string CuCu62;
+  static string AuAu62;
+  static string dAu200;
+
+  //triggers which will be accepted
+  int triggers[10];
+
+  //Input file
+  TFile *infile;
+
+  //Function to set default triggers 
+  void SetDefaultTriggers();
+  //This sets the object pointers I might not need to NULL
+  void SetNullPointers();
+
+  //Objects needed for reading a TTree
+  TTree *tree;
+  TEvent *event;
+  TBranch *branch;
+  TV0 *v0s;
+  TBranch *branchV0;
+  Int_t nevent;
+
+  //Objects needed for reading a MuDst
+  StMuDstMaker *muDstMaker;
+  
+
+ public:
+  ClassDef(StHighPtEventLoop,1)  //Event structure
+};
+
+#endif
+

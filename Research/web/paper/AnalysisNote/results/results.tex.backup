@@ -1,0 +1,255 @@
+\chapter{Results\label{results}}
+
+\section{The \jlc}
+
+If the \jlc is produced by fragmentation, no dependence on collision system or system size would be expected.  The particle ratios of the \jlc should be consistent with what was observed in \pp collisions since \pp collisions are expected to be dominated by jet production at high-\pT.  The \jly should increase with \pttrig because higher \pT trigger particles come on average from higher energy jets and the spectra of particles in the \jlc should be harder than that observed in the inclusive.  Studies of the \jly as a function of collision system and energy were done for unidentified hadrons for \Cu and \Au collisions at \sNNsixtytwo and \sNNtwohundred to determine whether the data are consistent with the \jlc being produced by fragmentation.
+
+\subsection{Energy and system dependence}
+
+The dependence of \jly, \njet, on \pttrig is shown in \Fref{JetEnergyTrigPt} for \Cu and \Au collisions at \sNNsixtytwo and \dAu, \Cu, and \Au collisions at \sNNtwohundred.  No \ridge is observed in \dAu collisions so it was not necessary to subtract the \ridge.  The \jlys are the same as a function of \pttrig within errors for all systems at a given collision energy.
+
+\pagebreak
+
+\begin{figure}[h!]
+  \centering\resizebox{11cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPt.eps}}\\
+  \caption[\pttrig dependence of \njet for \sNNsixtytwo and \sNNtwohundred]
+  {\pttrig dependence of \njet for unidentified hadrons for \stdassoc for 0-60\% central \Cu and 0-80\% central \Au collisions at \sNNsixtytwo and minimum bias \dAu, 0-60\% central \Cu and 0-12\% central \Au collisions at \sNNtwohundred.  Data from \dAu and \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05,JanaPrivComm}.
+  \label{JetEnergyTrigPt}}
+\end{figure}
+
+\begin{table}[hb!]
+\begin{center}%The inverse slope parameter from a fit to $\pi^-$ as a function of \pT in \Au from \cite{Abelev:2007ra} above 1.0 \GeV is $k$ = 280.9 $\pm$ 0.4 \MeV for \sNNsixtytwo and is $k$ = 330.9 $\pm$ 0.3 \MeV for \sNNtwohundred.
+\caption{Inverse slope parameter k (\MeV) of \ptassoc for unidentified hadrons for fits of data in \Fref{JetEnergyAssocPt} to A$e^{-p_{T}/k}$.  Statistical errors only.}\label{EnergyDependenceSlopeTable}
+\begin{tabular}[b]{c|c|c}
+\hline
+ & \sNNsixtytwo & \sNNtwohundred\\
+   & h-h & h-h\\ \hline
+%Au \ridge&  & 438 $\pm$ 4   \\ 
+\Au & 291 $\pm$ 28 & 478 $\pm$ 8 \\
+\Cu & 359 $\pm$ 41 & 424 $\pm$ 20 \\ 
+\dAu &  & 469 $\pm$ 8 \\ \hline
+%PYTHIA & 424 $\pm$ 5 & 473 $\pm$ 3\\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+The \ptassoc dependence of the \jly is shown in \Fref{JetEnergyAssocPt} for \Cu and \Au collisions at \sNNsixtytwo and \dAu, \Cu, and \Au collisions at \sNNtwohundred.  The \dphi method is used for \njet for \Au collisions at \sNNsixtytwo because these studies are statistically limited and the \jlc is considerably broader in \deta in these collisions.  This makes the determination of the background difficult in the \deta method.  As for the \pttrig dependence, the data are within errors for all collision systems at a given energy.
+
+\pagebreak
+
+\begin{figure}[ht!]
+  \centering\resizebox{9.7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPt.eps}}\\
+
+  \caption[\ptassoc dependence of \njet for unidentified hadrons  for \sNNsixtytwo and \sNNtwohundred]{\ptassoc dependence of \njet for \stdassoc for \stdtrig for 0-60\% central \Cu and 0-80\% central \Au collisions at \sNNsixtytwo and minimum bias \dAu, 0-60\% central \Cu and 0-12\% central \Au collisions at \sNNtwohundred.  Data from \dAu and \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05,JanaPrivComm}.
+  \label{JetEnergyAssocPt}}
+\end{figure}
+
+\begin{figure}[hb!]
+  \centering\resizebox{9.7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpart.eps}}\\
+
+  \caption[\npart dependence of \njet for \sNNsixtytwo and \sNNtwohundred]
+  {\npart dependence of \njet for unidentified hadrons for \stdtrig and \stdassoc for unidentified hadrons for \Cu and \Au collisions at \sNNsixtytwo and \dAu, \Cu and \Au collisions at \sNNtwohundred.  Data from \dAu and \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05,JanaPrivComm}.
+  \label{JetEnergyNpart}}
+\end{figure}
+
+\pagebreak
+
+\Fref{JetEnergyNpart} shows the \npart dependence of \njet for \Cu and \Au collisions at \sNNsixtytwo and for \dAu, \Cu, and \Au collisions at \sNNtwohundred.  There is a slight increase of \njet with \npart in \Au collisions at \sNNtwohundred.  The \jlys in \Au collisions at \sNNtwohundred are slighly higher than those in \Cu collisions at \sNNtwohundred and \njet is about 50\% larger in central \Au collisions at \sNNtwohundred than in \dAu collisions at \sNNtwohundred.
+
+\begin{figure}[hb!]
+  \centering\resizebox{15cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/Widths.eps}
+}\\
+
+  \caption[Collision energy and system size dependence of widths]
+  {Collision energy and system size dependence of Gaussian widths in \dphi and \deta as a function of \pttrig, \ptassoc, and \npart for unidentified hadrons for \Cu and \Au collisions at \sNNsixtytwo and \dAu, \Cu and \Au collisions at \sNNtwohundred.  Kinematic cuts and centralities are the same as used in \Fref{JetEnergyTrigPt}, \Fref{JetEnergyAssocPt}, and \Fref{JetEnergyNpart} except that the \Au data at \sNNtwohundred are from 0-80\% central collisions for the dependence of \njet on \pttrig and \ptassoc.
+  \label{JetEnergyWidths}}
+\end{figure}
+
+
+
+\Fref{JetEnergyWidths} shows the Gaussian widths in \deta and \dphi as a function of \pttrig, \ptassoc, and \npart for \Cu and \Au collisions at \sNNsixtytwo and \dAu, \Cu, and \Au collisions at \sNNtwohundred.  The widths in \dphi and \deta are slightly greater in \Au collisions at \sNNtwohundred.  Data from \Au collisions at \sNNsixtytwo are consistent with the same trends observed at \sNNtwohundred, however, they are also within error of the data from peripheral \Cu collisions at \sNNtwohundred.
+
+
+\subsection{Flavor and system dependence}
+% Two effects may lead to a particle type dependence.  First, differences between particles (\lam) and their antiparticles  (\alam) may be expected because more \lam than \alam are believed to be produced in quark jets, but gluon jets produce equal amounts of \lam and \alam.  The \alam/\lam ratio in central \Cu collisions is 0.83 $\pm$ 0.02 \cite{antsthesis}, so it is likely that both \lam and \alam production at high-\pT are dominated by gluon jets.  
+Differences between baryons and mesons have been observed in \RAA and in \vtwo and models such as Recombination hypothesizes novel methods for production of baryons and mesons in \AplusA collisions to explain the observed differences.  If particles in jets are produced by vacuum fragmentation, baryon/meson ratios would be expected to be comparable to \pp.  Jets with leading baryons may have different properties than jets with leading mesons.  Particles produced by mechanisms such as Recombination would have baryon/meson ratios comparable to the bulk.  No statistically significant differences were observed between \lam and \alam triggers or \xibary and \axibary so these trigger particles were added together to increase the statistical significance of the results for comparisons to \kaon trigger particles.
+
+\subsubsection{Identified trigger particles}
+
+\Fref{JetEnergyTrigPtIdTrig} shows the \pttrig dependence of \njet for identified trigger particles in \dAu, \Cu, and \Au collisions at \sNNtwohundred for unidentified hadron, \lam, \kaon, and \myxi trigger particles.  The \dphi was used because these measurements were statistically limited and the \jlc is broader for identified trigger particles than for unidentified trigger particles.    The \Au data have not been corrected for the track merging effects discussed in \Cref{CorrMethod}, so the slightly lower yield for identified particles in \Au collisions at \sNNtwohundred may be due to track merging.  There is no system dependence within errors.  The most central \kaon trigger in \Cu collisions at \sNNtwohundred is about three sigma above the other data; this data point may be an outlier or may be an indication of a slight particle type dependence.  There is no other observed dependence on the trigger particle type.
+
+\pagebreak
+
+\begin{figure}[ht!]
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtIdTrig.eps}}\\
+
+  \caption[\pttrig dependence of \njet for identified trigger particles]
+  {\pttrig dependence of \njet for \stdassoc in 0-60\% central \Cu and 0-12\% central \Au collisions at \sNNtwohundred for unidentified hadrons, \lam, \kaon, and \myxi trigger particles.  Data from \Au collisions at \sNNtwohundred are from \cite{JanaQM06}.  The identified trigger particle data have been horizontally offset for visibility.  The \Au data have not been corrected for the track merging effects discussed in \Cref{CorrMethod}.
+  \label{JetEnergyTrigPtIdTrig}}
+\end{figure}
+
+The \ptassoc dependence of \njet for unidentified hadrons, \lam, \kaon, and \myxi trigger particles is shown in \Fref{JetEnergyAssocPtIdTrig}.  Due to limited statistics, it was only possible to extract \njet for two bins in \ptassoc for \lam and \kaon trigger particles and one bin bor \myxi trigger particles. The \jlys from identified trigger particles are within errors of the \jlys for unidentified hadron trigger particles.  The data in \Au collisions at \sNNtwohundred also showed no dependence on trigger particle type \cite{JanaQM06}.
+
+
+
+The \npart dependence of \njet is shown in \Fref{JetEnergyNpartIdTrig} for \lam, \kaon, and \myxi trigger particles.  The \Au data have not been corrected for track merging effects, and this may explain the difference between identified trigger particles and unidentified trigger particles.
+
+No statistically significant differences between different trigger particles are observed for the \jlcs, including non-strange, singly strange, and doubly strange hadrons.  Studies in \Au collisions at \sNNtwohundred indicated that there is no trigger particle dependence for even the trebly strange \myomega \cite{bettysthesis,Abelev:2007zp}.  %Previous \py calculations for identified trigger particles \cite{JanaHQ2006} showed that no trigger particle dependence is expected in \py, indicating that no trigger particle dependence would be expected if the production mechanism were the same in \pp and \AplusA collisions.%  However, it is worth noting that \py is generally unreliable for strange particles and does not explain even spectra for strange particles and pions simultaneously in \pp collisions at \sNNtwohundred \cite{STARStrangePP200}.
+
+\pagebreak
+
+\begin{figure}[ht!]
+  \centering\resizebox{9.7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtIdTrig.eps}}\\
+
+  \caption[\ptassoc dependence of \njet for identified trigger particles]
+  {\ptassoc dependence of \njet for \stdtrig in 0-60\% central \Cu collisions at \sNNtwohundred for unidentified hadrons, \lam, \kaon, and \myxi trigger particles.  The line is from a fit of the h-h data to A$e^{-p_{T}/k}$.  The inverse slope parameter is given in \Tref{EnergyDependenceSlopeTable}.  The identified trigger particle data have been horizontally offset for visibility.
+ \label{JetEnergyAssocPtIdTrig}}
+\end{figure}
+
+
+\begin{figure}[hb!]
+  \centering\resizebox{9.7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/JetNpartIdTrig.eps}}\\
+
+  \caption[\npart dependence of \njet for identified trigger particles in \dAu, \Cu, and \Au collisions at \sNNtwohundred]
+  {\npart dependence of \njet for \stdtrig and \stdassoc for identified trigger particles in \dAu, \Cu, and \Au collisions at \sNNtwohundred for \lam, \kaon, and \myxi trigger particles.  Data from \dAu and \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05}.  The \Au data have not been corrected for the track merging effects discussed in \Cref{CorrMethod}.
+  \label{JetEnergyNpartIdTrig}}
+\end{figure}
+
+
+\begin{figure}
+  \centering\resizebox{9.7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/TrigPtIdAssoc.eps}}\\
+
+  \caption[\pttrig dependence of \njet for identified associated particles]
+  {\pttrig dependence of \njet for \stdassoc of \njet in 0-60\% central \Cu and 0-12\% central \Au collisions at \sNNtwohundred for identified associated particles.  The unidentified hadron associated particles are scaled to fit on the same plot.  Data from \Au collisions at \sNNtwohundred are from \cite{JanaQM06}.  The \Au data have not been corrected for the track merging effects discussed in \Cref{CorrMethod}.
+  \label{JetEnergyTrigPtIdAssoc}}
+\end{figure}
+\pagebreak
+
+\subsubsection{Identified associated particles}
+\Fref{JetEnergyTrigPtIdAssoc} shows the \pttrig dependence of \njet for identified associated particles.  Similar trends are observed for unidentified associated particles and strange associated particles.
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/AssocPtIdAssoc.eps}}\\
+
+  \caption[\ptassoc dependence of \njet for \sNNsixtytwo and \sNNtwohundred]
+  {\ptassoc dependence of \njet for \stdtrig for \sNNsixtytwo and \sNNtwohundred.  Data from \dAu and \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05,JanaPrivComm}.  Parameters from fits of the data are listed in \Tref{TableIdAssoc}.
+  \label{JetEnergyAssocPtIdAssoc}}
+\end{figure}
+
+\begin{table}
+\begin{center}
+\caption{Inverse slope parameter k (\MeV) of \ptassoc for fits of data from the \jlc in \Fref{JetEnergyAssocPtIdAssoc} to $A e^{-p_T/k}$.  Statistical errors only.}\label{TableIdAssoc}
+\hspace{-.2cm}
+
+\begin{tabular}[*]{c | c c c}
+\hline
+ & h-h & h-\kaon & h-\lamalam\\ \hline
+ k (MeV/c) & 445 $\pm$ 20 & 505 $\pm$ 87 & 510 $\pm$ 55 \\ \hline
+\end{tabular}
+\vspace{-0.8cm} 
+\end{center}
+\end{table}
+
+\Fref{JetEnergyAssocPtIdAssoc} shows the dependence of \njet on \ptassoc for identified associated particles.  The ratio \baryontomeson is roughly 0.5 for the full \ptassoc range shown.
+
+% \begin{figure}
+%   \centering\resizebox{10cm}{!}{
+%   \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/InclusiveRatioPlot.eps}}\\
+% 
+%   \caption[Comparison of inclusive \baryontomeson to that in the \jlc and the \ridge]
+%   {Comparison of the inclusive \baryontomeson in \Au collisions at \sNNtwohundred to that in the \jlc in 0-60\% central \Cu and 0-12\% central \Au collisions at \sNNtwohundred and to the \ridge in 0-12\% central collisions in \Au collisions at \sNNtwohundred. \cite{JanaWWND2007,Lamont:2004qy}.
+%   \label{InclusiveRatioPlot}}
+% \end{figure}
+% 
+% The baryon to meson ratio in the \jlc is compared to that in \pp and \Au collisions in \Fref{InclusiveRatioPlot}.  The baryon to meson ratio in the \ridge in central \Au collisions at \sNNtwohundred is somewhat higher than in \pp collisions, while the baryon to meson ratio in the \jlc is comparable to that in \pp collisions.  \Fref{InclusiveRatioPlot} shows that the ratio in the \jlc in \Cu collisions at \sNNtwohundred is also comparable to that in \pp collisions.
+
+
+\section{The \ridge\label{resultsridge}}
+The \ridge is an unexpected phenomenon first observed in \Au collisions.  In order to understand its origins and to provide a robust test of models for the production of the \ridge, the \ridge is studied as a function of as many variables as possible.  The collision energy, collision system, system size, and trigger particle type dependence of the \ridge are presented here.
+
+\subsection{Energy and system dependence}
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeNpart.eps}}\\
+
+  \caption[\npart dependence of \nridge for \sNNsixtytwo and \sNNtwohundred]
+  {\npart dependence of \nridge for unidentified hadrons for \stdtrig and \stdassoc for \Cu and \Au collisions at \sNNsixtytwo and \Cu and \Au collisions at \sNNtwohundred.  Data from \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05,JanaPrivComm}.  Lines indicate systematic errors due to \vtwo.
+  \label{RidgeEnergyNpart}}
+\end{figure}
+
+\Fref{RidgeEnergyNpart} shows the dependence of the \ry, \nridge, on \npart for \Cu and \Au collisions at \sNNsixtytwo and \sNNtwohundred.  No difference is observed between \Cu and \Au collisions at either energy.  \nridge is larger at \sNNtwohundred than \sNNsixtytwo, as was observed for \njet.  \Fref{RidgeRatioNpart} shows that the ratios \nridge/\njet are the same for collisions at both \sNNsixtytwo and \sNNtwohundred; both the \jlc and the \ridge are about 40\% smaller in collisions at \sNNsixtytwo than in collisions at \sNNtwohundred.
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeRatioNpart.eps}}\\
+
+  \caption[\npart dependence of \nridge/\njet for \sNNsixtytwo and \sNNtwohundred]
+  {\npart dependence of \nridge/\njet for unidentified hadrons for \stdtrig and \stdassoc for \Cu and \Au collisions at \sNNsixtytwo and \Cu and \Au collisions at \sNNtwohundred.  Data from \dAu and \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05}.
+  \label{RidgeRatioNpart}}
+\end{figure}
+
+\subsection{Flavor dependence}
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/RidgeNpartIDTrig.eps}}\\
+
+  \caption[\npart dependence of \nridge for \stdtrig and \stdassoc for identified trigger particles in \Cu and \Au collisions at \sNNtwohundred]
+  {\npart dependence of \nridge for \stdtrig and \stdassoc for identified trigger particles in \Cu and \Au collisions at \sNNtwohundred.  Data from \Au collisions at \sNNtwohundred are from \cite{JanaFrance,JanaWWND2007,JanaQM06,JanaHP06,JanaPANIC05}.  Systematic errors are shown as bands in the same color as the data points.
+  \label{RidgeNpartIDTrig}}
+\end{figure}
+
+\Fref{RidgeNpartIDTrig} shows the dependence of \nridge on \npart for identified \lam, \kaon, and \myxi trigger particles for \Cu and \Au collisions at \sNNtwohundred.  The data for identified trigger particles in \Cu collisions at \sNNtwohundred are consistent, within large errors, of \nridge in \Au at the same \npart.
+
+
+\section{\myomega triggered correlations}
+
+\myomega triggered correlations were statistically limited even in \Au \cite{Abelev:2007zp,betya}.  To minimize the effects of statistical fluctuations, the detector acceptance corrections were determined using \myxi distributions in azimuth and pseudorapidity.  Since statistical fluctuations were much larger than track losses due to track merging, track merging corrections were not applied.  To investigate the feasibility of studies of \myomega triggered correlations in \Cu at \sNNtwohundred, kinematic cuts were varied to find the cuts which maximize the signal to background ratio.  Lowering the lower limit on \ptassoc or \pttrig increases the statistics, however, it also increases the combinatorial background.  \omegabary and \aomegabary were added in order to increase statistics.
+
+\begin{figure}
+  \centering\resizebox{15cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/OmegaPtAssoc.eps}}\\
+
+  \caption[\myomega triggered correlations for different \ptassoc cuts]
+  {\myomega triggered correlations for different \ptassoc cuts for \trigrange{3.0}{6.0} in 0-60\% central \Cu collisions at \sNNtwohundred for cut set 1 described in \Cref{PartID}.  Data are compared to \lam and \myxi triggered correlations for the same kinematic cuts.  The background shown as a dashed line is the background from the nominal value of \vtwo from \lam triggered correlations.
+  \label{OmegapTassoc}}
+\end{figure}
+
+\Fref{OmegapTassoc} shows \myomega triggered correlations in \Cu collisions at \sNNtwohundred for different \ptassoc cuts for cut set 1 described in \Cref{PartID}.  No background subtraction is done.  The background from \lam triggered correlations is shown.  The \vtwo modulated combinatorial background is significant, however, it has roughly the same shape for the \lam, \myxi, and \myomega.  The slight differences in the level of the background for \myxi and \myomega triggers are due to the higher average multiplicities in these events.  For all cases the \myomega triggered correlations are within error of both the correlations observed for other trigger particles and of the \vtwo modulated background.
+
+\begin{figure}
+  \centering\resizebox{12cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/OmegaPtTrig.eps}}\\
+
+  \caption[\myomega triggered correlations for different \pttrig cuts]
+  {\myomega triggered correlations for different \pttrig cuts for \assocrangevar{1.5} in 0-60\% central \Cu collisions at \sNNtwohundred for the three different cut sets described in \Cref{PartID}.  Data are compared to \lam and \myxi triggered correlations for the same kinematic cuts.
+  \label{OmegapTtrig}}
+\end{figure}
+
+\Fref{OmegapTtrig} shows \myomega triggered correlations in \Cu collisions at \sNNtwohundred for different \pttrig cuts.  As for different \ptassoc cuts, the \myomega triggered correlations are within error of both the correlations observed for other trigger particles and of the \vtwo modulated background.
+
+
+\begin{figure}
+  \centering\resizebox{8cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/results/Omega3Cuts.eps}}\\
+
+  \caption[\myomega triggered correlations for different \pttrig cuts]
+  {\myomega triggered correlations for \assocrangevar{1.5} and \stdtrig in 0-60\% central \Cu collisions at \sNNtwohundred for the three different cut sets described in \Cref{PartID}.  Data are compared to \lam and \myxi triggered correlations for the same kinematic cuts.
+  \label{Omega3cuts}}
+\end{figure}
+
+\Fref{Omega3cuts} compares the \myomega correlations using cut set 1 to those using cut sets 2 and 3.  Cut set 2 provides the purest \myomega sample, which might make the signal stronger if contamination from the background in the \myomega mass peak weakens the signal.  Cut set 3 provides the least pure sample meaning there is significant contamination from background in the \myomega mass peak, however, it also provides higher statistics.  There are no significant differences between the signals using different cuts.  Since the \myomega triggered correlations were within error of both the background and the signal expected from other trigger particles, it is not possible to get a statistically significant measurement of \myomega triggered di-hadron correlations in \Cu collisions at \sNNtwohundred.
+
+\section{Summary}
+No differences are observed in the \jlc between \dAu, \Cu and \Au collisions as a function of \pttrig and \ptassoc.  A system size dependence is observed, with the \jlc increasing by about 50\% from \dAu collisions to central \Au collisions at \sNNtwohundred.  The \jlc is somewhat broader in \Au collisions at \sNNtwohundred than in \Cu collisions at \sNNtwohundred.  No trigger particle type dependence is observed.
+
+The \ridge is observed for the first time in collisions at \sNNsixtytwo and is observed in \Cu collisions.  The \ridge is independent of the collision system at a given \npart, and the \nridge/\njet ratio is independent of collision energy for the kinematic cuts studied.  No trigger particle dependence is observed.

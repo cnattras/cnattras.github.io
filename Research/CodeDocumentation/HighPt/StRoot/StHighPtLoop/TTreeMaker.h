@@ -1,0 +1,115 @@
+#ifndef TTreeMaker_h
+#define TTreeMaker_h
+
+//c++ stuff
+#include <string> 
+
+
+//ROOT stuff
+#include "TObject.h"
+#include "TFile.h"
+#include "TClonesArray.h"
+#include "TObjArray.h"
+#include "TList.h"
+#include "TTree.h"
+#include "TIterator.h"
+
+//All of the container classes from the StHighPt library
+#include "../StHighPtTree/TTrack.h"
+#include "../StHighPtTree/TV0Track.h"
+#include "../StHighPtTree/TXiTrack.h"
+#include "../StHighPtTree/TIdentifiedTrack.h"
+#include "../StHighPtTree/TResonanceTrack.h"
+#include "../StHighPtTree/TEvent.h"
+#include "../StHighPtTree/TV0.h"
+#include "../StHighPtEvaluator/IsGoodVertex.h"
+#include "../StHighPtEvaluator/IsGoodRefMult.h"
+#include "../StHighPtEvaluator/IsGoodTrigger.h"
+#include "../StHighPtEvaluator/goodTriggers.h"
+#include "../StHighPtEvaluator/IsGoodEvent.h"
+#include "../StHighPtTools/GetTResonanceMass.h"
+//I need the analysis maker
+#include "AnalysisMaker.h"
+
+//STAR classes needed
+#include "StMuDSTMaker/COMMON/StMuEvent.h"
+#include "StMuDSTMaker/COMMON/StMuTrack.h"
+#include "StMuDSTMaker/COMMON/StMuDstMaker.h"
+
+#include "StStrangeMuDstMaker/StStrangeMuDstMaker.h"
+#include "StStrangeMuDstMaker/StV0MuDst.hh"
+
+#include "TStMuEventAna.h"
+
+#include "StChain/StMaker.h"
+
+class TTreeMaker : public StMaker {
+ public:
+  TTreeMaker(AnalysisMaker *maker, char *dataset);
+  //TTreeMaker(char *mydataset);
+  ~TTreeMaker(){;}
+
+  //Required maker functions
+  void   Clear(Option_t *option="") {StMaker::Clear();}    
+  Int_t  Init();                      
+  Int_t  Make();                      
+  Int_t  Finish();    
+  void SetMinV0Pt(float cut){minV0pT=cut;}//defaults to 0.
+  void SetMinXiPt(float cut){minXipT=cut;}//defaults to 0.
+  void SetLowPtV0NSigmaCut(float value){lowPtNSigmaCut = value;}//for < 1 GeV
+  void SetHighPtV0NSigmaCut(float value){highPtNSigmaCut = value;}//for > 1GeV
+  void SetMinChargedPt(float cut){minChargedPt=cut;}//defaults to 1.0
+  void UseTIdentifiedTracks(){useTIDTracks = true;}
+  void UseTResonanceTracks(){useTResTracks = true;}
+
+  void SetFileName(char *myFileName) {fileName = myFileName;}
+
+ private:
+  string dataset;
+  char *fileName;//!
+  AnalysisMaker *anaMaker;//!
+
+  TStMuEventAna  *eventHistos;          //! event histograms
+
+  TEvent    *tevent;
+  TTrack    *thtrack;
+  TV0Track    *tltrack,*taltrack,*tk0track,*tv0track;
+  TXiTrack *txitrack;
+  TTree        *ttree;
+  int       nEventsPassed;  
+  int       nEventsFailed;  
+  int       nStMuEvent;
+
+  float minV0pT, minChargedPt, minXipT;
+  float lowPtNSigmaCut, highPtNSigmaCut;
+  bool PassesNSigmaCuts(TV0Track *track);
+  bool PassesNSigmaCuts(TXiTrack *track);
+
+  TV0  *tv0s;
+  TFile   *file;   //! output root file 
+
+  TH1F *hEventStat;
+  TH1F *hDeltaPhi;
+  TH1F *hLambdaMass; 
+  TH1F *hAntiLambdaMass;
+  TH1F *hK0Mass; 
+  TH1F *hXiMass;
+  TH1F *hAntiXiMass;
+  TH1F *hOmegaMass;
+  TH1F *hAntiOmegaMass;
+  TH1F *hLambdaResMass; 
+  TH1F *hAntiLambdaResMass;
+  TH1F *hK0ResMass;
+  TH1F *hPhiResMass; 
+
+  //bool StoreV0Tracks(StV0MuDst*, TV0*, int);
+  //bool StoreXiTracks(StXiMuDst*, TEvent*, int);
+  //bool StoreChargedTracks(StMuTrack*, TEvent*, int);
+  bool useTIDTracks;
+
+  //variables for making TResonanceTracks
+  bool useTResTracks;
+
+  ClassDef(TTreeMaker,1)
+};
+#endif

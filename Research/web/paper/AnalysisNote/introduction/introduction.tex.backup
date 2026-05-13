@@ -1,0 +1,378 @@
+
+
+
+\chapter{Introduction\label{introduction}}
+
+\section{A new phase of matter\label{QCD}}
+
+The most successful theory for explaining the behavior of nuclear matter so far is Quantum ChromoDynamics (QCD), and fundamental attributes of QCD indicate that there is a new phase of nuclear matter at high energy densities.  \Fref{CouplingConstant} shows the QCD coupling constant \alphas as a function of the momentum transfer, Q.  Unlike Quantum ElectroDynamics (QED), the coupling constant in QCD is large at low momentum transfer and perturbative calculations do not converge.  A direct consequence of the energy dependence of the coupling constant is asymptotic freedom, which a Nobel prize was awarded for in 2004.  Unlike the macroscopic forces we are familiar with, the strong force is weaker at very short distances (large $Q^2$) than at large distances (small $Q^2$).  As a consequence, if bound quarks are separated, it eventually becomes  energetically favorable to create a new quark-antiquark pair rather than to continue moving the quarks farther apart.  Hence free quarks are not observed in nature.  The QCD analog to electric charge in QED is color charge, which carries the strong force. Only color neutral states, the color singlets, can exist as stable nuclear matter at normal densities.
+
+%Predictions from lattice QCD suggest that there should be a new phase of deconfined quark-gluon matter\cite{Karsch} which has been called the Quark-Gluon Plasma (QGP).
+
+%Quantum Chromodynamics (QCD), the most successful theory for describing nuclear matter, is characterized by a coupling constant which gets smaller the higher the energy of an interaction.  The coupling constant as a function
+
+\begin{figure}
+  \centering\resizebox{7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/alphaS.eps}}\\
+
+  \caption[QCD coupling constant as a function of energy]
+  {The QCD coupling constant as a function of energy \cite{Bethke:2006ac}.
+  \label{CouplingConstant}}
+\end{figure}
+
+%However, it was proposed that at high densities, the interaction of multiple quarks and gluons simultaneously are possible.  When quarks are close together, the attraction between individual quarks is weak and unlike in nuclei it is no longer possible to determine which quarks are bound to each other.  
+However, when quarks are close together, the attraction between individual quarks is weak.  T. D. Lee proposed in 1974 that quarks and gluons could therefore be created in a state where they would behave as if they were free within the bounds of the volume \cite{Baym:2001in}, and that this phase of matter would be similar to what existed at early stages of the universe.  In 1974 the Bear Mountain Workshop was held in New York to discuss how one could create and study this state and measure its properties \cite{Baym:2001in}.  In the late 70's this new phase of matter was named the Quark Gluon Plasma (QGP) \cite{Baym:2001in}.  These early theoretical ideas which justified the study of a Quark Gluon Plasma were further developed in the early 1980's.
+
+It was proposed that a QGP could be created in high energy collisions of nuclei \cite{Baym:2001in,0954-3899-34-8-S02,tdleehistory}.  The first dedicated program to create a QGP through heavy ion collisions was at the Super Proton Synchrotron (SPS) at the European Organisation for Nuclear Research (CERN).  The SPS is a fixed target heavy ion collider which took data from 1984 to 2003.  The program to search for a QGP used primarily \Pb collisions at a center of mass energy per nucleon (\sNN) ranging from 9 to 17.3.  The Alternating Gradient Synchrotron (AGS) was a fixed target collider at Brookhaven National Laborarory which began operation in 1986 and could collide ions ranging in mass from protons to $^{32}$S at energies up to 28 GeV/u.  In 1991 it was modified to allow ions up to $^{197}$Au for use in the Relativistic Heavy Ion Collider (RHIC) \cite{AGS}. The proposal for RHIC was developed in 1983 when plans for the Isabelle, a proton-proton accelerator, were abandoned, clearing the way for the tunnel to be used for RHIC.  RHIC is capable of colliding many ion species, ranging from \pp to \Au.  It can collide \Au with \sNN ranging from 5 GeV to 200 GeV.
+
+\section{The phase diagram of nuclear matter \label{PhaseDiagram}}
+From the beginning, the field of heavy ion physics was driven by a desire for a better understanding of nuclear matter and its phase diagram.  The flexibility of RHIC means that a large part of the phase diagram of nuclear matter can be studied there.  Our understanding of what the phase diagram looks like has improved significantly since the 1980's, however, few quantitative features of the phase diagram are universally agreed upon in the field.
+
+\begin{figure}
+  \centering\resizebox{14cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/phasediagram.eps}}\\
+
+  \caption[Schematic phase diagram of nuclear matter]
+  {Schematic phase diagram of nuclear matter from \cite{Stephanov:2007fk} showing the current consensus about the key features.
+  \label{SchematicPhaseDiagram}}
+\end{figure}
+
+%Reminder - precise definition of chemical potential
+% (partial derivative) dU/dN (const S,V)
+\Fref{SchematicPhaseDiagram} shows a simple phase diagram of nuclear matter as a function of temperature and baryo-chemical potential (\baryochemical) showing the key features.  The detailed structure of the phase diagram and the exact locations of transitions are still debated.  We understand the region occupied by cold nuclear matter, such as nuclei, better than any other part of the phase diagram, however, it is worth noting that we still have an incomplete understanding of even the proton.  The proton's spin cannot be explained by the spin of its valence quarks alone, and the contributions of gluons and the orbital momentum are still being measured \cite{Bass:2007mm}.  We know that cool nuclear matter at moderate densities exists at a \baryochemical of about 1 GeV, meaning that it takes a little more than 1 GeV to add a baryon to the system \cite{Stephanov:2007fk}.
+
+At moderate densities and low temperatures, there are ordered phases of cold quark matter, similar to the various phases of ice \cite{Stephanov:2007fk}.  At somewhat higher densities nuclear matter is expected to be color-flavor locked, meaning that the quarks are expected to form Cooper pairs, coupling is expected to be weak, and strong correlations between flavor and color are expected.  This matter is expected to behave as a color superconductor \cite{Alford:2007xm}.  Nuclear matter at these densities is not directly experimentally accessible, however, the matter in the center of neutron stars may occupy this region of the phase diagram.
+
+We know that if we heat nuclear matter at densities comparable to those found in nuclei to moderate temperatures, it forms a hadron gas, comprising low mass baryons and mesons made of mostly u and d quarks. At higher temperatures we expect a quark-gluon plasma, characterized by both chiral symmetry restoration and free quarks and gluons.  At baryo-chemical potentials at and below those of normal nuclear matter we therefore expect a phase transition from a hadron gas to a quark-gluon plasma.
+
+The question of the order of the phase transition has been the subject of much debate.  Predictions have been made by lattice QCD.  An approximation is made that space can be discretized, making calculations in the non-perturbative regime of QCD  possible.  Lattice simulations indicate that for \baryochemical = 0, the transition is a crossover rather than a phase transition \cite{Heller:2006ub}.  This means that the hadron gas and the QGP coexist.  A similar crossover transition exists for water.  At high temperature and pressure, the density of water decreases and the density of water vapor increases, making the two phases indistinguishable.  Similarly, the density of the hadron gas is high and the density of the QGP is low in the crossover region, making the phases indistinguishable.
+
+Lattice calculations for \baryochemical = 0 converge, however, at \baryochemical $\neq$ 0 lattice calculations do not reliably converge so it is more difficult to make definitive statements \cite{Stephanov:2007fk}.  For larger \baryochemical, evidence points towards a first order phase transition \cite{Alford:2007LAT}.  This would mean there must be a critical point.  This would be a tricritical point where confined nuclear matter and the QGP meet if chiral symmetry has been restored and the u and d quarks can be considered massless \cite{Shuryak:2006eb}.
+
+\begin{figure}
+  \centering\resizebox{12cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/phasediagramCrossOverPoints.eps}}\\
+
+  \caption[Theoretical calculations of the critical point]
+  {Model predictions for the location of the critical point from \cite{Stephanov:2007fk}.  Black points are predictions from extrapolations from lattice calculations at \baryochemical = 0, green points are lattice predictions, and red circles are the chemical freezeout points for heavy ion collisions at the \sNN indicated by the point.  Dashed lines correspond to extrapolations of the transition point at \baryochemical = 0 using different estimations of the slope $\dfrac{dT}{d\mu_B^2}$ at \baryochemical = 0.
+  \label{TricriticalPoint}}
+\end{figure}
+
+The location of the tricritical point has been calculated by making assumptions about how to extrapolate to finite \baryochemical from \baryochemical = 0, and these calculations are based on models rather than being solidly rooted in QCD \cite{Stephanov:2007fk}.  \Fref{TricriticalPoint} shows model predictions for the location of the tricritical point, demonstrating that there is still no consensus. %The red circles correspond to the freeze-out points where the medium cools down and breaks apart for heavy ion collisions with various energies.
+There is therefore no consensus on the location of the line corresponding to the first order phase transition, although more recent calculations are in better agreement than earlier calculations.  The matter produced at RHIC is generally believed to be in the crossover region and has been termed a strongly coupled quark-gluon plasma (sQGP).
+
+\section{Phases of the collision\label{RxnStages}}
+
+\begin{figure}
+  \centering\resizebox{15cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/StagesOfRxn.eps}}\\
+
+  \caption[Stages of a heavy ion collision]
+  {Cartoon of the stages of a heavy ion collision \cite{BassQM2001}.
+  \label{StagesOfRxn}}
+\end{figure}
+
+\Fref{StagesOfRxn} is a cartoon showing the different stages of a heavy ion collision.  This figure is not drawn to scale.  Incoming nuclei are relativistically contracted due to their high momenta.  When the collision occurs, the quarks and gluons in each nucleus interact.  The centers of mass of collisions between quarks and gluons are not generally the same as the center of mass of the collision.  The highest densities and hottest temperatures are shortly after the collision.  A QGP is formed, likely at a temperature higher than the first order phase transition line but at lower \baryochemical than the critical point.
+The medium enters a mixed phase of a hadron gas and a QGP as it expands and cools.  Hadronization of quarks and gluons occurs at this time.  As the medium cools further it enters a pure hadron gas phase.
+%As the medium expands, it cools, moving down the phase diagram shown in \Fref{SchematicPhaseDiagram} and entering a mixed phase of a hadron gas and a Quark Gluon Plasma.  Hadronization of quarks and gluons occurs as the medium expands and cools.  As the medium expands further, it cools more, entering a hadron gas phase.
+
+\begin{figure}
+  \centering\resizebox{12cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RxnEvolutionCopy.eps}}\\
+
+  \caption[Spacetime diagram of a heavy ion collision]
+  {Spacetime diagram of a heavy ion collision \cite{UllrichC2CR}.  The left depicts events for a collision where no QGP is formed and the right depicts a collision where a QGP is formed.
+  \label{RxnEvolution}}
+\end{figure}
+
+
+This process is depicted on a space-time diagram in \Fref{RxnEvolution}.  The incoming nuclei move very close to the speed of light; collisions with a center of mass energy per nucleon \sNN of 200 GeV correspond to a Lorentz factor of about 200, and collisions at a \sNN of 62 GeV correspond to a Lorentz factor of about 62.  The left-hand side depicts what occurs for a collision where no QGP is formed.  In this case, immediately after the collision there is a period of non-equilibrium when quarks and gluons which participated in the collision form into hadrons, followed by a hadronic gas phase.  The right-hand side depicts what occurs for a collision where a QGP is formed.  Again there is a period before equilibrium, followed by a QGP phase, a mixed phase in the case of a crossover region, and a hadronic gas phase.  The temperature where the transition from a QGP occurs is called the critical temperature, $T_c$.  In the case of a crossover transition, the hadronic gas phase may be so dense that there is little distinction between the hadronic gas and the QGP.  The lifetime of the QGP phase depends on the highest temperature reached in the collision and on the rate of expansion of the medium.
+
+In the hadronic gas phase, inelastic collisions continue until the chemical freeze out, $T_{ch}$, is reached.  At this point the relative distributions of different hadrons are fixed.  The hadrons are not necessarily in complete chemical equilibrium at this point.  Elastic collisions continue until the thermal freeze out, $T_{fo}$.  At this point the momenta of the hadrons are fixed.
+
+%Within the hadronic gas phase there are two transitions, the chemical freeze-out ($T_f$) and the thermal freeze-out ($T_{ch}$).  In a hot hadronic gas, chemical reactions between hadrons are possible, similar to chemical reactions between molecules.  The point at which inelastic collisions stop is called the chemical freeze out.  The relative ratios of different hadrons created from the collision is fixed at this point.  The point at which the gas is diffuse enough that no more elastic collisions occur between hadrons is called the thermal freeze-out; at this point the relative energies and momenta are fixed.  These two points are not necessarily at the same, however, by definition the chemical freeze-out cannot occur after the thermal freeze out.
+
+
+\section{Theoretical frameworks to describe heavy ion ccollisions\label{TheoreticalFramework}}
+
+Many different theoretical frameworks have been used to describe heavy ion collisions.  This is not a comprehensive review and emphasis is deliberately on theories and models which have been connected to the results presented in this thesis.  Only broad descriptions of a QGP are discussed here; theories directly related to the results will be discussed in \Cref{discussion}.
+
+There are two different classes of theoretical frameworks, those which attempt to describe the QGP describing the interactions between quarks and gluons from first principles and those which make assumptions about the QGP and are a more phenomenological description of the data.  Theories which attempt to describe the interactions of quarks and gluons from first principles, such as energy loss models and the Color Glass Condensate, are more solidly founded in QCD, however, assumptions about the initial state and hadronization are made to relate these theories to data.  Statistical models and hydrodynamical models are dependent on assumptions about the medium created.  These classes of models both depend on the medium reaching equilibrium, at least locally.
+%Some theories attempt to derive the properties of a QGP directly from QCD.  The biggest weaknesses in these theories are in the approximations made to make calculations feasible - for instance, \alphas is often taken to be a constant, even though it depends strongly on the energy scale of parton collisions, as shown in \Fref{CouplingConstant}. These models generally attempt to describe jet quenching observed at RHIC using an ad-hoc parameterization of energy loss.  An alternate QCD-based description is the Color Glass Condensate (CGC).  In the CGC picture the initial state of incoming nuclei are described as a the Glasma, a concept based on QCD.  The CGC on its own describes experimental data on \pA and \dA collisions well.  The interactions of nuclei are described as interactions between two sheets of Glasma.
+
+%In addition, many models which are not based on QCD but rather are based on assumptions about the way that a QGP should behave are used to describe the data.  Thermal models assume that the medium is in chemical and thermal equilibrium and therefore that the relative yields of particle species can be described statistically.  There have been extensions of these models to include non-equilibrium processes.  Generally these models do not attempt to describe the production of high momentum particles but rather only the production of low momentum, or bulk, particles.
+
+%Hydrodynamical models are frequently used to describe heavy ion collisions.  These models describe any fluid and therefore could describe both a hadron gas and a QGP.  Their biggest inherent weakness is an assumption that the medium is in thermal equilibrium.  In addition many calculations have been done assuming that the viscosity of the fluid is zero.  There are indeed some indications that the viscosity of the fluid may be very low \cite{Back:2004je,Adcox:2004mh,Arsene:2004fa,Adams:2005dq} and the medium formed at RHIC has been termed a ``Perfect Fluid.''
+
+%A family of phenomenological models is based on the assumption that, if a QGP has been formed, instead of quarks hadronizing as they do in a vacuum, they can combine with other quarks in the medium to produce hadrons.  This is called Recombination or Coalescence.  These models qualitatively reproduce the many aspects of the data, however, generally fail to quantitatively reproduce the data.
+
+\subsection{Jet quenching models\label{JetQuench}}
+\begin{figure}[ht!]
+  \centering\resizebox{9cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RAA.eps}}\\
+
+  \caption[Schematic diagram of \RAA]
+  {Schematic diagram showing \RAA for an \AplusA collision that can be described as a superposition of nucleon-nucleon collisions \cite{UllrichMSU}.
+  \label{RAASchematic}}
+\end{figure}
+
+The ratio of hadron spectra in \AplusA collisions to that in \pp collisions is a measure of the degree to which hadron spectra and yields are modified in heavy ion collisions.  This ratio is divided by the number of binary collisions in an \AplusA collision to give
+\begin{equation}
+ R_{AA} = \frac{d^2N_{AA}/dp_{T}d\eta}{T_{AA}d^2\sigma^{pp}/dp_{T}d\eta}.
+\end{equation}
+The overlap integral, $T_{AA} = \frac{<N_{bin}>}{\sigma^{NN}_{inel}}$ where $<N_{bin}>$ is the average number of binary collisions and $\sigma^{NN}_{inel}$ is the inelastic nucleon-nucleon cross section, accounts for the collision geometry.
+
+\RAA is 1 at high \pT if the \AplusA collision only comprises multiple nucleon-nucleon collisions since high-\pT processes should scale with the number of nucleon-nucleon collisions.  At low \pT \RAA would be less than 1 because soft processes are expected to scale with the number of nuclei which participate in the collision.  \RAA is depicted schematically in \Fref{RAASchematic}.
+
+\begin{figure}
+  \centering\resizebox{7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/Renk.eps}}\\
+
+  \caption[Surface bias of single hadrons]
+  {Distribution of the origin of hadrons in a dense medium \cite{Renk:2006pw}.  An 8 \GeV parton was heading in the -x direction.
+  \label{SurfaceBias}}
+\end{figure}
+
+It was predicted that a QGP would be dense and therefore that production of high-\pT hadrons would be suppressed because energy would be lost by fast moving partons traversing the medium \cite{Bass:1999zq}.  When there is a hard scattering of two partons in a QGP, the dense medium should slow or stop the parton, a process called jet quenching.  The partons that escape the medium are assumed to be biased towards the surface of the medium.  A theoretical calculation of the distribution of the origins hadrons produced relative to an 8 \GeV hadron in a dense medium are shown in \Fref{SurfaceBias}, demonstrating that the measured high-\pT hadrons are expected to be biased towards those produced near the surface.  This would lead to \RAA $<$ 1 because there would be fewer high-\pT partons in an \AplusA collision than in a \pp collision.
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RAAData2.eps}}\\
+
+  \caption[\RAA for unidentified hadrons]
+  {\RAA for unidentified hadrons in \Au collisions at \sNNonethirty \cite{Adler:2002xw}.
+  \label{RAAData}}
+\end{figure}
+%data - steal plot from Betty thesis page 27
+
+Data from \RAA in heavy ion collisions are shown are \Fref{RAAData}.  The data show roughly a factor of five suppression of hadron spectra at high-\pT in central \Au collisions relative to \pp, rather than the suppression by roughly a factor of two predicted before RHIC data were available \cite{Bass:1999zq}.  The enhancement around \pT \roughly 2 is from the Cronin effect, first observed in \dAu collisions by J. Cronin in 1975 \cite{Cronin:1974zm} and has also been observed in \dAu collisions at RHIC \cite{Adams:2003im}.  It is believed to result from multiple scattering of initial state partons.
+
+Other models are capable of producing higher suppression but they require larger partonic energy loss.  Energy loss in these models is often parameterized by the average transverse momentum lost by the parton squared per unit length, $\hat{q}$.  Attempts have been made to determine the size of $\hat{q}$ from experimental data \cite{Adare:2008qa}.  However, the theoretical uncertainties are still large and estimates for $\hat{q}$ range from 0.5 - 20 GeV$^2$/fm \cite{Baier:2006fr,Eskola:2004cr,Arleo:2002kh}.  While most models can describe the suppression of light hadrons (\pion, \kaonch, \proton) and even hadrons containing strange quarks (\lam, \alam, \kaon) with a sufficiently high $\hat{q}$, most have trouble describing the \RAA of light (u,d,s) and heavy (c,b) quarks simultaneously \cite{Adare:2006nq}.
+
+
+\subsection{The Glasma and the Color Glass Condensate\label{Glasma}}
+
+
+\begin{figure}[ht!]
+  \centering\resizebox{7cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/GlasmaXDependence_hera.eps}}\\
+
+  \caption[Distribution of gluons as a function of x]
+  {Distribution of gluons as a function of x = $E_{gluon}/E_{hadron}$ as measured by the HERA experiment\cite{McLerran:2008uj,Reisert:2008ip}.
+  \label{GluonX}}
+\end{figure}
+
+The Glasma and the Color Glass Condensate (CGC) are closely linked.  The Glasma is a description of nuclei moving at relativistic speeds.  \Fref{GluonX} shows the distribution of gluons as a function of 
+x = $E_{gluon}/E_{hadron}$ 
+as measured at HERA for different values of $Q^2$, the momentum transfered in a collision.  At low energies, states of nuclei with few gluons are dominant, while at high energies, the states with multiple gluons are dominant.  This motivated the picture of a fast-moving nucleus as a wall of gluons, as depicted in \Fref{GlasmaSchematic}.  The Glasma is the state comprising a dense, coherent condensate of gluons expected to exist in a fast nucleus \cite{McLerran:2008uj}.  The high density of gluons means that they can be described as a classical gluon field.  The Glasma picture can describe many measurements from \eA collisions.
+%The model for the Glasma successfully describes many attributes of \pA and \dA collisions .
+
+\begin{figure}[ht!]
+  \centering\resizebox{8cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/GlasmaSchematic.eps}}\\
+
+  \caption[Schematic diagram of the Glasma in a nucleus]
+  {A schematic diagram of the Glasma in a nucleus \cite{McLerran:2008uj}.  The gluons are coherent and dense for a fast moving nucleon.
+  \label{GlasmaSchematic}}
+\end{figure}
+
+
+The Color Glass Condensate (CGC) describes an \AplusA collision as two sheets of Glasma colliding to form a fluid \cite{McLerran:2008uj}.  ``Color'' comes the fact that quarks and gluons have color charge and ``Glass'' from the fact that the natural time scale of evolution of the gluons is much longer than the time scale of the evolution of the state, similar to glass.  ``Condensate'' comes from the high density of gluons in the initial state.  Because the gluons in the incoming nuclei are coherent and can be described as classical gluon fields, the interactions of the nuclei are similar to the interactions between classical electromagnetic fields.  The initial color magnetic fields are transverse to the direction of motion of the nuclei.  As the two nuclei approach, color charges on one nucleus generate image charges on the other nucleius, and in a short period of time the direction of the fields changes from transverse to parallel to the direction of the movement nuclei.  The medium produced from the interaction of quarks and gluons in these fields is the CGC \cite{McLerran:2008uj}.
+
+
+
+\subsection{Statistical models\label{Thermal}}
+
+Hadronization of quarks and gluons is not calculable from QCD first principles.  Statistical models are one of the models describing the hadronization of quarks and gluons.  The first statistical models for hadronization were proposed before the development of QCD and interest was renewed when it was proposed that an equilibrated hadron gas might be a signature for a QGP \cite{Becattini:2009sc}.  These models calculated particle ratios in a hadron gas at chemical equilibrium and deal with the conserved quantities: baryon number (B), strangeness (S), and charge (C).  Calculations for elementary collisions such as \ee, \pp, and \ppbar must use a canonical ensemble to describe hadron production.  In heavy ion collisions the volume of the system is large enough that it can be described by a grand canonical ensemble and the conserved quantities have corresponding chemical potentials \cite{Wheaton:2004qb}.  The log of the partition function in the grand canonical ensemble is given by 
+\begin{equation}
+ ln(Z) = \sum_{species i} \frac{g_i V}{(2\pi)^3} \int  ln(1 \pm e^{-\beta (E_i-\mu_i})^{\pm 1} d^3 p
+\end{equation}
+where $g_i$ is the degeneracy of the state, V is the volume of the system, $\beta = \frac{1}{kT}$, k is the Boltzman constant, T is the temperature, $E_i = \sqrt{p^2+m_i^2}$ is the particle energy, $m_i$ is the particle mass, p is the particle momentum, and $\mu_i$ is the particle's chemical potential.  The $\mu_i$ are given by
+\begin{equation}
+ \mu_i = B_i \mu_B + S_i \mu_S + Q_i \mu_Q
+\end{equation}
+where $\mu_B$ is the baryon chemical potential, $\mu_S$ is the strangeness chemical potential, and $\mu_Q$ is the chemical potential corresponding to charge.  The number of particles of each species is given by
+\begin{equation}
+ N_i = T \frac{\partial ln Z}{\partial \mu_i} = \frac{g_i V}{2 \pi^2} \sum^{\infty}_{k=1}  \frac{m_i^2 T}{k} K_2 (\frac{km_i}{T}) e^{\beta k \mu_i}
+\end{equation}
+where $K_2$ is the modified Bessel function.
+
+Since the volume of the medium produced in a heavy ion collision cannot be measured directly, statistical models cannot be used to calculate the absolute yields, however, they can be used to calculate the relative yields of particles.  Statistical models do not describe strangeness well so an ad hoc parameter $\gamma_s$ was introduced to account for the suppression of hadrons with strange valence quarks relative to their equilibrium value.  $\gamma_s$ = 1 if strangeness is in equilibrium.  Measured particle ratios are fit to determine $\mu_B$, $\mu_S$, $\mu_Q$, $\gamma_s$ and T.  Further details of these calculations can be found in \cite{Becattini:2009sc} and the references therein.
+
+\begin{figure}
+  \centering\resizebox{12cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/ThermalModel.eps}}\\
+
+  \caption[Thermal fits to RHIC data]
+  {Thermal fit to RHIC data on yields of hadrons \cite{Adams:2005dq}.  $\gamma_s$ is a factor indicating the degree of equilibration of strange quarks.  $\gamma_s$ = 1 indicates complete equilibration.
+  \label{ThermalFits}}
+\end{figure}
+
+\Fref{ThermalFits} shows a fit of a statistical model described in \cite{BraunMunzinger:2003zd} to particle ratios in \Au collisions at \sNNtwohundred, demonstrating that statistical models describe the data well.  The inset shows $\gamma_s$ as a function of the number of participants in the collisions, with collision centrality increasing with the number of participants.  $\gamma_s$ \roughly 1 for central collisions.
+
+If the medium does reach equilibrium, statistical models must describe the data, however, this is not a sufficient condition to prove that the medium has reached equilibrium.  Statistical models also describe \ee, \pp, and \ppbar collisions reasonably well with $\gamma_s$ in the range of 0.4-0.8 \cite{Becattini:2009sc}.  The interpretation of this fact has been much debated.  It is possible that the hadrons are produced in equilibrium, but it means that statistical models alone cannot be interpreted as proof of an equilibrated medium.
+
+Regardless of the collision system, the temperature attained from thermal fits is remarkably constant at around 160 MeV, with the fits of STAR data in \Fref{ThermalFits} giving T = 163 $\pm$ 4 MeV \cite{Adams:2005dq}.  This should not be interpreted as the temperature of the QGP, but rather as the chemical freeze out temperature $T_{ch}$.  Statistical models cannot describe the full spectra of hadrons produced in a heavy ion collision but rather are limited to describing the overall yield of particles.
+
+%If a QGP is formed and it reaches thermal equilibrium, statistical models describing the relative numbers of particles expected at equilibrium could describe the data.  These models, described in greater detail in \cite{BraunMunzinger:2003zd}, use the relative yields of measured particle spectra and generally assume light quarks to be in equilibrium.  \Fref{ThermalFits} shows that fit of data from \Au collisions at RHIC at \sNNtwohundred describes the data well.  The data imply that the medium may be in equilibrium since they are described well by a thermal model.  An additional factor $\gamma_s$ is used in this model to determine if strange quarks have also come into equilibrium; the data imply that they have in central \Au collisions.  However, these models also describe \pp collisions at \sNNtwohundred  \cite{Adams:2005dq}.
+
+\subsection{Hydrodynamics\label{Hydro}}
+% 
+% Using a thermal model, discussed in greater detail in \Sref{Thermal}, the STAR collaboration estimated that central \Au collisions at \sNNtwohundred occur at a temperature of 163 $\pm$ 4 MeV and a \baryochemical of 24 $\pm$ 4 \cite{Adams:2005dq}.  
+
+Hydrodynamical models describe the medium as a relativistic fluid.  Several of these models describe a fluid with a viscosity of zero\cite{Kolb:2000sd,Huovinen:2001cy,Teaney:2001av,Hirano:2001yi}.  These models are not restricted to describing a QGP but rather can describe any relativistic fluid.
+
+Hydrodynamical observables are related to two major features in heavy ion collisions.  First, the region where the incoming nuclei overlap is asymmetric and this spatial anisotropy in the initial state results in a momentum anisotropy in the final state.  This phenomenon is called anisotropic flow.  Second, the large pressure gradients lead the medium to expand and particles to move away from the collision point.  This phenomenon is called radial flow.
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RxnPlaneSchematic.eps}}\\
+
+  \caption[Diagram showing the location of the reaction plane]
+  {Diagram showing the location of the reaction plane relative to the incoming nuclei \cite{UllrichC2CR}.
+  \label{RxnPlaneSchematic}}
+\end{figure}
+
+\Fref{RxnPlaneSchematic} shows the geometric relationship between the reaction plane and the incoming nuclei.  The overlap region between the two incoming nuclei is almond shaped, and the reaction plane is the plane formed by the beam axis and the centers of both nuclei.  For a large impact parameter, the distance between the centers of the the two nuclei, the overlap region is more oblong while for a smaller impact parameter the overlap region is closer to circular.
+
+
+\begin{figure}
+  \centering\resizebox{5cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/HydroPressureGradients.eps}}\\
+
+  \caption[Contours of constant density in a hydrodynamical model]
+  {Contours of constant density in a hydrodynamical model \cite{Kolb:2003dz}.  The projections of the incoming nuclei are shown as dashed lines.  The impact parameter is 7 fm.
+  \label{HydroPressureGradient}}
+\end{figure}
+
+It is assumed that the azimuthal momentum anisotropy originates from the collective movement of a fluid formed at early stages of the collision.  This is the most universally accepted mechanism for the production of an azimuthal anisotropy, however, other mechanisms have been proposed \cite{Krasnitz:2002ng,Teaney:2002kn,Kopeliovich:2008nx,Boreskov:2008uy}.  In a hydrodynamical model, the initial anisotropy in the distribution of particles leads to a pressure gradient.  \Fref{HydroPressureGradient} shows theoretical calculations for the contours of constant density.  The pressure gradient is perpendicular to these lines, meaning that it is azimuthally anisotropic.  As the system evolves, the spatial azimuthal anisotropy in the distribution of particles will disappear.  The anisotropy in the momentum distribution of particles due to the pressure gradient will remain.
+
+
+The initial azimuthal anisotropy is often described in terms of the Fourier expansion of the distribution of particles in momentum:
+\begin{equation}
+E \frac{d^3N}{d^3p_T} = \frac{1}{2\pi} \frac{d^2N}{p_T dp_T dy} (1 + \sum_{n=1}^{\infty}2v_n cos(n(\phi-\psi_{RP}))).
+\end{equation}
+$v_1$ is called directed flow and describes the preference for particles to move in the direction along the beam axis.  $v_2$ is called elliptic flow and describes the tendency for particles to have a preferred direction of motion in the x-y plane as a result of the spatial anisotropy in the initial condition \cite{Voloshin:2008dg}.  Experimentally, the $v_n$ are small and decreasing with increasing n in heavy ion collisions.  \vtwo has been studied most extensively.
+
+
+\begin{figure}
+  \centering\resizebox{10cm}{!}{
+  \includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2energy.eps}}\\
+
+  \caption[\vtwo versus collision energy]
+  {\vtwo versus collision energy per nucleon \cite{Voloshin:2008dg}.  
+%At low energies, nucleons dominantly suffer collisions which cause them to scatter out of the nucleus, leading to a positive \vtwo.  At moderate energies, particles created in the collision cannot move in the direction of the reaction plane because they would collide with nucleons from the colliding nuclei and move back towards the interaction region.  They can only be scattered perpendicular to the reaction plane because there is no matter there to stop their movement, leading to a negative \vtwo.  At higher collision energies, the incoming nuclei are Lorentz contracted so spectator nucleons have already moved beyond the interaction region by the time that particles created in the collision are moving outward.  This allows a positive \vtwo.
+  \label{v2Energy}}
+\end{figure}
+
+\Fref{v2Energy} shows the magnitude of \vtwo in \AplusA collisions as a function of the energy per nucleon in the collision.  At very low energies, the nucleons simply scatter off each other (bounce-off), leading to a positive \vtwo.  At intermediate collision energies, particles created in the collision cannot move in the direction of the short axis of the overlap region because they would collide with the constituent nucleons of the colliding nuclei, bouncing them back in towards the overlap region.  The only direction where particles could escape is in the direction of the long axis of the overlap region since there is no matter there to stop particles from escaping, leading to a negative \vtwo (squeeze-out).
+
+At higher collision energies, the incoming nuclei are Lorentz contracted so that the nucleus is effectively flat and all nucleons interact at nearly the same time.  Any nucleons which did not participate in the interaction have already moved past the interaction region and can no longer collide with the particles created in the collision.  \vtwo becomes positive again.
+
+\begin{figure}
+  \centering\resizebox{12cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2dNdy.eps}}\\
+
+  \caption[Measured \vtwo compared to hydrodynamical limits]
+  {\vtwo measurements compared to hydroynamical limits in different models \cite{Voloshin:2008dg}.  The x-axis is a measure of the number of particles produced per unit of rapidity at mid-rapidity divided by the transverse overlap area in the collision.  The y-axis is \vtwo divided by the eccentricity of the overlap area.  The green arrow indicates the predicted position of a color percolation phase transition.  The green lines indicate the ideal hydrodynamics predictions for AGS, SPS, and RHIC energies.
+  \label{v2dNdy}}
+\end{figure}
+
+\Fref{v2dNdy} shows measurements of \vtwo at various collision energies compared to hydrodynamical predictions for the upper limit of \vtwo.  The x-axis is the number of particles produced per unit rapidity\footnote{Defined in \Aref{Terminology}} divided by the transverse area of overlap of the nuclei, S.  The y-axis is \vtwo divided by the eccentricity, $\epsilon$, of the overlap area.  S and $\epsilon$ are determined using a Glauber Monte Carlo model for nuclear collisions \cite{Miller:2007ri}.  This normalization leads to the cancellation of trivial geometric effects.  The predictions are from ideal hydrodynamics, meaning that the viscosity is assumed to be zero.  A non-zero viscosity would only decrease the observed \vtwo so these are upper limits for \vtwo, shown as green lines in \Fref{v2dNdy}.  If these limits are correct, then the medium created in central collisions at RHIC is very close to hydrodynamical limits and therefore the viscosity must be very low.
+
+\begin{figure}
+  \centering\resizebox{8cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2pT.eps}}\\
+
+  \caption[Particle species dependence of \vtwo at low-\pT]
+  {Particle species dependence of \vtwo at low-\pT \cite{Voloshin:2008dg}.
+  \label{LowpTv2}}
+\end{figure}
+
+\begin{figure}
+  \centering\resizebox{14cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/PHENIXv2Scaling.eps}}\\
+
+  \caption[Particle species dependence of \vtwo at high-\pT]
+  {Particle species dependence of \vtwo versus \pT (left), \vtwo versus \mT-m (middle) and \vtwo/$n_q$ versus (\mT-m)/$n_q$ (right). \cite{Adare:2006ti,Voloshin:2008dg}.  
+  \label{PHENIXv2Scaling}}
+\end{figure}
+
+Other interesting results from \vtwo measurements at RHIC include the dependence of \vtwo on the particle type.  In a hydrodynamical model, at a fixed \pT particles with lower mass should have a higher \vtwo \cite{Voloshin:2008dg}.  At low-\pT this is the dominant effect, as seen in \Fref{LowpTv2}.  The dominant trend in the dependence of \vtwo on particle type at high-\pT, shown in \Fref{PHENIXv2Scaling}(a), is instead a splitting between baryons and mesons.
+
+\Fref{PHENIXv2Scaling}(b) shows that all baryons follow a single trend and all mesons follow a separate trend if \vtwo is plotted as a function of the transverse mass\footnote{Defined in \Aref{Terminology}}, \mT, instead of \pT.  This scaling of \vtwo with transverse mass is expected at low \pT from the basic equations of hydrodynamics \cite{Adare:2006ti}, supporting the description of the medium produced at RHIC as a fluid.
+
+% \begin{figure}
+%   \centering\resizebox{8cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/PHENIXv2ScalingPart2.eps}}\\
+% 
+%   \caption[Particle species dependence of \vtwo]
+%   {\cite{Adare:2006ti}.
+%   \label{PHENIXv2ScalingPart2}}
+% \end{figure}
+
+If the QGP is a fluid of quarks and gluons, then the appropriate degrees of freedom to describe the medium are quarks rather than hadrons.  There are some indications of this in the scaling of \vtwo, since there is a clear separation between baryons and mesons and baryons have a larger \vtwo than mesons.  \Fref{PHENIXv2Scaling}(c) shows that the baryons and mesons follow the same trend for \vtwo divided by the number of constituent quarks, $n_q$, as a function of (\mT-m)/$n_q$ implying that the fluid which flows in order to create \vtwo comprises quarks rather than hadrons. 
+
+\begin{figure}
+  \centering\resizebox{7cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/v2EvtPlaneOthers.eps}}\\
+
+  \caption[Comparison of methods for measuring \vtwo]{
+	(a) \vtwo as a function of centrality for various methods of measuring \vtwo and (b) the ratio of \vtwo as determined from the event plane method to \vtwo determined from other methods \cite{STAR:2008ed}.  Data are from \Au collisions at \sNNtwohundred.
+  
+  \label{STARv2RxnvsOther}}
+\end{figure}
+
+It is worth noting that this scaling is found for one method of measuring \vtwo, the event plane method, and that the \vtwo in \Fref{PHENIXv2Scaling} is integrated over all centralities.  \Fref{STARv2RxnvsOther} shows comparisons of \vtwo as determined by the event plane method to other methods.  The event plane method uses the azimuthal anisotropy in particles observed at midrapidity to determine the direction of the event plane \footnote{The experimentally determined location of the reaction plane is called the event plane.}, and \vtwo as measured by this method is systematically higher than \vtwo measured by other methods.  The 4 particle cumulant (4 Cumu.) method looks at azimuthal correlations between four particles and the Lee-Yang  Zero (LYZ) method is an all-particle correlation designed to subtract
+nonflow effects to all orders \cite{Voloshin:2008dg}.  The event plane method should be more susceptible to non-flow correlations, such as jets and resonances, and the ratio of \vtwo determined by the event plane method to other methods shows a centrality dependence.  The scaling of \vtwo with the number of quarks as a function of \pT, rather than \mT, scaled by the number of quarks has been demonstrated at different  centralities \cite{STAR:2008ed,Abelev:2007qg}.
+%, but other methods for measuring \vtwo produce dramatically different results due to the different sensitivity of different methods to effects other than hydrodynamical flow which can produce an azimuthal anisotropy, such as jets.  This scaling is not robust to other methods of measuring \vtwo \cite{Voloshin:2008dg}.  %\Fref{PHENIXv2ScalingPart2}(a) demonstrates that the scaling does not work if \vtwo/$n_q$ is plotted as a function of \pT instead of \KET.
+
+Since hydrodynamics assumes thermalization, the success of ideal hydrodynamics at describing many aspects of RHIC data implies that the medium is thermalized when \vtwo is formed.  \Fref{PHENIXv2Scaling} demonstrates that hadrons containing strange quarks follow the same trends for \vtwo, implying that strangeness is also thermalized.  Furthermore, not only is strangeness thermalized, but measurements of electrons from decays of hadrons including charm quarks indicate that the \vtwo of charm quarks is probably comparable to that of light quarks \cite{Adare:2006nq}.
+
+% \begin{figure}
+%   \centering\resizebox{7cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RadialFlowSchematic.eps}}\\
+% 
+%   \caption[Schematic diagram depicting radial flow]
+%   {Schematic diagram depicting radial flow \cite{Voloshin:2008dg}.  $v_r$ denotes radial flow and $v_a$ denotes anisotropic flow.
+%   \label{RadialFlowSchematic}}
+% \end{figure}
+
+Radial flow is also predicted by hydrodynamics.  The medium is expanding because of pressure gradients, as depicted in \Fref{HydroPressureGradient}.  This means that on average particles are moving away from the center of the interaction region.  Both radial flow and anisotropic flow alter the spectra of particles, since both affect the momentum of particles.  Radial flow is expected to have a mass dependence, similar to anisotropic flow.  Fits of data to a hydrodynamical model inspired parameterization of spectra called a Blast Wave Model give values for radial flow consistent with those expected from hydrodynamics.  These models yield anisotropic flow comparable to independent measurements \cite{Voloshin:2008dg}.
+
+\subsection{Recombination\label{Reco}}
+\begin{figure}
+  \centering\resizebox{15cm}{!}{
+	\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/IDRcp.eps}
+	\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/IDRcpScaled.eps}
+	}\\
+
+  \caption[Identified particle \RCP]
+  {Identified particle \RCP (left) as a function of \pT and (right) as a function of \pT scaled by the number of quarks in \Au collisions at \sNNtwohundred. \cite{Salur:2006va}
+  \label{RAAScaling}}
+\end{figure}
+
+\RCP is similar to \RAA except that the spectrum in central \AplusA collisions is compared to that in peripheral collisions:
+\begin{equation}
+ R_{CP} = \frac{N_{bin}^{peripheral} d^2N_{AA}^{central}/dp_{T}d\eta}{N_{bin}^{central} d^2N_{AA}^{peripheral}/dp_{T}d\eta}.
+\end{equation}
+\Fref{RAAScaling} shows \RCP for identified hadrons as a function of \pT and as a function of \pT/$n_q$.  The \RAA for baryons and mesons clearly follow different trends.  If \RCP is plotted as a function of \pT/$n_q$ instead of \pT, the trends for baryons and mesons are the same.  The scaling of \vtwo and \RCP with the quark content of hadrons motivated Coalescence and Recombination models to explain these phenomena at intermediate \pT (2-6 \GeV).  These models posit that, rather than hadrons being produced by vacuum fragmentation, hadrons in a heavy ion collision can be formed by quarks combining with other quarks from the medium.  
+
+\begin{figure}
+  \centering\resizebox{12cm}{!}{\includegraphics{/home/madscientistgirl/HarrisLab/Thesis/latex/introduction/RecoFigure.eps}}\\
+
+  \caption[Cartoon demonstrating recombination]
+  {Cartoon demonstrating recombination.
+  \label{RecoCartoon}}
+\end{figure}
+
+These models also explain the large baryon/meson ratio found in heavy ion collisions \cite{Fries:2008hs}.  For example, in order to form a 3 \GeV baryon, it would take three 1 \GeV quarks, whereas to form a 3 \GeV meson, it would take two 1.5 \GeV quarks.  Most parton spectra fall of steeply with increasing \pT, so there are many more 1 \GeV quarks than 1.5 \GeV quarks.  This is illustrated in \Fref{RecoCartoon}.  This leads to a larger baryon/meson ratio at intermediate \pT than in vacuum fragmentation.  These models have successfully described many features of RHIC data qualitatively, although the models could be refined quantitatively \cite{Fries:2008hs}.
+
+Recombination models do not conflict with hydrodynamical models of the QGP, since they only propose that hadronization may occur by a different mechanism in heavy ion collisions.  Indeed, models which combine hydrodynamics with recombination are able to describe the data at RHIC well \cite{Fries:2008hs}.  Recombination does not require complete thermalization of the medium \cite{Fries:2008hs}.
+
+\section{Conclusions and overview}
+QCD predicts the  presence of a new phase of matter for sufficiently hot and dense nuclear matter.  RHIC was built to study this phase of matter so that we can better understand the phase diagram of nuclear matter.  Our current understanding indicates that collisions at RHIC most likely produce a medium in a cross-over region between a hadronic gas and QGP.  The most energetic of these collisions are believed to be above the crossover region.
+
+The medium expands and cools rapidly, however, and experimental observations are influenced by phases other than the QGP.  Initial state effects may also influence the results.  The presence of a QGP may influence the hadronization of partons.  Additionally, as the medium cools it is expected to go through a hadronic gas phase and during this time hadrons can have additional interactions.
+
+Many methods have been used to describe a QGP.  Some attempt to make predictions by calculating results directly from QCD.  Provided that the approximations are valid, these theories should describe the partonic phases well, however, they are dependent on models of hadronization and interactions in a hadronic gas phase.  Our knowledge of hadronization is heavily dependent upon experimental data because hadronization is a non-perturbative process.  If the medium goes through a hadronic gas phase for any significant amount of time and hadrons re-interact, this would also change the properties of measured hadrons.  Either of these effects or invalid assumptions made in calculations could be responsible for deviations between QCD-based theories and experimental data.
+
+Many phenomenological models have been successfully used to describe the experimental data.  These models often describe the data qualitatively but not quantitatively.  Hydrodynamics in particular has been useful to describe not only azimuthal anisotropies but also hadron spectra.  The success of hydro at describing many features of the data implies that the medium produced is a fluid made up of partons instead of hadrons.  Hydrodynamics, however, is heavily dependent on thermalization of the medium and there is no conclusive proof that the medium has reached thermal equilibrium.  Statistical models are consistent with the data but the agreement with these models is not sufficient to prove that the medium has reached thermal equilibrium.  Recombination models have successfully described many aspects of the data and also point towards a picture of a medium characterized by partonic rather than hadronic degrees of freedom.  Recombination models, which posit a modified hadronization mechanism in heavy ion collisions, are not dependent on complete thermalization and are consistent with hydrodynamical models.
+
+These models and theories are not all mutually exclusive and may be valid in different regimes.  The best way to test these models is compare them to as many measurements as possible.  The studies presented in this thesis will focus on studies of jets formed by partons which have traversed the medium, taking advantage of the wealth of data available at RHIC.  Jet-like di-hadron correlations are studied as a function of the collision system (\Cu versus \Au), the collision energy (\sNNsixtytwo versus \sNNtwohundred), and particle type and strangeness content (unidentified hadrons, \lam, \kaon, and \myxi).
+
+\Cref{PreviousCorrelationResults} will introduce high-\pT triggered di-hadron correlations and discuss other relevant studies, performed either previously or concurrently.  Here the two prominent features in di-hadron correlations, the \jlc and the \ridge, will be introduced.  These features are from particles close in azimuth to the trigger particle, called the \ns of the correlation.  The properties learned from studies of the \ns in \Au collisions at \sNNtwohundred will be discussed.  This will be followed by an overview of the experiment in \Cref{experiment}.  The analysis methods will be presented in \Cref{PartID} and \Cref{CorrMethod}, first discussing how particles used in the analysis are selected and then discussing the method for measuring di-hadron correlations.  The results for the system, energy, and particle type dependence will be discussed in \Cref{results} and their interpretation in light of other data and of models will be discussed in \Cref{discussion}.  \Cref{conclusions} will conclude and discuss the outlook for future studies of jets in heavy ion collisions.

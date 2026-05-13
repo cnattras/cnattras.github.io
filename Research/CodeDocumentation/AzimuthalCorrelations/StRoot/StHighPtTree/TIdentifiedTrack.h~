@@ -1,0 +1,2 @@
+class TIdentifiedTrack : public TTrack {
+};

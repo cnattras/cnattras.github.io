@@ -1,0 +1,32 @@
+WARNING VtxCutBinn30dEtadPhi_trig_h_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.C is wrong
+madscientistgirl@Saccharomyces-cerevisae:~/HarrisLab/Thesis/web/paper/EnergyAndSystemDependenceComments/vtxJuly2/CuCu200$ csh rename.csh 
+cp: cannot stat `VtxCutBinn30dEtadPhi_trig_h_pT30_60_assoc_h_pT15_100_CentBin12DdEtaMethod.C.new': No such file or directory
+
+
+
+This directory is admittedly a mess.  What you need to know is
+
+1. Edit macros to get correctly defined functions 
+EditAllFiles.pl should do all of the editing necessary to get this stuff to work.  For example to get this to work with the standard cuts just run
+perl EditAllFiles.pl 15 100 30 60 | grep cp > rename.csh
+[you can check that the file edits are sane at this step by looking at *.new]
+csh rename.csh
+EditAll.pl adds the lines needed to the macros.
+
+may need modification of combinedStandard.C
+sed -i 's/CentBin3/CentBin1/g' combinedStandard.C
+sed -i 's/CB3/CB1/g' combinedStandard.C 
+sed -i 's/cb3/cb1/g' combinedStandard.C 
+
+
+2.  To get the number of events right do a command like this:
+grep 'Number of trigger particles' txtfiles/junkVtxCut*PtAssoc15Trig30To60CB4.txt  | sed 's/txt/\/\/txt/' > eventnumfile.txt
+perl ../AuAu200/geteventnums.pl
+(It needs to be done for each centrality bin)
+
+3.  run combinedStandard.C
+root combinedStandard.C'(true)'
+makes comparisonManyStandardCB10to20.C and comparisonManyStandardCB40to80.C
+Note that to get this right you have to edit the number of trigger particles in each bin from the text file output
+
+4.  Append codesnippet to the end of these files.  Now they calculate the systematic error for these bins.
