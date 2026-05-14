@@ -1,9 +1,0 @@
-To-do
-Chapter 6
-1.  finish track merging corrections for identified particles
-2.  redo ridge plots for energy dependence, with new jet yields
-
-Chapter 7
-1.  Width plots - redo w/ptassoc
-2.  ptassoc with pythia - need more 62 GeV!!
-3. Fit inclusive spectra from 62 GeV

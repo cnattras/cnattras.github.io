@@ -1,1 +1,0 @@
-In January we found a minor bug in the efficiency - we were using the AuAu200 efficiencies instead of the AuAu62 efficiencies.  We could not fix this right away because the data were not available on disk.  This was fixed in October.

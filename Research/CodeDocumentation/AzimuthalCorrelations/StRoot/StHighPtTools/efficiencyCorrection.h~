@@ -1,4 +1,0 @@
-#ifndef efficiencyCorrection_h
-#define efficiencyCorrection_h
-float efficiencyCorrection(const char *dataset, float pt, int multiplicity);//just returns 1/efficiency because this is used in corrections more
-#endif
